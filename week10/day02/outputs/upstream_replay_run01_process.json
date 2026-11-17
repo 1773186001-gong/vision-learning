@@ -1,0 +1,7 @@
+{
+  "started_at": "2026-11-11T16:39:06.6609316+08:00",
+  "working_directory": "D:\\python\\test\\vision-learning",
+  "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day02\\replay_upstream.py' --output 'D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01'",
+  "exit_code": 0,
+  "finished_at": "2026-11-11T16:39:17.1783700+08:00"
+}

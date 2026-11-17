@@ -1,0 +1,16 @@
+{
+  "status": "local_preparation_passed",
+  "runtime_files": 29,
+  "zip_bytes": 217262,
+  "zip_sha256": "61ae774385ecefc73a5135b81ce909c629514c0de453b67572c387820c2692b0",
+  "historical_hashes_unchanged": 204,
+  "real_COCO_loaded": true,
+  "CPU_backbone_and_detector_interface_checked": true,
+  "strict_state_restore": true,
+  "GPU_smoke": "not executed",
+  "training_epochs": 0,
+  "test_inference_runs": 0,
+  "remote_blocker": "BatchMode SSH authentication denied; user interactive authentication required",
+  "remote_scope_authorized": true,
+  "local_official_weight_download_authorized": true
+}

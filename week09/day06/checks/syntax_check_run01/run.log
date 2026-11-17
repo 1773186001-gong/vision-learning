@@ -1,0 +1,5 @@
+Command: D:\python\.venv\Scripts\python.exe -B -X utf8 -c "from pathlib import Path; p=Path('week09/day06/verify_layer_support.py'); compile(p.read_text(encoding='utf-8'),str(p),'exec'); print('VERIFIER_SYNTAX_OK')"
+Observed exit code: 1
+SyntaxError: invalid syntax, line 98, ==not lost
+No independent raw-coordinate verification ran in this failed syntax check.
+Also attempted to poll finished analysis session 52413: Unknown process id. Saved analysis execution_status.json reports completed, exit_code 0.

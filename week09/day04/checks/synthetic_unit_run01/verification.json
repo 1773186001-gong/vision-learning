@@ -1,0 +1,10 @@
+{
+  "scope": "synthetic_unit_only_not_LLVIP_results",
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day04/run_unit_checks.py --output week09/day04/checks/synthetic_unit_run01",
+  "model_forward_performed": false,
+  "checkpoint_loaded": false
+}

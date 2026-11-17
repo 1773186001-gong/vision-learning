@@ -1,0 +1,331 @@
+{
+  "model": "IR",
+  "stem": "030078",
+  "run_identity": "success_case_trace_run01/IR/030078",
+  "proposal_count": 36,
+  "final_count": 4,
+  "rpn_good_flats": [
+    9141
+  ],
+  "decoded_good_flats": [
+    8847,
+    3142,
+    9142,
+    9141,
+    9447
+  ],
+  "final_good_sources": [
+    {
+      "model": "IR",
+      "stem": "030078",
+      "run_identity": "success_case_trace_run01/IR/030078",
+      "output_index": 0,
+      "proposal_row": 4,
+      "flat": 8847,
+      "source_candidate_id": "success_case_trace_run01/IR/030078/8847",
+      "person_branch_id": "success_case_trace_run01/IR/030078/8847/class1",
+      "class_label": 1,
+      "classification_score": 0.9814887642860413,
+      "xyxy": [
+        245.10044860839844,
+        232.5130615234375,
+        295.348388671875,
+        368.0113525390625
+      ],
+      "gt_iou": 0.7583428025245667,
+      "final_good_for_G0": true,
+      "rpn_xyxy": [
+        245.944580078125,
+        228.74542236328125,
+        296.351806640625,
+        365.50152587890625
+      ],
+      "rpn_gt_iou": 0.7238329648971558,
+      "rpn_objectness": 0.9868580102920532,
+      "person_decoded_xyxy": [
+        245.10044860839844,
+        232.5130615234375,
+        295.348388671875,
+        368.0113525390625
+      ],
+      "person_decoded_gt_iou": 0.7583428025245667,
+      "person_clipped_gt_iou": 0.7583428025245667
+    }
+  ],
+  "final_best_iou_source": {
+    "model": "IR",
+    "stem": "030078",
+    "run_identity": "success_case_trace_run01/IR/030078",
+    "output_index": 0,
+    "proposal_row": 4,
+    "flat": 8847,
+    "source_candidate_id": "success_case_trace_run01/IR/030078/8847",
+    "person_branch_id": "success_case_trace_run01/IR/030078/8847/class1",
+    "class_label": 1,
+    "classification_score": 0.9814887642860413,
+    "xyxy": [
+      245.10044860839844,
+      232.5130615234375,
+      295.348388671875,
+      368.0113525390625
+    ],
+    "gt_iou": 0.7583428025245667,
+    "final_good_for_G0": true,
+    "rpn_xyxy": [
+      245.944580078125,
+      228.74542236328125,
+      296.351806640625,
+      365.50152587890625
+    ],
+    "rpn_gt_iou": 0.7238329648971558,
+    "rpn_objectness": 0.9868580102920532,
+    "person_decoded_xyxy": [
+      245.10044860839844,
+      232.5130615234375,
+      295.348388671875,
+      368.0113525390625
+    ],
+    "person_decoded_gt_iou": 0.7583428025245667,
+    "person_clipped_gt_iou": 0.7583428025245667
+  },
+  "final_top_score_source": {
+    "model": "IR",
+    "stem": "030078",
+    "run_identity": "success_case_trace_run01/IR/030078",
+    "output_index": 0,
+    "proposal_row": 4,
+    "flat": 8847,
+    "source_candidate_id": "success_case_trace_run01/IR/030078/8847",
+    "person_branch_id": "success_case_trace_run01/IR/030078/8847/class1",
+    "class_label": 1,
+    "classification_score": 0.9814887642860413,
+    "xyxy": [
+      245.10044860839844,
+      232.5130615234375,
+      295.348388671875,
+      368.0113525390625
+    ],
+    "gt_iou": 0.7583428025245667,
+    "final_good_for_G0": true,
+    "rpn_xyxy": [
+      245.944580078125,
+      228.74542236328125,
+      296.351806640625,
+      365.50152587890625
+    ],
+    "rpn_gt_iou": 0.7238329648971558,
+    "rpn_objectness": 0.9868580102920532,
+    "person_decoded_xyxy": [
+      245.10044860839844,
+      232.5130615234375,
+      295.348388671875,
+      368.0113525390625
+    ],
+    "person_decoded_gt_iou": 0.7583428025245667,
+    "person_clipped_gt_iou": 0.7583428025245667
+  },
+  "nms_top_score_candidate": {
+    "branch_id": "success_case_trace_run01/IR/030078/8847/class1",
+    "flat": 8847,
+    "roi_row": 4,
+    "nms_input_position": 4,
+    "classification_score": 0.9814887642860413,
+    "gt_iou": 0.7583428025245667,
+    "good_for_G0": true,
+    "nms_kept": true,
+    "final_output_index": 0
+  },
+  "nms_input_max_iou": 0.7943789958953857,
+  "nms_input_max_iou_flats": [
+    9141
+  ],
+  "nms_keeps_any_pre_max_iou_branch": false,
+  "nms_keeps_all_pre_max_iou_branches": false,
+  "final_covered": true,
+  "trace_9141": [
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "rpn_proposals",
+      "present": true,
+      "stage_index": 16,
+      "xyxy": [
+        252.25967407226562,
+        245.6818389892578,
+        299.5299987792969,
+        357.61053466796875
+      ],
+      "gt_iou": 0.7578962445259094,
+      "covered": true,
+      "classification_score": null,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "actual RPN return / actual RoI input"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "person_decoded",
+      "present": true,
+      "stage_index": 16,
+      "xyxy": [
+        247.401123046875,
+        235.94790649414062,
+        296.99517822265625,
+        369.4096984863281
+      ],
+      "gt_iou": 0.7943789958953857,
+      "covered": true,
+      "classification_score": 0.9456144571304321,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "actual decode capture, person branch slice"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "person_clipped",
+      "present": true,
+      "stage_index": 16,
+      "xyxy": [
+        247.401123046875,
+        235.94790649414062,
+        296.99517822265625,
+        369.4096984863281
+      ],
+      "gt_iou": 0.7943789958953857,
+      "covered": true,
+      "classification_score": 0.9456144571304321,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "actual clip capture, person branch slice"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "background_removed_expanded",
+      "present": true,
+      "stage_index": 16,
+      "xyxy": [
+        247.401123046875,
+        235.94790649414062,
+        296.99517822265625,
+        369.4096984863281
+      ],
+      "gt_iou": 0.7943789958953857,
+      "covered": true,
+      "classification_score": 0.9456144571304321,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "offline background removal/reshape; checked with next actual input"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "score_filtered",
+      "present": true,
+      "stage_index": 16,
+      "xyxy": [
+        247.401123046875,
+        235.94790649414062,
+        296.99517822265625,
+        369.4096984863281
+      ],
+      "gt_iou": 0.7943789958953857,
+      "covered": true,
+      "classification_score": 0.9456144571304321,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "offline strict score indices; equals actual small input"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "small_filtered",
+      "present": true,
+      "stage_index": 16,
+      "xyxy": [
+        247.401123046875,
+        235.94790649414062,
+        296.99517822265625,
+        369.4096984863281
+      ],
+      "gt_iou": 0.7943789958953857,
+      "covered": true,
+      "classification_score": 0.9456144571304321,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "actual small filter indices / actual NMS input"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "nms_all_output",
+      "present": false,
+      "stage_index": null,
+      "xyxy": null,
+      "gt_iou": null,
+      "covered": false,
+      "classification_score": null,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "actual full class NMS return indices"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "detections_budget",
+      "present": false,
+      "stage_index": null,
+      "xyxy": null,
+      "gt_iou": null,
+      "covered": false,
+      "classification_score": null,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "original budget slice checked against actual postprocess"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "flat": 9141,
+      "branch_id": "success_case_trace_run01/IR/030078/9141/class1",
+      "proposal_row": 16,
+      "stage": "model_output",
+      "present": false,
+      "stage_index": null,
+      "xyxy": null,
+      "gt_iou": null,
+      "covered": false,
+      "classification_score": null,
+      "person_branch_score": 0.9456144571304321,
+      "rpn_objectness": 0.36160025000572205,
+      "evidence": "actual full model return"
+    }
+  ],
+  "day03_exact_reproduced": true
+}

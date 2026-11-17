@@ -1,0 +1,11 @@
+﻿scene_id,cohort,GT_denominator,IR_precovered_gt,Fusion_precovered_gt,IR_lost_gt,Fusion_lost_gt,IR_conditional_loss_rate,Fusion_conditional_loss_rate,both_lost,IR_only_lost,Fusion_only_lost,neither_lost,Fusion_minus_IR_lost_gt,same_risk_loss_rate_difference,interpretation
+ALL,all_gt,416,326,321,24,34,0.0736196319018405,0.1059190031152648,10,14,24,368,10,,all_GT_loss_states_with_risk_flags; own-risk rates have different denominators
+ALL,both_precovered,297,297,297,21,30,0.0707070707070707,0.10101010101010101,10,11,20,256,9,0.030303030303030304,same_GT_comparison_not_causation
+03,all_gt,93,80,73,2,10,0.025,0.136986301369863,1,1,9,82,8,,all_GT_loss_states_with_risk_flags; own-risk rates have different denominators
+03,both_precovered,70,70,70,2,10,0.02857142857142857,0.14285714285714285,1,1,9,59,8,0.11428571428571428,same_GT_comparison_not_causation
+08,all_gt,121,99,100,9,9,0.09090909090909091,0.09,3,6,6,106,0,,all_GT_loss_states_with_risk_flags; own-risk rates have different denominators
+08,both_precovered,94,94,94,7,7,0.07446808510638298,0.07446808510638298,3,4,4,83,0,0.0,same_GT_comparison_not_causation
+13,all_gt,131,97,98,6,5,0.061855670103092786,0.05102040816326531,2,4,3,122,-1,,all_GT_loss_states_with_risk_flags; own-risk rates have different denominators
+13,both_precovered,89,89,89,5,4,0.056179775280898875,0.0449438202247191,2,3,2,82,-1,-0.011235955056179775,same_GT_comparison_not_causation
+17,all_gt,71,50,50,7,10,0.14,0.2,4,3,6,58,3,,all_GT_loss_states_with_risk_flags; own-risk rates have different denominators
+17,both_precovered,44,44,44,7,9,0.1590909090909091,0.20454545454545456,4,3,5,32,2,0.045454545454545456,same_GT_comparison_not_causation

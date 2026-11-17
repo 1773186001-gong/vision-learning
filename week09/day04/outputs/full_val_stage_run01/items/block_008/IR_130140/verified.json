@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "gt_count": 2,
+  "new_forward_calls": 1,
+  "day01_comparisons": [
+    {
+      "model": "IR",
+      "stem": "130140",
+      "gt_index": 0,
+      "day01_max_iou": 0.8044368028640747,
+      "pilot_max_iou": 0.8044368028640747,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "130140",
+      "gt_index": 1,
+      "day01_max_iou": 0.4442805349826813,
+      "pilot_max_iou": 0.4442805349826813,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    }
+  ],
+  "same_device_exact_replay": true,
+  "restoration_verified": true,
+  "signature": "f9b0e4d0bee70d99aa10a784dc5555516efc0e6f5746bd953eb73ec650d559c7",
+  "raw_sha256": "163a615422a784c8f2562f0392a78562c94d41a77410b9491d414391d6ed2568"
+}

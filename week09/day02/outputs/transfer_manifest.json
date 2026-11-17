@@ -1,0 +1,62 @@
+{
+  "proposal_visualization_run01/case_01_IR_advantage_030269_G1.png": {
+    "bytes": 1524583,
+    "sha256": "79e3c658e2278b2d89e9d275b87dc7eb680beb1eaafb0b2ba8947740c0d9c278"
+  },
+  "proposal_visualization_run01/case_02_IR_advantage_030308_G1.png": {
+    "bytes": 1597095,
+    "sha256": "2448b38f5e88763c28c5e20fa1959abacabd6b0d71084671606d761771c2232e"
+  },
+  "proposal_visualization_run01/case_03_IR_advantage_030205_G0.png": {
+    "bytes": 1741768,
+    "sha256": "dbfe3bf2952a6319f99f611fb4ad5507a7ffcd49c555affb3876c4665cf06944"
+  },
+  "proposal_visualization_run01/case_04_Fusion_advantage_170100_G1.png": {
+    "bytes": 2820041,
+    "sha256": "05db1f85ef0f73d5371074fe27f5f1879b8f4d07edf9b53da3c0c598379d29ea"
+  },
+  "proposal_visualization_run01/case_05_Fusion_advantage_130126_G3.png": {
+    "bytes": 2639505,
+    "sha256": "3575740158e93fd32b7d991facc59bc29e2c8336d563fbd337590a63b6e581b9"
+  },
+  "proposal_visualization_run01/case_06_boundary_170455_G1.png": {
+    "bytes": 2820269,
+    "sha256": "8370d9cbada1c204eced779b163037911ca31d6ad5ee1cb38398750665bca623"
+  },
+  "proposal_visualization_run01/day02_report.md": {
+    "bytes": 10212,
+    "sha256": "d46cae8c5a84a6fb86fb527895c7853c9f195419050c5b9fd05e56b7cc7535bd"
+  },
+  "proposal_visualization_run01/execution_status.json": {
+    "bytes": 102,
+    "sha256": "d7403323d80577b8015e6db22ba60fe31b6ea0b96bea07316060359ec807faba"
+  },
+  "proposal_visualization_run01/geometry_analysis.csv": {
+    "bytes": 7023,
+    "sha256": "cca56a45ed53931094ece5b10ac649d9a95b98998ea9e43fbe062f082899a52b"
+  },
+  "proposal_visualization_run01/process_exit_status.json": {
+    "bytes": 83,
+    "sha256": "110fdad464179bb675d864efc32b471c1eca0ed6efa9d555ec8f556114edb465"
+  },
+  "proposal_visualization_run01/proposal_details.csv": {
+    "bytes": 3038,
+    "sha256": "9c71a7beaba0ca18fb4179979d3d12855257060497970608f0a72b2af5ee2f8e"
+  },
+  "proposal_visualization_run01/rpn_proposals.json": {
+    "bytes": 180367,
+    "sha256": "d38c50feb5b1c21fddf444b0d4bb93b5775b6c5a0b24d706b8de9d06bcb0f99b"
+  },
+  "proposal_visualization_run01/run.log": {
+    "bytes": 10902,
+    "sha256": "d93daf47bdad0ca73cf50792fddcbebbfc1956c4833bbd1a6c52d564eebcef2a"
+  },
+  "proposal_visualization_run01/run_metadata.json": {
+    "bytes": 23338,
+    "sha256": "c4c3bf515127f93b8ecab2160f9156922a28c6973f2e3401c96d36a649e15bf3"
+  },
+  "proposal_visualization_run01/selected_cases.csv": {
+    "bytes": 1206,
+    "sha256": "e2156c14db30f90c69972f7f49448ef08891f2a47e9b86b8a009b7adea8c5bf0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\python\\.venv\\Scripts\\python.exe",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.3",
+  "device": "CPU",
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B D:\\python\\test\\vision-learning\\week08\\day05\\localization_analysis\\analyze_localization.py",
+  "cache_paths": {
+    "IR": "D:\\python\\test\\vision-learning\\week08\\day03\\outputs\\ir_baseline_run01\\test_predictions.pth",
+    "RGB": "D:\\python\\test\\vision-learning\\week08\\day04\\outputs\\rgb_baseline_retrieved_20261030_213029_fa237fce\\test_predictions.pth",
+    "Fusion": "D:\\python\\test\\vision-learning\\week08\\day05\\outputs\\fusion_concat_run01\\test_predictions.pth"
+  },
+  "cache_SHA256": {
+    "IR": "79ae89f650520a80ada1996b0cb9c8f2079846ff62b8d07cd29b7d5e4fae3b78",
+    "RGB": "82a688699c3b9cddd9f71aa22ad468e7d942e986f35b659c3d4f667ab27a3408",
+    "Fusion": "e287aba98964c6683904f56400bdec763dbc976367a54d127661ee44811c9f3f"
+  },
+  "cache_unchanged": true,
+  "matching_source_SHA256": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e",
+  "trace_source_SHA256": "955b128371ae31d30792479760b6afd32f3a381fdbe97921b56a9fe0c34e63c6",
+  "no_model_forward": true,
+  "no_network": true
+}

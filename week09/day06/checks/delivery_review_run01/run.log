@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "documentation_read_back": true,
+  "source_syntax": "passed",
+  "primary_and_independent_exit_codes": [
+    0,
+    0
+  ],
+  "synthetic_tests": 10,
+  "scene03_categories": {
+    "neither_lost": 59,
+    "Fusion_only_lost": 9,
+    "IR_only_lost": 1,
+    "both_lost": 1
+  },
+  "all_31_case_labels_in_report": true,
+  "historical_files_unchanged": 1533
+}

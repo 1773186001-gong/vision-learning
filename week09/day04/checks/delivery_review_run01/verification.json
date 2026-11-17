@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "six_image_all_gt_pilot_only",
+  "tests_run": 14,
+  "pilot_exit_code": 0,
+  "independent_exit_code": 0,
+  "per_gt_stage_rows": 210,
+  "day01_max_abs_difference": 0.0,
+  "float32_vs_float64_coverage_disagreement_stage_rows": 0,
+  "historical_files_unchanged": 256,
+  "documents": {
+    "week09\\day04\\README.md": {
+      "bytes": 8920,
+      "sha256": "cf22b1f11eff83f46ec43dea2f5a1bec5f0531777071ff30ef9becc5b228dd9d",
+      "replacement_char_present": false
+    },
+    "week09\\day04\\FULL_VAL_CAPTURE_PLAN.md": {
+      "bytes": 9271,
+      "sha256": "29cf41bb44a5ee23ac25807a3e3cc2d3790fa7bc66f53f0928274a214d8c4554",
+      "replacement_char_present": false
+    },
+    "week09\\day04\\outputs\\six_image_all_gt_run02\\pilot_report.md": {
+      "bytes": 3608,
+      "sha256": "7707c2239c6546b14f640bfdb48044a6ef9a4f86a7effee1072428c81f4ef61d",
+      "replacement_char_present": false
+    }
+  },
+  "full_validation_capture_performed": false,
+  "new_model_forward_calls": 0
+}

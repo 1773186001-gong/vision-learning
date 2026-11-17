@@ -1,0 +1,33 @@
+{
+  "runtime_files": {
+    "check_day04.py": "6b7cb0dca2646d8195ada5abcadd5c626bb56388506bc489deefeb7b8591953d",
+    "evaluate_rgb.py": "da291eb3236fdff68dd8ce90d0c261d414b6412b675d3f25e748d526b15baed5",
+    "monitor_rgb.ps1": "165bdd79de7caafd4198e3400ebf73b5523485bee6f2b66a55895dd309ceeea9",
+    "predict_rgb.py": "2e9e31ca29b8fe4c9596070ad4302f00239dabb68897eb1106847b4ba58e4c1d",
+    "preflight_rgb.py": "6fe014c763ff4ace0912e715b5a9e929ea78e2a2310c6490f672cd17948da40e",
+    "protected_inputs.json": "c05abd0d5f6879a09569f011273a84fd7031a62a44da86a4f9fe5877dac9507f",
+    "REMOTE_READONLY_CHECK.ps1": "8c03b7d9a00482c93cffd407d88cbbfe3a63cd75bee6f809715ed572a2be0a57",
+    "report_rgb.py": "73a981a3021ebcedd0102caa5de56646aae633e35733bbb55bc33fa89239c601",
+    "rgb_common.py": "eb252028e35b1cb109a0ac0885a9ac409fb9fe969f0436a97600dbe4efaf972b",
+    "start_rgb_background.ps1": "af5c278884d3d34493b5d21f4e3fc8ac4235be9eed5d43a012c63ef1bf0a477d",
+    "train_rgb.py": "23c019da273658b42a42b45cdb14aa60e386954e1dac84983daa096273863d88"
+  },
+  "upload_files": {
+    "check_day04.py": "6b7cb0dca2646d8195ada5abcadd5c626bb56388506bc489deefeb7b8591953d",
+    "DAY04_RGB_TRAINING_GPT_HANDOFF.md": "6d3965d3a1ec9ec4d495585911e53a98883ebc702d93e1fbb3f89085502885fb",
+    "evaluate_rgb.py": "da291eb3236fdff68dd8ce90d0c261d414b6412b675d3f25e748d526b15baed5",
+    "monitor_rgb.ps1": "165bdd79de7caafd4198e3400ebf73b5523485bee6f2b66a55895dd309ceeea9",
+    "predict_rgb.py": "2e9e31ca29b8fe4c9596070ad4302f00239dabb68897eb1106847b4ba58e4c1d",
+    "preflight_rgb.py": "6fe014c763ff4ace0912e715b5a9e929ea78e2a2310c6490f672cd17948da40e",
+    "protected_inputs.json": "c05abd0d5f6879a09569f011273a84fd7031a62a44da86a4f9fe5877dac9507f",
+    "README.md": "69d4a1742e852eba5e781e638940cc39898c317e44215598e1270ebed2ca3485",
+    "REMOTE_PLAN.md": "7f780b3b0af786d062d77d0016e3c675cbd05353ff74388b15efb88668654ae8",
+    "REMOTE_READONLY_CHECK.ps1": "8c03b7d9a00482c93cffd407d88cbbfe3a63cd75bee6f809715ed572a2be0a57",
+    "report_rgb.py": "73a981a3021ebcedd0102caa5de56646aae633e35733bbb55bc33fa89239c601",
+    "rgb_common.py": "eb252028e35b1cb109a0ac0885a9ac409fb9fe969f0436a97600dbe4efaf972b",
+    "start_rgb_background.ps1": "af5c278884d3d34493b5d21f4e3fc8ac4235be9eed5d43a012c63ef1bf0a477d",
+    "train_rgb.py": "23c019da273658b42a42b45cdb14aa60e386954e1dac84983daa096273863d88"
+  },
+  "destination": "D:/vision-learning-server/week08/day04",
+  "rule": "New files only; compare first; never overwrite existing different files. Do not upload checks or data."
+}

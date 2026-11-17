@@ -1,0 +1,3 @@
+{
+  "error": "Traceback (most recent call last):\n  File \"D:\\python\\test\\vision-learning\\week10\\day07\\build_review.py\", line 182, in main\n    try:result=run(out);code=0\n               ~~~^^^^^\n  File \"D:\\python\\test\\vision-learning\\week10\\day07\\build_review.py\", line 32, in run\n    prov=load(b/PROVS[i-1]);badprov=[x['path'] for x in prov if sha(x['path'])!=x['sha256']];require(not badprov,f'Day{i} provenance changed')\n                                                                    ~^^^^^^^^\nTypeError: string indices must be integers, not 'str'\n"
+}

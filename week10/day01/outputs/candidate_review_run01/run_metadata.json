@@ -1,0 +1,26 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 D:\\python\\test\\vision-learning\\week10\\day01\\analyze_candidates.py --output D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "started_at_utc": "2026-11-11T08:15:33.669779+00:00",
+  "finished_at_utc": "2026-11-11T08:15:39.299344+00:00",
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\python\\.venv\\Scripts\\python.exe",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "CPU"
+  },
+  "source_sha256": {
+    "analyze_candidates.py": "b55a687907982faaf499b4103be52b518424ddaf88ca63deb51b5019d2bb4ee8",
+    "README.md": "ec7b2431e72fddb91dff7a79d13dbd614778c9fa5a9a62d4570501e9a73068b2",
+    "run_analysis.ps1": "e05a983c993f71b9e5f89448f62937b50878a4eeb998457a54c8d3de2cab5a83"
+  },
+  "exit_code": 0,
+  "guards": [
+    "torch.nn.Module._call_impl",
+    "torchvision.ops.boxes.nms",
+    "torchvision.ops.boxes.batched_nms"
+  ],
+  "scope": "four fixed model-GT items; no tests or full-val recomputation"
+}

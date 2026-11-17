@@ -1,0 +1,6 @@
+{
+  "phase": "train",
+  "epoch": 10,
+  "batch": 700,
+  "pid": 3024
+}

@@ -1,0 +1,382 @@
+[
+  {
+    "model": "IR",
+    "stem": "030078",
+    "state_before": "a3eff18b532886e15c2b21403734eebb997b9559e6ede16eb1ea839aaef7b69a",
+    "state_after": "a3eff18b532886e15c2b21403734eebb997b9559e6ede16eb1ea839aaef7b69a",
+    "state_equal": true,
+    "config": {
+      "rpn": {
+        "pre": 150,
+        "post": 150,
+        "score": 0.05,
+        "nms": 0.7,
+        "min_size": 0.001,
+        "anchors": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ]
+      },
+      "roi": {
+        "score": 0.001,
+        "nms": 0.5,
+        "detections": 100,
+        "featmaps": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "bbox_weights": [
+          10.0,
+          10.0,
+          5.0,
+          5.0
+        ]
+      },
+      "transform": {
+        "min": [
+          640
+        ],
+        "max": 640,
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "size_divisible": 32
+      }
+    },
+    "hooks_restored": true,
+    "checkpoint_sha_after": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+    "historical_raw_sha": "b5d1164e6bdc8cd0fb27ed8a7a13f71e310ef3e45056089352f35b457790bc6f"
+  },
+  {
+    "model": "IR",
+    "stem": "030129",
+    "state_before": "a3eff18b532886e15c2b21403734eebb997b9559e6ede16eb1ea839aaef7b69a",
+    "state_after": "a3eff18b532886e15c2b21403734eebb997b9559e6ede16eb1ea839aaef7b69a",
+    "state_equal": true,
+    "config": {
+      "rpn": {
+        "pre": 150,
+        "post": 150,
+        "score": 0.05,
+        "nms": 0.7,
+        "min_size": 0.001,
+        "anchors": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ]
+      },
+      "roi": {
+        "score": 0.001,
+        "nms": 0.5,
+        "detections": 100,
+        "featmaps": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "bbox_weights": [
+          10.0,
+          10.0,
+          5.0,
+          5.0
+        ]
+      },
+      "transform": {
+        "min": [
+          640
+        ],
+        "max": 640,
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "size_divisible": 32
+      }
+    },
+    "hooks_restored": true,
+    "checkpoint_sha_after": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+    "historical_raw_sha": "9dadd705f3d7be7cde2c07f672a4f650f03bde23617b0694777d7ef3f671b7bf"
+  },
+  {
+    "model": "Fusion",
+    "stem": "030078",
+    "state_before": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+    "state_after": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+    "state_equal": true,
+    "config": {
+      "rpn": {
+        "pre": 150,
+        "post": 150,
+        "score": 0.05,
+        "nms": 0.7,
+        "min_size": 0.001,
+        "anchors": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ]
+      },
+      "roi": {
+        "score": 0.001,
+        "nms": 0.5,
+        "detections": 100,
+        "featmaps": [
+          "0",
+          "1"
+        ],
+        "bbox_weights": [
+          10.0,
+          10.0,
+          5.0,
+          5.0
+        ]
+      },
+      "transform": {
+        "min": [
+          640
+        ],
+        "max": 640,
+        "mean": [
+          0.485,
+          0.456,
+          0.406,
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225,
+          0.229,
+          0.224,
+          0.225
+        ],
+        "size_divisible": 32
+      }
+    },
+    "hooks_restored": true,
+    "checkpoint_sha_after": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+    "historical_raw_sha": "d87fddf9a7c8ae07c8348285e909068f56dcfdcd3fb5b0a234164a13d69a0d68"
+  },
+  {
+    "model": "Fusion",
+    "stem": "030129",
+    "state_before": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+    "state_after": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+    "state_equal": true,
+    "config": {
+      "rpn": {
+        "pre": 150,
+        "post": 150,
+        "score": 0.05,
+        "nms": 0.7,
+        "min_size": 0.001,
+        "anchors": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ]
+      },
+      "roi": {
+        "score": 0.001,
+        "nms": 0.5,
+        "detections": 100,
+        "featmaps": [
+          "0",
+          "1"
+        ],
+        "bbox_weights": [
+          10.0,
+          10.0,
+          5.0,
+          5.0
+        ]
+      },
+      "transform": {
+        "min": [
+          640
+        ],
+        "max": 640,
+        "mean": [
+          0.485,
+          0.456,
+          0.406,
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225,
+          0.229,
+          0.224,
+          0.225
+        ],
+        "size_divisible": 32
+      }
+    },
+    "hooks_restored": true,
+    "checkpoint_sha_after": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+    "historical_raw_sha": "a2a832a5f9308c08916dd54e08dfa8132fe2c7931def5884bc43c2741f80ce18"
+  }
+]

@@ -1,0 +1,11 @@
+﻿split,scene_id,stem,person_boxes,is_negative,visualization
+train,01,010300,1,0,train_scene01_010300.jpg
+train,10,100657,2,0,train_scene10_100657.jpg
+train,25,250217,1,0,train_scene25_250217.jpg
+val,03,030243,2,0,val_scene03_030243.jpg
+val,13,130251,1,0,val_scene13_130251.jpg
+val,17,170256,1,0,val_scene17_170256.jpg
+test,19,190435,3,0,test_scene19_190435.jpg
+test,22,220191,3,0,test_scene22_220191.jpg
+test,26,260270,1,0,test_scene26_260270.jpg
+train,10,100030,0,1,train_scene10_100030.jpg

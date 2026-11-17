@@ -1,0 +1,5 @@
+{
+  "total_parameters": 18930229,
+  "trainable_parameters": 18871333,
+  "source": "current official COCO baseline constructor with 2-class head; no fine-tuned model inference"
+}

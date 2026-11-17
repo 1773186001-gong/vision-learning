@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "tests_run": 26,
+  "environment": {
+    "hostname": "DESKTOP-BFIO0RA",
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\cv-server-env\\Scripts\\python.exe",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "val_images": 150,
+  "remaining_images": 144,
+  "reused_model_items": 12,
+  "input_hashes_verified": 470,
+  "model_forward_performed": false,
+  "checkpoint_loaded": false
+}

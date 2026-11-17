@@ -1,0 +1,775 @@
+{
+  "run": {
+    "status": "completed",
+    "scope": "smoke",
+    "started_at": "2026-11-05T05:36:54.054156+00:00",
+    "seed": 42,
+    "command": "D:\\cv-server-env\\Scripts\\python.exe -B D:\\vision-learning-server\\week09\\day01\\rpn_diagnostic.py --device cuda:0 --limit 3 --seed 42 --threads 2 --output D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01",
+    "environment": {
+      "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "D:\\cv-server-env\\Scripts\\python.exe",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "hostname": "DESKTOP-BFIO0RA",
+      "torch": "2.14.1+cu126",
+      "torchvision": "0.29.1+cu126",
+      "numpy": "2.5.4",
+      "device": "cuda:0",
+      "cuda_build": "12.6",
+      "cudnn": 91002,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "threads": 2,
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "gpu_memory_bytes": 6441926656,
+      "deterministic_policy": "Fixed Python/NumPy/Torch seeds; manifest order; cudnn deterministic=True and benchmark=False. GPU/CPU tied-score NMS can differ; exact cross-device equality is not claimed."
+    },
+    "output": "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01",
+    "split": "val",
+    "requested_limit": 3,
+    "training_performed": false,
+    "optimizer_created": false,
+    "test_inference_performed": false,
+    "finished_at": "2026-11-05T05:36:59.593201+00:00"
+  },
+  "inputs": {
+    "file_sha256": {
+      "D:\\vision-learning-server\\week09\\day01\\rpn_diagnostic.py": "06dee2f5ad1194d1eedee6bc8e437e79606a14ddbc38f16e61aca5adb3bd866a",
+      "D:\\vision-learning-server\\week08\\day01\\llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+      "D:\\vision-learning-server\\week08\\day02\\paired_letterbox.py": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+      "D:\\vision-learning-server\\week08\\day02\\paired_horizontal_flip.py": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c",
+      "D:\\vision-learning-server\\week08\\day03\\ir_common.py": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e",
+      "D:\\vision-learning-server\\week08\\day05\\fusion_common.py": "6c45dc49da0bb9df03303316f45182f2e718801771082a0e67510be7ecc57250",
+      "D:\\vision-learning-server\\week08\\day05\\fusion_model.py": "fe27e92199e6a2ab2678ead46b548a01ece0193d9f611385edd3d09d90dbf09a",
+      "D:\\vision-learning-server\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\faster_rcnn.py": "016c24eaa67e889aca8dc76fa657e09fde1c46c8c4ab7ebd608758b9bfc8c940",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\rpn.py": "00ff7ea77fe9ba37038ad6b6c1289185b2e753ca124c50cf64d8f0d30edecd43",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\generalized_rcnn.py": "ee8bed850c7c6848baa315e8bd2a8eec3ed06a7a76cb37751c75c041b412dd39",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\transform.py": "26ab6a7fdb8ba34b8112b689d690da3014ae00b639fef0c42e72c241c3b0c26d",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\ops\\boxes.py": "9c0afd11f8291569442752f7aaab607ad0f7bf57dccd645048a0b7196372f269"
+    },
+    "manifest_splits": {
+      "train": {
+        "images": 700,
+        "gt_boxes": 1991,
+        "scenes": [
+          "01",
+          "02",
+          "04",
+          "05",
+          "06",
+          "07",
+          "09",
+          "10",
+          "11",
+          "12",
+          "14",
+          "15",
+          "16",
+          "18",
+          "25"
+        ],
+        "empty_gt_images": 1
+      },
+      "val": {
+        "images": 150,
+        "gt_boxes": 416,
+        "scenes": [
+          "03",
+          "08",
+          "13",
+          "17"
+        ],
+        "empty_gt_images": 0
+      },
+      "test": {
+        "images": 150,
+        "gt_boxes": 348,
+        "scenes": [
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "26"
+        ],
+        "empty_gt_images": 0
+      }
+    },
+    "validation_order": "manifest order; shuffle=False; batch_size=1; num_workers=0",
+    "selected_stems": [
+      "030001",
+      "030014",
+      "030027"
+    ],
+    "selected_stems_sha256": "116e4635ef9dc5edc71c2ac3d55da967998260c4f6133bad6895c4e4c690f7c7",
+    "selected_images": 3,
+    "expected_selected_gt": 7,
+    "selected_scenes": [
+      "03"
+    ],
+    "selected_data_paths": [
+      {
+        "stem": "030001",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030001.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030001.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030001.xml"
+      },
+      {
+        "stem": "030014",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030014.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030014.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030014.xml"
+      },
+      {
+        "stem": "030027",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030027.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030027.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030027.xml"
+      }
+    ],
+    "test_images_read": false,
+    "scene_isolation_checked": true
+  },
+  "models": {
+    "IR": {
+      "checkpoint": {
+        "path": "D:\\vision-learning-server\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth",
+        "bytes": 151529396,
+        "sha256_before": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+        "epoch": 9,
+        "training_config": {
+          "model": "fasterrcnn_mobilenet_v3_large_320_fpn",
+          "epochs": 10,
+          "batch_size": 1,
+          "num_workers": 0,
+          "seed": 42,
+          "lr": 0.001,
+          "momentum": 0.9,
+          "weight_decay": 0.0005,
+          "scheduler": null,
+          "amp": false,
+          "letterbox": 640,
+          "min_size": 640,
+          "max_size": 640,
+          "data_root": "D:\\vision-learning-server\\data\\LLVIP_1000",
+          "manifest_sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+          "selection": "val mAP50_95",
+          "weights": {
+            "source": "https://download.pytorch.org/models/fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+            "path": "C:\\Users\\gxbb\\.cache\\torch\\hub\\checkpoints\\fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+            "exists": true,
+            "sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5"
+          },
+          "torch": "2.14.1+cu126",
+          "torchvision": "0.29.1+cu126",
+          "device": "cuda:0",
+          "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+        },
+        "sha256_after": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+        "unchanged": true
+      },
+      "rpn_config": {
+        "pre_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "post_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "active_pre_nms_top_n": 150,
+        "active_post_nms_top_n": 150,
+        "nms_thresh": 0.7,
+        "score_thresh": 0.05,
+        "minimum_box_size": 0.001,
+        "anchor_sizes": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "anchor_aspect_ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ],
+        "transform_min_size": [
+          640
+        ],
+        "transform_max_size": 640,
+        "transform_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "transform_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "roi_feature_keys": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "proposal_order": "Original filter_proposals output: batched_nms returns decreasing objectness score; keep is sliced by original post_nms_top_n, then [:K].",
+        "coordinate_system": "xyxy pixels in transformed, unpadded ImageList.image_sizes; GT captured from the same original forward call"
+      },
+      "processed_images": 3,
+      "total_valid_gt": 7,
+      "empty_gt_images": 0,
+      "zero_proposal_images": 0,
+      "proposal_count_statistics": {
+        "count": 3,
+        "mean": 44.666666666666664,
+        "std": 18.78533707147383,
+        "min": 22.0,
+        "max": 68.0,
+        "quantiles": {
+          "0.1": 26.4,
+          "0.25": 33.0,
+          "0.5": 44.0,
+          "0.75": 56.0,
+          "0.9": 63.2
+        }
+      },
+      "top_k": {
+        "100": {
+          "recall": {
+            "0.50": 1.0,
+            "0.75": 1.0
+          },
+          "hits": {
+            "0.50": 7,
+            "0.75": 7
+          },
+          "denominator_valid_gt": 7,
+          "mean_max_iou": 0.8480295368603298,
+          "max_iou_statistics": {
+            "count": 7,
+            "mean": 0.8480295368603298,
+            "std": 0.05480749944822167,
+            "min": 0.7556861639022827,
+            "max": 0.9243134260177612,
+            "quantiles": {
+              "0.1": 0.78755863904953,
+              "0.25": 0.8099396228790283,
+              "0.5": 0.8541633486747742,
+              "0.75": 0.8910822868347168,
+              "0.9": 0.90675790309906
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                5,
+                1
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 3,
+          "effective_proposals_min": 22,
+          "effective_proposals_max": 68
+        },
+        "300": {
+          "recall": {
+            "0.50": 1.0,
+            "0.75": 1.0
+          },
+          "hits": {
+            "0.50": 7,
+            "0.75": 7
+          },
+          "denominator_valid_gt": 7,
+          "mean_max_iou": 0.8480295368603298,
+          "max_iou_statistics": {
+            "count": 7,
+            "mean": 0.8480295368603298,
+            "std": 0.05480749944822167,
+            "min": 0.7556861639022827,
+            "max": 0.9243134260177612,
+            "quantiles": {
+              "0.1": 0.78755863904953,
+              "0.25": 0.8099396228790283,
+              "0.5": 0.8541633486747742,
+              "0.75": 0.8910822868347168,
+              "0.9": 0.90675790309906
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                5,
+                1
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 3,
+          "effective_proposals_min": 22,
+          "effective_proposals_max": 68
+        },
+        "1000": {
+          "recall": {
+            "0.50": 1.0,
+            "0.75": 1.0
+          },
+          "hits": {
+            "0.50": 7,
+            "0.75": 7
+          },
+          "denominator_valid_gt": 7,
+          "mean_max_iou": 0.8480295368603298,
+          "max_iou_statistics": {
+            "count": 7,
+            "mean": 0.8480295368603298,
+            "std": 0.05480749944822167,
+            "min": 0.7556861639022827,
+            "max": 0.9243134260177612,
+            "quantiles": {
+              "0.1": 0.78755863904953,
+              "0.25": 0.8099396228790283,
+              "0.5": 0.8541633486747742,
+              "0.75": 0.8910822868347168,
+              "0.9": 0.90675790309906
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                5,
+                1
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 3,
+          "effective_proposals_min": 22,
+          "effective_proposals_max": 68
+        }
+      },
+      "dataset_ir_pair_equivalence_verified": true,
+      "state_sha256_before": "eafad36652de36bb46182a15124074cc39f39a665b8f66abf0a4ef2687cf446b",
+      "state_sha256_after": "eafad36652de36bb46182a15124074cc39f39a665b8f66abf0a4ef2687cf446b",
+      "persistent_state_unchanged": true,
+      "rpn_configuration_unchanged": true,
+      "elapsed_seconds": 3.084443399999941
+    },
+    "Fusion": {
+      "checkpoint": {
+        "path": "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth",
+        "bytes": 190083098,
+        "sha256_before": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+        "epoch": 6,
+        "training_config": {
+          "modality": "fusion_concat",
+          "epochs": 10,
+          "batch_size": 1,
+          "num_workers": 0,
+          "seed": 42,
+          "lr": 0.001,
+          "momentum": 0.9,
+          "weight_decay": 0.0005,
+          "input_size": 640,
+          "amp": false,
+          "scheduler": null,
+          "torch": "2.14.1+cu126",
+          "torchvision": "0.29.1+cu126",
+          "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+          "device": "cuda:0",
+          "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+          "manifest_sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+          "weights_sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5",
+          "architecture": "independent RGB FPN + IR FPN -> concat/1x1 -> shared RPN/RoI",
+          "command": "D:\\cv-server-env\\Scripts\\python.exe -B D:\\vision-learning-server\\week08\\day05\\train_fusion.py --data-root D:\\vision-learning-server\\data\\LLVIP_1000 --output D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01 --device cuda:0 --keep-awake"
+        },
+        "sha256_after": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+        "unchanged": true
+      },
+      "rpn_config": {
+        "pre_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "post_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "active_pre_nms_top_n": 150,
+        "active_post_nms_top_n": 150,
+        "nms_thresh": 0.7,
+        "score_thresh": 0.05,
+        "minimum_box_size": 0.001,
+        "anchor_sizes": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "anchor_aspect_ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ],
+        "transform_min_size": [
+          640
+        ],
+        "transform_max_size": 640,
+        "transform_mean": [
+          0.485,
+          0.456,
+          0.406,
+          0.485,
+          0.456,
+          0.406
+        ],
+        "transform_std": [
+          0.229,
+          0.224,
+          0.225,
+          0.229,
+          0.224,
+          0.225
+        ],
+        "roi_feature_keys": [
+          "0",
+          "1"
+        ],
+        "proposal_order": "Original filter_proposals output: batched_nms returns decreasing objectness score; keep is sliced by original post_nms_top_n, then [:K].",
+        "coordinate_system": "xyxy pixels in transformed, unpadded ImageList.image_sizes; GT captured from the same original forward call"
+      },
+      "processed_images": 3,
+      "total_valid_gt": 7,
+      "empty_gt_images": 0,
+      "zero_proposal_images": 0,
+      "proposal_count_statistics": {
+        "count": 3,
+        "mean": 74.66666666666667,
+        "std": 17.441967269268172,
+        "min": 59.0,
+        "max": 99.0,
+        "quantiles": {
+          "0.1": 60.4,
+          "0.25": 62.5,
+          "0.5": 66.0,
+          "0.75": 82.5,
+          "0.9": 92.4
+        }
+      },
+      "top_k": {
+        "100": {
+          "recall": {
+            "0.50": 1.0,
+            "0.75": 0.8571428571428571
+          },
+          "hits": {
+            "0.50": 7,
+            "0.75": 6
+          },
+          "denominator_valid_gt": 7,
+          "mean_max_iou": 0.843731198992048,
+          "max_iou_statistics": {
+            "count": 7,
+            "mean": 0.843731198992048,
+            "std": 0.07466281521544517,
+            "min": 0.7302099466323853,
+            "max": 0.9285639524459839,
+            "quantiles": {
+              "0.1": 0.754960012435913,
+              "0.25": 0.778903603553772,
+              "0.5": 0.8619516491889954,
+              "0.75": 0.9137928187847137,
+              "0.9": 0.9267085433006287
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                1,
+                3
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 3,
+          "effective_proposals_min": 59,
+          "effective_proposals_max": 99
+        },
+        "300": {
+          "recall": {
+            "0.50": 1.0,
+            "0.75": 0.8571428571428571
+          },
+          "hits": {
+            "0.50": 7,
+            "0.75": 6
+          },
+          "denominator_valid_gt": 7,
+          "mean_max_iou": 0.843731198992048,
+          "max_iou_statistics": {
+            "count": 7,
+            "mean": 0.843731198992048,
+            "std": 0.07466281521544517,
+            "min": 0.7302099466323853,
+            "max": 0.9285639524459839,
+            "quantiles": {
+              "0.1": 0.754960012435913,
+              "0.25": 0.778903603553772,
+              "0.5": 0.8619516491889954,
+              "0.75": 0.9137928187847137,
+              "0.9": 0.9267085433006287
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                1,
+                3
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 3,
+          "effective_proposals_min": 59,
+          "effective_proposals_max": 99
+        },
+        "1000": {
+          "recall": {
+            "0.50": 1.0,
+            "0.75": 0.8571428571428571
+          },
+          "hits": {
+            "0.50": 7,
+            "0.75": 6
+          },
+          "denominator_valid_gt": 7,
+          "mean_max_iou": 0.843731198992048,
+          "max_iou_statistics": {
+            "count": 7,
+            "mean": 0.843731198992048,
+            "std": 0.07466281521544517,
+            "min": 0.7302099466323853,
+            "max": 0.9285639524459839,
+            "quantiles": {
+              "0.1": 0.754960012435913,
+              "0.25": 0.778903603553772,
+              "0.5": 0.8619516491889954,
+              "0.75": 0.9137928187847137,
+              "0.9": 0.9267085433006287
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                1,
+                3
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 3,
+          "effective_proposals_min": 59,
+          "effective_proposals_max": 99
+        }
+      },
+      "dataset_ir_pair_equivalence_verified": false,
+      "state_sha256_before": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+      "state_sha256_after": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+      "persistent_state_unchanged": true,
+      "rpn_configuration_unchanged": true,
+      "elapsed_seconds": 1.5545319999999947
+    }
+  },
+  "comparison": {
+    "100": {
+      "recall_difference": {
+        "0.50": 0.0,
+        "0.75": -0.1428571428571429
+      },
+      "mean_max_iou_difference": -0.004298337868281821
+    },
+    "300": {
+      "recall_difference": {
+        "0.50": 0.0,
+        "0.75": -0.1428571428571429
+      },
+      "mean_max_iou_difference": -0.004298337868281821
+    },
+    "1000": {
+      "recall_difference": {
+        "0.50": 0.0,
+        "0.75": -0.1428571428571429
+      },
+      "mean_max_iou_difference": -0.004298337868281821
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "synthetic_only_no_GPU_experiment",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day05/run_checks.py --output week09/day05/checks/synthetic_run01"
+}

@@ -1,0 +1,17 @@
+{
+  "source_path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\verification.json",
+  "sha256": "11c04ebeafa9244e054d5a6861bb6ea1e7b3521f238fc1c6ff2e46177d4f823e",
+  "fields": {
+    "actual.IR": {
+      "images": 150,
+      "valid_gt": 416,
+      "covered_075": 302
+    },
+    "actual.Fusion": {
+      "images": 150,
+      "valid_gt": 416,
+      "covered_075": 285
+    }
+  },
+  "note": "Only scope evidence; historical Week09 execution counts excluded"
+}

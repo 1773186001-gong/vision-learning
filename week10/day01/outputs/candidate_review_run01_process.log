@@ -1,0 +1,6 @@
+VERIFIED 030078 IR L 2 T 1 good 8 relations 22 original_keep 36
+VERIFIED 030078 Fusion L 2 T 1 good 2 relations 2 original_keep 67
+VERIFIED 030129 IR L 1 T 1 good 1 relations 1 original_keep 51
+VERIFIED 030129 Fusion L 1 T 4 good 1 relations 4 original_keep 64
+{"status": "passed", "scope": ["030078/G0/IR", "030078/G0/Fusion", "030129/G0/IR", "030129/G0/Fusion"], "model_GT": 4, "all_score_filtered_rows": 339, "selected_candidate_rows": 29, "good_rows": 12, "relation_rows": 29, "original_nms_output_rows": 218, "equal_score_rows": 0, "precision_audit_rows": 0, "precision_disagreements": 0, "day07_exact_match": true, "original_nms_all_indices_verified": true, "final_budget_separately_verified": true, "letterbox_gt_exact_match": true, "all_source_SHA_verified": true, "new_model_forwards": 0, "NMS_runs": 0, "greedy_replays": 0, "checkpoint_loads": 0, "server_connections": 0, "training_runs": 0, "test_runs": 0, "new_research_metrics": 0, "historical_files_unchanged": true, "protected_file_count": 1591, "exit_code": 0}
+EXIT 0 HISTORY_UNCHANGED True

@@ -1,0 +1,23 @@
+{
+  "samples": [
+    {
+      "stem": "010001",
+      "total_loss": 1.5186216831207275,
+      "loss_classifier": 0.855075478553772,
+      "loss_box_reg": 0.6455494165420532,
+      "loss_objectness": 0.009442627429962158,
+      "loss_rpn_box_reg": 0.00855424627661705
+    },
+    {
+      "stem": "100030",
+      "total_loss": 0.8298816084861755,
+      "loss_classifier": 0.7857111692428589,
+      "loss_box_reg": 0.0,
+      "loss_objectness": 0.04417042061686516,
+      "loss_rpn_box_reg": 0.0
+    }
+  ],
+  "resize_boxes_unchanged": true,
+  "peak_allocated_bytes": 316531712,
+  "weights_restored_before_training": true
+}

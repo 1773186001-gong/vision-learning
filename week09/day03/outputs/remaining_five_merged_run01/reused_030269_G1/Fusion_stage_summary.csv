@@ -1,0 +1,8 @@
+﻿model,stem,gt_index,stage,candidate_count,counts_by_level,max_iou_float32_cpu,best_id_float32_cpu,count_iou_ge_075_float32_cpu,max_iou_float64_diagnostic,best_id_float64_diagnostic,count_iou_ge_075_float64_diagnostic
+Fusion,030269,1,decoded,13500,"{""0"": 6000, ""1"": 6000, ""pool"": 1500}",0.7505373358726501,single_030269_run01/Fusion/030269/2201,1,0.7505373699659077,single_030269_run01/Fusion/030269/2201,1
+Fusion,030269,1,pre_nms_topn,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.7505373358726501,single_030269_run01/Fusion/030269/2201,1,0.7505373699659077,single_030269_run01/Fusion/030269/2201,1
+Fusion,030269,1,clipped,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.7505373358726501,single_030269_run01/Fusion/030269/2201,1,0.7505373699659077,single_030269_run01/Fusion/030269/2201,1
+Fusion,030269,1,small_box_filtered,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.7505373358726501,single_030269_run01/Fusion/030269/2201,1,0.7505373699659077,single_030269_run01/Fusion/030269/2201,1
+Fusion,030269,1,score_filtered,158,"{""0"": 74, ""1"": 71, ""pool"": 13}",0.7505373358726501,single_030269_run01/Fusion/030269/2201,1,0.7505373699659077,single_030269_run01/Fusion/030269/2201,1
+Fusion,030269,1,layer_nms,105,"{""0"": 48, ""1"": 49, ""pool"": 8}",0.6052919030189514,single_030269_run01/Fusion/030269/2501,0,0.6052918661582033,single_030269_run01/Fusion/030269/2501,0
+Fusion,030269,1,post_nms_topn,105,"{""0"": 48, ""1"": 49, ""pool"": 8}",0.6052919030189514,single_030269_run01/Fusion/030269/2501,0,0.6052918661582033,single_030269_run01/Fusion/030269/2501,0

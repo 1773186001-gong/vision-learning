@@ -1,0 +1,42 @@
+test_all_candidates_removed_at_score (test_trace_rpn_stages.TraceTests.test_all_candidates_removed_at_score) ... ok
+test_clip_inside_gt_never_decreases_and_preserves_id (test_trace_rpn_stages.TraceTests.test_clip_inside_gt_never_decreases_and_preserves_id) ... ok
+test_concurrent_capture_refused_and_outer_restored (test_trace_rpn_stages.TraceTests.test_concurrent_capture_refused_and_outer_restored) ... ok
+test_config_construction_failure_releases_lock_and_recovers (test_trace_rpn_stages.TraceTests.test_config_construction_failure_releases_lock_and_recovers) ... ok
+test_configuration_attributes_failure_releases_lock_and_recovers (test_trace_rpn_stages.TraceTests.test_configuration_attributes_failure_releases_lock_and_recovers) ... ok
+test_configuration_calls_failure_releases_lock_and_recovers (test_trace_rpn_stages.TraceTests.test_configuration_calls_failure_releases_lock_and_recovers) ... ok
+test_context_body_exception_cleanup (test_trace_rpn_stages.TraceTests.test_context_body_exception_cleanup) ... ok
+test_empty_candidates (test_trace_rpn_stages.TraceTests.test_empty_candidates) ... ok
+test_existing_instance_override_restored (test_trace_rpn_stages.TraceTests.test_existing_instance_override_restored) ... ok
+test_explicit_float_tolerance_recorded (test_trace_rpn_stages.TraceTests.test_explicit_float_tolerance_recorded) ... ok
+test_fault_injected_coordinate_order_score_detected (test_trace_rpn_stages.TraceTests.test_fault_injected_coordinate_order_score_detected) ... ok
+test_full_640_image_bounds_include_letterbox_padding (test_trace_rpn_stages.TraceTests.test_full_640_image_bounds_include_letterbox_padding) ... ok
+test_gt_outside_and_invalid_candidates_are_rejected (test_trace_rpn_stages.TraceTests.test_gt_outside_and_invalid_candidates_are_rejected) ... ok
+test_identical_coordinates_keep_distinct_identity (test_trace_rpn_stages.TraceTests.test_identical_coordinates_keep_distinct_identity) ... ok
+test_min_size_and_score_boundaries (test_trace_rpn_stages.TraceTests.test_min_size_and_score_boundaries) ... ok
+test_nms_method_reference_failure_releases_lock_and_recovers (test_trace_rpn_stages.TraceTests.test_nms_method_reference_failure_releases_lock_and_recovers) ... ok
+test_normal_cleanup_hooks_and_return_identity (test_trace_rpn_stages.TraceTests.test_normal_cleanup_hooks_and_return_identity) ... ok
+test_original_filter_reference_failure_restores_hooks (test_trace_rpn_stages.TraceTests.test_original_filter_reference_failure_restores_hooks) ... ok
+test_original_nms_exception_cleanup (test_trace_rpn_stages.TraceTests.test_original_nms_exception_cleanup) ... ok
+test_partial_hook_registration_failure_cleanup (test_trace_rpn_stages.TraceTests.test_partial_hook_registration_failure_cleanup) ... ok
+test_pure_deletion_monotonicity (test_trace_rpn_stages.TraceTests.test_pure_deletion_monotonicity) ... ok
+test_real_torch_hook_handles_on_artificial_tensor (test_trace_rpn_stages.TraceTests.test_real_torch_hook_handles_on_artificial_tensor) ... ok
+test_replay_failure_cleanup (test_trace_rpn_stages.TraceTests.test_replay_failure_cleanup) ... ok
+test_stage_best_switch_and_fixed_history (test_trace_rpn_stages.TraceTests.test_stage_best_switch_and_fixed_history) ... ok
+test_three_levels_and_budgets (test_trace_rpn_stages.TraceTests.test_three_levels_and_budgets) ... ok
+test_ties_keep_original_indices_and_order (test_trace_rpn_stages.TraceTests.test_ties_keep_original_indices_and_order) ... ok
+test_top_method_reference_failure_releases_lock_and_recovers (test_trace_rpn_stages.TraceTests.test_top_method_reference_failure_releases_lock_and_recovers) ... ok
+test_export_all_empty_stages (test_capture_single_val.AdapterTests.test_export_all_empty_stages) ... ok
+test_float32_cpu_and_float64_are_separate_and_exports_keep_ids (test_capture_single_val.AdapterTests.test_float32_cpu_and_float64_are_separate_and_exports_keep_ids) ... ok
+test_loss_transitions_do_not_ignore_recovery (test_capture_single_val.AdapterTests.test_loss_transitions_do_not_ignore_recovery) ... ok
+test_raw_save_includes_originals_when_replay_fails (test_capture_single_val.AdapterTests.test_raw_save_includes_originals_when_replay_fails) ... ok
+test_boundary_no_threshold_tolerance (test_remaining_capture.RemainingTests.test_boundary_no_threshold_tolerance) ... ok
+test_clip_can_create_high_iou_and_later_loss (test_remaining_capture.RemainingTests.test_clip_can_create_high_iou_and_later_loss) ... ok
+test_fixed_order_and_indices (test_remaining_capture.RemainingTests.test_fixed_order_and_indices) ... ok
+test_private_bindings_preserve_single (test_remaining_capture.RemainingTests.test_private_bindings_preserve_single) ... ok
+test_reused_case_has_no_live_adapter (test_remaining_capture.RemainingTests.test_reused_case_has_no_live_adapter) ... ok
+test_scope_export_uses_actual_case_without_forward (test_remaining_capture.RemainingTests.test_scope_export_uses_actual_case_without_forward) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.161s
+
+OK

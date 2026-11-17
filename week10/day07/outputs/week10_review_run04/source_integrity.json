@@ -1,0 +1,93 @@
+[
+  {
+    "day": 1,
+    "status": "passed",
+    "exit_code": 0,
+    "metadata_exit_code": 0,
+    "log_exit_zero": true,
+    "manifest_files_verified": 29,
+    "provenance_files_verified": 46,
+    "source_SHA_verified": true,
+    "process_record": {
+      "working_directory": "D:\\python\\test\\vision-learning",
+      "exit_code": 0,
+      "process_log": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01_process.log",
+      "started_at": "2026-11-11T16:15:29.1322840+08:00",
+      "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day01\\analyze_candidates.py' --output 'D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01'",
+      "finished_at": "2026-11-11T16:15:39.8840380+08:00"
+    }
+  },
+  {
+    "day": 2,
+    "status": "passed",
+    "exit_code": 0,
+    "metadata_exit_code": 0,
+    "log_exit_zero": true,
+    "manifest_files_verified": 27,
+    "provenance_files_verified": 22,
+    "source_SHA_verified": true,
+    "process_record": {
+      "started_at": "2026-11-11T16:39:06.6609316+08:00",
+      "working_directory": "D:\\python\\test\\vision-learning",
+      "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day02\\replay_upstream.py' --output 'D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01'",
+      "exit_code": 0,
+      "finished_at": "2026-11-11T16:39:17.1783700+08:00"
+    }
+  },
+  {
+    "day": 3,
+    "status": "passed",
+    "exit_code": 0,
+    "metadata_exit_code": 0,
+    "log_exit_zero": true,
+    "manifest_files_verified": 20,
+    "provenance_files_verified": 32,
+    "source_SHA_verified": true,
+    "process_record": null
+  },
+  {
+    "day": 4,
+    "status": "passed",
+    "exit_code": 0,
+    "metadata_exit_code": 0,
+    "log_exit_zero": true,
+    "manifest_files_verified": 22,
+    "provenance_files_verified": 38,
+    "source_SHA_verified": true,
+    "process_record": null
+  },
+  {
+    "day": 5,
+    "status": "passed",
+    "exit_code": 0,
+    "metadata_exit_code": 0,
+    "log_exit_zero": true,
+    "manifest_files_verified": 25,
+    "provenance_files_verified": 31,
+    "source_SHA_verified": true,
+    "process_record": {
+      "exit_code": 0,
+      "started_at": "2026-11-12T11:42:54.2692154+08:00",
+      "working_directory": "D:\\python\\test\\vision-learning",
+      "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day05\\replay_roi_nms.py' --output 'D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01'",
+      "finished_at": "2026-11-12T11:43:05.2335305+08:00"
+    }
+  },
+  {
+    "day": 6,
+    "status": "passed",
+    "exit_code": 0,
+    "metadata_exit_code": 0,
+    "log_exit_zero": true,
+    "manifest_files_verified": 29,
+    "provenance_files_verified": 28,
+    "source_SHA_verified": true,
+    "process_record": {
+      "exit_code": 0,
+      "started_at": "2026-11-12T12:03:25.4610456+08:00",
+      "finished_at": "2026-11-12T12:03:35.6117068+08:00",
+      "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day06\\trace_success.py' --output 'D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01'",
+      "working_directory": "D:\\python\\test\\vision-learning"
+    }
+  }
+]

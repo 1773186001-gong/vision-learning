@@ -1,0 +1,259 @@
+{
+  "scope": "Week10 Day01-Day06 task chain only; Week09 executions excluded",
+  "days": [
+    {
+      "day": 1,
+      "run": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01",
+      "counts": {
+        "validation_full_forwards": 0,
+        "checkpoint_loads": 0,
+        "independent_main_nms_replays": 0,
+        "structure_probes": 0
+      },
+      "count_sources": {
+        "validation_full_forwards": "new_model_forwards",
+        "checkpoint_loads": "checkpoint_loads",
+        "independent_main_nms_replays": "greedy_replays",
+        "structure_probes": "0: no restore/probe in source"
+      },
+      "source_file": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\verification.json",
+      "duplicate_fields_counted_once": [],
+      "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 D:\\python\\test\\vision-learning\\week10\\day01\\analyze_candidates.py --output D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01",
+      "environment": {
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "D:\\python\\.venv\\Scripts\\python.exe",
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "CPU"
+      },
+      "actual_started_at": "2026-11-11T08:15:33.669779+00:00",
+      "actual_finished_at": "2026-11-11T08:15:39.299344+00:00",
+      "time_note": "null means not recorded; task Day number is not calendar date",
+      "candidate_capture_reads_note": "saved tensor reads are not checkpoint loads; no aggregate guessed where counter absent",
+      "original_model_nms_note": "model forwards execute original RPN/RoI NMS; separate call counter not uniformly recorded, do not treat independent replay=0 as no original NMS",
+      "zero_operations_evidence": "explicit zero fields where present; otherwise read-only source control-flow and completed scoped run, not an independent universal counter",
+      "training": 0,
+      "test_inference": 0,
+      "server_connections": 0
+    },
+    {
+      "day": 2,
+      "run": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01",
+      "counts": {
+        "validation_full_forwards": 0,
+        "checkpoint_loads": 0,
+        "independent_main_nms_replays": 2,
+        "structure_probes": 0
+      },
+      "count_sources": {
+        "validation_full_forwards": "new_model_forwards",
+        "checkpoint_loads": "checkpoint_loads",
+        "independent_main_nms_replays": "main_replay_calls",
+        "structure_probes": "0: no restore/probe in source"
+      },
+      "source_file": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\verification.json",
+      "duplicate_fields_counted_once": [],
+      "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 D:\\python\\test\\vision-learning\\week10\\day02\\replay_upstream.py --output D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01",
+      "environment": {
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "actual_started_at": "2026-11-11T08:39:13.521700+00:00",
+      "actual_finished_at": "2026-11-11T08:39:16.589419+00:00",
+      "time_note": "null means not recorded; task Day number is not calendar date",
+      "candidate_capture_reads_note": "saved tensor reads are not checkpoint loads; no aggregate guessed where counter absent",
+      "original_model_nms_note": "model forwards execute original RPN/RoI NMS; separate call counter not uniformly recorded, do not treat independent replay=0 as no original NMS",
+      "zero_operations_evidence": "explicit zero fields where present; otherwise read-only source control-flow and completed scoped run, not an independent universal counter",
+      "training": 0,
+      "test_inference": 0,
+      "server_connections": 0
+    },
+    {
+      "day": 3,
+      "run": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01",
+      "counts": {
+        "validation_full_forwards": 4,
+        "checkpoint_loads": 2,
+        "independent_main_nms_replays": 0,
+        "structure_probes": 1
+      },
+      "count_sources": {
+        "validation_full_forwards": "validation_full_forwards",
+        "checkpoint_loads": "checkpoint_loads",
+        "independent_main_nms_replays": "0: source contains no independent replay entry",
+        "structure_probes": "structure_backbone_probes"
+      },
+      "source_file": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\verification.json",
+      "duplicate_fields_counted_once": [
+        "checkpoint_loads",
+        "strict_state_loads",
+        "structure_backbone_probes",
+        "validation_full_forwards"
+      ],
+      "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week10/day03/compare_endpoints.py --output week10/day03/outputs/rpn_final_comparison_run01",
+      "environment": {
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "actual_started_at": null,
+      "actual_finished_at": null,
+      "time_note": "null means not recorded; task Day number is not calendar date",
+      "candidate_capture_reads_note": "saved tensor reads are not checkpoint loads; no aggregate guessed where counter absent",
+      "original_model_nms_note": "model forwards execute original RPN/RoI NMS; separate call counter not uniformly recorded, do not treat independent replay=0 as no original NMS",
+      "zero_operations_evidence": "explicit zero fields where present; otherwise read-only source control-flow and completed scoped run, not an independent universal counter",
+      "training": 0,
+      "test_inference": 0,
+      "server_connections": 0
+    },
+    {
+      "day": 4,
+      "run": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01",
+      "counts": {
+        "validation_full_forwards": 1,
+        "checkpoint_loads": 1,
+        "independent_main_nms_replays": 0,
+        "structure_probes": 0
+      },
+      "count_sources": {
+        "validation_full_forwards": "counts.full_model_forwards",
+        "checkpoint_loads": "counts.checkpoint_loads",
+        "independent_main_nms_replays": "counts.independent_nms_replays",
+        "structure_probes": "counts.structure_probes"
+      },
+      "source_file": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\verification.json",
+      "duplicate_fields_counted_once": [],
+      "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week10/day04/trace_roi.py --output week10/day04/outputs/roi_trace_run01",
+      "environment": {
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "actual_started_at": null,
+      "actual_finished_at": null,
+      "time_note": "null means not recorded; task Day number is not calendar date",
+      "candidate_capture_reads_note": "saved tensor reads are not checkpoint loads; no aggregate guessed where counter absent",
+      "original_model_nms_note": "model forwards execute original RPN/RoI NMS; separate call counter not uniformly recorded, do not treat independent replay=0 as no original NMS",
+      "zero_operations_evidence": "explicit zero fields where present; otherwise read-only source control-flow and completed scoped run, not an independent universal counter",
+      "training": 0,
+      "test_inference": 0,
+      "server_connections": 0
+    },
+    {
+      "day": 5,
+      "run": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01",
+      "counts": {
+        "validation_full_forwards": 0,
+        "checkpoint_loads": 0,
+        "independent_main_nms_replays": 1,
+        "structure_probes": 0
+      },
+      "count_sources": {
+        "validation_full_forwards": "counts.model_forwards",
+        "checkpoint_loads": "counts.checkpoint_loads",
+        "independent_main_nms_replays": "counts.main_replays",
+        "structure_probes": "0: no restore/probe in source"
+      },
+      "source_file": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\verification.json",
+      "duplicate_fields_counted_once": [
+        "candidate_capture_loads",
+        "main_replays",
+        "full_output_verifications",
+        "checkpoint_loads",
+        "model_forwards",
+        "model_restores",
+        "existing_nms_operator_calls",
+        "counterfactual_replays",
+        "server_connections",
+        "test_runs",
+        "training_runs"
+      ],
+      "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 D:\\python\\test\\vision-learning\\week10\\day05\\replay_roi_nms.py --output D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01",
+      "environment": {
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "D:\\python\\.venv\\Scripts\\python.exe",
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "device": "CPU",
+        "threads": 2
+      },
+      "actual_started_at": "2026-11-12T03:43:02.056592+00:00",
+      "actual_finished_at": "2026-11-12T03:43:04.721077+00:00",
+      "time_note": "null means not recorded; task Day number is not calendar date",
+      "candidate_capture_reads_note": "saved tensor reads are not checkpoint loads; no aggregate guessed where counter absent",
+      "original_model_nms_note": "model forwards execute original RPN/RoI NMS; separate call counter not uniformly recorded, do not treat independent replay=0 as no original NMS",
+      "zero_operations_evidence": "explicit zero fields where present; otherwise read-only source control-flow and completed scoped run, not an independent universal counter",
+      "training": 0,
+      "test_inference": 0,
+      "server_connections": 0
+    },
+    {
+      "day": 6,
+      "run": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01",
+      "counts": {
+        "validation_full_forwards": 1,
+        "checkpoint_loads": 1,
+        "independent_main_nms_replays": 0,
+        "structure_probes": 0
+      },
+      "count_sources": {
+        "validation_full_forwards": "counts.full_model_forward_calls",
+        "checkpoint_loads": "counts.checkpoint_loads",
+        "independent_main_nms_replays": "counts.independent_nms_replays",
+        "structure_probes": "counts.structure_probes"
+      },
+      "source_file": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\verification.json",
+      "duplicate_fields_counted_once": [
+        "independent_nms_replays"
+      ],
+      "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 D:\\python\\test\\vision-learning\\week10\\day06\\trace_success.py --output D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01",
+      "environment": {
+        "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+        "torch": "2.14.1+cpu",
+        "torchvision": "0.29.1+cpu",
+        "executable": "D:\\python\\.venv\\Scripts\\python.exe",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "threads": 2,
+        "seed": 42,
+        "device": "CPU"
+      },
+      "actual_started_at": "2026-11-12T04:03:31.298558+00:00",
+      "actual_finished_at": "2026-11-12T04:03:35.041401+00:00",
+      "time_note": "null means not recorded; task Day number is not calendar date",
+      "candidate_capture_reads_note": "saved tensor reads are not checkpoint loads; no aggregate guessed where counter absent",
+      "original_model_nms_note": "Day06 explicit RPN=1 and RoI=1",
+      "zero_operations_evidence": "explicit zero fields where present; otherwise read-only source control-flow and completed scoped run, not an independent universal counter",
+      "training": 0,
+      "test_inference": 0,
+      "server_connections": 0
+    }
+  ],
+  "total": {
+    "validation_full_forwards": 6,
+    "checkpoint_loads": 4,
+    "independent_main_nms_replays": 3,
+    "structure_probes": 1
+  },
+  "unique_model_image_combinations": 4,
+  "actual_execution_distribution": {
+    "IR/030078": 2,
+    "IR/030129": 2,
+    "Fusion/030078": 1,
+    "Fusion/030129": 1
+  },
+  "training": 0,
+  "test_inference": 0,
+  "server_connections": 0,
+  "limitations": "Some original-model NMS calls and saved tensor reads lack uniform standalone counters; preserved as notes, not fabricated counts",
+  "day07_new": {
+    "model_forwards": 0,
+    "checkpoint_loads": 0,
+    "nms_replays": 0
+  }
+}

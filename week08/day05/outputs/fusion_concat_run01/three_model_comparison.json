@@ -1,0 +1,159 @@
+{
+  "IR": {
+    "metrics": {
+      "precision": 0.850415512465374,
+      "recall": 0.882183908045977,
+      "AP50": 0.8989071207511944,
+      "mAP50_95": 0.4716263012372224,
+      "TP": 307,
+      "FP": 54,
+      "FN": 41,
+      "score_threshold": 0.5,
+      "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+    },
+    "fp_categories": {
+      "duplicate": {
+        "count": 3,
+        "fraction": 0.05555555555555555
+      },
+      "localization": {
+        "count": 22,
+        "fraction": 0.4074074074074074
+      },
+      "low_overlap": {
+        "count": 29,
+        "fraction": 0.5370370370370371
+      },
+      "other": {
+        "count": 0,
+        "fraction": 0.0
+      }
+    },
+    "experiment": {
+      "best_epoch": 9,
+      "test": {
+        "precision": 0.850415512465374,
+        "recall": 0.882183908045977,
+        "AP50": 0.8989071207511944,
+        "mAP50_95": 0.4716263012372224,
+        "TP": 307,
+        "FP": 54,
+        "FN": 41,
+        "score_threshold": 0.5,
+        "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+      }
+    },
+    "model_size_bytes": {
+      "best.pth": 151529396,
+      "last.pth": 151529588
+    },
+    "parameter_counts": {
+      "total_parameters": 18930229,
+      "trainable_parameters": 18871333,
+      "source": "current official COCO baseline constructor with 2-class head; no fine-tuned model inference"
+    }
+  },
+  "RGB": {
+    "metrics": {
+      "precision": 0.4917763157894737,
+      "recall": 0.8591954022988506,
+      "AP50": 0.8001258873790847,
+      "mAP50_95": 0.36830385695197043,
+      "TP": 299,
+      "FP": 309,
+      "FN": 49,
+      "score_threshold": 0.5,
+      "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+    },
+    "fp_categories": {
+      "duplicate": {
+        "count": 10,
+        "fraction": 0.032362459546925564
+      },
+      "localization": {
+        "count": 72,
+        "fraction": 0.23300970873786409
+      },
+      "low_overlap": {
+        "count": 227,
+        "fraction": 0.7346278317152104
+      },
+      "other": {
+        "count": 0,
+        "fraction": 0.0
+      }
+    },
+    "experiment": {
+      "modality": "visible",
+      "epochs": 10,
+      "best_epoch": 4,
+      "test": {
+        "precision": 0.4917763157894737,
+        "recall": 0.8591954022988506,
+        "AP50": 0.8001258873790847,
+        "mAP50_95": 0.36830385695197043,
+        "TP": 299,
+        "FP": 309,
+        "FN": 49,
+        "score_threshold": 0.5,
+        "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+      },
+      "timing": {
+        "epoch_seconds_sum": 1341.7093137999618,
+        "run_seconds_before_report": 1403.191015400007,
+        "max_epoch_peak_allocated_bytes": 395375104,
+        "max_epoch_peak_reserved_bytes": 486539264
+      }
+    },
+    "model_size_bytes": {
+      "best.pth": 151536180,
+      "last.pth": 151537332
+    },
+    "parameter_counts": {
+      "total_parameters": 18930229,
+      "trainable_parameters": 18871333,
+      "source": "current official COCO baseline constructor with 2-class head; no fine-tuned model inference"
+    }
+  },
+  "Fusion": {
+    "metrics": {
+      "precision": 0.8898550724637682,
+      "recall": 0.882183908045977,
+      "AP50": 0.9032342060788215,
+      "mAP50_95": 0.439998157680316,
+      "TP": 307,
+      "FP": 38,
+      "FN": 41,
+      "score_threshold": 0.5,
+      "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+    },
+    "fp_categories": {
+      "duplicate": {
+        "count": 9,
+        "fraction": 0.23684210526315788
+      },
+      "localization": {
+        "count": 24,
+        "fraction": 0.631578947368421
+      },
+      "low_overlap": {
+        "count": 5,
+        "fraction": 0.13157894736842105
+      },
+      "other": {
+        "count": 0,
+        "fraction": 0.0
+      }
+    },
+    "best_epoch": 6,
+    "total_parameters": 23739157,
+    "trainable_parameters": 23621365,
+    "epoch_seconds_sum": 1603.5867188000007,
+    "peak_allocated_bytes": 546796032,
+    "peak_reserved_bytes": 660602880,
+    "checkpoint_bytes": {
+      "best.pth": 190083098,
+      "last.pth": 190083866
+    }
+  }
+}

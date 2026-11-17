@@ -1,0 +1,10 @@
+﻿stage,count,max_gt_iou,covered,qualifying_flats,evidence
+rpn_proposals,51,0.7663343548774719,True,[8877],actual RPN/RoI capture
+person_decoded,51,0.9081782698631287,True,"[8571, 8576, 9156, 12831, 2576]","actual decode capture, person slice"
+person_clipped,51,0.9081782698631287,True,"[8571, 8576, 9156, 12831, 2576]","actual clip capture, person slice"
+background_removed_expanded,51,0.9081782698631287,True,"[8571, 8576, 9156, 12831, 2576]",offline original reshape; verified at actual small input
+score_filtered,44,0.9081782698631287,True,"[8571, 8576, 9156, 12831, 2576]",offline strict score indices; actual small input exact
+small_filtered,44,0.9081782698631287,True,"[8571, 8576, 9156, 12831, 2576]",actual small indices and NMS input
+nms_all_output,3,0.7003291249275208,False,[],actual NMS returned full indices
+detections_budget,3,0.7003291249275208,False,[],slice verified with actual post output
+model_output,3,0.7003291249275208,False,[],actual full model output

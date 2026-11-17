@@ -1,0 +1,4 @@
+﻿{
+    "exit_code":  0,
+    "command":  "capture_remaining_val.py --device cuda:0 --reuse single_030269_run01 --output remaining_five_merged_run01"
+}

@@ -1,0 +1,17 @@
+{
+  "source": "official COCO detector, fresh 2-class head; NOT IR checkpoint",
+  "weights_sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5",
+  "smoke_weights_restored": true,
+  "head_restored_exactly": true,
+  "seed_reset_to": 42,
+  "head_first_values": [
+    0.011029377579689026,
+    0.028416205197572708,
+    -0.031190596520900726,
+    0.03078390285372734,
+    -0.0016779564321041107,
+    0.00674060732126236,
+    0.026934131979942322,
+    0.005829952657222748
+  ]
+}

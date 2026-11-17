@@ -1,0 +1,87 @@
+{
+  "success_coordinates": {
+    "original_wh": [
+      1280,
+      1024
+    ],
+    "letterbox_wh": [
+      640,
+      640
+    ],
+    "resized_wh": [
+      640,
+      512
+    ],
+    "padding_ltrb": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "scale": 0.5,
+    "internal_transform_wh": [
+      640,
+      640
+    ],
+    "final_output_wh": [
+      640,
+      640
+    ],
+    "output_coordinates": "Letterbox input canvas, no repeated scaling or unpadding"
+  },
+  "success_common_zoom_xyxy": [
+    220,
+    196,
+    318,
+    395
+  ],
+  "full_success_GT": [
+    [
+      252.0,
+      241.5,
+      295.0,
+      376.5
+    ],
+    [
+      238.5,
+      214.0,
+      274.0,
+      356.0
+    ]
+  ],
+  "failure_GT_from_original_XML": [
+    [
+      302.5,
+      224.0,
+      359.5,
+      332.0
+    ],
+    [
+      281.5,
+      207.0,
+      316.5,
+      315.5
+    ]
+  ],
+  "two_case_zooms": [
+    {
+      "stem": "030078",
+      "zoom_xyxy": [
+        218,
+        194,
+        316,
+        397
+      ]
+    },
+    {
+      "stem": "030129",
+      "zoom_xyxy": [
+        261,
+        187,
+        380,
+        352
+      ]
+    }
+  ],
+  "crops_for_display_only": true
+}

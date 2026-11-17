@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "model_forward_performed": false,
+  "cases": 6,
+  "model_gt_records": 12,
+  "independent_iou_method": "Python float64 area/intersection from saved raw post-RPN boxes; max over all retained proposals",
+  "max_abs_iou_error_vs_torch_float32": 1.2630032719673778e-07,
+  "max_abs_geometry_error": 0.0,
+  "max_day01_iou_difference": 0.0,
+  "all_objectness_and_indices_match": true,
+  "all_proposals_sorted_and_obey_150_budget": true,
+  "geometry_direction": "dx positive right, dy positive down",
+  "original_server_metadata_protected_hashes_match": true,
+  "local_history_unchanged_files": 38,
+  "original_case_png_decode_passed": 6,
+  "input_sha256_before_and_after": {
+    "D:\\python\\test\\vision-learning\\week09\\day02\\outputs\\proposal_visualization_run01\\selected_cases.csv": "e2156c14db30f90c69972f7f49448ef08891f2a47e9b86b8a009b7adea8c5bf0",
+    "D:\\python\\test\\vision-learning\\week09\\day02\\outputs\\proposal_visualization_run01\\proposal_details.csv": "9c71a7beaba0ca18fb4179979d3d12855257060497970608f0a72b2af5ee2f8e",
+    "D:\\python\\test\\vision-learning\\week09\\day02\\outputs\\proposal_visualization_run01\\geometry_analysis.csv": "cca56a45ed53931094ece5b10ac649d9a95b98998ea9e43fbe062f082899a52b",
+    "D:\\python\\test\\vision-learning\\week09\\day02\\outputs\\proposal_visualization_run01\\rpn_proposals.json": "d38c50feb5b1c21fddf444b0d4bb93b5775b6c5a0b24d706b8de9d06bcb0f99b",
+    "D:\\python\\test\\vision-learning\\week09\\day02\\outputs\\proposal_visualization_run01\\run_metadata.json": "c4c3bf515127f93b8ecab2160f9156922a28c6973f2e3401c96d36a649e15bf3",
+    "D:\\python\\test\\vision-learning\\week09\\day02\\outputs\\proposal_visualization_run01\\execution_status.json": "d7403323d80577b8015e6db22ba60fe31b6ea0b96bea07316060359ec807faba"
+  },
+  "command": "PowerShell here-string | D:/python/.venv/Scripts/python.exe -B -",
+  "recorded_at_utc": "2026-11-05T06:09:41.056845+00:00"
+}

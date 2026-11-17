@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "python_syntax": "passed",
+  "negative_CLI_cases": {
+    "train_IR_path": {
+      "status": "passed",
+      "expected_exit_code": 1,
+      "actual_exit_code": 1
+    },
+    "evaluate_IR_path": {
+      "status": "passed",
+      "expected_exit_code": 1,
+      "actual_exit_code": 1
+    },
+    "predict_IR_path": {
+      "status": "passed",
+      "expected_exit_code": 1,
+      "actual_exit_code": 1
+    },
+    "preflight_IR_report": {
+      "status": "passed",
+      "expected_exit_code": 1,
+      "actual_exit_code": 1
+    },
+    "reject_CPU_training": {
+      "status": "passed",
+      "expected_exit_code": 2,
+      "actual_exit_code": 2
+    }
+  },
+  "runtime_checksums_verified": 11,
+  "protected_inputs_unchanged": 40,
+  "created_training_outputs": false,
+  "GPU_training_run": false
+}

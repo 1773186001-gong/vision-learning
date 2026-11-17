@@ -1,0 +1,155 @@
+[
+  {
+    "path": "D:\\python\\.venv\\Lib\\site-packages\\torchvision\\models\\detection\\roi_heads.py",
+    "sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b",
+    "role": "actual installed RoI implementation"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\visible\\030078.jpg",
+    "sha256": "267c9a91079f2ad41cd5357f60d3411fc2c7b3109637372003df8ab1d42099de"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\infrared\\030078.jpg",
+    "sha256": "bdfa3441ac61666114c96f16529b76a7e7f10aed7b0125cbe6062aba2c866a21"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\val\\030078.xml",
+    "sha256": "cd7da92bc2c440818fdccde2e99022514cee8d5f44caa0d4b75ebf966f4e8666"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\visible\\030129.jpg",
+    "sha256": "79a2e9a24f91d4c49c66231d31b1fe63bf906c991c8e7b0f76a560f7a6b7d317"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\infrared\\030129.jpg",
+    "sha256": "364cea25a309ec13593faf3a403481fb133a74b15e1e327c829d97f329c6fc03"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\val\\030129.xml",
+    "sha256": "fdc654268bc68672aea6df1f01a85e7a95927ef9e3fad7b437fea72604226c3b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\manifest.csv",
+    "sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day01\\llvip_dataset.py",
+    "sha256": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day02\\paired_horizontal_flip.py",
+    "sha256": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day02\\paired_letterbox.py",
+    "sha256": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day03\\ir_common.py",
+    "sha256": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day05\\fusion_common.py",
+    "sha256": "6c45dc49da0bb9df03303316f45182f2e718801771082a0e67510be7ecc57250"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day05\\fusion_model.py",
+    "sha256": "fe27e92199e6a2ab2678ead46b548a01ece0193d9f611385edd3d09d90dbf09a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day01\\rpn_diagnostic.py",
+    "sha256": "06dee2f5ad1194d1eedee6bc8e437e79606a14ddbc38f16e61aca5adb3bd866a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day03\\trace_rpn_stages.py",
+    "sha256": "3a14d39c4c3b045e83f1ba420bd6bb92d1867ea1b3b085e3f616b3b63ee46b60"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day03\\capture_single_val.py",
+    "sha256": "1ad565f0dcc6d4ba124177583e8d81aa484672537d7c78d90f00bde382319de4"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\agnostic_capture.py",
+    "sha256": "54ee4fbf6c81bc2da1d62face0c5ec6907b6fe9ed9598f70471e3785f6cf855f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\capture_full_val.py",
+    "sha256": "34e61ac56ee46c2a801a7d9cdb2aff3d3119e3616f6b81e740a668565af941a6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\capture_ledger.py",
+    "sha256": "6f226b634e04d8eb51cc357de36a723a87e9bb8d315e1c0d175da18729c5ad39"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\coverage_statistics.py",
+    "sha256": "beb43626d2784d23d3fba52157438cc1d618cac97a954f6f7bbe7a3127fda177"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\full_val_analysis.py",
+    "sha256": "70952fc553392473311455162522cd986e16b6dba73908add6bebe21ce23321c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\offline_full_gt.py",
+    "sha256": "7afcb90f7839860af2cd218edebd43ae62f19d816395dffbf980b4c40afa853f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\run_unit_checks.py",
+    "sha256": "3d4377cc98762381acf6db368b593834703597234e82eb1707b7c28f7fede95c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\test_coverage_statistics.py",
+    "sha256": "56c58fdc8f23fed27eded5bce2acdcf8f5b02d45345c0f5a039147dfe1913f03"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\test_full_capture.py",
+    "sha256": "879f8b9b75763674a1ac32a9ae614e5eefda87681d8f06048c5cfe4605a52df3"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\verify_pilot.py",
+    "sha256": "ca66ecabc38657d134ae6b22ee26d6170288ce907e2c606614411f864acce66f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\case_report_zh.md",
+    "sha256": "17f233e90ff59452dc0d76e970b49657a8ce4a765128c4e50c9b770a83243d90"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\verification.json",
+    "sha256": "4b56d68578702cd693d5d94a6a884b3a2412b7f1b04256e0247ffc65e388e1b1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\input_provenance.json",
+    "sha256": "4750e08d5d631ab3135df014a6acd22e6ed7a3b4ee080d1f2b07139ee98721cc"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\case_report_zh.md",
+    "sha256": "f57d7de045bf015503609527523c0e6d5793d22a7b515506a100d795f7eb7a22"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\verification.json",
+    "sha256": "e80f5f0c8edcd0b1146bb54c910fc3ff48fc01c559bce7c0340aa6d50748d89f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\input_provenance.json",
+    "sha256": "d00d3ba64d7bdde4c251c8f8a3c9cc2fa6d4938c451fb2b8417516e0dc8d8375"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\IR_030129_raw_capture.pth",
+    "sha256": "8ec16b5152a1ef4cbec65a1d8d9c9208de981a296261457440f89b2c73b1b664"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\model_checks.json",
+    "sha256": "4012a82ccac86bfeecdb26940d21f497ee507a6db8ea17af425b689e3eef94d8"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\summary.csv",
+    "sha256": "59eccefa9b90bd9b07cce9e189ced61a7679c71ea3d4d47e876e6896590ad221"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\verification.json",
+    "sha256": "52607cba1a914a04c5c8a7929668fbb69688ea0d45c472108d8e2a16e8adebe1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\case_report_zh.md",
+    "sha256": "8023a204facf6dead6db76e3878a31845b4b2d3e8e3bc9808d9726c9ab2833d1"
+  }
+]

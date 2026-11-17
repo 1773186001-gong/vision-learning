@@ -1,0 +1,21 @@
+{
+  "source": "Downloaded job state.json and complete stdout.log snapshot remote_status_20261102_162348_ff747e70",
+  "status": "SUCCEEDED",
+  "started_at": "2026-11-02T14:24:08.5085507+08:00",
+  "finished_at": "2026-11-02T14:52:25.4580329+08:00",
+  "exit_code": 0,
+  "completed_epochs_seen": 10,
+  "GPU_smoke_log_marker": "SMOKE PASSED",
+  "test_metrics_from_terminal_log": {
+    "precision": 0.8898550724637682,
+    "recall": 0.882183908045977,
+    "AP50": 0.9032342060788215,
+    "mAP50_95": 0.439998157680316,
+    "TP": 307,
+    "FP": 38,
+    "FN": 41
+  },
+  "best_epoch": "pending downloaded checkpoint and validation history verification",
+  "local_artifact_verification": "pending result download",
+  "interpretation": "Fewer fixed-threshold FP than IR with identical Recall, but lower mAP50:95; not uniformly superior."
+}

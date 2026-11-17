@@ -1,0 +1,8 @@
+﻿model,stem,gt_index,stage,candidate_count,counts_by_level,max_iou_float32_cpu,best_id_float32_cpu,count_iou_ge_075_float32_cpu,max_iou_float64_diagnostic,best_id_float64_diagnostic,count_iou_ge_075_float64_diagnostic
+Fusion,030205,0,decoded,13500,"{""0"": 6000, ""1"": 6000, ""pool"": 1500}",0.7293803095817566,new_030205_G0/Fusion/030205/9506,0,0.7293803663279657,new_030205_G0/Fusion/030205/9506,0
+Fusion,030205,0,pre_nms_topn,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.7293803095817566,new_030205_G0/Fusion/030205/9506,0,0.7293803663279657,new_030205_G0/Fusion/030205/9506,0
+Fusion,030205,0,clipped,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.7293803095817566,new_030205_G0/Fusion/030205/9506,0,0.7293803663279657,new_030205_G0/Fusion/030205/9506,0
+Fusion,030205,0,small_box_filtered,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.7293803095817566,new_030205_G0/Fusion/030205/9506,0,0.7293803663279657,new_030205_G0/Fusion/030205/9506,0
+Fusion,030205,0,score_filtered,64,"{""0"": 30, ""1"": 28, ""pool"": 6}",0.7293803095817566,new_030205_G0/Fusion/030205/9506,0,0.7293803663279657,new_030205_G0/Fusion/030205/9506,0
+Fusion,030205,0,layer_nms,43,"{""0"": 20, ""1"": 17, ""pool"": 6}",0.6967962980270386,new_030205_G0/Fusion/030205/9492,0,0.6967963257562008,new_030205_G0/Fusion/030205/9492,0
+Fusion,030205,0,post_nms_topn,43,"{""0"": 20, ""1"": 17, ""pool"": 6}",0.6967962980270386,new_030205_G0/Fusion/030205/9492,0,0.6967963257562008,new_030205_G0/Fusion/030205/9492,0

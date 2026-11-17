@@ -1,0 +1,285 @@
+{
+  "samples": [
+    {
+      "split": "train",
+      "stem": "010001",
+      "parameters": {
+        "original_wh": [
+          1280,
+          1024
+        ],
+        "resized_wh": [
+          640,
+          512
+        ],
+        "output_wh": [
+          640,
+          640
+        ],
+        "scale": 0.5,
+        "padding_ltrb": [
+          0,
+          64,
+          0,
+          64
+        ]
+      },
+      "negative": false,
+      "boxes_before": [
+        [
+          287.0,
+          428.0,
+          351.0,
+          662.0
+        ],
+        [
+          351.0,
+          391.0,
+          424.0,
+          642.0
+        ],
+        [
+          466.0,
+          367.0,
+          550.0,
+          614.0
+        ],
+        [
+          700.0,
+          354.0,
+          761.0,
+          585.0
+        ],
+        [
+          704.0,
+          517.0,
+          806.0,
+          794.0
+        ],
+        [
+          1124.0,
+          22.0,
+          1196.0,
+          245.0
+        ]
+      ],
+      "boxes_after": [
+        [
+          143.5,
+          278.0,
+          175.5,
+          395.0
+        ],
+        [
+          175.5,
+          259.5,
+          212.0,
+          385.0
+        ],
+        [
+          233.0,
+          247.5,
+          275.0,
+          371.0
+        ],
+        [
+          350.0,
+          241.0,
+          380.5,
+          356.5
+        ],
+        [
+          352.0,
+          322.5,
+          403.0,
+          461.0
+        ],
+        [
+          562.0,
+          75.0,
+          598.0,
+          186.5
+        ]
+      ],
+      "boxes_shape_after": [
+        6,
+        4
+      ],
+      "comparison": "train_010001_comparison.jpg"
+    },
+    {
+      "split": "val",
+      "stem": "030001",
+      "parameters": {
+        "original_wh": [
+          1280,
+          1024
+        ],
+        "resized_wh": [
+          640,
+          512
+        ],
+        "output_wh": [
+          640,
+          640
+        ],
+        "scale": 0.5,
+        "padding_ltrb": [
+          0,
+          64,
+          0,
+          64
+        ]
+      },
+      "negative": false,
+      "boxes_before": [
+        [
+          2.0,
+          1.0,
+          88.0,
+          217.0
+        ],
+        [
+          342.0,
+          3.0,
+          462.0,
+          220.0
+        ]
+      ],
+      "boxes_after": [
+        [
+          1.0,
+          64.5,
+          44.0,
+          172.5
+        ],
+        [
+          171.0,
+          65.5,
+          231.0,
+          174.0
+        ]
+      ],
+      "boxes_shape_after": [
+        2,
+        4
+      ],
+      "comparison": "val_030001_comparison.jpg"
+    },
+    {
+      "split": "test",
+      "stem": "190001",
+      "parameters": {
+        "original_wh": [
+          1280,
+          1024
+        ],
+        "resized_wh": [
+          640,
+          512
+        ],
+        "output_wh": [
+          640,
+          640
+        ],
+        "scale": 0.5,
+        "padding_ltrb": [
+          0,
+          64,
+          0,
+          64
+        ]
+      },
+      "negative": false,
+      "boxes_before": [
+        [
+          1018.0,
+          330.0,
+          1137.0,
+          588.0
+        ],
+        [
+          1204.0,
+          304.0,
+          1280.0,
+          531.0
+        ]
+      ],
+      "boxes_after": [
+        [
+          509.0,
+          229.0,
+          568.5,
+          358.0
+        ],
+        [
+          602.0,
+          216.0,
+          640.0,
+          329.5
+        ]
+      ],
+      "boxes_shape_after": [
+        2,
+        4
+      ],
+      "comparison": "test_190001_comparison.jpg"
+    },
+    {
+      "split": "train",
+      "stem": "100030",
+      "parameters": {
+        "original_wh": [
+          1280,
+          1024
+        ],
+        "resized_wh": [
+          640,
+          512
+        ],
+        "output_wh": [
+          640,
+          640
+        ],
+        "scale": 0.5,
+        "padding_ltrb": [
+          0,
+          64,
+          0,
+          64
+        ]
+      },
+      "negative": true,
+      "boxes_before": [],
+      "boxes_after": [],
+      "boxes_shape_after": [
+        0,
+        4
+      ],
+      "comparison": "train_100030_comparison.jpg"
+    }
+  ],
+  "protected_file_sha256": {
+    "D:\\python\\test\\vision-learning\\week08\\day01\\check_llvip_dataloader.py": "771bdb1c95ef8c86373dc401aee87667db831bfe04b2a85144a1fda1f168c71d",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\inspect_llvip.py": "23c9b6197cd9752b2156e9defaba15052985184a6b452e4a7122987719f01713",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\prepare_llvip_subset.py": "abd13801a50478bb0991d12a43f43b1f53f06676b31a5a4f3951ecaa8ca25583",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\visualize_llvip_pairs.py": "5883d5e6371d56b2b3f997f30da57a76d59a6b0466455d3b6dd62c18cad7dfea",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\DAY01_HANDOFF.md": "bf59f850cbe5b5479728486591720ee97e97a2244ec709542e04e5248a8b2108",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\README.md": "2e4e1e51d991fc1753599920cd9cf249f24d8ed7bb7d6aaa71eba559c38ca9d3",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\visible\\010001.jpg": "91f5533e4f67a6974065ba90bf68255ab393a5ef47bb78d994b1251f8ef01aaf",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\infrared\\010001.jpg": "87b143759f8558c3db387c045c3ec045f4954319b4ce58053ab6732a1fd64a5c",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\train\\010001.xml": "059e5a1f8da3e96ccd32676bc68fa84d655fb2a500d588e1ea2bcd58a976538a",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\visible\\030001.jpg": "888d973fb975dbd86ae4c883b30e478a87e5bc84d6c52f989fd1a9973be5408c",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\infrared\\030001.jpg": "1cc0ce53695a33a58409f03917b67dd32ff97d1c24ee7f49d7f8b5c2ab739be8",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\val\\030001.xml": "3bee60b12bb94a816a575d996f41cfdcbc0c35628b73770368b39e1451199abf",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\test\\visible\\190001.jpg": "a321a256fd4de20354dddf50309f070ad840b311ba5f7436cfd75d3395754870",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\test\\infrared\\190001.jpg": "4b3f0535863ce5f595bc9e466fc3422e12a3fa8ebbe953a1825b0c0104ea4e20",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\test\\190001.xml": "dcdc40c20f7ab3d731d4deecbc0e31058bcf2261d75117c30f0094d42554aaeb",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\visible\\100030.jpg": "4a178d11fd234a2261143948a41c74687ec4666e21b4c568fc0831215139daf2",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\infrared\\100030.jpg": "f7105b26cd717d0d3c0820bb16cbcdc4f0371ebbed7174e429f6068d7281a055",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\train\\100030.xml": "ce0e4e6ccbfa9b86f2e4aaae70946700b147c6059171481855d03b812d0688be"
+  },
+  "checks_passed": true
+}

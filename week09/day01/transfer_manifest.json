@@ -1,0 +1,66 @@
+{
+  "outputs\\gpu_smoke_run01\\execution_status.json": {
+    "bytes": 137,
+    "sha256": "35f4fa7bf7c2466addbfa8ee3144f03c2145b6e8fe00b527eaf478acc519610a"
+  },
+  "outputs\\gpu_smoke_run01\\max_iou_distribution.png": {
+    "bytes": 68314,
+    "sha256": "5cc1c4c4c6625bdaaba8e79e4a3533363df6e00063957051151392c18f3e26bd"
+  },
+  "outputs\\gpu_smoke_run01\\proposal_recall_comparison.png": {
+    "bytes": 70773,
+    "sha256": "e989c1a3421204b0b52037e2e88d9e33e33c5d5502d9ecf6e69aff1ff745513b"
+  },
+  "outputs\\gpu_smoke_run01\\rpn_diagnostic_report.md": {
+    "bytes": 4541,
+    "sha256": "58853aa67cc95e409c749b1f8fc5d362c5d823c46eff53506d2711790ea783f3"
+  },
+  "outputs\\gpu_smoke_run01\\rpn_metrics.json": {
+    "bytes": 23998,
+    "sha256": "1d5e29c6a9cb36b1acad410599a1ac70805faf5e8d6208379adcfb24871860fe"
+  },
+  "outputs\\gpu_smoke_run01\\rpn_per_gt.csv": {
+    "bytes": 1870,
+    "sha256": "e3d32280eda4dd1a8d0c56820b0e0554436a4b83ab8aa06c323886ea3b445478"
+  },
+  "outputs\\gpu_smoke_run01\\rpn_per_image.csv": {
+    "bytes": 2559,
+    "sha256": "592814e2172ea894046611ca0ad4235df63ba43787c94c50faa1db57a975cae1"
+  },
+  "outputs\\gpu_smoke_run01\\run.log": {
+    "bytes": 7968,
+    "sha256": "56bfe1511ae048c70c0ce0f91138c0b6877b4ea4c2074d2785e99bcb0dfcc384"
+  },
+  "outputs\\val_rpn_run01\\execution_status.json": {
+    "bytes": 143,
+    "sha256": "c7e972d401d489fc3d3d26e0a2aaf10dbd8c1ada934e40970cae4f57f8353812"
+  },
+  "outputs\\val_rpn_run01\\max_iou_distribution.png": {
+    "bytes": 74692,
+    "sha256": "f4e168518cb8b679a59b98490518951e9feb6e50333ac9824558457a24e8b2bc"
+  },
+  "outputs\\val_rpn_run01\\proposal_recall_comparison.png": {
+    "bytes": 69425,
+    "sha256": "273620dd109ce8c34d0b988072827237224eccd891931c793395b1c1f8127d83"
+  },
+  "outputs\\val_rpn_run01\\rpn_diagnostic_report.md": {
+    "bytes": 4865,
+    "sha256": "71c5f9f776ef11219dce7ae1ec0ca9f6c2669c4ec5e5e0f2cb61371bb5177010"
+  },
+  "outputs\\val_rpn_run01\\rpn_metrics.json": {
+    "bytes": 79092,
+    "sha256": "a4bb88c9d854deef29c2a469eeed33df9672a59fd8a9e12466129ea8cc550b8d"
+  },
+  "outputs\\val_rpn_run01\\rpn_per_gt.csv": {
+    "bytes": 97563,
+    "sha256": "d4503b5346bfc2128840b8f0f7d88c2ea17309a48a45cdc1217ebb1787d8e268"
+  },
+  "outputs\\val_rpn_run01\\rpn_per_image.csv": {
+    "bytes": 54853,
+    "sha256": "50add533a374e1b57a680f45ff77111649ea2bd13bc2e0803f2517787c3f6da2"
+  },
+  "outputs\\val_rpn_run01\\run.log": {
+    "bytes": 31043,
+    "sha256": "70991e30be1ef557db4f58e7fbaee0c7b4f5b1bc600fc47f817e832121360ac6"
+  }
+}

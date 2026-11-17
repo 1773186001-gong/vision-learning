@@ -1,0 +1,8 @@
+﻿model,stem,gt_index,stage,candidate_count,counts_by_level,max_iou_float32_cpu,best_id_float32_cpu,count_iou_ge_075_float32_cpu,max_iou_float64_diagnostic,best_id_float64_diagnostic,count_iou_ge_075_float64_diagnostic
+Fusion,170100,1,decoded,13500,"{""0"": 6000, ""1"": 6000, ""pool"": 1500}",0.8459967970848083,new_170100_G1/Fusion/170100/4901,3,0.8459968245498387,new_170100_G1/Fusion/170100/4901,3
+Fusion,170100,1,pre_nms_topn,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.8459967970848083,new_170100_G1/Fusion/170100/4901,3,0.8459968245498387,new_170100_G1/Fusion/170100/4901,3
+Fusion,170100,1,clipped,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.8459967970848083,new_170100_G1/Fusion/170100/4901,3,0.8459968245498387,new_170100_G1/Fusion/170100/4901,3
+Fusion,170100,1,small_box_filtered,450,"{""0"": 150, ""1"": 150, ""pool"": 150}",0.8459967970848083,new_170100_G1/Fusion/170100/4901,3,0.8459968245498387,new_170100_G1/Fusion/170100/4901,3
+Fusion,170100,1,score_filtered,98,"{""0"": 43, ""1"": 39, ""pool"": 16}",0.8459967970848083,new_170100_G1/Fusion/170100/4901,3,0.8459968245498387,new_170100_G1/Fusion/170100/4901,3
+Fusion,170100,1,layer_nms,57,"{""0"": 24, ""1"": 19, ""pool"": 14}",0.8459967970848083,new_170100_G1/Fusion/170100/4901,3,0.8459968245498387,new_170100_G1/Fusion/170100/4901,3
+Fusion,170100,1,post_nms_topn,57,"{""0"": 24, ""1"": 19, ""pool"": 14}",0.8459967970848083,new_170100_G1/Fusion/170100/4901,3,0.8459968245498387,new_170100_G1/Fusion/170100/4901,3

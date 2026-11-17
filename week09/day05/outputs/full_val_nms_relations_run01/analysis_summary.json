@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "event_count": 58,
+  "distinct_GT_count": 48,
+  "distinct_images": 46,
+  "capture_files_loaded_once": 57,
+  "good_candidate_GT_rows": 119,
+  "unique_good_candidates": 119,
+  "primary_relation_GT_rows": 130,
+  "unique_primary_candidate_pairs": 130,
+  "pair_audit_rows": 14550,
+  "diagnostic_only_relation_rows": 0,
+  "all_GT_paired": 416,
+  "common_risk_GT": 297,
+  "actual_GPU_suppression_pairs_proven": 0,
+  "all_tables_rows": {
+    "gt_events": 58,
+    "deleted_good_candidates": 119,
+    "unique_deleted_candidates": 119,
+    "pair_audit": 14550,
+    "possible_related_retained": 130,
+    "diagnostic_only_relations": 0,
+    "retained_inventory": 7024,
+    "gt_overlap_audit": 349,
+    "model_scene_summary": 10,
+    "all_gt_pairing": 416,
+    "common_risk_pairing": 297,
+    "paired_summary": 10,
+    "numerical_audit": 0
+  }
+}

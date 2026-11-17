@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checkpoint_loads": 2,
+  "strict_state_loads": 2,
+  "structure_backbone_probes": 1,
+  "validation_full_forwards": 4,
+  "items": 4,
+  "all_outputs_saved": true,
+  "coordinate_verified": true,
+  "model_state_config_hooks_verified": true,
+  "server_connections": 0,
+  "test_inference": 0,
+  "training": 0,
+  "historical_identity_order_equal": false,
+  "historical_coverage_equal": true,
+  "counts": {
+    "checkpoint_loads": 2,
+    "strict_state_loads": 2,
+    "structure_backbone_probes": 1,
+    "validation_full_forwards": 4
+  },
+  "historical_files_unchanged": true,
+  "exit_code": 0
+}

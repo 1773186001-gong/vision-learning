@@ -1,0 +1,1 @@
+﻿a_position,b_position,a_id,b_id,a_label,b_label,a_score,b_score,score_tie,raw_iou_float32,raw_iou_float64,offset_path_iou_float32,offset_rounded_coordinates_iou_float64,full_float64_offset_iou,raw_deletion_condition,path_deletion_condition,near_threshold_1e_6,predicate_disagreement

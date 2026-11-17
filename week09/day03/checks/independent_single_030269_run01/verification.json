@@ -1,0 +1,217 @@
+{
+  "status": "passed",
+  "scope": "saved_single_030269_G1_offline_only",
+  "model_forward_performed": false,
+  "checkpoint_loaded": false,
+  "models": {
+    "IR": {
+      "forward_calls": 1,
+      "stage_reconstruction_verified": true,
+      "day02_iou_difference": 0.0,
+      "first_all_high_iou_loss": null,
+      "high_iou_initial_identities": {
+        "2201": {
+          "level": "0",
+          "first_removed": null,
+          "track": [
+            {
+              "stage": "decoded",
+              "kept": "True",
+              "score": "0.17690300941467285",
+              "iou_f32": "0.7936670184135437",
+              "iou_f64": "0.7936670774730248"
+            },
+            {
+              "stage": "pre_nms_topn",
+              "kept": "True",
+              "score": "0.17690300941467285",
+              "iou_f32": "0.7936670184135437",
+              "iou_f64": "0.7936670774730248"
+            },
+            {
+              "stage": "clipped",
+              "kept": "True",
+              "score": "0.17690300941467285",
+              "iou_f32": "0.7936670184135437",
+              "iou_f64": "0.7936670774730248"
+            },
+            {
+              "stage": "small_box_filtered",
+              "kept": "True",
+              "score": "0.17690300941467285",
+              "iou_f32": "0.7936670184135437",
+              "iou_f64": "0.7936670774730248"
+            },
+            {
+              "stage": "score_filtered",
+              "kept": "True",
+              "score": "0.17690300941467285",
+              "iou_f32": "0.7936670184135437",
+              "iou_f64": "0.7936670774730248"
+            },
+            {
+              "stage": "layer_nms",
+              "kept": "True",
+              "score": "0.17690300941467285",
+              "iou_f32": "0.7936670184135437",
+              "iou_f64": "0.7936670774730248"
+            },
+            {
+              "stage": "post_nms_topn",
+              "kept": "True",
+              "score": "0.17690300941467285",
+              "iou_f32": "0.7936670184135437",
+              "iou_f64": "0.7936670774730248"
+            }
+          ]
+        },
+        "8201": {
+          "level": "1",
+          "first_removed": null,
+          "track": [
+            {
+              "stage": "decoded",
+              "kept": "True",
+              "score": "0.5658339858055115",
+              "iou_f32": "0.7744670510292053",
+              "iou_f64": "0.7744670400685636"
+            },
+            {
+              "stage": "pre_nms_topn",
+              "kept": "True",
+              "score": "0.5658339858055115",
+              "iou_f32": "0.7744670510292053",
+              "iou_f64": "0.7744670400685636"
+            },
+            {
+              "stage": "clipped",
+              "kept": "True",
+              "score": "0.5658339858055115",
+              "iou_f32": "0.7744670510292053",
+              "iou_f64": "0.7744670400685636"
+            },
+            {
+              "stage": "small_box_filtered",
+              "kept": "True",
+              "score": "0.5658339858055115",
+              "iou_f32": "0.7744670510292053",
+              "iou_f64": "0.7744670400685636"
+            },
+            {
+              "stage": "score_filtered",
+              "kept": "True",
+              "score": "0.5658339858055115",
+              "iou_f32": "0.7744670510292053",
+              "iou_f64": "0.7744670400685636"
+            },
+            {
+              "stage": "layer_nms",
+              "kept": "True",
+              "score": "0.5658339858055115",
+              "iou_f32": "0.7744670510292053",
+              "iou_f64": "0.7744670400685636"
+            },
+            {
+              "stage": "post_nms_topn",
+              "kept": "True",
+              "score": "0.5658339858055115",
+              "iou_f32": "0.7744670510292053",
+              "iou_f64": "0.7744670400685636"
+            }
+          ]
+        }
+      }
+    },
+    "Fusion": {
+      "forward_calls": 1,
+      "stage_reconstruction_verified": true,
+      "day02_iou_difference": 0.0,
+      "first_all_high_iou_loss": {
+        "from": "score_filtered",
+        "to": "layer_nms"
+      },
+      "high_iou_initial_identities": {
+        "2201": {
+          "level": "0",
+          "first_removed": "layer_nms",
+          "track": [
+            {
+              "stage": "decoded",
+              "kept": "True",
+              "score": "0.9004508256912231",
+              "iou_f32": "0.7505373358726501",
+              "iou_f64": "0.7505373699659077"
+            },
+            {
+              "stage": "pre_nms_topn",
+              "kept": "True",
+              "score": "0.9004508256912231",
+              "iou_f32": "0.7505373358726501",
+              "iou_f64": "0.7505373699659077"
+            },
+            {
+              "stage": "clipped",
+              "kept": "True",
+              "score": "0.9004508256912231",
+              "iou_f32": "0.7505373358726501",
+              "iou_f64": "0.7505373699659077"
+            },
+            {
+              "stage": "small_box_filtered",
+              "kept": "True",
+              "score": "0.9004508256912231",
+              "iou_f32": "0.7505373358726501",
+              "iou_f64": "0.7505373699659077"
+            },
+            {
+              "stage": "score_filtered",
+              "kept": "True",
+              "score": "0.9004508256912231",
+              "iou_f32": "0.7505373358726501",
+              "iou_f64": "0.7505373699659077"
+            },
+            {
+              "stage": "layer_nms",
+              "kept": "False",
+              "score": "",
+              "iou_f32": "",
+              "iou_f64": ""
+            },
+            {
+              "stage": "post_nms_topn",
+              "kept": "False",
+              "score": "",
+              "iou_f32": "",
+              "iou_f64": ""
+            }
+          ]
+        }
+      }
+    }
+  },
+  "max_float64_cpu_vs_saved_diagnostic_error": 0.0,
+  "float64_atol": 1e-12,
+  "historical_files_unchanged": 429,
+  "server_files_sha256_verified": 19,
+  "original_input_sha256_before_and_after": {
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\day03_report.md": "f7384289cd485f19d47f79d90ad5d93413c436e864b2c4dc8c63ed7982838ee4",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\execution_status.json": "8a6fa8ff2fe46699abc825183d187eec70e0ce17a201a17e9505e16b1beba294",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\Fusion_candidate_catalogue.csv": "98ee3ab97cccf86ed56494c2f045010bdb427339c2be52c8cb586dcc387e50cb",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\Fusion_candidate_trajectory.csv": "e5d1f7fd0159fa9c2b22c659455ddec142557abce5492f01837263898abb8187",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\Fusion_clip_changes.csv": "6577c681b1b8b7e194ff81d48a0def159ceb915b5be3ac78b004e82f54c7308d",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\Fusion_historical_comparison.json": "ee236ff100dbc44ccb1084cca24b28d5e1762eb57b46e9bed45b8b60e4ebf9c5",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\Fusion_model_verification.json": "e0a180c00d4170366e36f474f7b2d875e38cb7ecee4de5c713d074bb4899aabb",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\Fusion_raw_capture.pth": "e87ac56d1d362bd7d447222207b7603a64bc326a918c9e8e8eeb52060a07c8ff",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\Fusion_stage_summary.csv": "5d5a9777fd0fcc1ba1c9e5795126603307d6d20c63554f26028b7c36b9e95249",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\IR_candidate_catalogue.csv": "ff9e015b18a891a21266bdda321c70a7c8859b418db739b8cd0e0a0c297601a6",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\IR_candidate_trajectory.csv": "9b850baff67599e9b5f9fb6c508ec195b5eadc5e65a986902490a0bbf0654a8b",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\IR_clip_changes.csv": "5cf1bd39647b0d1a622daeb4a480ab46f85b9e708e6731a9e6f21665bbc3f3d7",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\IR_historical_comparison.json": "168dc830ac1176eab9edca4009bf73c887c686eafa7eed90f4e9ad68f11accc4",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\IR_model_verification.json": "1035687c3052106673f75e567a1feede1364802daf56c2e871a6c76ce6c13278",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\IR_raw_capture.pth": "45677e88efb18970da7eb132853e4d47fbd160313ceef871e9d751bb53566042",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\IR_stage_summary.csv": "e80e5dc27152710bc58faea03a24c0585bcdb99b363f1cc957ebb8b6cc26ae3a",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\process_exit_status.json": "b7779d42700839de0e84495969bc0c973f2ecb9ef8144b42b03f5657456640dc",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\run.log": "a15e5b98fdb25edd5c13ba78753390612b085d8537c62e5d1264636c9e509a5f",
+    "D:\\python\\test\\vision-learning\\week09\\day03\\outputs\\single_030269_run01\\run_metadata.json": "1a3f11cbd797d75867cd62dff6de04e4648188de8469000032b04ec6f47b5308"
+  }
+}

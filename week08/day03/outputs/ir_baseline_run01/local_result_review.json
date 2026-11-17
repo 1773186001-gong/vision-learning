@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "review_device": "cpu",
+  "training_or_inference_run_during_review": false,
+  "test_metrics_recomputed_from_saved_cache_only": true,
+  "csv_epochs": 10,
+  "epoch_seconds_sum": 1324.373884600005,
+  "peak_allocated_bytes": 393544192,
+  "peak_reserved_bytes": 499122176,
+  "checkpoints": {
+    "best.pth": {
+      "epoch": 9,
+      "bytes": 151529396,
+      "sha256": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+      "strict_load_passed": true,
+      "history_matches_csv": true,
+      "optimizer_and_rng_present": true
+    },
+    "last.pth": {
+      "epoch": 10,
+      "bytes": 151529588,
+      "sha256": "d1055247066cdd8e5c4e565e58419440b5a028a0042804feaf583838f02263f2",
+      "strict_load_passed": true,
+      "history_matches_csv": true,
+      "optimizer_and_rng_present": true
+    }
+  },
+  "test": {
+    "images": 150,
+    "gt_boxes": 348,
+    "metrics": {
+      "precision": 0.850415512465374,
+      "recall": 0.882183908045977,
+      "AP50": 0.8989071207511944,
+      "mAP50_95": 0.4716263012372224,
+      "TP": 307,
+      "FP": 54,
+      "FN": 41,
+      "score_threshold": 0.5,
+      "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+    },
+    "metrics_match_saved": true,
+    "best_hash_matches_test_started": true
+  },
+  "png_decode_pass_count": 10,
+  "resume_after_interruption_tested": false,
+  "source_hashes": {
+    "week08/day01/llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "week08/day02/paired_letterbox.py": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+    "week08/day02/paired_horizontal_flip.py": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c",
+    "week08/day03/ir_common.py": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e",
+    "week08/day03/train_ir.py": "f2f85eeb356fefb8f9a3646d6dd134a255051918e87a404d1645f54cd2df108e",
+    "week08/day03/evaluate_ir.py": "e1fa78925596a5fff40e696f6d52ad814b489cb5451acaa86ec5c7d0bc738b67",
+    "week08/day03/predict_ir.py": "f27c87ce2830aa5bdfea5cd5a73120259f077f418851d30071946b3727d83917"
+  },
+  "source_hashes_match_server_preflight": true,
+  "protected_day01_day02_code_unchanged": true,
+  "failure_files": [],
+  "full_launch_log": "week08\\day03\\outputs\\ir_baseline_run01_launch_1793326678503699800.log",
+  "exit_code_observed_in_server_terminal": 0,
+  "exit_code_in_python_log": false
+}

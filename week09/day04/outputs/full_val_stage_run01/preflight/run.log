@@ -1,0 +1,50 @@
+test_atomic_commit_verified_skip_signature_and_checksum (test_full_capture.FullCaptureTests.test_atomic_commit_verified_skip_signature_and_checksum) ... ok
+test_block_restart_skips_verified_and_halts_unknown (test_full_capture.FullCaptureTests.test_block_restart_skips_verified_and_halts_unknown) ... ok
+test_body_exception_and_partial_hook_registration_cleanup (test_full_capture.FullCaptureTests.test_body_exception_and_partial_hook_registration_cleanup) ... ok
+test_captured_raw_can_be_recovered_without_forward (test_full_capture.FullCaptureTests.test_captured_raw_can_be_recovered_without_forward) ... ok
+test_concurrent_rejection_does_not_release_other_owner (test_full_capture.FullCaptureTests.test_concurrent_rejection_does_not_release_other_owner) ... ok
+test_configuration_error_releases_lock_then_normal_capture (test_full_capture.FullCaptureTests.test_configuration_error_releases_lock_then_normal_capture) ... ok
+test_multi_gt_and_empty_gt_without_placeholder (test_full_capture.FullCaptureTests.test_multi_gt_and_empty_gt_without_placeholder) ... ok
+test_original_nms_exception_restores_everything (test_full_capture.FullCaptureTests.test_original_nms_exception_restores_everything) ... ok
+test_original_return_and_normal_hooks_attributes_restored (test_full_capture.FullCaptureTests.test_original_return_and_normal_hooks_attributes_restored) ... ok
+test_partial_serialization_is_unknown_not_retryable (test_full_capture.FullCaptureTests.test_partial_serialization_is_unknown_not_retryable) ... ok
+test_replay_exception_preserves_original_record_and_restores (test_full_capture.FullCaptureTests.test_replay_exception_preserves_original_record_and_restores) ... ok
+test_top_reference_error_releases_lock (test_full_capture.FullCaptureTests.test_top_reference_error_releases_lock) ... ok
+test_all_good_loss_and_conditional_rate (test_coverage_statistics.CoverageTests.test_all_good_loss_and_conditional_rate) ... ok
+test_clipping_first_creates_coverage (test_coverage_statistics.CoverageTests.test_clipping_first_creates_coverage) ... ok
+test_duplicate_and_pair_mismatch_rejected (test_coverage_statistics.CoverageTests.test_duplicate_and_pair_mismatch_rejected) ... ok
+test_empty_gt_image_not_fabricated (test_coverage_statistics.CoverageTests.test_empty_gt_image_not_fabricated) ... ok
+test_empty_proposals_have_zero_and_no_best_id (test_coverage_statistics.CoverageTests.test_empty_proposals_have_zero_and_no_best_id) ... ok
+test_equal_coordinates_keep_ids_and_stage_tie_order (test_coverage_statistics.CoverageTests.test_equal_coordinates_keep_ids_and_stage_tie_order) ... ok
+test_gt_weighted_not_image_average (test_coverage_statistics.CoverageTests.test_gt_weighted_not_image_average) ... ok
+test_invalid_gt_and_missing_stage_rejected (test_coverage_statistics.CoverageTests.test_invalid_gt_and_missing_stage_rejected) ... ok
+test_multi_gt_multiple_boxes_not_multiple_gt_hits (test_coverage_statistics.CoverageTests.test_multi_gt_multiple_boxes_not_multiple_gt_hits) ... ok
+test_net_changes_are_arithmetic_with_gains_and_losses (test_coverage_statistics.CoverageTests.test_net_changes_are_arithmetic_with_gains_and_losses) ... ok
+test_partial_good_loss_keeps_gt_covered (test_coverage_statistics.CoverageTests.test_partial_good_loss_keeps_gt_covered) ... ok
+test_threshold_strict_without_epsilon (test_coverage_statistics.CoverageTests.test_threshold_strict_without_epsilon) ... ok
+test_topn_loss_then_real_clip_recovery_recorded (test_coverage_statistics.CoverageTests.test_topn_loss_then_real_clip_recovery_recorded) ... ok
+test_zero_condition_denominator_is_none (test_coverage_statistics.CoverageTests.test_zero_condition_denominator_is_none) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.159s
+
+OK
+{
+  "status": "passed",
+  "tests_run": 26,
+  "environment": {
+    "hostname": "DESKTOP-BFIO0RA",
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\cv-server-env\\Scripts\\python.exe",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "val_images": 150,
+  "remaining_images": 144,
+  "reused_model_items": 12,
+  "input_hashes_verified": 470,
+  "model_forward_performed": false,
+  "checkpoint_loaded": false
+}

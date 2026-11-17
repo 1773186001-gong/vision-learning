@@ -1,0 +1,45 @@
+{
+  "fair_settings_match": true,
+  "changed_model_input": "infrared -> visible",
+  "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API",
+  "IR": {
+    "precision": 0.850415512465374,
+    "recall": 0.882183908045977,
+    "AP50": 0.8989071207511944,
+    "mAP50_95": 0.4716263012372224,
+    "TP": 307,
+    "FP": 54,
+    "FN": 41,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+  },
+  "RGB": {
+    "precision": 0.4917763157894737,
+    "recall": 0.8591954022988506,
+    "AP50": 0.8001258873790847,
+    "mAP50_95": 0.36830385695197043,
+    "TP": 299,
+    "FP": 309,
+    "FN": 49,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+  },
+  "RGB_minus_IR": {
+    "precision": -0.3586391966759003,
+    "recall": -0.02298850574712641,
+    "AP50": -0.09878123337210964,
+    "mAP50_95": -0.10332244428525195,
+    "TP": -8,
+    "FP": 255,
+    "FN": 8
+  },
+  "IR_best_epoch": 9,
+  "RGB_best_epoch": 4,
+  "IR_epoch_seconds_sum": 1324.373884600005,
+  "RGB_epoch_seconds_sum": 1341.7093137999618,
+  "IR_peak_allocated_bytes": 393544192.0,
+  "RGB_peak_allocated_bytes": 395375104,
+  "IR_peak_reserved_bytes": 499122176.0,
+  "RGB_peak_reserved_bytes": 486539264,
+  "limitation": "单次、单seed、场景隔离子集；耗时非稳定基准；不推断融合成绩"
+}

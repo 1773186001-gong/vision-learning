@@ -1,0 +1,10 @@
+COMMAND D:\python\.venv\Scripts\python.exe -B -X utf8 week09/day04/offline_full_gt.py --output week09/day04/outputs/six_image_all_gt_run01
+Traceback (most recent call last):
+  File "D:\python\test\vision-learning\week09\day04\offline_full_gt.py", line 239, in main
+    rows,images,summaries,evidence,validation,remaining=run_pilot()
+                                                        ~~~~~~~~~^^
+  File "D:\python\test\vision-learning\week09\day04\offline_full_gt.py", line 149, in run_pilot
+    key=field+convention;v=r[key];o=old[key]
+                                    ~~~^^^^^
+KeyError: 'best_candidate_id_float32_cpu'
+OFFLINE_PILOT_EXIT 1 historical_files_unchanged True

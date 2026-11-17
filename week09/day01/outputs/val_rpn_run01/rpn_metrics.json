@@ -1,0 +1,1807 @@
+{
+  "run": {
+    "status": "completed",
+    "scope": "full_validation",
+    "started_at": "2026-11-05T05:37:40.112528+00:00",
+    "seed": 42,
+    "command": "D:\\cv-server-env\\Scripts\\python.exe -B D:\\vision-learning-server\\week09\\day01\\rpn_diagnostic.py --device cuda:0 --seed 42 --threads 2 --output D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01",
+    "environment": {
+      "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "D:\\cv-server-env\\Scripts\\python.exe",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "hostname": "DESKTOP-BFIO0RA",
+      "torch": "2.14.1+cu126",
+      "torchvision": "0.29.1+cu126",
+      "numpy": "2.5.4",
+      "device": "cuda:0",
+      "cuda_build": "12.6",
+      "cudnn": 91002,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "threads": 2,
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "gpu_memory_bytes": 6441926656,
+      "deterministic_policy": "Fixed Python/NumPy/Torch seeds; manifest order; cudnn deterministic=True and benchmark=False. GPU/CPU tied-score NMS can differ; exact cross-device equality is not claimed."
+    },
+    "output": "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01",
+    "split": "val",
+    "requested_limit": 0,
+    "training_performed": false,
+    "optimizer_created": false,
+    "test_inference_performed": false,
+    "finished_at": "2026-11-05T05:38:36.129537+00:00"
+  },
+  "inputs": {
+    "file_sha256": {
+      "D:\\vision-learning-server\\week09\\day01\\rpn_diagnostic.py": "06dee2f5ad1194d1eedee6bc8e437e79606a14ddbc38f16e61aca5adb3bd866a",
+      "D:\\vision-learning-server\\week08\\day01\\llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+      "D:\\vision-learning-server\\week08\\day02\\paired_letterbox.py": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+      "D:\\vision-learning-server\\week08\\day02\\paired_horizontal_flip.py": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c",
+      "D:\\vision-learning-server\\week08\\day03\\ir_common.py": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e",
+      "D:\\vision-learning-server\\week08\\day05\\fusion_common.py": "6c45dc49da0bb9df03303316f45182f2e718801771082a0e67510be7ecc57250",
+      "D:\\vision-learning-server\\week08\\day05\\fusion_model.py": "fe27e92199e6a2ab2678ead46b548a01ece0193d9f611385edd3d09d90dbf09a",
+      "D:\\vision-learning-server\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\faster_rcnn.py": "016c24eaa67e889aca8dc76fa657e09fde1c46c8c4ab7ebd608758b9bfc8c940",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\rpn.py": "00ff7ea77fe9ba37038ad6b6c1289185b2e753ca124c50cf64d8f0d30edecd43",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\generalized_rcnn.py": "ee8bed850c7c6848baa315e8bd2a8eec3ed06a7a76cb37751c75c041b412dd39",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\transform.py": "26ab6a7fdb8ba34b8112b689d690da3014ae00b639fef0c42e72c241c3b0c26d",
+      "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\ops\\boxes.py": "9c0afd11f8291569442752f7aaab607ad0f7bf57dccd645048a0b7196372f269"
+    },
+    "manifest_splits": {
+      "train": {
+        "images": 700,
+        "gt_boxes": 1991,
+        "scenes": [
+          "01",
+          "02",
+          "04",
+          "05",
+          "06",
+          "07",
+          "09",
+          "10",
+          "11",
+          "12",
+          "14",
+          "15",
+          "16",
+          "18",
+          "25"
+        ],
+        "empty_gt_images": 1
+      },
+      "val": {
+        "images": 150,
+        "gt_boxes": 416,
+        "scenes": [
+          "03",
+          "08",
+          "13",
+          "17"
+        ],
+        "empty_gt_images": 0
+      },
+      "test": {
+        "images": 150,
+        "gt_boxes": 348,
+        "scenes": [
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "26"
+        ],
+        "empty_gt_images": 0
+      }
+    },
+    "validation_order": "manifest order; shuffle=False; batch_size=1; num_workers=0",
+    "selected_stems": [
+      "030001",
+      "030014",
+      "030027",
+      "030039",
+      "030052",
+      "030065",
+      "030078",
+      "030090",
+      "030103",
+      "030116",
+      "030129",
+      "030141",
+      "030154",
+      "030167",
+      "030180",
+      "030192",
+      "030205",
+      "030218",
+      "030231",
+      "030243",
+      "030256",
+      "030269",
+      "030282",
+      "030294",
+      "030308",
+      "030321",
+      "030334",
+      "030346",
+      "030359",
+      "030372",
+      "030385",
+      "030397",
+      "030410",
+      "030423",
+      "030436",
+      "030448",
+      "030461",
+      "030474",
+      "080001",
+      "080042",
+      "080083",
+      "080125",
+      "080166",
+      "080209",
+      "080250",
+      "080291",
+      "080332",
+      "080373",
+      "080416",
+      "080457",
+      "080498",
+      "080539",
+      "080581",
+      "080622",
+      "080663",
+      "080704",
+      "080746",
+      "080787",
+      "080829",
+      "080870",
+      "080912",
+      "080953",
+      "080994",
+      "081035",
+      "081076",
+      "081117",
+      "081158",
+      "081199",
+      "081240",
+      "081281",
+      "081322",
+      "081363",
+      "081404",
+      "081445",
+      "081486",
+      "081527",
+      "130001",
+      "130015",
+      "130029",
+      "130043",
+      "130056",
+      "130070",
+      "130084",
+      "130098",
+      "130112",
+      "130126",
+      "130140",
+      "130153",
+      "130167",
+      "130181",
+      "130195",
+      "130209",
+      "130223",
+      "130237",
+      "130251",
+      "130264",
+      "130278",
+      "130292",
+      "130306",
+      "130320",
+      "130334",
+      "130348",
+      "130361",
+      "130375",
+      "130389",
+      "130403",
+      "130417",
+      "130431",
+      "130445",
+      "130458",
+      "130472",
+      "130486",
+      "130500",
+      "170001",
+      "170015",
+      "170029",
+      "170043",
+      "170058",
+      "170072",
+      "170086",
+      "170100",
+      "170114",
+      "170129",
+      "170143",
+      "170157",
+      "170171",
+      "170185",
+      "170199",
+      "170213",
+      "170228",
+      "170242",
+      "170256",
+      "170270",
+      "170284",
+      "170299",
+      "170313",
+      "170327",
+      "170341",
+      "170356",
+      "170370",
+      "170384",
+      "170399",
+      "170413",
+      "170427",
+      "170441",
+      "170455",
+      "170470",
+      "170484",
+      "170498",
+      "170512"
+    ],
+    "selected_stems_sha256": "97ef82f45a1e0a8d05dccaab5656df0a0bc7f62ade65682c8207f9e9cb39be6e",
+    "selected_images": 150,
+    "expected_selected_gt": 416,
+    "selected_scenes": [
+      "03",
+      "08",
+      "13",
+      "17"
+    ],
+    "selected_data_paths": [
+      {
+        "stem": "030001",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030001.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030001.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030001.xml"
+      },
+      {
+        "stem": "030014",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030014.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030014.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030014.xml"
+      },
+      {
+        "stem": "030027",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030027.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030027.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030027.xml"
+      },
+      {
+        "stem": "030039",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030039.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030039.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030039.xml"
+      },
+      {
+        "stem": "030052",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030052.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030052.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030052.xml"
+      },
+      {
+        "stem": "030065",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030065.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030065.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030065.xml"
+      },
+      {
+        "stem": "030078",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030078.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030078.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030078.xml"
+      },
+      {
+        "stem": "030090",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030090.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030090.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030090.xml"
+      },
+      {
+        "stem": "030103",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030103.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030103.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030103.xml"
+      },
+      {
+        "stem": "030116",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030116.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030116.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030116.xml"
+      },
+      {
+        "stem": "030129",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030129.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030129.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030129.xml"
+      },
+      {
+        "stem": "030141",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030141.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030141.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030141.xml"
+      },
+      {
+        "stem": "030154",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030154.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030154.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030154.xml"
+      },
+      {
+        "stem": "030167",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030167.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030167.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030167.xml"
+      },
+      {
+        "stem": "030180",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030180.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030180.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030180.xml"
+      },
+      {
+        "stem": "030192",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030192.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030192.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030192.xml"
+      },
+      {
+        "stem": "030205",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030205.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030205.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030205.xml"
+      },
+      {
+        "stem": "030218",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030218.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030218.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030218.xml"
+      },
+      {
+        "stem": "030231",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030231.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030231.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030231.xml"
+      },
+      {
+        "stem": "030243",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030243.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030243.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030243.xml"
+      },
+      {
+        "stem": "030256",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030256.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030256.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030256.xml"
+      },
+      {
+        "stem": "030269",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030269.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030269.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030269.xml"
+      },
+      {
+        "stem": "030282",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030282.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030282.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030282.xml"
+      },
+      {
+        "stem": "030294",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030294.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030294.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030294.xml"
+      },
+      {
+        "stem": "030308",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030308.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030308.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030308.xml"
+      },
+      {
+        "stem": "030321",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030321.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030321.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030321.xml"
+      },
+      {
+        "stem": "030334",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030334.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030334.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030334.xml"
+      },
+      {
+        "stem": "030346",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030346.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030346.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030346.xml"
+      },
+      {
+        "stem": "030359",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030359.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030359.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030359.xml"
+      },
+      {
+        "stem": "030372",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030372.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030372.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030372.xml"
+      },
+      {
+        "stem": "030385",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030385.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030385.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030385.xml"
+      },
+      {
+        "stem": "030397",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030397.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030397.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030397.xml"
+      },
+      {
+        "stem": "030410",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030410.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030410.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030410.xml"
+      },
+      {
+        "stem": "030423",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030423.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030423.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030423.xml"
+      },
+      {
+        "stem": "030436",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030436.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030436.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030436.xml"
+      },
+      {
+        "stem": "030448",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030448.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030448.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030448.xml"
+      },
+      {
+        "stem": "030461",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030461.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030461.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030461.xml"
+      },
+      {
+        "stem": "030474",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030474.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030474.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030474.xml"
+      },
+      {
+        "stem": "080001",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080001.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080001.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080001.xml"
+      },
+      {
+        "stem": "080042",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080042.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080042.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080042.xml"
+      },
+      {
+        "stem": "080083",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080083.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080083.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080083.xml"
+      },
+      {
+        "stem": "080125",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080125.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080125.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080125.xml"
+      },
+      {
+        "stem": "080166",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080166.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080166.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080166.xml"
+      },
+      {
+        "stem": "080209",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080209.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080209.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080209.xml"
+      },
+      {
+        "stem": "080250",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080250.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080250.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080250.xml"
+      },
+      {
+        "stem": "080291",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080291.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080291.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080291.xml"
+      },
+      {
+        "stem": "080332",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080332.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080332.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080332.xml"
+      },
+      {
+        "stem": "080373",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080373.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080373.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080373.xml"
+      },
+      {
+        "stem": "080416",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080416.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080416.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080416.xml"
+      },
+      {
+        "stem": "080457",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080457.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080457.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080457.xml"
+      },
+      {
+        "stem": "080498",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080498.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080498.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080498.xml"
+      },
+      {
+        "stem": "080539",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080539.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080539.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080539.xml"
+      },
+      {
+        "stem": "080581",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080581.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080581.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080581.xml"
+      },
+      {
+        "stem": "080622",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080622.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080622.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080622.xml"
+      },
+      {
+        "stem": "080663",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080663.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080663.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080663.xml"
+      },
+      {
+        "stem": "080704",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080704.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080704.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080704.xml"
+      },
+      {
+        "stem": "080746",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080746.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080746.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080746.xml"
+      },
+      {
+        "stem": "080787",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080787.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080787.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080787.xml"
+      },
+      {
+        "stem": "080829",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080829.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080829.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080829.xml"
+      },
+      {
+        "stem": "080870",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080870.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080870.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080870.xml"
+      },
+      {
+        "stem": "080912",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080912.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080912.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080912.xml"
+      },
+      {
+        "stem": "080953",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080953.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080953.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080953.xml"
+      },
+      {
+        "stem": "080994",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\080994.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\080994.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\080994.xml"
+      },
+      {
+        "stem": "081035",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081035.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081035.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081035.xml"
+      },
+      {
+        "stem": "081076",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081076.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081076.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081076.xml"
+      },
+      {
+        "stem": "081117",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081117.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081117.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081117.xml"
+      },
+      {
+        "stem": "081158",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081158.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081158.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081158.xml"
+      },
+      {
+        "stem": "081199",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081199.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081199.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081199.xml"
+      },
+      {
+        "stem": "081240",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081240.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081240.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081240.xml"
+      },
+      {
+        "stem": "081281",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081281.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081281.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081281.xml"
+      },
+      {
+        "stem": "081322",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081322.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081322.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081322.xml"
+      },
+      {
+        "stem": "081363",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081363.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081363.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081363.xml"
+      },
+      {
+        "stem": "081404",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081404.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081404.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081404.xml"
+      },
+      {
+        "stem": "081445",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081445.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081445.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081445.xml"
+      },
+      {
+        "stem": "081486",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081486.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081486.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081486.xml"
+      },
+      {
+        "stem": "081527",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\081527.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\081527.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\081527.xml"
+      },
+      {
+        "stem": "130001",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130001.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130001.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130001.xml"
+      },
+      {
+        "stem": "130015",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130015.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130015.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130015.xml"
+      },
+      {
+        "stem": "130029",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130029.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130029.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130029.xml"
+      },
+      {
+        "stem": "130043",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130043.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130043.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130043.xml"
+      },
+      {
+        "stem": "130056",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130056.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130056.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130056.xml"
+      },
+      {
+        "stem": "130070",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130070.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130070.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130070.xml"
+      },
+      {
+        "stem": "130084",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130084.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130084.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130084.xml"
+      },
+      {
+        "stem": "130098",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130098.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130098.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130098.xml"
+      },
+      {
+        "stem": "130112",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130112.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130112.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130112.xml"
+      },
+      {
+        "stem": "130126",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130126.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130126.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130126.xml"
+      },
+      {
+        "stem": "130140",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130140.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130140.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130140.xml"
+      },
+      {
+        "stem": "130153",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130153.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130153.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130153.xml"
+      },
+      {
+        "stem": "130167",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130167.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130167.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130167.xml"
+      },
+      {
+        "stem": "130181",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130181.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130181.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130181.xml"
+      },
+      {
+        "stem": "130195",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130195.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130195.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130195.xml"
+      },
+      {
+        "stem": "130209",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130209.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130209.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130209.xml"
+      },
+      {
+        "stem": "130223",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130223.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130223.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130223.xml"
+      },
+      {
+        "stem": "130237",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130237.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130237.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130237.xml"
+      },
+      {
+        "stem": "130251",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130251.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130251.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130251.xml"
+      },
+      {
+        "stem": "130264",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130264.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130264.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130264.xml"
+      },
+      {
+        "stem": "130278",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130278.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130278.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130278.xml"
+      },
+      {
+        "stem": "130292",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130292.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130292.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130292.xml"
+      },
+      {
+        "stem": "130306",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130306.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130306.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130306.xml"
+      },
+      {
+        "stem": "130320",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130320.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130320.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130320.xml"
+      },
+      {
+        "stem": "130334",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130334.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130334.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130334.xml"
+      },
+      {
+        "stem": "130348",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130348.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130348.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130348.xml"
+      },
+      {
+        "stem": "130361",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130361.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130361.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130361.xml"
+      },
+      {
+        "stem": "130375",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130375.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130375.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130375.xml"
+      },
+      {
+        "stem": "130389",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130389.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130389.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130389.xml"
+      },
+      {
+        "stem": "130403",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130403.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130403.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130403.xml"
+      },
+      {
+        "stem": "130417",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130417.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130417.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130417.xml"
+      },
+      {
+        "stem": "130431",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130431.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130431.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130431.xml"
+      },
+      {
+        "stem": "130445",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130445.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130445.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130445.xml"
+      },
+      {
+        "stem": "130458",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130458.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130458.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130458.xml"
+      },
+      {
+        "stem": "130472",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130472.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130472.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130472.xml"
+      },
+      {
+        "stem": "130486",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130486.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130486.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130486.xml"
+      },
+      {
+        "stem": "130500",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130500.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130500.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130500.xml"
+      },
+      {
+        "stem": "170001",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170001.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170001.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170001.xml"
+      },
+      {
+        "stem": "170015",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170015.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170015.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170015.xml"
+      },
+      {
+        "stem": "170029",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170029.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170029.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170029.xml"
+      },
+      {
+        "stem": "170043",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170043.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170043.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170043.xml"
+      },
+      {
+        "stem": "170058",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170058.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170058.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170058.xml"
+      },
+      {
+        "stem": "170072",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170072.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170072.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170072.xml"
+      },
+      {
+        "stem": "170086",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170086.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170086.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170086.xml"
+      },
+      {
+        "stem": "170100",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170100.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170100.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170100.xml"
+      },
+      {
+        "stem": "170114",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170114.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170114.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170114.xml"
+      },
+      {
+        "stem": "170129",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170129.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170129.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170129.xml"
+      },
+      {
+        "stem": "170143",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170143.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170143.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170143.xml"
+      },
+      {
+        "stem": "170157",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170157.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170157.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170157.xml"
+      },
+      {
+        "stem": "170171",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170171.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170171.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170171.xml"
+      },
+      {
+        "stem": "170185",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170185.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170185.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170185.xml"
+      },
+      {
+        "stem": "170199",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170199.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170199.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170199.xml"
+      },
+      {
+        "stem": "170213",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170213.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170213.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170213.xml"
+      },
+      {
+        "stem": "170228",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170228.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170228.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170228.xml"
+      },
+      {
+        "stem": "170242",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170242.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170242.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170242.xml"
+      },
+      {
+        "stem": "170256",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170256.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170256.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170256.xml"
+      },
+      {
+        "stem": "170270",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170270.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170270.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170270.xml"
+      },
+      {
+        "stem": "170284",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170284.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170284.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170284.xml"
+      },
+      {
+        "stem": "170299",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170299.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170299.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170299.xml"
+      },
+      {
+        "stem": "170313",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170313.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170313.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170313.xml"
+      },
+      {
+        "stem": "170327",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170327.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170327.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170327.xml"
+      },
+      {
+        "stem": "170341",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170341.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170341.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170341.xml"
+      },
+      {
+        "stem": "170356",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170356.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170356.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170356.xml"
+      },
+      {
+        "stem": "170370",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170370.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170370.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170370.xml"
+      },
+      {
+        "stem": "170384",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170384.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170384.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170384.xml"
+      },
+      {
+        "stem": "170399",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170399.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170399.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170399.xml"
+      },
+      {
+        "stem": "170413",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170413.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170413.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170413.xml"
+      },
+      {
+        "stem": "170427",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170427.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170427.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170427.xml"
+      },
+      {
+        "stem": "170441",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170441.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170441.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170441.xml"
+      },
+      {
+        "stem": "170455",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170455.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170455.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170455.xml"
+      },
+      {
+        "stem": "170470",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170470.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170470.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170470.xml"
+      },
+      {
+        "stem": "170484",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170484.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170484.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170484.xml"
+      },
+      {
+        "stem": "170498",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170498.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170498.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170498.xml"
+      },
+      {
+        "stem": "170512",
+        "visible": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170512.jpg",
+        "infrared": "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170512.jpg",
+        "annotation": "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170512.xml"
+      }
+    ],
+    "test_images_read": false,
+    "scene_isolation_checked": true
+  },
+  "models": {
+    "IR": {
+      "checkpoint": {
+        "path": "D:\\vision-learning-server\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth",
+        "bytes": 151529396,
+        "sha256_before": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+        "epoch": 9,
+        "training_config": {
+          "model": "fasterrcnn_mobilenet_v3_large_320_fpn",
+          "epochs": 10,
+          "batch_size": 1,
+          "num_workers": 0,
+          "seed": 42,
+          "lr": 0.001,
+          "momentum": 0.9,
+          "weight_decay": 0.0005,
+          "scheduler": null,
+          "amp": false,
+          "letterbox": 640,
+          "min_size": 640,
+          "max_size": 640,
+          "data_root": "D:\\vision-learning-server\\data\\LLVIP_1000",
+          "manifest_sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+          "selection": "val mAP50_95",
+          "weights": {
+            "source": "https://download.pytorch.org/models/fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+            "path": "C:\\Users\\gxbb\\.cache\\torch\\hub\\checkpoints\\fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+            "exists": true,
+            "sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5"
+          },
+          "torch": "2.14.1+cu126",
+          "torchvision": "0.29.1+cu126",
+          "device": "cuda:0",
+          "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+        },
+        "sha256_after": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+        "unchanged": true
+      },
+      "rpn_config": {
+        "pre_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "post_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "active_pre_nms_top_n": 150,
+        "active_post_nms_top_n": 150,
+        "nms_thresh": 0.7,
+        "score_thresh": 0.05,
+        "minimum_box_size": 0.001,
+        "anchor_sizes": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "anchor_aspect_ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ],
+        "transform_min_size": [
+          640
+        ],
+        "transform_max_size": 640,
+        "transform_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "transform_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "roi_feature_keys": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "proposal_order": "Original filter_proposals output: batched_nms returns decreasing objectness score; keep is sliced by original post_nms_top_n, then [:K].",
+        "coordinate_system": "xyxy pixels in transformed, unpadded ImageList.image_sizes; GT captured from the same original forward call"
+      },
+      "processed_images": 150,
+      "total_valid_gt": 416,
+      "empty_gt_images": 0,
+      "zero_proposal_images": 0,
+      "proposal_count_statistics": {
+        "count": 150,
+        "mean": 87.08666666666667,
+        "std": 38.135012200805114,
+        "min": 13.0,
+        "max": 150.0,
+        "quantiles": {
+          "0.1": 35.8,
+          "0.25": 57.25,
+          "0.5": 86.5,
+          "0.75": 115.0,
+          "0.9": 150.0
+        }
+      },
+      "top_k": {
+        "100": {
+          "recall": {
+            "0.50": 0.9783653846153846,
+            "0.75": 0.71875
+          },
+          "hits": {
+            "0.50": 407,
+            "0.75": 299
+          },
+          "denominator_valid_gt": 416,
+          "mean_max_iou": 0.7845622335130779,
+          "max_iou_statistics": {
+            "count": 416,
+            "mean": 0.7845622335130779,
+            "std": 0.11676422487100525,
+            "min": 0.0,
+            "max": 0.9661073684692383,
+            "quantiles": {
+              "0.1": 0.6578027307987213,
+              "0.25": 0.7378680408000946,
+              "0.5": 0.8019596934318542,
+              "0.75": 0.8592829406261444,
+              "0.9": 0.9000466465950012
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                2,
+                1,
+                0,
+                1,
+                5,
+                17,
+                41,
+                137,
+                170,
+                42
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 92,
+          "effective_proposals_min": 13,
+          "effective_proposals_max": 100
+        },
+        "300": {
+          "recall": {
+            "0.50": 0.9783653846153846,
+            "0.75": 0.7259615384615384
+          },
+          "hits": {
+            "0.50": 407,
+            "0.75": 302
+          },
+          "denominator_valid_gt": 416,
+          "mean_max_iou": 0.7861137990123377,
+          "max_iou_statistics": {
+            "count": 416,
+            "mean": 0.7861137990123377,
+            "std": 0.1157695221387553,
+            "min": 0.0,
+            "max": 0.9661073684692383,
+            "quantiles": {
+              "0.1": 0.6602554321289062,
+              "0.25": 0.7406977266073227,
+              "0.5": 0.8033460080623627,
+              "0.75": 0.8605155050754547,
+              "0.9": 0.9000466465950012
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                2,
+                1,
+                0,
+                1,
+                5,
+                15,
+                41,
+                138,
+                171,
+                42
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 150,
+          "effective_proposals_min": 13,
+          "effective_proposals_max": 150
+        },
+        "1000": {
+          "recall": {
+            "0.50": 0.9783653846153846,
+            "0.75": 0.7259615384615384
+          },
+          "hits": {
+            "0.50": 407,
+            "0.75": 302
+          },
+          "denominator_valid_gt": 416,
+          "mean_max_iou": 0.7861137990123377,
+          "max_iou_statistics": {
+            "count": 416,
+            "mean": 0.7861137990123377,
+            "std": 0.1157695221387553,
+            "min": 0.0,
+            "max": 0.9661073684692383,
+            "quantiles": {
+              "0.1": 0.6602554321289062,
+              "0.25": 0.7406977266073227,
+              "0.5": 0.8033460080623627,
+              "0.75": 0.8605155050754547,
+              "0.9": 0.9000466465950012
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                2,
+                1,
+                0,
+                1,
+                5,
+                15,
+                41,
+                138,
+                171,
+                42
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 150,
+          "effective_proposals_min": 13,
+          "effective_proposals_max": 150
+        }
+      },
+      "dataset_ir_pair_equivalence_verified": true,
+      "state_sha256_before": "eafad36652de36bb46182a15124074cc39f39a665b8f66abf0a4ef2687cf446b",
+      "state_sha256_after": "eafad36652de36bb46182a15124074cc39f39a665b8f66abf0a4ef2687cf446b",
+      "persistent_state_unchanged": true,
+      "rpn_configuration_unchanged": true,
+      "elapsed_seconds": 34.289887799999974
+    },
+    "Fusion": {
+      "checkpoint": {
+        "path": "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth",
+        "bytes": 190083098,
+        "sha256_before": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+        "epoch": 6,
+        "training_config": {
+          "modality": "fusion_concat",
+          "epochs": 10,
+          "batch_size": 1,
+          "num_workers": 0,
+          "seed": 42,
+          "lr": 0.001,
+          "momentum": 0.9,
+          "weight_decay": 0.0005,
+          "input_size": 640,
+          "amp": false,
+          "scheduler": null,
+          "torch": "2.14.1+cu126",
+          "torchvision": "0.29.1+cu126",
+          "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+          "device": "cuda:0",
+          "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+          "manifest_sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+          "weights_sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5",
+          "architecture": "independent RGB FPN + IR FPN -> concat/1x1 -> shared RPN/RoI",
+          "command": "D:\\cv-server-env\\Scripts\\python.exe -B D:\\vision-learning-server\\week08\\day05\\train_fusion.py --data-root D:\\vision-learning-server\\data\\LLVIP_1000 --output D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01 --device cuda:0 --keep-awake"
+        },
+        "sha256_after": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+        "unchanged": true
+      },
+      "rpn_config": {
+        "pre_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "post_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "active_pre_nms_top_n": 150,
+        "active_post_nms_top_n": 150,
+        "nms_thresh": 0.7,
+        "score_thresh": 0.05,
+        "minimum_box_size": 0.001,
+        "anchor_sizes": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "anchor_aspect_ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ],
+        "transform_min_size": [
+          640
+        ],
+        "transform_max_size": 640,
+        "transform_mean": [
+          0.485,
+          0.456,
+          0.406,
+          0.485,
+          0.456,
+          0.406
+        ],
+        "transform_std": [
+          0.229,
+          0.224,
+          0.225,
+          0.229,
+          0.224,
+          0.225
+        ],
+        "roi_feature_keys": [
+          "0",
+          "1"
+        ],
+        "proposal_order": "Original filter_proposals output: batched_nms returns decreasing objectness score; keep is sliced by original post_nms_top_n, then [:K].",
+        "coordinate_system": "xyxy pixels in transformed, unpadded ImageList.image_sizes; GT captured from the same original forward call"
+      },
+      "processed_images": 150,
+      "total_valid_gt": 416,
+      "empty_gt_images": 0,
+      "zero_proposal_images": 0,
+      "proposal_count_statistics": {
+        "count": 150,
+        "mean": 102.22,
+        "std": 38.63933574308268,
+        "min": 17.0,
+        "max": 150.0,
+        "quantiles": {
+          "0.1": 47.0,
+          "0.25": 71.0,
+          "0.5": 100.0,
+          "0.75": 144.75,
+          "0.9": 150.0
+        }
+      },
+      "top_k": {
+        "100": {
+          "recall": {
+            "0.50": 0.9831730769230769,
+            "0.75": 0.6826923076923077
+          },
+          "hits": {
+            "0.50": 409,
+            "0.75": 284
+          },
+          "denominator_valid_gt": 416,
+          "mean_max_iou": 0.7768592016341594,
+          "max_iou_statistics": {
+            "count": 416,
+            "mean": 0.7768592016341594,
+            "std": 0.11443376703975844,
+            "min": 0.0,
+            "max": 0.9673717021942139,
+            "quantiles": {
+              "0.1": 0.6406992971897125,
+              "0.25": 0.7291654199361801,
+              "0.5": 0.7945930659770966,
+              "0.75": 0.8520849943161011,
+              "0.9": 0.8924623727798462
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                2,
+                0,
+                0,
+                1,
+                4,
+                16,
+                56,
+                140,
+                161,
+                36
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 75,
+          "effective_proposals_min": 17,
+          "effective_proposals_max": 100
+        },
+        "300": {
+          "recall": {
+            "0.50": 0.9855769230769231,
+            "0.75": 0.6850961538461539
+          },
+          "hits": {
+            "0.50": 410,
+            "0.75": 285
+          },
+          "denominator_valid_gt": 416,
+          "mean_max_iou": 0.7787922653727807,
+          "max_iou_statistics": {
+            "count": 416,
+            "mean": 0.7787922653727807,
+            "std": 0.10861640895240036,
+            "min": 0.0,
+            "max": 0.9673717021942139,
+            "quantiles": {
+              "0.1": 0.6406992971897125,
+              "0.25": 0.7301370650529861,
+              "0.5": 0.7954048216342926,
+              "0.75": 0.8522884845733643,
+              "0.9": 0.8925982713699341
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                1,
+                0,
+                0,
+                1,
+                4,
+                16,
+                56,
+                140,
+                162,
+                36
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 150,
+          "effective_proposals_min": 17,
+          "effective_proposals_max": 150
+        },
+        "1000": {
+          "recall": {
+            "0.50": 0.9855769230769231,
+            "0.75": 0.6850961538461539
+          },
+          "hits": {
+            "0.50": 410,
+            "0.75": 285
+          },
+          "denominator_valid_gt": 416,
+          "mean_max_iou": 0.7787922653727807,
+          "max_iou_statistics": {
+            "count": 416,
+            "mean": 0.7787922653727807,
+            "std": 0.10861640895240036,
+            "min": 0.0,
+            "max": 0.9673717021942139,
+            "quantiles": {
+              "0.1": 0.6406992971897125,
+              "0.25": 0.7301370650529861,
+              "0.5": 0.7954048216342926,
+              "0.75": 0.8522884845733643,
+              "0.9": 0.8925982713699341
+            },
+            "histogram": {
+              "edges": [
+                0.0,
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0
+              ],
+              "counts": [
+                1,
+                0,
+                0,
+                1,
+                4,
+                16,
+                56,
+                140,
+                162,
+                36
+              ]
+            }
+          },
+          "images_with_fewer_proposals_than_k": 150,
+          "effective_proposals_min": 17,
+          "effective_proposals_max": 150
+        }
+      },
+      "dataset_ir_pair_equivalence_verified": false,
+      "state_sha256_before": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+      "state_sha256_after": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+      "persistent_state_unchanged": true,
+      "rpn_configuration_unchanged": true,
+      "elapsed_seconds": 21.028536400000007
+    }
+  },
+  "comparison": {
+    "100": {
+      "recall_difference": {
+        "0.50": 0.004807692307692291,
+        "0.75": -0.03605769230769229
+      },
+      "mean_max_iou_difference": -0.007703031878918409
+    },
+    "300": {
+      "recall_difference": {
+        "0.50": 0.007211538461538547,
+        "0.75": -0.04086538461538458
+      },
+      "mean_max_iou_difference": -0.00732153363955701
+    },
+    "1000": {
+      "recall_difference": {
+        "0.50": 0.007211538461538547,
+        "0.75": -0.04086538461538458
+      },
+      "mean_max_iou_difference": -0.00732153363955701
+    }
+  }
+}

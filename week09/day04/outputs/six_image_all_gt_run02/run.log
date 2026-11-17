@@ -1,0 +1,4 @@
+COMMAND D:\python\.venv\Scripts\python.exe -B -X utf8 week09/day04/offline_full_gt.py --output week09/day04/outputs/six_image_all_gt_run02
+PILOT_VERIFIED {"images_per_model": {"IR": 6, "Fusion": 6}, "valid_gt_per_model": {"IR": 15, "Fusion": 15}, "per_gt_stage_rows": 210}
+HISTORICAL_COMPARISONS 84 30
+OFFLINE_PILOT_EXIT 0 historical_files_unchanged True

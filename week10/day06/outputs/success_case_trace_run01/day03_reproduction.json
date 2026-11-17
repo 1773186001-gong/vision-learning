@@ -1,0 +1,15 @@
+{
+  "rpn_current_count": 36,
+  "rpn_day03_count": 36,
+  "flat_set_equal": true,
+  "flat_sequence_equal": true,
+  "rpn_boxes_scores_equal_by_flat": true,
+  "final_current_count": 4,
+  "final_day03_count": 4,
+  "final_boxes_scores_labels_order_exact": true,
+  "GT_all_exact": true,
+  "internal_coordinates_equal": true,
+  "configuration_equal": true,
+  "tolerance_used": false,
+  "exact_reproduced": true
+}

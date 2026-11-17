@@ -1,0 +1,24 @@
+{
+  "syntax": "passed",
+  "synthetic_metric_cases": "perfect/miss/duplicate/empty passed; NOT experiment metrics",
+  "real_val_stem": "030001",
+  "ir_shape": [
+    3,
+    640,
+    640
+  ],
+  "model_transform_image_sizes": [
+    [
+      640,
+      640
+    ]
+  ],
+  "boxes_unchanged": true,
+  "negative_stem": "100030",
+  "weights": {
+    "source": "https://download.pytorch.org/models/fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+    "path": "C:\\Users\\GXBBBXB\\.cache\\torch\\hub\\checkpoints\\fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+    "exists": false
+  },
+  "training_run": false
+}

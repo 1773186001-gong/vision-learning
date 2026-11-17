@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "gt_count": 4,
+  "new_forward_calls": 1,
+  "day01_comparisons": [
+    {
+      "model": "Fusion",
+      "stem": "170072",
+      "gt_index": 0,
+      "day01_max_iou": 0.8748076558113098,
+      "pilot_max_iou": 0.8748076558113098,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "170072",
+      "gt_index": 1,
+      "day01_max_iou": 0.8221873641014099,
+      "pilot_max_iou": 0.8221873641014099,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "170072",
+      "gt_index": 2,
+      "day01_max_iou": 0.650822103023529,
+      "pilot_max_iou": 0.650822103023529,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "170072",
+      "gt_index": 3,
+      "day01_max_iou": 0.92705899477005,
+      "pilot_max_iou": 0.92705899477005,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    }
+  ],
+  "same_device_exact_replay": true,
+  "restoration_verified": true,
+  "signature": "6df860a221632c93aaece4a3cd8b6843df3c096640c3c644cb8b634afe9432c9",
+  "raw_sha256": "cf47072f8b853905300fee2033ce9440799a282a1c10a02e3968d65051840c31"
+}

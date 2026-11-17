@@ -1,0 +1,30 @@
+[
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_coverage.csv",
+    "sha256": "ae81ebb1fb4ed4000f95f04ad217154ccbe6d44cccacdb1d5afda9ad90eb8992"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_candidates.csv",
+    "sha256": "c374dc7937913a9e6d19bada5b498c6ef7578c7b6251afe0f68963af83f49280"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\proposal_branches.csv",
+    "sha256": "c9417192364aad858dd96f11fc98a25eabca88b745b48c7c6760ba4aefb66392"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\final_sources.csv",
+    "sha256": "44795de37ca46047a4a65e9a1cb371d116b633e5cf8894fe86a0fe7f1248f50e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\trace_8877.csv",
+    "sha256": "2d24eab9c106dcde21cced7895dde53c902171ccafd287cbd76a858356b95261"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\nms_inputs.csv",
+    "sha256": "8a9aa18495a63c24e19a5cfc8455af440989f31d62f263225525a2829afe066b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\focus_attributions.csv",
+    "sha256": "ae80eedf2f2409f178db44b2969a93e6ef589afcc8d5c4bb4d9d711c0c1b95b1"
+  }
+]

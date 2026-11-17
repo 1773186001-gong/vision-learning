@@ -1,0 +1,520 @@
+[
+  {
+    "stem": "030129",
+    "full_output_verified": true,
+    "good": {
+      "candidate_id": "full_val_stage_run01/IR/030129/8877",
+      "flat_index": 8877,
+      "input_position": 49,
+      "layer": "1",
+      "score": 0.296519935131073,
+      "xyxy": [
+        302.3396301269531,
+        213.45687866210938,
+        361.1690979003906,
+        350.0556335449219
+      ],
+      "gt_iou": 0.7660496830940247,
+      "original_nms_kept": true,
+      "original_output_position": 13,
+      "final150_kept": true
+    },
+    "deleted_competitor": {
+      "candidate_id": "full_val_stage_run01/IR/030129/8872",
+      "flat_index": 8872,
+      "input_position": 44,
+      "layer": "1",
+      "score": 0.5491928458213806,
+      "xyxy": [
+        287.9918212890625,
+        215.71487426757812,
+        367.9078369140625,
+        346.1332702636719
+      ],
+      "gt_iou": 0.590644121170044,
+      "original_nms_kept": false,
+      "original_output_position": "",
+      "final150_kept": false
+    },
+    "first_deletion_step": 0,
+    "replay_first_deleter": {
+      "candidate_id": "full_val_stage_run01/IR/030129/8862",
+      "flat_index": 8862,
+      "input_position": 34,
+      "layer": "1",
+      "score": 0.998271107673645,
+      "xyxy": [
+        286.33636474609375,
+        209.7186279296875,
+        356.74578857421875,
+        340.71148681640625
+      ],
+      "gt_iou": 0.6153554320335388,
+      "original_nms_kept": true,
+      "original_output_position": 0,
+      "final150_kept": true
+    },
+    "possible_upstream": [
+      {
+        "candidate_id": "full_val_stage_run01/IR/030129/8862",
+        "flat_index": 8862,
+        "input_position": 34,
+        "layer": "1",
+        "score": 0.998271107673645,
+        "xyxy": [
+          286.33636474609375,
+          209.7186279296875,
+          356.74578857421875,
+          340.71148681640625
+        ],
+        "gt_iou": 0.6153554320335388,
+        "original_nms_kept": true,
+        "original_output_position": 0,
+        "final150_kept": true,
+        "raw_iou_to_target": 0.7776234745979309,
+        "path_iou_to_target": 0.7776233553886414,
+        "raw_iou_to_good": 0.669854462146759,
+        "path_iou_to_good": 0.6698547601699829
+      }
+    ],
+    "good_replay_kept": true,
+    "good_deletion_comparisons": [
+      {
+        "step": 0,
+        "selected_position": 34,
+        "other_position": 49,
+        "path_iou": 0.6698547601699829,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/8862",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": true,
+        "raw_iou": 0.669854462146759
+      },
+      {
+        "step": 1,
+        "selected_position": 0,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/2862",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.683152973651886
+      },
+      {
+        "step": 2,
+        "selected_position": 70,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/12686",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.495633065700531
+      },
+      {
+        "step": 3,
+        "selected_position": 71,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/12687",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.5897608995437622
+      },
+      {
+        "step": 4,
+        "selected_position": 37,
+        "other_position": 49,
+        "path_iou": 0.531846821308136,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/8561",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": true,
+        "raw_iou": 0.5318464636802673
+      },
+      {
+        "step": 5,
+        "selected_position": 4,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/2546",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.11959471553564072
+      },
+      {
+        "step": 6,
+        "selected_position": 5,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/2561",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.5494982004165649
+      },
+      {
+        "step": 7,
+        "selected_position": 41,
+        "other_position": 49,
+        "path_iou": 0.13638046383857727,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/8546",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": true,
+        "raw_iou": 0.13638049364089966
+      },
+      {
+        "step": 8,
+        "selected_position": 8,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/2556",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.4935142397880554
+      },
+      {
+        "step": 9,
+        "selected_position": 74,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/12837",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.6117016077041626
+      },
+      {
+        "step": 10,
+        "selected_position": 45,
+        "other_position": 49,
+        "path_iou": 0.2375531643629074,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/8547",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": true,
+        "raw_iou": 0.23755283653736115
+      },
+      {
+        "step": 11,
+        "selected_position": 12,
+        "other_position": 49,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/2541",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": false,
+        "raw_iou": 0.150791734457016
+      },
+      {
+        "step": 12,
+        "selected_position": 48,
+        "other_position": 49,
+        "path_iou": 0.32158681750297546,
+        "deleted": false,
+        "stem": "030129",
+        "selected_id": "full_val_stage_run01/IR/030129/8542",
+        "other_id": "full_val_stage_run01/IR/030129/8877",
+        "same_layer": true,
+        "raw_iou": 0.32158705592155457
+      }
+    ],
+    "tie_ambiguity": false,
+    "precision_sensitive_pairs": 0,
+    "attribution_unambiguous_within_replay": true
+  },
+  {
+    "stem": "030078",
+    "full_output_verified": true,
+    "good": {
+      "candidate_id": "full_val_stage_run01/IR/030078/9141",
+      "flat_index": 9141,
+      "input_position": 46,
+      "layer": "1",
+      "score": 0.36245426535606384,
+      "xyxy": [
+        252.26869201660156,
+        245.68614196777344,
+        299.5375061035156,
+        357.61199951171875
+      ],
+      "gt_iou": 0.7576177716255188,
+      "original_nms_kept": true,
+      "original_output_position": 16,
+      "final150_kept": true
+    },
+    "deleted_competitor": {
+      "candidate_id": "full_val_stage_run01/IR/030078/8841",
+      "flat_index": 8841,
+      "input_position": 43,
+      "layer": "1",
+      "score": 0.5740838646888733,
+      "xyxy": [
+        249.075439453125,
+        239.2875213623047,
+        294.32598876953125,
+        346.0089416503906
+      ],
+      "gt_iou": 0.7122228741645813,
+      "original_nms_kept": false,
+      "original_output_position": "",
+      "final150_kept": false
+    },
+    "first_deletion_step": 4,
+    "replay_first_deleter": {
+      "candidate_id": "full_val_stage_run01/IR/030078/8847",
+      "flat_index": 8847,
+      "input_position": 31,
+      "layer": "1",
+      "score": 0.986831545829773,
+      "xyxy": [
+        245.96066284179688,
+        228.76058959960938,
+        296.3720397949219,
+        365.5142517089844
+      ],
+      "gt_iou": 0.7239174246788025,
+      "original_nms_kept": true,
+      "original_output_position": 4,
+      "final150_kept": true
+    },
+    "possible_upstream": [
+      {
+        "candidate_id": "full_val_stage_run01/IR/030078/8847",
+        "flat_index": 8847,
+        "input_position": 31,
+        "layer": "1",
+        "score": 0.986831545829773,
+        "xyxy": [
+          245.96066284179688,
+          228.76058959960938,
+          296.3720397949219,
+          365.5142517089844
+        ],
+        "gt_iou": 0.7239174246788025,
+        "original_nms_kept": true,
+        "original_output_position": 4,
+        "final150_kept": true,
+        "raw_iou_to_target": 0.7004997134208679,
+        "path_iou_to_target": 0.7004993557929993,
+        "raw_iou_to_good": 0.6810352206230164,
+        "path_iou_to_good": 0.6810364127159119
+      }
+    ],
+    "good_replay_kept": true,
+    "good_deletion_comparisons": [
+      {
+        "step": 0,
+        "selected_position": 0,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/2831",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.3807467818260193
+      },
+      {
+        "step": 1,
+        "selected_position": 28,
+        "other_position": 46,
+        "path_iou": 0.4848306477069855,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/8831",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": true,
+        "raw_iou": 0.4848308861255646
+      },
+      {
+        "step": 2,
+        "selected_position": 1,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/3131",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.528374195098877
+      },
+      {
+        "step": 3,
+        "selected_position": 2,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/2832",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.5798276662826538
+      },
+      {
+        "step": 4,
+        "selected_position": 31,
+        "other_position": 46,
+        "path_iou": 0.6810364127159119,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/8847",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": true,
+        "raw_iou": 0.6810352206230164
+      },
+      {
+        "step": 5,
+        "selected_position": 56,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/12821",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.4878764748573303
+      },
+      {
+        "step": 6,
+        "selected_position": 4,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/2531",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.18143858015537262
+      },
+      {
+        "step": 7,
+        "selected_position": 33,
+        "other_position": 46,
+        "path_iou": 0.2535405158996582,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/8531",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": true,
+        "raw_iou": 0.2535402774810791
+      },
+      {
+        "step": 8,
+        "selected_position": 57,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/12671",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.23975495994091034
+      },
+      {
+        "step": 9,
+        "selected_position": 10,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/2526",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.184279203414917
+      },
+      {
+        "step": 10,
+        "selected_position": 38,
+        "other_position": 46,
+        "path_iou": 0.22691771388053894,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/8526",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": true,
+        "raw_iou": 0.22691768407821655
+      },
+      {
+        "step": 11,
+        "selected_position": 40,
+        "other_position": 46,
+        "path_iou": 0.44205543398857117,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/8532",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": true,
+        "raw_iou": 0.44205570220947266
+      },
+      {
+        "step": 12,
+        "selected_position": 13,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/3142",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.5586435794830322
+      },
+      {
+        "step": 13,
+        "selected_position": 14,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/2532",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.40910282731056213
+      },
+      {
+        "step": 14,
+        "selected_position": 15,
+        "other_position": 46,
+        "path_iou": 0.0,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/2841",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": false,
+        "raw_iou": 0.6711280345916748
+      },
+      {
+        "step": 15,
+        "selected_position": 44,
+        "other_position": 46,
+        "path_iou": 0.6138902902603149,
+        "deleted": false,
+        "stem": "030078",
+        "selected_id": "full_val_stage_run01/IR/030078/9142",
+        "other_id": "full_val_stage_run01/IR/030078/9141",
+        "same_layer": true,
+        "raw_iou": 0.6138904690742493
+      }
+    ],
+    "tie_ambiguity": false,
+    "precision_sensitive_pairs": 0,
+    "attribution_unambiguous_within_replay": true
+  }
+]

@@ -1,0 +1,9 @@
+COMMAND D:\python\.venv\Scripts\python.exe -B -X utf8 week09/day03/nms_relationship_offline_run01/analyze_relationships.py --output week09/day03/nms_relationship_offline_run01/results
+CANDIDATE_VERIFIED 030269/G1 Fusion ID2201 possible_relations=1 ties=0 unexplained=False
+CANDIDATE_VERIFIED 130126/G3 IR ID3216 possible_relations=1 ties=0 unexplained=False
+CANDIDATE_VERIFIED 130126/G3 IR ID3516 possible_relations=1 ties=0 unexplained=False
+CANDIDATE_VERIFIED 130126/G3 IR ID3521 possible_relations=1 ties=0 unexplained=False
+CANDIDATE_VERIFIED 130126/G3 IR ID9216 possible_relations=1 ties=0 unexplained=False
+CANDIDATE_VERIFIED 130126/G3 IR ID9516 possible_relations=1 ties=0 unexplained=False
+NUMERIC_VERIFIED {"status": "passed", "audited_deleted_candidates": 6, "pair_audit_rows": 960, "possible_relation_rows": 6, "retained_inventory_rows": 276, "gt_overlap_rows": 39, "near_threshold_rows": 0, "all_audit_score_tie_rows": 0, "all_audit_same_level_predicate_disagreement_rows": 0, "unexplained_candidate_ids": [], "actual_suppression_pairs_proven": 0, "independent_scalar_float64_atol": 1e-12, "max_scalar_float64_error": 0.0, "original_capture_manifest_files_verified": 104, "guarded_no_model_forward_or_python_nms": true}
+OFFLINE_ANALYSIS_EXIT 0 historical_files_unchanged True

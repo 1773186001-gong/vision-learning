@@ -1,0 +1,186 @@
+{
+  "best.pth": {
+    "bytes": 190083098,
+    "sha256": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a"
+  },
+  "completed.json": {
+    "bytes": 395,
+    "sha256": "fcb9f0fd871f244085263940e1f72a0ad4d18477d8b930e6dea8576bc2a6a20f"
+  },
+  "config.json": {
+    "bytes": 1009,
+    "sha256": "01af9e13cec33c7fb2cfd8ef3990e09994ad7051807a8152407ed75091d49ef3"
+  },
+  "console_1793600650832274700.log": {
+    "bytes": 10934,
+    "sha256": "067f8d312e58303722852a0629a637c9d4edcc8c1c526d70907622e4bee9cd0f"
+  },
+  "DAY05_FUSION_TRAINING_GPT_HANDOFF.md": {
+    "bytes": 12662,
+    "sha256": "d54914938dc5640732b665bb0f7302df229e829203cf20dfdd590618743d00eb"
+  },
+  "exit_status_1793602343417731000.json": {
+    "bytes": 66,
+    "sha256": "165e105d78da4536b58b7cc370426ff15f4f7b5cb24638ac398e3726d63c12b6"
+  },
+  "fusion_error_details.json": {
+    "bytes": 1041950,
+    "sha256": "5f8e8716cd6286c4bcb78f1e675b96d58064a324fc851eda2162321a291a226b"
+  },
+  "last.pth": {
+    "bytes": 190083866,
+    "sha256": "106451b3eb027be4ff958daa6f6cdfa3682e8d9d4716a5cf6dd76d773025d7bc"
+  },
+  "loss_curve.png": {
+    "bytes": 35597,
+    "sha256": "62f7f9ec69342c4615048a7d5970ec9ce4754b427b0556bef4a8b8e4fdfd1ee5"
+  },
+  "mAP_curve.png": {
+    "bytes": 36659,
+    "sha256": "1c9c64c51ee3de0639a13393eea3bf4ae7b415c550ae658c07f9cda7b7b31f2a"
+  },
+  "model_metadata.json": {
+    "bytes": 38273,
+    "sha256": "ce9932ceab14f279c88b52ec3647656e0b51453a06c375524f981249932c1e60"
+  },
+  "preflight_1793600652303642000.json": {
+    "bytes": 33637,
+    "sha256": "46be17ab127b9e21373581ed2587d0e1a6b96a659c4c4ecedd69f1752887118c"
+  },
+  "progress.json": {
+    "bytes": 52,
+    "sha256": "fa2cf88c7e7411442adedf652f37bfdd5f36d185501a251cd83576b1d0f3e2e5"
+  },
+  "protected_after.json": {
+    "bytes": 28214,
+    "sha256": "e019d78f4964ed36bfec02c572bcef5ace8d544ae27cb6737b086b427e552a00"
+  },
+  "smoke_test.json": {
+    "bytes": 1457,
+    "sha256": "704f4488099bfe372196e4f5f6f24835226690d21e3d652e8eefe61ab41228d5"
+  },
+  "structure_1793600665150030300.json": {
+    "bytes": 5479,
+    "sha256": "9a91aa240a59956340008c8f3643289b147f7a887c998292a908d163879136ec"
+  },
+  "test_metrics.json": {
+    "bytes": 290,
+    "sha256": "63ea0be6d277602a6db903a115f1672e636a03c3aef26531af6f459c69088130"
+  },
+  "test_predictions.pth": {
+    "bytes": 202959,
+    "sha256": "e287aba98964c6683904f56400bdec763dbc976367a54d127661ee44811c9f3f"
+  },
+  "test_started.json": {
+    "bytes": 115,
+    "sha256": "3eae1c7ad45b9bad9af97c71b66af02d171ddb056a93320bef4c53d03c5db93f"
+  },
+  "three_model_comparison.json": {
+    "bytes": 4369,
+    "sha256": "d6d860cb8b5a84749c588bf65dc1a2f53c8f24b9855f465584839b65552c53bf"
+  },
+  "training_log.csv": {
+    "bytes": 2399,
+    "sha256": "62cf624c8264f7aa32909f43993fb715a0d669fc47cc8a6b1011aa5afec3484e"
+  },
+  "val_epoch_01.json": {
+    "bytes": 294,
+    "sha256": "68f6fa4d970722ee8791a22eba7ba5448800f87331fca53ff284199ad1f6f924"
+  },
+  "val_epoch_02.json": {
+    "bytes": 291,
+    "sha256": "d6eac0a021073b5e26a5acfe9cf4a3167d44679b2e388fde8eec61116e966fa8"
+  },
+  "val_epoch_03.json": {
+    "bytes": 293,
+    "sha256": "d59c7494874a0ed1c8010342189021a926f20229e8f7448f694b8e61efb846db"
+  },
+  "val_epoch_04.json": {
+    "bytes": 293,
+    "sha256": "18a6f9bd89569a2912e0fa5ef445aa96ac0bbb62bebb011a9d775d7e16292860"
+  },
+  "val_epoch_05.json": {
+    "bytes": 291,
+    "sha256": "666500d95ed3bb9800246289cbae195e71458670a12a0fb96877e93ea6cc0c4a"
+  },
+  "val_epoch_06.json": {
+    "bytes": 292,
+    "sha256": "01a2df02e4050f59ba14b278a8ef36370eb92ef59f71f10dc2087cbeb661fce9"
+  },
+  "val_epoch_07.json": {
+    "bytes": 293,
+    "sha256": "11839bbb750f0ae33a6ee9659ee119214e72382daccace25e919994b20ec08e4"
+  },
+  "val_epoch_08.json": {
+    "bytes": 279,
+    "sha256": "6c5b35c1569d5e4472b672acdf057416ba80d9998ce8aac828c00b27afc874d1"
+  },
+  "val_epoch_09.json": {
+    "bytes": 293,
+    "sha256": "c553a4372f3ea7f2e8c37bd11fafb5923ac1da50d76842e94f6a27d1b411a342"
+  },
+  "val_epoch_10.json": {
+    "bytes": 293,
+    "sha256": "066b325b393c7f9ca19596a3d16f68b4c1e2abb9579dc61ad258bcac78d04d8c"
+  },
+  "prediction_examples\\comparison_190001.png": {
+    "bytes": 1530151,
+    "sha256": "889710537467cac4d821a2c0204dcbfb7e707de3e2c4c3ec5ef4f1ca0840ba94"
+  },
+  "prediction_examples\\comparison_190040.png": {
+    "bytes": 1584977,
+    "sha256": "1b011d907e1305a1e8f77abd96dc14c8b629642d320fe1200f7baddc6587ce72"
+  },
+  "prediction_examples\\comparison_190435.png": {
+    "bytes": 1577678,
+    "sha256": "13d61f32a6df375a7a42299f25611a28c20baf690cb98788cf1806d9c48ecdd7"
+  },
+  "prediction_examples\\comparison_190474.png": {
+    "bytes": 1452907,
+    "sha256": "0876aba218833ff0e4b5770d261a5f1c1c504df76f407f13ee9a0aa7c24b1c81"
+  },
+  "prediction_examples\\comparison_190593.png": {
+    "bytes": 1546810,
+    "sha256": "02a45d4a878991d1d51bc779292a62b79852e8aef60d380262a8a31049e1197b"
+  },
+  "prediction_examples\\false_positive_190080.png": {
+    "bytes": 1259004,
+    "sha256": "9dd923573fbf2bcd485bfd60a770ed52fbe44254b77e14f6bd7443920b91dfac"
+  },
+  "prediction_examples\\false_positive_190159.png": {
+    "bytes": 1278712,
+    "sha256": "52839eb9e1a5d88762ede0fba17c68afb5e9b6b3c4f5ffb1d0b2e415b97466a7"
+  },
+  "prediction_examples\\false_positive_190513.png": {
+    "bytes": 1244521,
+    "sha256": "8a0780f3b644bb33eb963d76628731d70e83a119ce58c22168372e6239d4538c"
+  },
+  "prediction_examples\\miss_190040.png": {
+    "bytes": 1271125,
+    "sha256": "eec0d7bbc22899778e90d37a6f19b38f0d65d9c520f0cdcf439bfc4e60065f90"
+  },
+  "prediction_examples\\miss_190080.png": {
+    "bytes": 1259004,
+    "sha256": "9dd923573fbf2bcd485bfd60a770ed52fbe44254b77e14f6bd7443920b91dfac"
+  },
+  "prediction_examples\\miss_190277.png": {
+    "bytes": 1106336,
+    "sha256": "9099c574f7b64c74da14973d7bad482b3e99634e6f9501152cd1a638a6617e18"
+  },
+  "prediction_examples\\selection.json": {
+    "bytes": 341,
+    "sha256": "8b743e7f6b8b854e562f8b98f249be0ebfe11b12f973002228fc146380d82507"
+  },
+  "prediction_examples\\success_190001.png": {
+    "bytes": 1244839,
+    "sha256": "ced3fccff4d00cba9bf1e7c3b1034873b468840b11c9ae62edc3a07471541ef8"
+  },
+  "prediction_examples\\success_190119.png": {
+    "bytes": 1272054,
+    "sha256": "ea41b291b3ecc64c06d099fb89ac8a8570635b373384f6f2610aad2bc2e2a283"
+  },
+  "prediction_examples\\success_190199.png": {
+    "bytes": 1278878,
+    "sha256": "44ab7279ae709aaab5ec92c0b44190f2966abef01ddf8815fb9a4a4483f110af"
+  }
+}

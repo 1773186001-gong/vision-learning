@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "started_at": "2026-11-12T11:42:54.2692154+08:00",
+  "working_directory": "D:\\python\\test\\vision-learning",
+  "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day05\\replay_roi_nms.py' --output 'D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01'",
+  "finished_at": "2026-11-12T11:43:05.2335305+08:00"
+}

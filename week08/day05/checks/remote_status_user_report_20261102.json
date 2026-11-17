@@ -1,0 +1,15 @@
+{
+  "source": "User-pasted separate SSH status query",
+  "status": "RUNNING",
+  "monitor_pid": 1916,
+  "python_pid": 2156,
+  "started_at": "2026-11-02T14:24:08.5085507+08:00",
+  "finished_at": null,
+  "exit_code": null,
+  "error": null,
+  "output": "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01",
+  "process_details_returned": false,
+  "log_content_returned": false,
+  "GPU_smoke_passed": "unknown; not established by RUNNING state alone",
+  "training_progress": "unknown; awaiting actual stdout/stderr"
+}

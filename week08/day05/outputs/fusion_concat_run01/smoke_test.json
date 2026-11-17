@@ -1,0 +1,86 @@
+{
+  "samples": [
+    {
+      "stem": "010001",
+      "total_loss": 1.4615275859832764,
+      "loss_classifier": 0.8858948349952698,
+      "loss_box_reg": 0.5566082000732422,
+      "loss_objectness": 0.00792636163532734,
+      "loss_rpn_box_reg": 0.011098267510533333
+    },
+    {
+      "stem": "100030",
+      "total_loss": 0.8781349658966064,
+      "loss_classifier": 0.8002586364746094,
+      "loss_box_reg": 0.0,
+      "loss_objectness": 0.07787633687257767,
+      "loss_rpn_box_reg": 0.0
+    }
+  ],
+  "eval_forward_finite": true,
+  "branch_shapes": {
+    "0": {
+      "rgb": [
+        1,
+        256,
+        20,
+        20
+      ],
+      "infrared": [
+        1,
+        256,
+        20,
+        20
+      ],
+      "fused": [
+        1,
+        256,
+        20,
+        20
+      ]
+    },
+    "1": {
+      "rgb": [
+        1,
+        256,
+        20,
+        20
+      ],
+      "infrared": [
+        1,
+        256,
+        20,
+        20
+      ],
+      "fused": [
+        1,
+        256,
+        20,
+        20
+      ]
+    },
+    "pool": {
+      "rgb": [
+        1,
+        256,
+        10,
+        10
+      ],
+      "infrared": [
+        1,
+        256,
+        10,
+        10
+      ],
+      "fused": [
+        1,
+        256,
+        10,
+        10
+      ]
+    }
+  },
+  "peak_allocated": 549265408,
+  "peak_reserved": 620756992,
+  "all_state_restored_exactly": true
+}

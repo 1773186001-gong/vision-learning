@@ -1,0 +1,33 @@
+{
+  "original_capture_environment": {
+    "hostname": "DESKTOP-BFIO0RA",
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\cv-server-env\\Scripts\\python.exe",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "saved_python_source_environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\python\\.venv\\Scripts\\python.exe",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "current_environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "device": "CPU"
+  },
+  "saved_source_origin": "Day03 local read-only source snapshot; not CUDA compiled kernel",
+  "path": "small input coordinate trick: max + 1, float32 level offsets, addition then global descending-score greedy",
+  "sort": "descending original score; predetermined input-index tie break",
+  "deletion": "shifted float32 IoU > float32(0.7)",
+  "missing_evidence": [
+    "original GPU per-step suppression events",
+    "original compiled CUDA kernel source/build arithmetic details"
+  ],
+  "interpretation": "full-output matching is necessary for replay attribution, not proof of original GPU event identity"
+}

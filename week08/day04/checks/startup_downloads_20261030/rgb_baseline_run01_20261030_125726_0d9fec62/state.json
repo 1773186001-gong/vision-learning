@@ -1,0 +1,10 @@
+﻿{
+    "status":  "RUNNING",
+    "monitor_pid":  5972,
+    "python_pid":  13292,
+    "started_at":  "2026-10-30T12:57:26.9361332+08:00",
+    "finished_at":  null,
+    "exit_code":  null,
+    "output":  "D:\\vision-learning-server\\week08\\day04\\outputs\\rgb_baseline_run01",
+    "error":  null
+}

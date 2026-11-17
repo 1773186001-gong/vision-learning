@@ -1,0 +1,4 @@
+﻿index,boxes_equal,scores_equal,labels_equal,box_delta,score_delta
+0,True,True,True,"[0.0, 0.0, 0.0, 0.0]",0.0
+1,True,True,True,"[0.0, 0.0, 0.0, 0.0]",0.0
+2,True,True,True,"[0.0, 0.0, 0.0, 0.0]",0.0

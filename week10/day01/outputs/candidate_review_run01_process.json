@@ -1,0 +1,8 @@
+{
+  "working_directory": "D:\\python\\test\\vision-learning",
+  "exit_code": 0,
+  "process_log": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01_process.log",
+  "started_at": "2026-11-11T16:15:29.1322840+08:00",
+  "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day01\\analyze_candidates.py' --output 'D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01'",
+  "finished_at": "2026-11-11T16:15:39.8840380+08:00"
+}

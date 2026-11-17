@@ -1,0 +1,188 @@
+[
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\artifact_manifest.json",
+    "sha256": "ae4bd10ced60e3784ed68aa6beb8becb7d4705bf0bac334c9699e7aee1c6e065",
+    "expected_sha256": null,
+    "origin": "current read-only input"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\case_report_zh.md",
+    "sha256": "18e47bd71510a2146de3330db65a870061f616a7eefb9066203ed0327b5a1e48",
+    "expected_sha256": "18e47bd71510a2146de3330db65a870061f616a7eefb9066203ed0327b5a1e48",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\day03_final_comparison.csv",
+    "sha256": "fd64672dbe6619e1b769fc0cb699c0e6ab15c7ceeced3c4c7f7a0aa1afadd1ca",
+    "expected_sha256": "fd64672dbe6619e1b769fc0cb699c0e6ab15c7ceeced3c4c7f7a0aa1afadd1ca",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\day03_flat_comparison.csv",
+    "sha256": "c122ed627f3b151bb31d6796849309e59296d170833a41d5745b769245b2e1eb",
+    "expected_sha256": "c122ed627f3b151bb31d6796849309e59296d170833a41d5745b769245b2e1eb",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\day03_reproduction.json",
+    "sha256": "24a2417bae718ee2c8de6cbe03b72b32a5301b2b248cba6add7b408ec2167f53",
+    "expected_sha256": "24a2417bae718ee2c8de6cbe03b72b32a5301b2b248cba6add7b408ec2167f53",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\delivery_audit.json",
+    "sha256": "023e3817f5b84e4d067cef620143f4f31c8d4ec8af11837095113d959ab44bfe",
+    "expected_sha256": "023e3817f5b84e4d067cef620143f4f31c8d4ec8af11837095113d959ab44bfe",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\final_sources.csv",
+    "sha256": "44795de37ca46047a4a65e9a1cb371d116b633e5cf8894fe86a0fe7f1248f50e",
+    "expected_sha256": "44795de37ca46047a4a65e9a1cb371d116b633e5cf8894fe86a0fe7f1248f50e",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\history_before.json",
+    "sha256": "9152ce9582088fd2ad1d27617e935f4babe4a9d7c97f39d415c8816b0ebbccff",
+    "expected_sha256": "9152ce9582088fd2ad1d27617e935f4babe4a9d7c97f39d415c8816b0ebbccff",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\history_hashes.json",
+    "sha256": "35afd2d9b4cac2b9a83bb0aec421030906d441bbce998090b3d1662433588ca2",
+    "expected_sha256": "35afd2d9b4cac2b9a83bb0aec421030906d441bbce998090b3d1662433588ca2",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\identity_flow.png",
+    "sha256": "c4e2f0190a5e7814ef41097a35e9a4e46ac108c6a758dcf56b60b6e8edb540ed",
+    "expected_sha256": "c4e2f0190a5e7814ef41097a35e9a4e46ac108c6a758dcf56b60b6e8edb540ed",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\key_boxes.png",
+    "sha256": "f556a71f79c873ab4ad798b21f3403904896147e9d260d647602f728a15fd836",
+    "expected_sha256": "f556a71f79c873ab4ad798b21f3403904896147e9d260d647602f728a15fd836",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\model_checks.json",
+    "sha256": "d979896abcebad32078cc238e4f8353e26c78120dbb23905677794b822860f6a",
+    "expected_sha256": "d979896abcebad32078cc238e4f8353e26c78120dbb23905677794b822860f6a",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\proposal_branches.csv",
+    "sha256": "c9417192364aad858dd96f11fc98a25eabca88b745b48c7c6760ba4aefb66392",
+    "expected_sha256": "c9417192364aad858dd96f11fc98a25eabca88b745b48c7c6760ba4aefb66392",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\provenance.json",
+    "sha256": "eeb71a612992ca7eff09390de043fd3becdab21178361288f53f4583b6c44136",
+    "expected_sha256": "eeb71a612992ca7eff09390de043fd3becdab21178361288f53f4583b6c44136",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\raw_capture.pth",
+    "sha256": "160e811ac2b3faf0f4ecadb571d5d9ec976c24686daa7f315f7580d797ea6773",
+    "expected_sha256": "160e811ac2b3faf0f4ecadb571d5d9ec976c24686daa7f315f7580d797ea6773",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\roi_heads_source.py.txt",
+    "sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b",
+    "expected_sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\run.log",
+    "sha256": "914751657f64297b57f603557fb6fd463c1727053b325565dad4f1ec879a6af8",
+    "expected_sha256": "914751657f64297b57f603557fb6fd463c1727053b325565dad4f1ec879a6af8",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\run_metadata.json",
+    "sha256": "5acdabbfec1c937fcdd1b4cfcda3327d9aca8c109343393656b84d4aee40d0b9",
+    "expected_sha256": "5acdabbfec1c937fcdd1b4cfcda3327d9aca8c109343393656b84d4aee40d0b9",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_candidates.csv",
+    "sha256": "c374dc7937913a9e6d19bada5b498c6ef7578c7b6251afe0f68963af83f49280",
+    "expected_sha256": "c374dc7937913a9e6d19bada5b498c6ef7578c7b6251afe0f68963af83f49280",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_coverage.csv",
+    "sha256": "ae81ebb1fb4ed4000f95f04ad217154ccbe6d44cccacdb1d5afda9ad90eb8992",
+    "expected_sha256": "ae81ebb1fb4ed4000f95f04ad217154ccbe6d44cccacdb1d5afda9ad90eb8992",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_indices.json",
+    "sha256": "7c76ad7a9a17a432e6414b33d3d5315bc1e867466c07a2150548572cab5a9c28",
+    "expected_sha256": "7c76ad7a9a17a432e6414b33d3d5315bc1e867466c07a2150548572cab5a9c28",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\trace_8877.csv",
+    "sha256": "2d24eab9c106dcde21cced7895dde53c902171ccafd287cbd76a858356b95261",
+    "expected_sha256": "2d24eab9c106dcde21cced7895dde53c902171ccafd287cbd76a858356b95261",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\verification.json",
+    "sha256": "f5f47875fc02e873408c63dddffb33df188dfbe1d62fa5b594275ec940e7ab8b",
+    "expected_sha256": "f5f47875fc02e873408c63dddffb33df188dfbe1d62fa5b594275ec940e7ab8b",
+    "origin": "Day04 artifact manifest"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\README.md",
+    "sha256": "6fd108b61acd69c66bc028dfc37e131de700671765e58b2296474a552bd3b0ec",
+    "expected_sha256": null,
+    "origin": "current read-only input"
+  },
+  {
+    "path": "D:\\python\\.venv\\Lib\\site-packages\\torchvision\\ops\\boxes.py",
+    "sha256": "9c0afd11f8291569442752f7aaab607ad0f7bf57dccd645048a0b7196372f269",
+    "expected_sha256": null,
+    "origin": "current read-only input"
+  },
+  {
+    "path": "D:\\python\\.venv\\Lib\\site-packages\\torchvision\\models\\detection\\roi_heads.py",
+    "sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b",
+    "expected_sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b",
+    "origin": "Day04 actual RoI source"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\infrared\\030129.jpg",
+    "sha256": "364cea25a309ec13593faf3a403481fb133a74b15e1e327c829d97f329c6fc03",
+    "expected_sha256": "364cea25a309ec13593faf3a403481fb133a74b15e1e327c829d97f329c6fc03",
+    "origin": "Day04 recorded image/XML/geometry source SHA"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\val\\030129.xml",
+    "sha256": "fdc654268bc68672aea6df1f01a85e7a95927ef9e3fad7b437fea72604226c3b",
+    "expected_sha256": "fdc654268bc68672aea6df1f01a85e7a95927ef9e3fad7b437fea72604226c3b",
+    "origin": "Day04 recorded image/XML/geometry source SHA"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\manifest.csv",
+    "sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "expected_sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "origin": "Day04 recorded image/XML/geometry source SHA"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day01\\llvip_dataset.py",
+    "sha256": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "expected_sha256": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "origin": "Day04 recorded image/XML/geometry source SHA"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day02\\paired_letterbox.py",
+    "sha256": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+    "expected_sha256": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+    "origin": "Day04 recorded image/XML/geometry source SHA"
+  }
+]

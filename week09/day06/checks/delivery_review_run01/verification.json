@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "documentation_read_back": true,
+  "source_syntax": "passed",
+  "primary_and_independent_exit_codes": [
+    0,
+    0
+  ],
+  "synthetic_tests": 10,
+  "scene03_categories": {
+    "neither_lost": 59,
+    "Fusion_only_lost": 9,
+    "IR_only_lost": 1,
+    "both_lost": 1
+  },
+  "all_31_case_labels_in_report": true,
+  "historical_files_unchanged": 1533,
+  "file_sha256": {
+    "analyze_layer_support.py": "e4d495907f9d4336ec1958ed72fecfe5ca67bec0932b32228f9a72b40c5f24fa",
+    "checks\\independent_run01\\run.log": "da4f49696819cbe97865831c86cc91e39a728750365c8e8aa99ed773493bfd6b",
+    "checks\\independent_run01\\verification.json": "ddf4f495c5736e32cbafef9bc6dd83b5af564fd26df93dcd74cd4ef60c6cb9c8",
+    "checks\\syntax_check_run01\\run.log": "7a428c0df9ae5a08b38eec9aeaae982daab43fa2bc669e37c419463d9629f352",
+    "checks\\synthetic_run01\\run.log": "6d3aa25617b5a5f4ff1d095971b559ecb92efbaba23e1691e18dd3b47630e6de",
+    "checks\\synthetic_run01\\verification.json": "861a8beab330eea2d22a9b1001424ad1f95aba89847ea572a7b5c522ab4f214f",
+    "layer_support.py": "0706efe54c3a7f1e59c13703c70bd2c9f445fa8e1ead1b1632c0cdf8a5152127",
+    "outputs\\layer_support_run01\\all_common_gt_pairs.csv": "6e14da4d64c546787a8c455ca02bfd0fd822fb7936f5696a62463b5a18d5b6f2",
+    "outputs\\layer_support_run01\\analysis_summary.json": "60cecc6648d8a451275d9d970d8507f1e335c1aeabbf0e646752db1c73c06bdb",
+    "outputs\\layer_support_run01\\asymmetric_pairs.csv": "2562fd31ad678ef8b8525a37659d9cef8cd0559d681fb034a4c6967287d2abe3",
+    "outputs\\layer_support_run01\\capture_provenance.json": "bd9c3892d7d9f72001f2affe617e7c2127f8d3364ab3c1ecca623e4dc151fa22",
+    "outputs\\layer_support_run01\\day06_report.md": "ea382f83d2874d35b70599f8af2832b112ff37944285379b2269e15c6606700f",
+    "outputs\\layer_support_run01\\direction_summary.csv": "79dd3a100e7c6ea3f0c7b7c927ef572c1890c7bf90bd4d7107da7dff14a2d937",
+    "outputs\\layer_support_run01\\execution_status.json": "8dabb362ebe8f02d56defcce5fdb05072f78a5b2ec690a1c56340c3dfc209ec6",
+    "outputs\\layer_support_run01\\good_candidate_trace.csv": "5bac39de904a19cc711ee4a85cec45d4b5c49ff603d725a926e62113d5015d10",
+    "outputs\\layer_support_run01\\model_scene_L_summary.csv": "b56920dc1fdc29f6a445a799af5b650cd3db581c96f5a104f5656b48f2f539a7",
+    "outputs\\layer_support_run01\\per_gt_support.csv": "6d21264cc54c5e722d40e7a0114af225dfd8b2148fa2d92dcef31fc5f0271ced",
+    "outputs\\layer_support_run01\\per_layer_support.csv": "ee89a449fb27bac6c9b77000db3204695cec823746d38763c64d5e20a1e1c353",
+    "outputs\\layer_support_run01\\run.log": "3ce44b71059425f16f34691987dc204477116f71979727e3577e44aff44628a0",
+    "outputs\\layer_support_run01\\run_metadata.json": "46f836388bdefde051a072f72585d43cdba83a76a193b991f435ff2a706e0c6f",
+    "README.md": "00c3e40ce3080d0834b9937a3c416b47906e89c4df9d64d364dee30c6b57d90e",
+    "run_checks.py": "7dcda59987e13b75906d92f763d070e4b2dcb9c1a8108aaa6935762d9eddd066",
+    "test_layer_support.py": "ef2ad737b439b099cd08748018c4f456276e6dedc6c2359e12ebf89bf7afe26c",
+    "verify_layer_support.py": "3d114a982cd68fa18bcd34c3f33440443ffa4680344ed27c1f7423aee6fc39e2"
+  },
+  "command": [
+    "D:\\python\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-c",
+    "from pathlib import Path\nfrom collections import Counter\nimport csv,json,hashlib,sys\nbase=Path('week09/day06')\nout=base/'outputs/layer_support_run01'\nread=lambda p:list(csv.DictReader(p.open(encoding='utf-8-sig',newline='')))\nload=lambda p:json.loads(p.read_text(encoding='utf-8'))\nsha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()\nmeta=load(out/'run_metadata.json')\nind=load(base/'checks/independent_run01/verification.json')\ntests=load(base/'checks/synthetic_run01/verification.json')\nassert meta['exit_code']==ind['exit_code']==tests['exit_code']==0\nassert meta['historical_files_unchanged'] and ind['historical_files_unchanged']==1533\nassert ind['max_trace_iou_difference']==0\nassert all(sha(Path(p))==h for p,h in meta['source_sha256'].items())\nassert sha(base/'verify_layer_support.py')==ind['verification_source_sha256']\nfor p in base.glob('*.py'):\n    compile(p.read_text(encoding='utf-8'),str(p),'exec')\nr=(base/'README.md').read_text(encoding='utf-8')\nreport=(out/'day06_report.md').read_text(encoding='utf-8')\npairs=read(out/'all_common_gt_pairs.csv')\nasym=read(out/'asymmetric_pairs.csv')\nassert len(asym)==31 and len(pairs)==297\nscene03=Counter(p['loss_pair_category'] for p in pairs if p['scene_id']=='03')\nassert scene03=={'both_lost':1,'IR_only_lost':1,'Fusion_only_lost':9,'neither_lost':59}\nfor p in asym:\n    assert p[\"stem\"]+'/G'+p['gt_index'] in report\nassert '7（22.58%）' in r and '23（74.19%）' in r and '1（3.23%）' in r\nassert len(read(out/'per_gt_support.csv'))==594\nassert len(read(out/'per_layer_support.csv'))==1782\nassert len(read(out/'good_candidate_trace.csv'))==4046\nfiles={str(p.relative_to(base)):sha(p) for p in sorted(base.rglob('*')) if p.is_file()}\ndest=base/'checks/delivery_review_run01'\ndest.mkdir(parents=True,exist_ok=False)\ninfo={'status':'passed','exit_code':0,'documentation_read_back':True,'source_syntax':'passed',\n      'primary_and_independent_exit_codes':[meta['exit_code'],ind['exit_code']],\n      'synthetic_tests':tests['tests_run'],'scene03_categories':dict(scene03),\n      'all_31_case_labels_in_report':True,'historical_files_unchanged':1533,\n      'file_sha256':files,'command':sys.orig_argv}\nwith (dest/'verification.json').open('x',encoding='utf-8') as f:json.dump(info,f,ensure_ascii=False,indent=2)\nmsg=json.dumps({k:v for k,v in info.items() if k not in ('file_sha256','command')},ensure_ascii=False,indent=2)\nwith (dest/'run.log').open('x',encoding='utf-8') as f:f.write(msg+'\\n')\nprint(msg)\nprint('DELIVERY_REVIEW_EXIT 0')\n"
+  ]
+}

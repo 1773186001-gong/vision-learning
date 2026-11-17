@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "primary_metric": "L only",
+  "mother_GT": 297,
+  "model_GT_support_rows": 594,
+  "layer_rows": 1782,
+  "trace_rows_verified": 4046,
+  "raw_capture_reads": 280,
+  "asymmetric_GT": 31,
+  "directions": {
+    "equal": 23,
+    "fewer": 7,
+    "more": 1
+  },
+  "independent_method": "Scalar area with binary32 rounding at each operation; membership/counts/IDs/L/deltas exact; no IoU tolerance",
+  "max_trace_iou_difference": 0.0,
+  "historical_files_unchanged": 1533,
+  "model_forward_performed": false,
+  "checkpoint_loaded": false,
+  "NMS_executed": false,
+  "exit_code": 0,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day06/verify_layer_support.py --analysis-dir week09/day06/outputs/layer_support_run01 --output week09/day06/checks/independent_run01",
+  "verification_source_sha256": "3d114a982cd68fa18bcd34c3f33440443ffa4680344ed27c1f7423aee6fc39e2"
+}

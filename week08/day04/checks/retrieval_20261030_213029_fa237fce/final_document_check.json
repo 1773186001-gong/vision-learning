@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "verified_download_artifact_count": 41,
+  "handoff_local_links_checked": 15,
+  "epoch_table_rows": 10,
+  "training_repeated": false,
+  "test_model_inference_repeated": false,
+  "shutdown_after_restart": "pending_user_authenticated_command",
+  "reason": "SSH BatchMode authentication denied; user requested no PyCharm operation; previous watcher ended with server shutdown."
+}

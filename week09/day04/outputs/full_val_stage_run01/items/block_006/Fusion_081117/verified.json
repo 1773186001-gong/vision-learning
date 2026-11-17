@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "gt_count": 7,
+  "new_forward_calls": 1,
+  "day01_comparisons": [
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "gt_index": 0,
+      "day01_max_iou": 0.8747084140777588,
+      "pilot_max_iou": 0.8747084140777588,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "gt_index": 1,
+      "day01_max_iou": 0.7260085940361023,
+      "pilot_max_iou": 0.7260085940361023,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "gt_index": 2,
+      "day01_max_iou": 0.7681103944778442,
+      "pilot_max_iou": 0.7681103944778442,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "gt_index": 3,
+      "day01_max_iou": 0.7943629026412964,
+      "pilot_max_iou": 0.7943629026412964,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "gt_index": 4,
+      "day01_max_iou": 0.8133034110069275,
+      "pilot_max_iou": 0.8133034110069275,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "gt_index": 5,
+      "day01_max_iou": 0.7355362176895142,
+      "pilot_max_iou": 0.7355362176895142,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "gt_index": 6,
+      "day01_max_iou": 0.7472877502441406,
+      "pilot_max_iou": 0.7472877502441406,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    }
+  ],
+  "same_device_exact_replay": true,
+  "restoration_verified": true,
+  "signature": "e858ac32708c910a68f477cefab75c1ffa20af207d671100a2f2e99b2bf4722d",
+  "raw_sha256": "cdbf4c46d21db68f4a27b082f33a141f6c7571e7bebf7bd3df0bc083016819e8"
+}

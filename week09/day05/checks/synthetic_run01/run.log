@@ -1,0 +1,15 @@
+test_cross_layer_overlap_is_not_relation_or_numerical_disagreement (test_nms_relations.NecessaryTests.test_cross_layer_overlap_is_not_relation_or_numerical_disagreement) ... ok
+test_duplicate_stage_rejected (test_nms_relations.NecessaryTests.test_duplicate_stage_rejected) ... ok
+test_exact_score_tie_separate_from_higher_and_lower (test_nms_relations.NecessaryTests.test_exact_score_tie_separate_from_higher_and_lower) ... ok
+test_float64_only_does_not_enter_primary (test_nms_relations.NecessaryTests.test_float64_only_does_not_enter_primary) ... ok
+test_gt_candidate_rows_and_physical_candidates_not_conflated (test_nms_relations.NecessaryTests.test_gt_candidate_rows_and_physical_candidates_not_conflated) ... ok
+test_near_flag_does_not_relax_threshold (test_nms_relations.NecessaryTests.test_near_flag_does_not_relax_threshold) ... ok
+test_offset_diagnostic_does_not_enter_primary (test_nms_relations.NecessaryTests.test_offset_diagnostic_does_not_enter_primary) ... ok
+test_shared_risk_and_not_at_risk_are_distinct (test_nms_relations.NecessaryTests.test_shared_risk_and_not_at_risk_are_distinct) ... ok
+test_threshold_is_strict_not_greater_equal (test_nms_relations.NecessaryTests.test_threshold_is_strict_not_greater_equal) ... ok
+test_unexplained_flag_is_per_gt_not_number_of_missing_candidates (test_nms_relations.NecessaryTests.test_unexplained_flag_is_per_gt_not_number_of_missing_candidates) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

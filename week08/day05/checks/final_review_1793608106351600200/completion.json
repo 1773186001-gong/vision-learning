@@ -1,0 +1,26 @@
+{
+  "status": "complete_and_locally_verified",
+  "epochs": 10,
+  "best_epoch": 6,
+  "training_exit_code": 0,
+  "raw_artifact_hashes_unchanged": 46,
+  "verified_local_document_links": 8,
+  "historical_hashes_unchanged": 204,
+  "documentation_updated": true,
+  "training_code_changed_after_run": false,
+  "new_training_runs": 0,
+  "new_test_model_inference_runs": 0,
+  "shutdown_requested": false,
+  "metrics": {
+    "precision": 0.8898550724637682,
+    "recall": 0.882183908045977,
+    "AP50": 0.9032342060788215,
+    "mAP50_95": 0.439998157680316,
+    "TP": 307,
+    "FP": 38,
+    "FN": 41,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+  },
+  "handoff": "D:\\python\\test\\vision-learning\\week08\\day05\\DAY05_FUSION_TRAINING_GPT_HANDOFF.md"
+}

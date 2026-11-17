@@ -1,0 +1,13 @@
+﻿model,stem,scene_id,image_index,gt_count,empty_gt,proposal_counts
+IR,030269,03,21,2,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 109, ""layer_nms"": 57, ""post_nms_topn"": 57}"
+Fusion,030269,03,21,2,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 158, ""layer_nms"": 105, ""post_nms_topn"": 105}"
+IR,030308,03,24,2,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 94, ""layer_nms"": 58, ""post_nms_topn"": 58}"
+Fusion,030308,03,24,2,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 149, ""layer_nms"": 105, ""post_nms_topn"": 105}"
+IR,030205,03,16,1,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 55, ""layer_nms"": 31, ""post_nms_topn"": 31}"
+Fusion,030205,03,16,1,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 64, ""layer_nms"": 43, ""post_nms_topn"": 43}"
+IR,170100,17,120,2,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 121, ""layer_nms"": 67, ""post_nms_topn"": 67}"
+Fusion,170100,17,120,2,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 98, ""layer_nms"": 57, ""post_nms_topn"": 57}"
+IR,130126,13,85,5,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 239, ""layer_nms"": 171, ""post_nms_topn"": 150}"
+Fusion,130126,13,85,5,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 274, ""layer_nms"": 201, ""post_nms_topn"": 150}"
+IR,170455,17,145,3,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 133, ""layer_nms"": 92, ""post_nms_topn"": 92}"
+Fusion,170455,17,145,3,False,"{""decoded"": 13500, ""pre_nms_topn"": 450, ""clipped"": 450, ""small_box_filtered"": 450, ""score_filtered"": 149, ""layer_nms"": 104, ""post_nms_topn"": 104}"

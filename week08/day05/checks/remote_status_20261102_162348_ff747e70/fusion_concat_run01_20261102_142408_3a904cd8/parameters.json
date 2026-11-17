@@ -1,0 +1,9 @@
+﻿{
+    "project_dir":  "D:\\vision-learning-server",
+    "python":  "D:\\cv-server-env\\Scripts\\python.exe",
+    "entry":  "D:\\vision-learning-server\\week08\\day05\\train_fusion.py",
+    "data_root":  "D:\\vision-learning-server\\data\\LLVIP_1000",
+    "output":  "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01",
+    "keep_awake":  true,
+    "created_at":  "2026-11-02T14:24:08.2686989+08:00"
+}

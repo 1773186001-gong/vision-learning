@@ -1,0 +1,18 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week10/day03/compare_endpoints.py --output week10/day03/outputs/rpn_final_comparison_run01",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "exit_code": 0,
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "source_sha256": "437e0442a2cbf3f712e17edfc1712daad2c196fd3587536dff5e119284fceea2",
+  "counts": {
+    "checkpoint_loads": 2,
+    "strict_state_loads": 2,
+    "structure_backbone_probes": 1,
+    "validation_full_forwards": 4
+  }
+}

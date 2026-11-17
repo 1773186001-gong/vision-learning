@@ -1,0 +1,17 @@
+{
+  "cross_document_checks.json": "bfe45e10299bd6fd28b032446defbfb1dbf5c7cf86e0c9e70dcaea7ff471d1f3",
+  "evidence_index.json": "eb52fe460a48ab59c7bf4b23f3b534e28915c47b0efb2377f4f578bcd1602cd2",
+  "exact_case_values.json": "98ed5355dda358192080768f28081da7711a6a226d412edf432b111df6f2f54c",
+  "execution_ledger.json": "8b2376a0afb4234a7530aa26ae1e3fc061a18c6b2b3e6837e0adc54696f24334",
+  "history_before.json": "8ad95fe306914dac90942fa31d4c8fea3b2423c174836f86b04ea5fa98aef189",
+  "history_hashes.json": "2585eb04c299b16d6ad4342f7c573a7c700f16d60e774d23402f9ee6cf96e0bc",
+  "input_provenance.json": "16088946a7b6b654892615921cb3408c622684ae044160035ce6138dc517c94b",
+  "learning_review_zh.md": "ea1f9a034d7aa5bda7f1922a80abc923cbf50c0d68f83890c05eb696e88a6a00",
+  "run.log": "9cc3dc67b425d00a679bbf3cc6cc090194d1b80281e482390e59850816305727",
+  "run_metadata.json": "ccd9012ea0e10aec445787e89370aabf46d378784b36732058db9e753dcc4e31",
+  "source_integrity.json": "590a8c9e63174ae34781f195dfc628f5df07400df6be4d6761e56ed21b3fcb4a",
+  "verification.json": "0b0cb7b932b6e814cc60f66d6e2fc77edd11539f45ceecdc44905406e57eaa2a",
+  "WEEK10_GPT_HANDOFF.md": "8b60b8397bfd219a399a1e2a8e31ca4cbeffd08a8b6e3264b1373303d5ba6917",
+  "week11_plan.md": "f1c9b312b852ecb9af86efd69d1d666eb4eafa17490feeb18726c613403ac8cd",
+  "weekly_report_notes_zh.md": "a10cdb3bdef466d1d98aab7d5273d5548b18723c1993bb1ccf1adeeca61036cc"
+}

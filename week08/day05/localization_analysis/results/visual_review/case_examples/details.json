@@ -1,0 +1,605 @@
+[
+  {
+    "case": "IR_better",
+    "model": "IR",
+    "image_id": "210001",
+    "gt_index": 0,
+    "GT": [
+      12.0,
+      288.5,
+      81.5,
+      449.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 0,
+        "score": 0.9842560887336731,
+        "box": [
+          7.313121795654297,
+          289.0950927734375,
+          81.64889526367188,
+          434.06866455078125
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.8473666310310364
+        ],
+        "max_iou": 0.8473666310310364,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "IR_better",
+    "model": "Fusion",
+    "image_id": "210001",
+    "gt_index": 0,
+    "GT": [
+      12.0,
+      288.5,
+      81.5,
+      449.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 0,
+        "score": 0.9886801242828369,
+        "box": [
+          12.898412704467773,
+          291.25946044921875,
+          74.13939666748047,
+          382.72235107421875
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.5005833506584167
+        ],
+        "max_iou": 0.5005833506584167,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "Fusion_better",
+    "model": "IR",
+    "image_id": "220153",
+    "gt_index": 3,
+    "GT": [
+      504.0,
+      450.0,
+      543.5,
+      569.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 2,
+        "score": 0.9960775971412659,
+        "box": [
+          515.3585815429688,
+          453.8319396972656,
+          549.9287719726562,
+          569.9086303710938
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 3,
+        "ious": [
+          0.0,
+          0.0,
+          0.0,
+          0.5942087173461914,
+          0.03945230320096016,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_iou": 0.5942087173461914,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "Fusion_better",
+    "model": "Fusion",
+    "image_id": "220153",
+    "gt_index": 3,
+    "GT": [
+      504.0,
+      450.0,
+      543.5,
+      569.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 4,
+        "score": 0.9846754670143127,
+        "box": [
+          508.7341003417969,
+          452.2588195800781,
+          547.9332275390625,
+          567.7752075195312
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 3,
+        "ious": [
+          0.0,
+          0.0,
+          0.0,
+          0.7675372362136841,
+          0.015061905607581139,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_iou": 0.7675372362136841,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "high_score_low_iou",
+    "model": "IR",
+    "image_id": "210001",
+    "gt_index": 0,
+    "GT": [
+      12.0,
+      288.5,
+      81.5,
+      449.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 0,
+        "score": 0.9842560887336731,
+        "box": [
+          7.313121795654297,
+          289.0950927734375,
+          81.64889526367188,
+          434.06866455078125
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.8473666310310364
+        ],
+        "max_iou": 0.8473666310310364,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "high_score_low_iou",
+    "model": "Fusion",
+    "image_id": "210001",
+    "gt_index": 0,
+    "GT": [
+      12.0,
+      288.5,
+      81.5,
+      449.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 0,
+        "score": 0.9886801242828369,
+        "box": [
+          12.898412704467773,
+          291.25946044921875,
+          74.13939666748047,
+          382.72235107421875
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.5005833506584167
+        ],
+        "max_iou": 0.5005833506584167,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "boundary_050",
+    "model": "IR",
+    "image_id": "210001",
+    "gt_index": 0,
+    "GT": [
+      12.0,
+      288.5,
+      81.5,
+      449.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 0,
+        "score": 0.9842560887336731,
+        "box": [
+          7.313121795654297,
+          289.0950927734375,
+          81.64889526367188,
+          434.06866455078125
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.8473666310310364
+        ],
+        "max_iou": 0.8473666310310364,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "boundary_050",
+    "model": "Fusion",
+    "image_id": "210001",
+    "gt_index": 0,
+    "GT": [
+      12.0,
+      288.5,
+      81.5,
+      449.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 0,
+        "score": 0.9886801242828369,
+        "box": [
+          12.898412704467773,
+          291.25946044921875,
+          74.13939666748047,
+          382.72235107421875
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.5005833506584167
+        ],
+        "max_iou": 0.5005833506584167,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "boundary_075",
+    "model": "IR",
+    "image_id": "210105",
+    "gt_index": 2,
+    "GT": [
+      212.5,
+      334.0,
+      256.5,
+      470.0
+    ],
+    "predictions": [
+      {
+        "prediction_id": 1,
+        "score": 0.9930164813995361,
+        "box": [
+          205.23037719726562,
+          325.9679260253906,
+          255.3255615234375,
+          462.1152648925781
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 2,
+        "ious": [
+          0.05722704529762268,
+          0.0,
+          0.7497704029083252
+        ],
+        "max_iou": 0.7497704029083252,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      },
+      {
+        "prediction_id": 3,
+        "score": 0.7174301743507385,
+        "box": [
+          221.2855987548828,
+          339.781494140625,
+          268.12451171875,
+          466.45660400390625
+        ],
+        "selected": true,
+        "status": "FP",
+        "matched_gt": null,
+        "ious": [
+          0.1974080502986908,
+          0.0,
+          0.5982386469841003
+        ],
+        "max_iou": 0.5982386469841003,
+        "fp_type": "duplicate",
+        "duplicate_links": [
+          {
+            "gt_id": 2,
+            "tp_prediction_id": 1,
+            "fp_gt_iou": 0.5982386469841003,
+            "tp_gt_iou": 0.7497704029083252
+          }
+        ],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "boundary_075",
+    "model": "Fusion",
+    "image_id": "210105",
+    "gt_index": 2,
+    "GT": [
+      212.5,
+      334.0,
+      256.5,
+      470.0
+    ],
+    "predictions": [
+      {
+        "prediction_id": 2,
+        "score": 0.9724168181419373,
+        "box": [
+          206.0228271484375,
+          326.1864013671875,
+          254.84521484375,
+          462.4517822265625
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 2,
+        "ious": [
+          0.053728338330984116,
+          0.0,
+          0.7557251453399658
+        ],
+        "max_iou": 0.7557251453399658,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      },
+      {
+        "prediction_id": 3,
+        "score": 0.8479122519493103,
+        "box": [
+          230.28924560546875,
+          332.2098388671875,
+          280.52093505859375,
+          470.8297119140625
+        ],
+        "selected": true,
+        "status": "FP",
+        "matched_gt": null,
+        "ious": [
+          0.3680085241794586,
+          0.0,
+          0.379928857088089
+        ],
+        "max_iou": 0.379928857088089,
+        "fp_type": "localization",
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "only_IR",
+    "model": "IR",
+    "image_id": "190277",
+    "gt_index": 4,
+    "GT": [
+      616.0,
+      216.5,
+      640.0,
+      340.0
+    ],
+    "predictions": [
+      {
+        "prediction_id": 4,
+        "score": 0.6224145889282227,
+        "box": [
+          616.0679931640625,
+          220.1360321044922,
+          639.918701171875,
+          330.7709655761719
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 4,
+        "ious": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.8902568221092224
+        ],
+        "max_iou": 0.8902568221092224,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "only_IR",
+    "model": "Fusion",
+    "image_id": "190277",
+    "gt_index": 4,
+    "GT": [
+      616.0,
+      216.5,
+      640.0,
+      340.0
+    ],
+    "predictions": []
+  },
+  {
+    "case": "only_Fusion",
+    "model": "IR",
+    "image_id": "190040",
+    "gt_index": 5,
+    "GT": [
+      316.5,
+      534.5,
+      369.0,
+      576.0
+    ],
+    "predictions": []
+  },
+  {
+    "case": "only_Fusion",
+    "model": "Fusion",
+    "image_id": "190040",
+    "gt_index": 5,
+    "GT": [
+      316.5,
+      534.5,
+      369.0,
+      576.0
+    ],
+    "predictions": [
+      {
+        "prediction_id": 5,
+        "score": 0.6369907855987549,
+        "box": [
+          320.81390380859375,
+          532.11474609375,
+          360.496826171875,
+          572.58447265625
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 5,
+        "ious": [
+          0.0,
+          0.0,
+          0.0,
+          0.0932064950466156,
+          0.0,
+          0.664775550365448,
+          0.004878100007772446
+        ],
+        "max_iou": 0.664775550365448,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "preferred_190474",
+    "model": "IR",
+    "image_id": "190474",
+    "gt_index": 0,
+    "GT": [
+      379.0,
+      113.5,
+      434.5,
+      219.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 0,
+        "score": 0.9921706318855286,
+        "box": [
+          367.3040771484375,
+          107.60350036621094,
+          434.049072265625,
+          243.0786590576172
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.6419301629066467,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_iou": 0.6419301629066467,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  },
+  {
+    "case": "preferred_190474",
+    "model": "Fusion",
+    "image_id": "190474",
+    "gt_index": 0,
+    "GT": [
+      379.0,
+      113.5,
+      434.5,
+      219.5
+    ],
+    "predictions": [
+      {
+        "prediction_id": 1,
+        "score": 0.9675911664962769,
+        "box": [
+          374.1061706542969,
+          112.96917724609375,
+          425.4893493652344,
+          236.78692626953125
+        ],
+        "selected": true,
+        "status": "TP",
+        "matched_gt": 0,
+        "ious": [
+          0.6734568476676941,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_iou": 0.6734568476676941,
+        "fp_type": null,
+        "duplicate_links": [],
+        "reason": null,
+        "no_gt_fp": false
+      }
+    ]
+  }
+]

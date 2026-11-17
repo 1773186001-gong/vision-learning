@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "script_exit_code": 0,
+  "per_image_rows": 300,
+  "per_prediction_rows": 5280,
+  "decoded_pngs": 6,
+  "category_conservation": true,
+  "individual_fp_rules_checked": true,
+  "model_inference": false,
+  "training": false,
+  "network": false
+}

@@ -1,0 +1,38 @@
+{
+  "IR": {
+    "precision": 0.850415512465374,
+    "recall": 0.882183908045977,
+    "AP50": 0.8989071207511944,
+    "mAP50_95": 0.4716263012372224,
+    "TP": 307,
+    "FP": 54,
+    "FN": 41,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API",
+    "AP75": 0.4325117356065814
+  },
+  "RGB": {
+    "precision": 0.4917763157894737,
+    "recall": 0.8591954022988506,
+    "AP50": 0.8001258873790847,
+    "mAP50_95": 0.36830385695197043,
+    "TP": 299,
+    "FP": 309,
+    "FN": 49,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API",
+    "AP75": 0.2599176587185362
+  },
+  "Fusion": {
+    "precision": 0.8898550724637682,
+    "recall": 0.882183908045977,
+    "AP50": 0.9032342060788215,
+    "mAP50_95": 0.439998157680316,
+    "TP": 307,
+    "FP": 38,
+    "FN": 41,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API",
+    "AP75": 0.338772049646727
+  }
+}

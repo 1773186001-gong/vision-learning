@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "sample": "train/010001",
+  "full_detection_eval_forward": true,
+  "boxes_shape": [
+    46,
+    4
+  ],
+  "no_metric_computed": true,
+  "no_training_or_backward": true,
+  "architecture": {
+    "feature_shapes": {
+      "0": [
+        1,
+        256,
+        20,
+        20
+      ],
+      "1": [
+        1,
+        256,
+        20,
+        20
+      ],
+      "pool": [
+        1,
+        256,
+        10,
+        10
+      ]
+    },
+    "roi_keys": [
+      "0",
+      "1"
+    ],
+    "anchor_sizes": [
+      [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      [
+        32,
+        64,
+        128,
+        256,
+        512
+      ]
+    ],
+    "anchor_ratios": [
+      [
+        0.5,
+        1.0,
+        2.0
+      ],
+      [
+        0.5,
+        1.0,
+        2.0
+      ],
+      [
+        0.5,
+        1.0,
+        2.0
+      ]
+    ],
+    "out_channels": 256,
+    "fusion_initialization": "[0.5 I, 0.5 I], zero bias",
+    "pretrained_loaded": true,
+    "source": "official COCO only"
+  }
+}

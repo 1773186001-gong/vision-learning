@@ -1,0 +1,319 @@
+{
+  "started_at": "2026-11-05T06:04:59.194343+00:00",
+  "command": "D:\\cv-server-env\\Scripts\\python.exe -B D:\\vision-learning-server\\week09\\day02\\visualize_proposals.py --device cuda:0 --seed 42 --threads 2 --output D:\\vision-learning-server\\week09\\day02\\outputs\\proposal_visualization_run01",
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\cv-server-env\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "hostname": "DESKTOP-BFIO0RA",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "numpy": "2.5.4",
+    "device": "cuda:0",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "seed": 42,
+    "threads": 2
+  },
+  "selection_pools": {
+    "IR_advantage": 47,
+    "Fusion_advantage": 30,
+    "unused_boundary": 206,
+    "selected": 6,
+    "pairing": "stem+0-based gt_index",
+    "ranking_source": "max_iou_top300",
+    "tie_breaking": "stem ascending, then gt_index ascending; no duplicates"
+  },
+  "selection_order": [
+    "01_IR_advantage_030269_G1",
+    "02_IR_advantage_030308_G1",
+    "03_IR_advantage_030205_G0",
+    "04_Fusion_advantage_170100_G1",
+    "05_Fusion_advantage_130126_G3",
+    "06_boundary_170455_G1"
+  ],
+  "inference_order": "unique selected image_index ascending; IR then Fusion",
+  "filter_proposals_source": "    def filter_proposals(\n        self,\n        proposals: Tensor,\n        objectness: Tensor,\n        image_shapes: list[tuple[int, int]],\n        num_anchors_per_level: list[int],\n    ) -> tuple[list[Tensor], list[Tensor]]:\n\n        num_images = proposals.shape[0]\n        device = proposals.device\n        # do not backprop through objectness\n        objectness = objectness.detach()\n        objectness = objectness.reshape(num_images, -1)\n\n        levels = [\n            torch.full((n,), idx, dtype=torch.int64, device=device) for idx, n in enumerate(num_anchors_per_level)\n        ]\n        levels = torch.cat(levels, 0)\n        levels = levels.reshape(1, -1).expand_as(objectness)\n\n        # select top_n boxes independently per level before applying nms\n        top_n_idx = self._get_top_n_idx(objectness, num_anchors_per_level)\n\n        image_range = torch.arange(num_images, device=device)\n        batch_idx = image_range[:, None]\n\n        objectness = objectness[batch_idx, top_n_idx]\n        levels = levels[batch_idx, top_n_idx]\n        proposals = proposals[batch_idx, top_n_idx]\n\n        objectness_prob = torch.sigmoid(objectness)\n\n        final_boxes = []\n        final_scores = []\n        for boxes, scores, lvl, img_shape in zip(proposals, objectness_prob, levels, image_shapes):\n            boxes = box_ops.clip_boxes_to_image(boxes, img_shape)\n\n            # remove small boxes\n            keep = box_ops.remove_small_boxes(boxes, self.min_size)\n            boxes, scores, lvl = boxes[keep], scores[keep], lvl[keep]\n\n            # remove low scoring boxes\n            # use >= for Backwards compatibility\n            keep = torch.where(scores >= self.score_thresh)[0]\n            boxes, scores, lvl = boxes[keep], scores[keep], lvl[keep]\n\n            # non-maximum suppression, independently done per level\n            keep = box_ops.batched_nms(boxes, scores, lvl, self.nms_thresh)\n\n            # keep only topk scoring predictions\n            keep = keep[: self.post_nms_top_n()]\n            boxes, scores = boxes[keep], scores[keep]\n\n            final_boxes.append(boxes)\n            final_scores.append(scores)\n        return final_boxes, final_scores\n",
+  "input_sha256_before": {
+    "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\rpn.py": "00ff7ea77fe9ba37038ad6b6c1289185b2e753ca124c50cf64d8f0d30edecd43",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030205.xml": "1322a1ae2f26a13a3a646f69091838d162d002c10583368993a9f55966f95e09",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030269.xml": "b1ba2fcb9370fbebe67bd5c86efc8197a1f9c7cb70896874ab68a2252013c73c",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030308.xml": "0c51f62cd50e8d16b1885e558f953dd0015cbfa6c3d8581ce894ee31488e1ba6",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130126.xml": "92baa132c8e2e5a8df4097f565d5a416407c208ec59c7cf19a1cf2cccd89eeac",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170100.xml": "1cee0b0e81843e3eb2b1735e9cd8680fdb58467fc15230434c72692f26abe3b5",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170455.xml": "1481750df0a0f74b9054c4a28d0b8fc8e9a7e593ebbe716a09db2431cd02fd20",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030205.jpg": "763ca5db3d416d3b2fe532fdfdefe87accdf2b6c6dae1144343cd4b81714cb0a",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030269.jpg": "dd82f88060723f6398ddce6ccd4bfd4a08c165d13667ec1d0e3efdfdc8e22c50",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030308.jpg": "0c45daf079f26956360d823b5a27a870a32901fd14e237cfa6bbcd04274933a5",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130126.jpg": "ef10eafbf19937961afbb9e040a12a14b4b118a0036ea26ec252fb3eba2f2462",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170100.jpg": "8cc6ee030ef39501aa44f59a98bb9521c7efd5850d86ecf00ccec4c6bbe0dd82",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170455.jpg": "c5d6de4978641ea147cc92d5afb6372d17054d34ad099451887743674cbbb8dc",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030205.jpg": "0a1829616a7a665cccaa496753e382a4737002b9ac0ca425ecaadb4dcb92f423",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030269.jpg": "ce0c076412c60c689a5eb3ed54a0aebb7801381fe358a16a137ebc3b148e6db0",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030308.jpg": "7604e11ed4c254f83daa1361dc63633e4cf0274ae8bf5420274f07a67b2715e5",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130126.jpg": "f3e90db5fdadd21ff8c6c6601fd0922499b52bfe276a6634a928d9b59d7b096d",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170100.jpg": "2fe92483771c8a098b7809dfda628c072742322ae838881a0ac282ef3b86179f",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170455.jpg": "ea1eb5c132d5324ae50dbbff88da02f6fb53a4908b189a44a2b373eca2e77eac",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "D:\\vision-learning-server\\week08\\day01\\llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "D:\\vision-learning-server\\week08\\day02\\paired_horizontal_flip.py": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c",
+    "D:\\vision-learning-server\\week08\\day02\\paired_letterbox.py": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+    "D:\\vision-learning-server\\week08\\day03\\ir_common.py": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e",
+    "D:\\vision-learning-server\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+    "D:\\vision-learning-server\\week08\\day05\\fusion_common.py": "6c45dc49da0bb9df03303316f45182f2e718801771082a0e67510be7ecc57250",
+    "D:\\vision-learning-server\\week08\\day05\\fusion_model.py": "fe27e92199e6a2ab2678ead46b548a01ece0193d9f611385edd3d09d90dbf09a",
+    "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+    "D:\\vision-learning-server\\week09\\day01\\diagnostic_results_run01.zip": "60ce18a794cdac34ae8cfce6e67ad3dbf4c49246edabeae21ac5cd64c0f3fc6f",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\execution_status.json": "35f4fa7bf7c2466addbfa8ee3144f03c2145b6e8fe00b527eaf478acc519610a",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\max_iou_distribution.png": "5cc1c4c4c6625bdaaba8e79e4a3533363df6e00063957051151392c18f3e26bd",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\proposal_recall_comparison.png": "e989c1a3421204b0b52037e2e88d9e33e33c5d5502d9ecf6e69aff1ff745513b",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_diagnostic_report.md": "58853aa67cc95e409c749b1f8fc5d362c5d823c46eff53506d2711790ea783f3",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_metrics.json": "1d5e29c6a9cb36b1acad410599a1ac70805faf5e8d6208379adcfb24871860fe",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_gt.csv": "e3d32280eda4dd1a8d0c56820b0e0554436a4b83ab8aa06c323886ea3b445478",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_image.csv": "592814e2172ea894046611ca0ad4235df63ba43787c94c50faa1db57a975cae1",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\run.log": "56bfe1511ae048c70c0ce0f91138c0b6877b4ea4c2074d2785e99bcb0dfcc384",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\execution_status.json": "c7e972d401d489fc3d3d26e0a2aaf10dbd8c1ada934e40970cae4f57f8353812",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\max_iou_distribution.png": "f4e168518cb8b679a59b98490518951e9feb6e50333ac9824558457a24e8b2bc",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\proposal_recall_comparison.png": "273620dd109ce8c34d0b988072827237224eccd891931c793395b1c1f8127d83",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_diagnostic_report.md": "71c5f9f776ef11219dce7ae1ec0ca9f6c2669c4ec5e5e0f2cb61371bb5177010",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_metrics.json": "a4bb88c9d854deef29c2a469eeed33df9672a59fd8a9e12466129ea8cc550b8d",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_gt.csv": "d4503b5346bfc2128840b8f0f7d88c2ea17309a48a45cdc1217ebb1787d8e268",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_image.csv": "50add533a374e1b57a680f45ff77111649ea2bd13bc2e0803f2517787c3f6da2",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\run.log": "70991e30be1ef557db4f58e7fbaee0c7b4f5b1bc600fc47f817e832121360ac6",
+    "D:\\vision-learning-server\\week09\\day01\\README.md": "4494ff70303117f94c3d0c3b15b89563fe1e48f6f7cf6847c39d9a97be559ecb",
+    "D:\\vision-learning-server\\week09\\day01\\rpn_diagnostic.py": "06dee2f5ad1194d1eedee6bc8e437e79606a14ddbc38f16e61aca5adb3bd866a",
+    "D:\\vision-learning-server\\week09\\day02\\visualize_proposals.py": "fa6b60d5b722db2ff85aae55cb4abb9f01dca8926ece03567ea33a6a3b86fdf7"
+  },
+  "models": {
+    "IR": {
+      "checkpoint": "D:\\vision-learning-server\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth",
+      "checkpoint_sha256": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+      "state_sha256_before": "eafad36652de36bb46182a15124074cc39f39a665b8f66abf0a4ef2687cf446b",
+      "state_sha256_after": "eafad36652de36bb46182a15124074cc39f39a665b8f66abf0a4ef2687cf446b",
+      "rpn_config": {
+        "pre_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "post_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "active_pre_nms_top_n": 150,
+        "active_post_nms_top_n": 150,
+        "nms_thresh": 0.7,
+        "score_thresh": 0.05,
+        "minimum_box_size": 0.001,
+        "anchor_sizes": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "anchor_aspect_ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ],
+        "transform_min_size": [
+          640
+        ],
+        "transform_max_size": 640,
+        "transform_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "transform_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "roi_feature_keys": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "proposal_order": "Original filter_proposals output: batched_nms returns decreasing objectness score; keep is sliced by original post_nms_top_n, then [:K].",
+        "coordinate_system": "xyxy pixels in transformed, unpadded ImageList.image_sizes; GT captured from the same original forward call"
+      },
+      "wrapper_restored": true,
+      "processed_images": 6
+    },
+    "Fusion": {
+      "checkpoint": "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth",
+      "checkpoint_sha256": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+      "state_sha256_before": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+      "state_sha256_after": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+      "rpn_config": {
+        "pre_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "post_nms_top_n": {
+          "training": 2000,
+          "testing": 150
+        },
+        "active_pre_nms_top_n": 150,
+        "active_post_nms_top_n": 150,
+        "nms_thresh": 0.7,
+        "score_thresh": 0.05,
+        "minimum_box_size": 0.001,
+        "anchor_sizes": [
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ],
+          [
+            32,
+            64,
+            128,
+            256,
+            512
+          ]
+        ],
+        "anchor_aspect_ratios": [
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ],
+          [
+            0.5,
+            1.0,
+            2.0
+          ]
+        ],
+        "transform_min_size": [
+          640
+        ],
+        "transform_max_size": 640,
+        "transform_mean": [
+          0.485,
+          0.456,
+          0.406,
+          0.485,
+          0.456,
+          0.406
+        ],
+        "transform_std": [
+          0.229,
+          0.224,
+          0.225,
+          0.229,
+          0.224,
+          0.225
+        ],
+        "roi_feature_keys": [
+          "0",
+          "1"
+        ],
+        "proposal_order": "Original filter_proposals output: batched_nms returns decreasing objectness score; keep is sliced by original post_nms_top_n, then [:K].",
+        "coordinate_system": "xyxy pixels in transformed, unpadded ImageList.image_sizes; GT captured from the same original forward call"
+      },
+      "wrapper_restored": true,
+      "processed_images": 6
+    }
+  },
+  "training": false,
+  "test_inference": false,
+  "rpn_budget_changed": false,
+  "input_sha256_after": {
+    "D:\\cv-server-env\\Lib\\site-packages\\torchvision\\models\\detection\\rpn.py": "00ff7ea77fe9ba37038ad6b6c1289185b2e753ca124c50cf64d8f0d30edecd43",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030205.xml": "1322a1ae2f26a13a3a646f69091838d162d002c10583368993a9f55966f95e09",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030269.xml": "b1ba2fcb9370fbebe67bd5c86efc8197a1f9c7cb70896874ab68a2252013c73c",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030308.xml": "0c51f62cd50e8d16b1885e558f953dd0015cbfa6c3d8581ce894ee31488e1ba6",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\130126.xml": "92baa132c8e2e5a8df4097f565d5a416407c208ec59c7cf19a1cf2cccd89eeac",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170100.xml": "1cee0b0e81843e3eb2b1735e9cd8680fdb58467fc15230434c72692f26abe3b5",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\170455.xml": "1481750df0a0f74b9054c4a28d0b8fc8e9a7e593ebbe716a09db2431cd02fd20",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030205.jpg": "763ca5db3d416d3b2fe532fdfdefe87accdf2b6c6dae1144343cd4b81714cb0a",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030269.jpg": "dd82f88060723f6398ddce6ccd4bfd4a08c165d13667ec1d0e3efdfdc8e22c50",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030308.jpg": "0c45daf079f26956360d823b5a27a870a32901fd14e237cfa6bbcd04274933a5",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\130126.jpg": "ef10eafbf19937961afbb9e040a12a14b4b118a0036ea26ec252fb3eba2f2462",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170100.jpg": "8cc6ee030ef39501aa44f59a98bb9521c7efd5850d86ecf00ccec4c6bbe0dd82",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\170455.jpg": "c5d6de4978641ea147cc92d5afb6372d17054d34ad099451887743674cbbb8dc",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030205.jpg": "0a1829616a7a665cccaa496753e382a4737002b9ac0ca425ecaadb4dcb92f423",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030269.jpg": "ce0c076412c60c689a5eb3ed54a0aebb7801381fe358a16a137ebc3b148e6db0",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030308.jpg": "7604e11ed4c254f83daa1361dc63633e4cf0274ae8bf5420274f07a67b2715e5",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\130126.jpg": "f3e90db5fdadd21ff8c6c6601fd0922499b52bfe276a6634a928d9b59d7b096d",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170100.jpg": "2fe92483771c8a098b7809dfda628c072742322ae838881a0ac282ef3b86179f",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\170455.jpg": "ea1eb5c132d5324ae50dbbff88da02f6fb53a4908b189a44a2b373eca2e77eac",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "D:\\vision-learning-server\\week08\\day01\\llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "D:\\vision-learning-server\\week08\\day02\\paired_horizontal_flip.py": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c",
+    "D:\\vision-learning-server\\week08\\day02\\paired_letterbox.py": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+    "D:\\vision-learning-server\\week08\\day03\\ir_common.py": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e",
+    "D:\\vision-learning-server\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+    "D:\\vision-learning-server\\week08\\day05\\fusion_common.py": "6c45dc49da0bb9df03303316f45182f2e718801771082a0e67510be7ecc57250",
+    "D:\\vision-learning-server\\week08\\day05\\fusion_model.py": "fe27e92199e6a2ab2678ead46b548a01ece0193d9f611385edd3d09d90dbf09a",
+    "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+    "D:\\vision-learning-server\\week09\\day01\\diagnostic_results_run01.zip": "60ce18a794cdac34ae8cfce6e67ad3dbf4c49246edabeae21ac5cd64c0f3fc6f",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\execution_status.json": "35f4fa7bf7c2466addbfa8ee3144f03c2145b6e8fe00b527eaf478acc519610a",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\max_iou_distribution.png": "5cc1c4c4c6625bdaaba8e79e4a3533363df6e00063957051151392c18f3e26bd",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\proposal_recall_comparison.png": "e989c1a3421204b0b52037e2e88d9e33e33c5d5502d9ecf6e69aff1ff745513b",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_diagnostic_report.md": "58853aa67cc95e409c749b1f8fc5d362c5d823c46eff53506d2711790ea783f3",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_metrics.json": "1d5e29c6a9cb36b1acad410599a1ac70805faf5e8d6208379adcfb24871860fe",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_gt.csv": "e3d32280eda4dd1a8d0c56820b0e0554436a4b83ab8aa06c323886ea3b445478",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_image.csv": "592814e2172ea894046611ca0ad4235df63ba43787c94c50faa1db57a975cae1",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\gpu_smoke_run01\\run.log": "56bfe1511ae048c70c0ce0f91138c0b6877b4ea4c2074d2785e99bcb0dfcc384",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\execution_status.json": "c7e972d401d489fc3d3d26e0a2aaf10dbd8c1ada934e40970cae4f57f8353812",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\max_iou_distribution.png": "f4e168518cb8b679a59b98490518951e9feb6e50333ac9824558457a24e8b2bc",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\proposal_recall_comparison.png": "273620dd109ce8c34d0b988072827237224eccd891931c793395b1c1f8127d83",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_diagnostic_report.md": "71c5f9f776ef11219dce7ae1ec0ca9f6c2669c4ec5e5e0f2cb61371bb5177010",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_metrics.json": "a4bb88c9d854deef29c2a469eeed33df9672a59fd8a9e12466129ea8cc550b8d",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_gt.csv": "d4503b5346bfc2128840b8f0f7d88c2ea17309a48a45cdc1217ebb1787d8e268",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_image.csv": "50add533a374e1b57a680f45ff77111649ea2bd13bc2e0803f2517787c3f6da2",
+    "D:\\vision-learning-server\\week09\\day01\\outputs\\val_rpn_run01\\run.log": "70991e30be1ef557db4f58e7fbaee0c7b4f5b1bc600fc47f817e832121360ac6",
+    "D:\\vision-learning-server\\week09\\day01\\README.md": "4494ff70303117f94c3d0c3b15b89563fe1e48f6f7cf6847c39d9a97be559ecb",
+    "D:\\vision-learning-server\\week09\\day01\\rpn_diagnostic.py": "06dee2f5ad1194d1eedee6bc8e437e79606a14ddbc38f16e61aca5adb3bd866a",
+    "D:\\vision-learning-server\\week09\\day02\\visualize_proposals.py": "fa6b60d5b722db2ff85aae55cb4abb9f01dca8926ece03567ea33a6a3b86fdf7"
+  },
+  "protected_inputs_unchanged": true,
+  "finished_at": "2026-11-05T06:05:11.526256+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "tests_run": 37,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "scope": "synthetic_unit_only_no_real_model",
+  "command": [
+    "D:\\python\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-c",
+    "import pathlib,unittest,contextlib,json,sys,hashlib; p=pathlib.Path('week09/day03/checks/remaining_adapter_unit_run01'); p.mkdir(exist_ok=False); sys.path.insert(0,'week09/day03'); suite=unittest.TestSuite(unittest.defaultTestLoader.discover('week09/day03',pattern=n) for n in ['test_trace_rpn_stages.py','test_capture_single_val.py','test_remaining_capture.py']); f=(p/'run.log').open('x',encoding='utf-8'); result=unittest.TextTestRunner(stream=f,verbosity=2).run(suite); f.close(); (p/'verification.json').write_text(json.dumps({'tests_run':result.testsRun,'failures':len(result.failures),'errors':len(result.errors),'exit_code':0 if result.wasSuccessful() else 1,'scope':'synthetic_unit_only_no_real_model','command':sys.orig_argv},indent=2),encoding='utf-8'); print((p/'run.log').read_text(encoding='utf-8')); sys.exit(0 if result.wasSuccessful() else 1)"
+  ]
+}

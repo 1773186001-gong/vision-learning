@@ -1,0 +1,22 @@
+{
+  "modality": "visible",
+  "epochs": 10,
+  "best_epoch": 4,
+  "test": {
+    "precision": 0.4917763157894737,
+    "recall": 0.8591954022988506,
+    "AP50": 0.8001258873790847,
+    "mAP50_95": 0.36830385695197043,
+    "TP": 299,
+    "FP": 309,
+    "FN": 49,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+  },
+  "timing": {
+    "epoch_seconds_sum": 1341.7093137999618,
+    "run_seconds_before_report": 1403.191015400007,
+    "max_epoch_peak_allocated_bytes": 395375104,
+    "max_epoch_peak_reserved_bytes": 486539264
+  }
+}

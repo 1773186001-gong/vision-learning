@@ -1,0 +1,414 @@
+Historical ir.match reproduction: {"IR": {"TP": 307, "FP": 54, "FN": 41, "GT": 348}, "RGB": {"TP": 299, "FP": 309, "FN": 49, "GT": 348}}
+{
+  "IR": {
+    "TP": 307,
+    "FP": 54,
+    "FN": 41,
+    "GT": 348,
+    "categories": {
+      "duplicate": {
+        "count": 3,
+        "fraction": 0.05555555555555555
+      },
+      "localization": {
+        "count": 22,
+        "fraction": 0.4074074074074074
+      },
+      "low_overlap": {
+        "count": 29,
+        "fraction": 0.5370370370370371
+      },
+      "other": {
+        "count": 0,
+        "fraction": 0.0
+      }
+    },
+    "no_gt_images": 0,
+    "no_gt_fp": 0,
+    "per_image_fp_distribution": {
+      "0": 108,
+      "1": 33,
+      "2": 6,
+      "3": 3
+    },
+    "score_distribution": {
+      "n": 54,
+      "min": 0.5014846324920654,
+      "max": 0.9960991144180298,
+      "mean": 0.7208466872021004,
+      "quantiles": {
+        "q0": 0.5014846324920654,
+        "q25": 0.6334910690784454,
+        "q50": 0.69843590259552,
+        "q75": 0.802609995007515,
+        "q100": 0.9960991144180298
+      }
+    },
+    "max_iou_distribution": {
+      "n": 54,
+      "min": 0.0,
+      "max": 0.628635585308075,
+      "mean": 0.1962617023123635,
+      "quantiles": {
+        "q0": 0.0,
+        "q25": 0.0,
+        "q50": 0.0,
+        "q75": 0.408013753592968,
+        "q100": 0.628635585308075
+      }
+    },
+    "high_score_definition": "score >= 0.9 (diagnostic only; no threshold tuning)",
+    "high_score_fp": 5,
+    "high_score_fp_fraction": 0.09259259259259259,
+    "top10": [
+      {
+        "modality": "IR",
+        "image_id": "240176",
+        "dataset_image_id": 115,
+        "GT": 1,
+        "predictions_above_threshold": 4,
+        "TP": 1,
+        "FP": 3,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 3,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "240425",
+        "dataset_image_id": 125,
+        "GT": 2,
+        "predictions_above_threshold": 5,
+        "TP": 2,
+        "FP": 3,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 3,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "240450",
+        "dataset_image_id": 126,
+        "GT": 1,
+        "predictions_above_threshold": 4,
+        "TP": 1,
+        "FP": 3,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 3,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "200198",
+        "dataset_image_id": 35,
+        "GT": 2,
+        "predictions_above_threshold": 4,
+        "TP": 2,
+        "FP": 2,
+        "FN": 0,
+        "duplicate": 1,
+        "localization": 1,
+        "low_overlap": 0,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "210312",
+        "dataset_image_id": 59,
+        "GT": 5,
+        "predictions_above_threshold": 5,
+        "TP": 3,
+        "FP": 2,
+        "FN": 2,
+        "duplicate": 0,
+        "localization": 1,
+        "low_overlap": 1,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "210395",
+        "dataset_image_id": 63,
+        "GT": 8,
+        "predictions_above_threshold": 7,
+        "TP": 5,
+        "FP": 2,
+        "FN": 3,
+        "duplicate": 0,
+        "localization": 1,
+        "low_overlap": 1,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "220248",
+        "dataset_image_id": 79,
+        "GT": 5,
+        "predictions_above_threshold": 6,
+        "TP": 4,
+        "FP": 2,
+        "FN": 1,
+        "duplicate": 0,
+        "localization": 2,
+        "low_overlap": 0,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "240251",
+        "dataset_image_id": 118,
+        "GT": 4,
+        "predictions_above_threshold": 5,
+        "TP": 3,
+        "FP": 2,
+        "FN": 1,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 2,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "240275",
+        "dataset_image_id": 119,
+        "GT": 4,
+        "predictions_above_threshold": 5,
+        "TP": 3,
+        "FP": 2,
+        "FN": 1,
+        "duplicate": 0,
+        "localization": 1,
+        "low_overlap": 1,
+        "other": 0
+      },
+      {
+        "modality": "IR",
+        "image_id": "190040",
+        "dataset_image_id": 1,
+        "GT": 7,
+        "predictions_above_threshold": 6,
+        "TP": 5,
+        "FP": 1,
+        "FN": 2,
+        "duplicate": 0,
+        "localization": 1,
+        "low_overlap": 0,
+        "other": 0
+      }
+    ]
+  },
+  "RGB": {
+    "TP": 299,
+    "FP": 309,
+    "FN": 49,
+    "GT": 348,
+    "categories": {
+      "duplicate": {
+        "count": 10,
+        "fraction": 0.032362459546925564
+      },
+      "localization": {
+        "count": 72,
+        "fraction": 0.23300970873786409
+      },
+      "low_overlap": {
+        "count": 227,
+        "fraction": 0.7346278317152104
+      },
+      "other": {
+        "count": 0,
+        "fraction": 0.0
+      }
+    },
+    "no_gt_images": 0,
+    "no_gt_fp": 0,
+    "per_image_fp_distribution": {
+      "0": 25,
+      "1": 40,
+      "2": 34,
+      "3": 24,
+      "4": 13,
+      "5": 9,
+      "6": 3,
+      "7": 2
+    },
+    "score_distribution": {
+      "n": 309,
+      "min": 0.5008555054664612,
+      "max": 0.9872423410415649,
+      "mean": 0.7250650845299261,
+      "quantiles": {
+        "q0": 0.5008555054664612,
+        "q25": 0.6018357276916504,
+        "q50": 0.7174988389015198,
+        "q75": 0.8497909903526306,
+        "q100": 0.9872423410415649
+      }
+    },
+    "max_iou_distribution": {
+      "n": 309,
+      "min": 0.0,
+      "max": 0.7188484072685242,
+      "mean": 0.10254966891687183,
+      "quantiles": {
+        "q0": 0.0,
+        "q25": 0.0,
+        "q50": 0.0,
+        "q75": 0.1556248664855957,
+        "q100": 0.7188484072685242
+      }
+    },
+    "high_score_definition": "score >= 0.9 (diagnostic only; no threshold tuning)",
+    "high_score_fp": 55,
+    "high_score_fp_fraction": 0.1779935275080906,
+    "top10": [
+      {
+        "modality": "RGB",
+        "image_id": "190435",
+        "dataset_image_id": 11,
+        "GT": 3,
+        "predictions_above_threshold": 10,
+        "TP": 3,
+        "FP": 7,
+        "FN": 0,
+        "duplicate": 1,
+        "localization": 1,
+        "low_overlap": 5,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190593",
+        "dataset_image_id": 15,
+        "GT": 1,
+        "predictions_above_threshold": 8,
+        "TP": 1,
+        "FP": 7,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 7,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190119",
+        "dataset_image_id": 3,
+        "GT": 2,
+        "predictions_above_threshold": 7,
+        "TP": 1,
+        "FP": 6,
+        "FN": 1,
+        "duplicate": 0,
+        "localization": 1,
+        "low_overlap": 5,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190711",
+        "dataset_image_id": 18,
+        "GT": 2,
+        "predictions_above_threshold": 8,
+        "TP": 2,
+        "FP": 6,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 6,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190751",
+        "dataset_image_id": 19,
+        "GT": 4,
+        "predictions_above_threshold": 10,
+        "TP": 4,
+        "FP": 6,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 1,
+        "low_overlap": 5,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190001",
+        "dataset_image_id": 0,
+        "GT": 2,
+        "predictions_above_threshold": 7,
+        "TP": 2,
+        "FP": 5,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 5,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190199",
+        "dataset_image_id": 5,
+        "GT": 1,
+        "predictions_above_threshold": 6,
+        "TP": 1,
+        "FP": 5,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 5,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190395",
+        "dataset_image_id": 10,
+        "GT": 2,
+        "predictions_above_threshold": 7,
+        "TP": 2,
+        "FP": 5,
+        "FN": 0,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 5,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "190791",
+        "dataset_image_id": 20,
+        "GT": 2,
+        "predictions_above_threshold": 6,
+        "TP": 1,
+        "FP": 5,
+        "FN": 1,
+        "duplicate": 0,
+        "localization": 0,
+        "low_overlap": 5,
+        "other": 0
+      },
+      {
+        "modality": "RGB",
+        "image_id": "210312",
+        "dataset_image_id": 59,
+        "GT": 5,
+        "predictions_above_threshold": 9,
+        "TP": 4,
+        "FP": 5,
+        "FN": 1,
+        "duplicate": 0,
+        "localization": 3,
+        "low_overlap": 2,
+        "other": 0
+      }
+    ]
+  }
+}
+PASS: matching event parity, category conservation, 150 paired GT checks, unchanged cache SHA; no inference.

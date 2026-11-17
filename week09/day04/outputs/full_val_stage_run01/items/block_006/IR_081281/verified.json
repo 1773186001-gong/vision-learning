@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "gt_count": 8,
+  "new_forward_calls": 1,
+  "day01_comparisons": [
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 0,
+      "day01_max_iou": 0.8150433897972107,
+      "pilot_max_iou": 0.8150433897972107,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 1,
+      "day01_max_iou": 0.8210799098014832,
+      "pilot_max_iou": 0.8210799098014832,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 2,
+      "day01_max_iou": 0.9395846128463745,
+      "pilot_max_iou": 0.9395846128463745,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 3,
+      "day01_max_iou": 0.8185588717460632,
+      "pilot_max_iou": 0.8185588717460632,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 4,
+      "day01_max_iou": 0.9182706475257874,
+      "pilot_max_iou": 0.9182706475257874,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 5,
+      "day01_max_iou": 0.7225094437599182,
+      "pilot_max_iou": 0.7225094437599182,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 6,
+      "day01_max_iou": 0.6360445618629456,
+      "pilot_max_iou": 0.6360445618629456,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "gt_index": 7,
+      "day01_max_iou": 0.88088458776474,
+      "pilot_max_iou": 0.88088458776474,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    }
+  ],
+  "same_device_exact_replay": true,
+  "restoration_verified": true,
+  "signature": "280a4efd55346890d7b303beceb8b52288f9145afdbce096efd034e7e849a2f6",
+  "raw_sha256": "1db3b3ba2bd1de36bfa2d76dd052101223480b8177874c5773ee759e04788feb"
+}

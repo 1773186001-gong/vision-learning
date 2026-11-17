@@ -1,0 +1,676 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-11-05T05:42:48.370365+00:00",
+  "finished_at_utc": "2026-11-05T05:42:48.886895+00:00",
+  "execution": {
+    "python_executable": "D:\\python\\.venv\\Scripts\\python.exe",
+    "command": "PowerShell here-string piped to & D:\\python\\.venv\\Scripts\\python.exe -B -",
+    "mode": "Python stdin; standard library only; no saved audit script",
+    "stdout_capture": "Real stdout and stderr tee to independently created independent_verification.log during this execution",
+    "model_imports_or_inference": false,
+    "server_connection": false,
+    "original_results_modified": false,
+    "new_files_only": [
+      "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\independent_verification.json",
+      "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\independent_verification.log"
+    ]
+  },
+  "input_file_sha256_before": {
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\rpn_metrics.json": "a4bb88c9d854deef29c2a469eeed33df9672a59fd8a9e12466129ea8cc550b8d",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_gt.csv": "d4503b5346bfc2128840b8f0f7d88c2ea17309a48a45cdc1217ebb1787d8e268",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_image.csv": "50add533a374e1b57a680f45ff77111649ea2bd13bc2e0803f2517787c3f6da2",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\execution_status.json": "c7e972d401d489fc3d3d26e0a2aaf10dbd8c1ada934e40970cae4f57f8353812",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_metrics.json": "1d5e29c6a9cb36b1acad410599a1ac70805faf5e8d6208379adcfb24871860fe",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_gt.csv": "e3d32280eda4dd1a8d0c56820b0e0554436a4b83ab8aa06c323886ea3b445478",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_image.csv": "592814e2172ea894046611ca0ad4235df63ba43787c94c50faa1db57a975cae1",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\execution_status.json": "35f4fa7bf7c2466addbfa8ee3144f03c2145b6e8fe00b527eaf478acc519610a",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "D:\\python\\test\\vision-learning\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+    "D:\\python\\test\\vision-learning\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a"
+  },
+  "input_file_sha256_after": {
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\rpn_metrics.json": "a4bb88c9d854deef29c2a469eeed33df9672a59fd8a9e12466129ea8cc550b8d",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_gt.csv": "d4503b5346bfc2128840b8f0f7d88c2ea17309a48a45cdc1217ebb1787d8e268",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\rpn_per_image.csv": "50add533a374e1b57a680f45ff77111649ea2bd13bc2e0803f2517787c3f6da2",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\val_rpn_run01\\execution_status.json": "c7e972d401d489fc3d3d26e0a2aaf10dbd8c1ada934e40970cae4f57f8353812",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_metrics.json": "1d5e29c6a9cb36b1acad410599a1ac70805faf5e8d6208379adcfb24871860fe",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_gt.csv": "e3d32280eda4dd1a8d0c56820b0e0554436a4b83ab8aa06c323886ea3b445478",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\rpn_per_image.csv": "592814e2172ea894046611ca0ad4235df63ba43787c94c50faa1db57a975cae1",
+    "D:\\python\\test\\vision-learning\\week09\\day01\\outputs\\gpu_smoke_run01\\execution_status.json": "35f4fa7bf7c2466addbfa8ee3144f03c2145b6e8fe00b527eaf478acc519610a",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "D:\\python\\test\\vision-learning\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+    "D:\\python\\test\\vision-learning\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a"
+  },
+  "all_audited_inputs_unchanged": true,
+  "full_validation": {
+    "status": "passed",
+    "scope": {
+      "images": 150,
+      "gt_per_model": 416,
+      "gt_rows_both_models": 832
+    },
+    "checks": {
+      "input_manifest_order_counts_and_gt": true,
+      "csv_global_hits_recall_mean_exact_json": true,
+      "per_gt_coverage_flags": true,
+      "per_image_counts_hits_recall_exact": true,
+      "per_image_mean_within_tolerance": true,
+      "per_image_mean_tolerance": 1e-06,
+      "max_per_image_mean_absolute_difference": 7.947285973752827e-08,
+      "topk_monotonic_all_gt": true,
+      "top300_equals_top1000_all_gt": true,
+      "model_pair_gt_ids_and_geometry_equal": true,
+      "per_image_and_global_deltas_exact": true,
+      "proposal_counts_obey_original_150_cap": true,
+      "checkpoint_sha256_matches_record": true,
+      "recorded_persistent_state_hashes_equal": true
+    },
+    "models": {
+      "IR": {
+        "gt_rows": 416,
+        "images": 150,
+        "top_k": {
+          "100": {
+            "hits": {
+              "0.50": 407,
+              "0.75": 299
+            },
+            "recall": {
+              "0.50": 0.9783653846153846,
+              "0.75": 0.71875
+            },
+            "mean_max_iou": 0.7845622335130779,
+            "all_global_values_exactly_equal_json": true
+          },
+          "300": {
+            "hits": {
+              "0.50": 407,
+              "0.75": 302
+            },
+            "recall": {
+              "0.50": 0.9783653846153846,
+              "0.75": 0.7259615384615384
+            },
+            "mean_max_iou": 0.7861137990123377,
+            "all_global_values_exactly_equal_json": true
+          },
+          "1000": {
+            "hits": {
+              "0.50": 407,
+              "0.75": 302
+            },
+            "recall": {
+              "0.50": 0.9783653846153846,
+              "0.75": 0.7259615384615384
+            },
+            "mean_max_iou": 0.7861137990123377,
+            "all_global_values_exactly_equal_json": true
+          }
+        },
+        "proposal_counts": {
+          "min": 13,
+          "max": 150,
+          "mean": 87.08666666666667,
+          "median": 86.5,
+          "fewer_than_100": 92,
+          "zero": 0
+        },
+        "checkpoint_sha256_matches_local": true
+      },
+      "Fusion": {
+        "gt_rows": 416,
+        "images": 150,
+        "top_k": {
+          "100": {
+            "hits": {
+              "0.50": 409,
+              "0.75": 284
+            },
+            "recall": {
+              "0.50": 0.9831730769230769,
+              "0.75": 0.6826923076923077
+            },
+            "mean_max_iou": 0.7768592016341594,
+            "all_global_values_exactly_equal_json": true
+          },
+          "300": {
+            "hits": {
+              "0.50": 410,
+              "0.75": 285
+            },
+            "recall": {
+              "0.50": 0.9855769230769231,
+              "0.75": 0.6850961538461539
+            },
+            "mean_max_iou": 0.7787922653727807,
+            "all_global_values_exactly_equal_json": true
+          },
+          "1000": {
+            "hits": {
+              "0.50": 410,
+              "0.75": 285
+            },
+            "recall": {
+              "0.50": 0.9855769230769231,
+              "0.75": 0.6850961538461539
+            },
+            "mean_max_iou": 0.7787922653727807,
+            "all_global_values_exactly_equal_json": true
+          }
+        },
+        "proposal_counts": {
+          "min": 17,
+          "max": 150,
+          "mean": 102.22,
+          "median": 100.0,
+          "fewer_than_100": 75,
+          "zero": 0
+        },
+        "checkpoint_sha256_matches_local": true
+      }
+    }
+  },
+  "gpu_smoke": {
+    "status": "passed",
+    "scope": {
+      "images": 3,
+      "gt_per_model": 7,
+      "gt_rows_both_models": 14
+    },
+    "checks": {
+      "input_manifest_order_counts_and_gt": true,
+      "csv_global_hits_recall_mean_exact_json": true,
+      "per_gt_coverage_flags": true,
+      "per_image_counts_hits_recall_exact": true,
+      "per_image_mean_within_tolerance": true,
+      "per_image_mean_tolerance": 1e-06,
+      "max_per_image_mean_absolute_difference": 3.973642981325298e-08,
+      "topk_monotonic_all_gt": true,
+      "top300_equals_top1000_all_gt": true,
+      "model_pair_gt_ids_and_geometry_equal": true,
+      "per_image_and_global_deltas_exact": true,
+      "proposal_counts_obey_original_150_cap": true,
+      "checkpoint_sha256_matches_record": true,
+      "recorded_persistent_state_hashes_equal": true
+    },
+    "models": {
+      "IR": {
+        "gt_rows": 7,
+        "images": 3,
+        "top_k": {
+          "100": {
+            "hits": {
+              "0.50": 7,
+              "0.75": 7
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 1.0
+            },
+            "mean_max_iou": 0.8480295368603298,
+            "all_global_values_exactly_equal_json": true
+          },
+          "300": {
+            "hits": {
+              "0.50": 7,
+              "0.75": 7
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 1.0
+            },
+            "mean_max_iou": 0.8480295368603298,
+            "all_global_values_exactly_equal_json": true
+          },
+          "1000": {
+            "hits": {
+              "0.50": 7,
+              "0.75": 7
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 1.0
+            },
+            "mean_max_iou": 0.8480295368603298,
+            "all_global_values_exactly_equal_json": true
+          }
+        },
+        "proposal_counts": {
+          "min": 22,
+          "max": 68,
+          "mean": 44.666666666666664,
+          "median": 44,
+          "fewer_than_100": 3,
+          "zero": 0
+        },
+        "checkpoint_sha256_matches_local": true
+      },
+      "Fusion": {
+        "gt_rows": 7,
+        "images": 3,
+        "top_k": {
+          "100": {
+            "hits": {
+              "0.50": 7,
+              "0.75": 6
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 0.8571428571428571
+            },
+            "mean_max_iou": 0.843731198992048,
+            "all_global_values_exactly_equal_json": true
+          },
+          "300": {
+            "hits": {
+              "0.50": 7,
+              "0.75": 6
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 0.8571428571428571
+            },
+            "mean_max_iou": 0.843731198992048,
+            "all_global_values_exactly_equal_json": true
+          },
+          "1000": {
+            "hits": {
+              "0.50": 7,
+              "0.75": 6
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 0.8571428571428571
+            },
+            "mean_max_iou": 0.843731198992048,
+            "all_global_values_exactly_equal_json": true
+          }
+        },
+        "proposal_counts": {
+          "min": 59,
+          "max": 99,
+          "mean": 74.66666666666667,
+          "median": 66,
+          "fewer_than_100": 3,
+          "zero": 0
+        },
+        "checkpoint_sha256_matches_local": true
+      }
+    }
+  },
+  "gpu_smoke_vs_full": {
+    "status": "passed",
+    "scope": "GPU smoke three images versus same full-run images; two models, all three K",
+    "images": 3,
+    "gt_per_model": 7,
+    "compared_gt_max_iou_values": 42,
+    "proposal_count_max_absolute_difference": 0,
+    "gt_max_iou_max_absolute_difference": 0.0,
+    "max_iou_tolerance": 1e-06
+  },
+  "paired_gt_additional_statistics": {
+    "100": {
+      "gt_pairs": 416,
+      "coverage_counts": {
+        "both_covered_at_0.75": 253,
+        "IR_only_covered_at_0.75": 46,
+        "Fusion_only_covered_at_0.75": 31,
+        "neither_covered_at_0.75": 86
+      },
+      "max_iou_delta_fusion_minus_ir": {
+        "mean": -0.007703031878918409,
+        "median": -0.01210033893585205,
+        "IR_better_gt_count": 228,
+        "Fusion_better_gt_count": 186,
+        "equal_gt_count": 2
+      }
+    },
+    "300": {
+      "gt_pairs": 416,
+      "coverage_counts": {
+        "both_covered_at_0.75": 255,
+        "IR_only_covered_at_0.75": 47,
+        "Fusion_only_covered_at_0.75": 30,
+        "neither_covered_at_0.75": 84
+      },
+      "max_iou_delta_fusion_minus_ir": {
+        "mean": -0.007321533639557087,
+        "median": -0.012813925743103027,
+        "IR_better_gt_count": 229,
+        "Fusion_better_gt_count": 186,
+        "equal_gt_count": 1
+      }
+    },
+    "1000": {
+      "gt_pairs": 416,
+      "coverage_counts": {
+        "both_covered_at_0.75": 255,
+        "IR_only_covered_at_0.75": 47,
+        "Fusion_only_covered_at_0.75": 30,
+        "neither_covered_at_0.75": 84
+      },
+      "max_iou_delta_fusion_minus_ir": {
+        "mean": -0.007321533639557087,
+        "median": -0.012813925743103027,
+        "IR_better_gt_count": 229,
+        "Fusion_better_gt_count": 186,
+        "equal_gt_count": 1
+      }
+    }
+  },
+  "per_scene_descriptive_statistics": {
+    "03": {
+      "images": 38,
+      "gt_per_model": 93,
+      "models": {
+        "IR": {
+          "100": {
+            "hits": {
+              "0.50": 92,
+              "0.75": 78
+            },
+            "recall": {
+              "0.50": 0.989247311827957,
+              "0.75": 0.8387096774193549
+            },
+            "mean_max_iou": 0.8077218941142482
+          },
+          "300": {
+            "hits": {
+              "0.50": 92,
+              "0.75": 78
+            },
+            "recall": {
+              "0.50": 0.989247311827957,
+              "0.75": 0.8387096774193549
+            },
+            "mean_max_iou": 0.8077218941142482
+          },
+          "1000": {
+            "hits": {
+              "0.50": 92,
+              "0.75": 78
+            },
+            "recall": {
+              "0.50": 0.989247311827957,
+              "0.75": 0.8387096774193549
+            },
+            "mean_max_iou": 0.8077218941142482
+          }
+        },
+        "Fusion": {
+          "100": {
+            "hits": {
+              "0.50": 92,
+              "0.75": 63
+            },
+            "recall": {
+              "0.50": 0.989247311827957,
+              "0.75": 0.6774193548387096
+            },
+            "mean_max_iou": 0.7864330904458159
+          },
+          "300": {
+            "hits": {
+              "0.50": 92,
+              "0.75": 63
+            },
+            "recall": {
+              "0.50": 0.989247311827957,
+              "0.75": 0.6774193548387096
+            },
+            "mean_max_iou": 0.7870007003507307
+          },
+          "1000": {
+            "hits": {
+              "0.50": 92,
+              "0.75": 63
+            },
+            "recall": {
+              "0.50": 0.989247311827957,
+              "0.75": 0.6774193548387096
+            },
+            "mean_max_iou": 0.7870007003507307
+          }
+        }
+      }
+    },
+    "08": {
+      "images": 38,
+      "gt_per_model": 121,
+      "models": {
+        "IR": {
+          "100": {
+            "hits": {
+              "0.50": 121,
+              "0.75": 88
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 0.7272727272727273
+            },
+            "mean_max_iou": 0.7966982145939977
+          },
+          "300": {
+            "hits": {
+              "0.50": 121,
+              "0.75": 90
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 0.743801652892562
+            },
+            "mean_max_iou": 0.8017868384842045
+          },
+          "1000": {
+            "hits": {
+              "0.50": 121,
+              "0.75": 90
+            },
+            "recall": {
+              "0.50": 1.0,
+              "0.75": 0.743801652892562
+            },
+            "mean_max_iou": 0.8017868384842045
+          }
+        },
+        "Fusion": {
+          "100": {
+            "hits": {
+              "0.50": 120,
+              "0.75": 89
+            },
+            "recall": {
+              "0.50": 0.9917355371900827,
+              "0.75": 0.7355371900826446
+            },
+            "mean_max_iou": 0.7888937486597329
+          },
+          "300": {
+            "hits": {
+              "0.50": 120,
+              "0.75": 90
+            },
+            "recall": {
+              "0.50": 0.9917355371900827,
+              "0.75": 0.743801652892562
+            },
+            "mean_max_iou": 0.7906882341735619
+          },
+          "1000": {
+            "hits": {
+              "0.50": 120,
+              "0.75": 90
+            },
+            "recall": {
+              "0.50": 0.9917355371900827,
+              "0.75": 0.743801652892562
+            },
+            "mean_max_iou": 0.7906882341735619
+          }
+        }
+      }
+    },
+    "13": {
+      "images": 37,
+      "gt_per_model": 131,
+      "models": {
+        "IR": {
+          "100": {
+            "hits": {
+              "0.50": 127,
+              "0.75": 90
+            },
+            "recall": {
+              "0.50": 0.9694656488549618,
+              "0.75": 0.6870229007633588
+            },
+            "mean_max_iou": 0.767657607793808
+          },
+          "300": {
+            "hits": {
+              "0.50": 127,
+              "0.75": 91
+            },
+            "recall": {
+              "0.50": 0.9694656488549618,
+              "0.75": 0.6946564885496184
+            },
+            "mean_max_iou": 0.7678845372363812
+          },
+          "1000": {
+            "hits": {
+              "0.50": 127,
+              "0.75": 91
+            },
+            "recall": {
+              "0.50": 0.9694656488549618,
+              "0.75": 0.6946564885496184
+            },
+            "mean_max_iou": 0.7678845372363812
+          }
+        },
+        "Fusion": {
+          "100": {
+            "hits": {
+              "0.50": 128,
+              "0.75": 92
+            },
+            "recall": {
+              "0.50": 0.9770992366412213,
+              "0.75": 0.7022900763358778
+            },
+            "mean_max_iou": 0.7667326426688041
+          },
+          "300": {
+            "hits": {
+              "0.50": 129,
+              "0.75": 92
+            },
+            "recall": {
+              "0.50": 0.9847328244274809,
+              "0.75": 0.7022900763358778
+            },
+            "mean_max_iou": 0.7708107651644991
+          },
+          "1000": {
+            "hits": {
+              "0.50": 129,
+              "0.75": 92
+            },
+            "recall": {
+              "0.50": 0.9847328244274809,
+              "0.75": 0.7022900763358778
+            },
+            "mean_max_iou": 0.7708107651644991
+          }
+        }
+      }
+    },
+    "17": {
+      "images": 37,
+      "gt_per_model": 71,
+      "models": {
+        "IR": {
+          "100": {
+            "hits": {
+              "0.50": 67,
+              "0.75": 43
+            },
+            "recall": {
+              "0.50": 0.9436619718309859,
+              "0.75": 0.6056338028169014
+            },
+            "mean_max_iou": 0.7647341183373626
+          },
+          "300": {
+            "hits": {
+              "0.50": 67,
+              "0.75": 43
+            },
+            "recall": {
+              "0.50": 0.9436619718309859,
+              "0.75": 0.6056338028169014
+            },
+            "mean_max_iou": 0.7647341183373626
+          },
+          "1000": {
+            "hits": {
+              "0.50": 67,
+              "0.75": 43
+            },
+            "recall": {
+              "0.50": 0.9436619718309859,
+              "0.75": 0.6056338028169014
+            },
+            "mean_max_iou": 0.7647341183373626
+          }
+        },
+        "Fusion": {
+          "100": {
+            "hits": {
+              "0.50": 69,
+              "0.75": 40
+            },
+            "recall": {
+              "0.50": 0.971830985915493,
+              "0.75": 0.5633802816901409
+            },
+            "mean_max_iou": 0.7624933900127948
+          },
+          "300": {
+            "hits": {
+              "0.50": 69,
+              "0.75": 40
+            },
+            "recall": {
+              "0.50": 0.971830985915493,
+              "0.75": 0.5633802816901409
+            },
+            "mean_max_iou": 0.7624933900127948
+          },
+          "1000": {
+            "hits": {
+              "0.50": 69,
+              "0.75": 40
+            },
+            "recall": {
+              "0.50": 0.971830985915493,
+              "0.75": 0.5633802816901409
+            },
+            "mean_max_iou": 0.7624933900127948
+          }
+        }
+      }
+    }
+  },
+  "not_performed": [
+    "Did not rerun a model, re-extract proposals, or recompute IoU from proposal coordinates; proposal tensors are not stored in these CSV artifacts.",
+    "Did not independently validate objectness ranking, NMS implementation, or upstream feature extraction by new inference.",
+    "No training, no test split inference, no AP calculation, no causal intervention, no statistical significance test.",
+    "No empty-GT image occurred in these audited GPU runs; this audit does not execute an empty-GT edge case.",
+    "No independent GPU execution was started; this is local recomputation of returned artifacts.",
+    "Archive transport and all-16-file SHA audit were reported separately by the parent and are not claimed as repeated here.",
+    "Per-image mean IoU is stored from float32 averaging; independent float64 recomputation is checked with absolute tolerance 1e-6. Global means, hits and recalls are checked with exact equality."
+  ]
+}

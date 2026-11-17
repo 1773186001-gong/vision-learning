@@ -1,0 +1,39 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 D:\\python\\test\\vision-learning\\week10\\day06\\trace_success.py --output D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "started_at_utc": "2026-11-12T04:03:31.298558+00:00",
+  "finished_at_utc": "2026-11-12T04:03:35.041401+00:00",
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "executable": "D:\\python\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "threads": 2,
+    "seed": 42,
+    "device": "CPU"
+  },
+  "source_sha256": {
+    "trace_success.py": "7a671ecbfc1be50f7d411e63dcf95f9873ea285ed39e0bdd619dbce23f920e8c",
+    "README.md": "cf9894c79be82f7c306ceb7b2daf484e322b4e6e77afba55d9760387c8c62261",
+    "run_trace.ps1": "13a1824031790a8f199a0282d96f55c1b2eef1f275874eaa768a5fb1f712e22b"
+  },
+  "counts": {
+    "checkpoint_loads": 1,
+    "strict_state_loads": 1,
+    "model_restores": 1,
+    "full_forward_attempts": 1,
+    "full_model_forward_calls": 1,
+    "structure_probes": 0,
+    "reference_capture_loads": 1,
+    "independent_nms_replays": 0,
+    "original_rpn_batched_nms_calls": 1,
+    "original_roi_batched_nms_calls": 1,
+    "server_connections": 0,
+    "test_inference": 0,
+    "training": 0,
+    "fusion_forwards": 0,
+    "additional_030129_forwards": 0
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "model_GT": 594,
+  "pairs": 23,
+  "good_rows": 4046,
+  "strict_relations": 2047,
+  "tie_relations": 0,
+  "directions": {
+    "positive": 22,
+    "equal": 1
+  },
+  "historical_files_unchanged": 1559,
+  "source_sha256": "2082a7f71ca9425be239dc8e63110fc253e9bf9854d46bde4c775676149131dc",
+  "exit_code": 0,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day07/verify_exports.py --input week09/day07/outputs/competition_run01 --output week09/day07/checks/export_verification_run01"
+}

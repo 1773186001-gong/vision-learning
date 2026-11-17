@@ -1,0 +1,203 @@
+{
+  "TP": 307,
+  "FP": 54,
+  "FN": 41,
+  "GT": 348,
+  "categories": {
+    "duplicate": {
+      "count": 3,
+      "fraction": 0.05555555555555555
+    },
+    "localization": {
+      "count": 22,
+      "fraction": 0.4074074074074074
+    },
+    "low_overlap": {
+      "count": 29,
+      "fraction": 0.5370370370370371
+    },
+    "other": {
+      "count": 0,
+      "fraction": 0.0
+    }
+  },
+  "no_gt_images": 0,
+  "no_gt_fp": 0,
+  "per_image_fp_distribution": {
+    "0": 108,
+    "1": 33,
+    "2": 6,
+    "3": 3
+  },
+  "score_distribution": {
+    "n": 54,
+    "min": 0.5014846324920654,
+    "max": 0.9960991144180298,
+    "mean": 0.7208466872021004,
+    "quantiles": {
+      "q0": 0.5014846324920654,
+      "q25": 0.6334910690784454,
+      "q50": 0.69843590259552,
+      "q75": 0.802609995007515,
+      "q100": 0.9960991144180298
+    }
+  },
+  "max_iou_distribution": {
+    "n": 54,
+    "min": 0.0,
+    "max": 0.628635585308075,
+    "mean": 0.1962617023123635,
+    "quantiles": {
+      "q0": 0.0,
+      "q25": 0.0,
+      "q50": 0.0,
+      "q75": 0.408013753592968,
+      "q100": 0.628635585308075
+    }
+  },
+  "high_score_definition": "score >= 0.9 (diagnostic only; no threshold tuning)",
+  "high_score_fp": 5,
+  "high_score_fp_fraction": 0.09259259259259259,
+  "top10": [
+    {
+      "modality": "IR",
+      "image_id": "240176",
+      "dataset_image_id": 115,
+      "GT": 1,
+      "predictions_above_threshold": 4,
+      "TP": 1,
+      "FP": 3,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 3,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "240425",
+      "dataset_image_id": 125,
+      "GT": 2,
+      "predictions_above_threshold": 5,
+      "TP": 2,
+      "FP": 3,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 3,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "240450",
+      "dataset_image_id": 126,
+      "GT": 1,
+      "predictions_above_threshold": 4,
+      "TP": 1,
+      "FP": 3,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 3,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "200198",
+      "dataset_image_id": 35,
+      "GT": 2,
+      "predictions_above_threshold": 4,
+      "TP": 2,
+      "FP": 2,
+      "FN": 0,
+      "duplicate": 1,
+      "localization": 1,
+      "low_overlap": 0,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "210312",
+      "dataset_image_id": 59,
+      "GT": 5,
+      "predictions_above_threshold": 5,
+      "TP": 3,
+      "FP": 2,
+      "FN": 2,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 1,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "210395",
+      "dataset_image_id": 63,
+      "GT": 8,
+      "predictions_above_threshold": 7,
+      "TP": 5,
+      "FP": 2,
+      "FN": 3,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 1,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "220248",
+      "dataset_image_id": 79,
+      "GT": 5,
+      "predictions_above_threshold": 6,
+      "TP": 4,
+      "FP": 2,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 2,
+      "low_overlap": 0,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "240251",
+      "dataset_image_id": 118,
+      "GT": 4,
+      "predictions_above_threshold": 5,
+      "TP": 3,
+      "FP": 2,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 2,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "240275",
+      "dataset_image_id": 119,
+      "GT": 4,
+      "predictions_above_threshold": 5,
+      "TP": 3,
+      "FP": 2,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 1,
+      "other": 0
+    },
+    {
+      "modality": "IR",
+      "image_id": "190040",
+      "dataset_image_id": 1,
+      "GT": 7,
+      "predictions_above_threshold": 6,
+      "TP": 5,
+      "FP": 1,
+      "FN": 2,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 0,
+      "other": 0
+    }
+  ]
+}

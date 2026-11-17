@@ -1,0 +1,20 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week10/day04/trace_roi.py --output week10/day04/outputs/roi_trace_run01",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "source_sha256": "3dca6802c04b886726069c09e966d26c0c077d15163140070717e91c139aa25d",
+  "counts": {
+    "checkpoint_loads": 1,
+    "strict_loads": 1,
+    "full_model_forwards": 1,
+    "structure_probes": 0,
+    "independent_nms_replays": 0
+  },
+  "exit_code": 0,
+  "finished_at": "2026-11-11T18:05:46.901417+08:00"
+}

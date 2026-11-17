@@ -1,0 +1,5 @@
+﻿model,stem,gt_index,L,T,good_count,minimizer_ids,nms_lost,final_lost,nms_input_count,nms_output_count,final_count,nms_kept_good_ids,day07_exact_match
+IR,030078,0,2,1,8,"[""full_val_stage_run01/IR/030078/9141""]",False,False,65,36,36,"[""full_val_stage_run01/IR/030078/9141""]",True
+Fusion,030078,0,2,1,2,"[""full_val_stage_run01/Fusion/030078/3146"", ""full_val_stage_run01/Fusion/030078/9146""]",True,True,97,67,67,[],True
+IR,030129,0,1,1,1,"[""full_val_stage_run01/IR/030129/8877""]",False,False,80,51,51,"[""full_val_stage_run01/IR/030129/8877""]",True
+Fusion,030129,0,1,4,1,"[""full_val_stage_run01/Fusion/030129/8877""]",True,True,97,64,64,[],True

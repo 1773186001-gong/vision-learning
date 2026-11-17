@@ -1,0 +1,19 @@
+test_all_good_loss_and_conditional_rate (test_coverage_statistics.CoverageTests.test_all_good_loss_and_conditional_rate) ... ok
+test_clipping_first_creates_coverage (test_coverage_statistics.CoverageTests.test_clipping_first_creates_coverage) ... ok
+test_duplicate_and_pair_mismatch_rejected (test_coverage_statistics.CoverageTests.test_duplicate_and_pair_mismatch_rejected) ... ok
+test_empty_gt_image_not_fabricated (test_coverage_statistics.CoverageTests.test_empty_gt_image_not_fabricated) ... ok
+test_empty_proposals_have_zero_and_no_best_id (test_coverage_statistics.CoverageTests.test_empty_proposals_have_zero_and_no_best_id) ... ok
+test_equal_coordinates_keep_ids_and_stage_tie_order (test_coverage_statistics.CoverageTests.test_equal_coordinates_keep_ids_and_stage_tie_order) ... ok
+test_gt_weighted_not_image_average (test_coverage_statistics.CoverageTests.test_gt_weighted_not_image_average) ... ok
+test_invalid_gt_and_missing_stage_rejected (test_coverage_statistics.CoverageTests.test_invalid_gt_and_missing_stage_rejected) ... ok
+test_multi_gt_multiple_boxes_not_multiple_gt_hits (test_coverage_statistics.CoverageTests.test_multi_gt_multiple_boxes_not_multiple_gt_hits) ... ok
+test_net_changes_are_arithmetic_with_gains_and_losses (test_coverage_statistics.CoverageTests.test_net_changes_are_arithmetic_with_gains_and_losses) ... ok
+test_partial_good_loss_keeps_gt_covered (test_coverage_statistics.CoverageTests.test_partial_good_loss_keeps_gt_covered) ... ok
+test_threshold_strict_without_epsilon (test_coverage_statistics.CoverageTests.test_threshold_strict_without_epsilon) ... ok
+test_topn_loss_then_real_clip_recovery_recorded (test_coverage_statistics.CoverageTests.test_topn_loss_then_real_clip_recovery_recorded) ... ok
+test_zero_condition_denominator_is_none (test_coverage_statistics.CoverageTests.test_zero_condition_denominator_is_none) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.170s
+
+OK

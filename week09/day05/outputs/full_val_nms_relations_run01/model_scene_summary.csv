@@ -1,0 +1,11 @@
+﻿scene_id,model,all_valid_gt,nms_precovered_gt,nms_lost_gt,conditional_loss_rate,gt_with_primary_relation,gt_every_deleted_good_has_primary_relation,gt_partly_or_fully_unexplained_primary,gt_without_any_primary_relation,gt_with_primary_score_tie,gt_with_eligible_score_tie,gt_near_nms_threshold,gt_relation_predicate_disagreement,gt_numerically_sensitive,gt_with_diagnostic_only_relation,gt_with_related_retained_other_gt_overlap_larger,deleted_good_candidate_GT_rows,unique_deleted_good_candidates,primary_relation_GT_rows,unique_primary_candidate_pairs,selection_warning
+ALL,IR,416,326,24,0.0736196319018405,24,24,0,0,0,0,0,0,0,0,0,50,50,52,52,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+ALL,Fusion,416,321,34,0.1059190031152648,34,34,0,0,0,0,0,0,0,0,0,69,69,78,78,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+03,IR,93,80,2,0.025,2,2,0,0,0,0,0,0,0,0,0,6,6,6,6,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+03,Fusion,93,73,10,0.136986301369863,10,10,0,0,0,0,0,0,0,0,0,21,21,23,23,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+08,IR,121,99,9,0.09090909090909091,9,9,0,0,0,0,0,0,0,0,0,20,20,22,22,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+08,Fusion,121,100,9,0.09,9,9,0,0,0,0,0,0,0,0,0,21,21,22,22,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+13,IR,131,97,6,0.061855670103092786,6,6,0,0,0,0,0,0,0,0,0,14,14,14,14,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+13,Fusion,131,98,5,0.05102040816326531,5,5,0,0,0,0,0,0,0,0,0,8,8,9,9,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+17,IR,71,50,7,0.14,7,7,0,0,0,0,0,0,0,0,0,10,10,10,10,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence
+17,Fusion,71,50,10,0.2,10,10,0,0,0,0,0,0,0,0,0,19,19,24,24,Post-NMS max IoU < .75 by queue definition; worse-retained IoU is not independent evidence

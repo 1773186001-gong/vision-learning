@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "scope": "synthetic_tensor_unit_verification_only",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "protected_files_checked": 429,
+  "changed_protected_files": [],
+  "actual_command": "D:\\python\\.venv\\Scripts\\python.exe -B week09/day03/verify_trace.py --output week09/day03/checks/lock_release_regression_run01",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "real_model_loaded": false,
+  "checkpoint_loaded": false,
+  "real_image_forward": false,
+  "server_connected": false,
+  "source_sha256": {
+    "trace_rpn_stages.py": "3a14d39c4c3b045e83f1ba420bd6bb92d1867ea1b3b085e3f616b3b63ee46b60",
+    "test_trace_rpn_stages.py": "9d290c4b3c092ed02d5096bb48e6f9aa80adaf84a2ac260415f6b8061cb3e1fc",
+    "verify_trace.py": "b79494443e6eee7eef68f22dfcdc11b5b68b2c65a39ed31ae85231132653a8eb"
+  },
+  "source_rpn_sha256": "00ff7ea77fe9ba37038ad6b6c1289185b2e753ca124c50cf64d8f0d30edecd43",
+  "recorded_at_utc": "2026-11-08T04:52:21.824541+00:00"
+}

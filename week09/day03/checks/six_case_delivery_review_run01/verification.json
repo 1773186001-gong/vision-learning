@@ -1,0 +1,30 @@
+{
+  "exit_code": 0,
+  "merged_stage_rows_exact": 84,
+  "merged_track_rows_exact": 245,
+  "new_forwards": 10,
+  "reused_forwards": 0,
+  "server_protected_files_unchanged": 493,
+  "local_historical_files_unchanged": 429,
+  "model_state_weight_config_restoration_all_passed": true,
+  "source_sha256": {
+    "week09\\day03\\capture_remaining_val.py": "7dd2d8cd9acef1d1dbfe1ecf1f7eb3857fc8a63ff25f7e64969bf706481dd484",
+    "week09\\day03\\capture_single_val.py": "1ad565f0dcc6d4ba124177583e8d81aa484672537d7c78d90f00bde382319de4",
+    "week09\\day03\\test_capture_single_val.py": "37d1a87b6d5ca0bdc66113bce545f239014dc9e7f3b3412c6d291fc30821d797",
+    "week09\\day03\\test_remaining_capture.py": "5b1042862a697a32b419e17198db6c29b3c2695df27d35ccf303debb316302e1",
+    "week09\\day03\\test_trace_rpn_stages.py": "9d290c4b3c092ed02d5096bb48e6f9aa80adaf84a2ac260415f6b8061cb3e1fc",
+    "week09\\day03\\trace_rpn_stages.py": "3a14d39c4c3b045e83f1ba420bd6bb92d1867ea1b3b085e3f616b3b63ee46b60",
+    "week09\\day03\\verify_merged_capture.py": "cd03e795cd0d430bc943a1e528bb1563f71127188f5c4111995305bba7a4e484",
+    "week09\\day03\\verify_single_capture.py": "30d00fac1d05cc79ca4fa6fad7114fe0bd4f49e8c06ad148c404eb4862535604",
+    "week09\\day03\\verify_trace.py": "b79494443e6eee7eef68f22dfcdc11b5b68b2c65a39ed31ae85231132653a8eb"
+  },
+  "delivery_sha256": "62a16e770fd1aca275290cec740abc6ddfa030c8783c2ea6db99bf44e9dc0522",
+  "command": [
+    "D:\\python\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-c",
+    "import pathlib,json,csv,sys; sys.path.insert(0,'week09/day03'); import capture_single_val as s; p=pathlib.Path('week09/day03/outputs/remaining_five_merged_run01'); m=json.loads((p/'run_metadata.json').read_text()); actual=[]; tracks=[]; [ (actual.extend(s.read_csv(p/c['directory']/f'{n}_stage_summary.csv')),tracks.extend(s.read_csv(p/c['directory']/f'{n}_candidate_trajectory.csv'))) for c in m['cases'] for n in ['IR','Fusion'] ]; assert actual==s.read_csv(p/'merged_stage_summary.csv'); assert tracks==s.read_csv(p/'merged_candidate_trajectory.csv'); process=json.loads((p/'process_status.json').read_text(encoding='utf-8-sig')); assert process['exit_code']==0; assert m['new_forward_calls']==10 and m['cases'][0]['new_forwards']==0 and all(c['new_forwards']==2 for c in m['cases'][1:]); assert all(v['state_sha256_before']==v['state_sha256_after'] and v['checkpoint_sha256_before']==v['checkpoint_sha256_after'] and v['config_unchanged'] and v['restoration_verified'] for c in m['cases'][1:] for v in c['models'].values()); old=json.loads(pathlib.Path('week09/day03/checks/local_unit_protected_before.json').read_text()); assert all(s.sha(q)==h for q,h in old.items()); dest=pathlib.Path('week09/day03/checks/six_case_delivery_review_run01'); dest.mkdir(exist_ok=False); result={'exit_code':0,'merged_stage_rows_exact':len(actual),'merged_track_rows_exact':len(tracks),'new_forwards':10,'reused_forwards':0,'server_protected_files_unchanged':len(m['protected_sha256_before']),'local_historical_files_unchanged':len(old),'model_state_weight_config_restoration_all_passed':True,'source_sha256':{str(q):s.sha(q) for q in pathlib.Path('week09/day03').glob('*.py')},'delivery_sha256':s.sha(pathlib.Path('week09/day03/DAY03_SIX_CASE_CAPTURE_DELIVERY.md')),'command':sys.orig_argv}; (dest/'verification.json').open('x',encoding='utf-8').write(json.dumps(result,ensure_ascii=False,indent=2)); text='DELIVERY_AUDIT_PASSED stage_rows='+str(len(actual))+' track_rows='+str(len(tracks))+' new_forwards=10 reused_forwards=0 exit_code=0'; (dest/'run.log').write_text(text+'\\n',encoding='utf-8'); print(text)"
+  ]
+}

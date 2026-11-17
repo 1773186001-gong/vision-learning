@@ -1,0 +1,19 @@
+{
+  "original_count": 3,
+  "replay_count": 3,
+  "original_indices": [
+    0,
+    7,
+    23
+  ],
+  "replay_indices": [
+    0,
+    7,
+    23
+  ],
+  "full_index_sequence_equal": true,
+  "identity_box_score_class_equal": true,
+  "original_post_and_model_consistent": true,
+  "replay_postprocess_exact": true,
+  "replay_budget_and_model_exact": true
+}

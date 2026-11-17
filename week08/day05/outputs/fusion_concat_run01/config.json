@@ -1,0 +1,22 @@
+{
+  "modality": "fusion_concat",
+  "epochs": 10,
+  "batch_size": 1,
+  "num_workers": 0,
+  "seed": 42,
+  "lr": 0.001,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "input_size": 640,
+  "amp": false,
+  "scheduler": null,
+  "torch": "2.14.1+cu126",
+  "torchvision": "0.29.1+cu126",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "manifest_sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+  "weights_sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5",
+  "architecture": "independent RGB FPN + IR FPN -> concat/1x1 -> shared RPN/RoI",
+  "command": "D:\\cv-server-env\\Scripts\\python.exe -B D:\\vision-learning-server\\week08\\day05\\train_fusion.py --data-root D:\\vision-learning-server\\data\\LLVIP_1000 --output D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01 --device cuda:0 --keep-awake"
+}

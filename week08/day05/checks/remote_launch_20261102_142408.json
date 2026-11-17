@@ -1,0 +1,20 @@
+{
+  "evidence_source": "User-pasted local CMD transcript; not independently inspected remote logs",
+  "server_hostname_reported": "DESKTOP-BFIO0RA",
+  "torch": "2.14.1+cu126",
+  "torchvision": "0.29.1+cu126",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "official_COCO_cache_exists_reported": true,
+  "package_upload_bytes_approx": 217262,
+  "package_existing_file_conflict_check": "passed per transcript",
+  "runtime_package_hash_check": "passed per transcript",
+  "job_dir": "D:\\vision-learning-server\\week08\\day05\\jobs\\fusion_concat_run01_20261102_142408_3a904cd8",
+  "output_dir": "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01",
+  "verified_WMI_monitor_pid": 1916,
+  "launcher_returned_to_local_CMD": true,
+  "GPU_smoke": "not yet inspected",
+  "epochs_completed": "unknown",
+  "background_persistence_after_launch": "needs subsequent state/log check",
+  "final_training_exit_code": "unknown",
+  "notes": "Initial password attempt failed, subsequent user-entered authentication succeeded. CLIXML progress and garbled powercfg labels did not prevent checks/upload/launch. No credentials recorded. Do not rerun launcher."
+}

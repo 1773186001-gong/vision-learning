@@ -1,0 +1,15 @@
+test_background_by_L_keeps_risk_denominators (test_layer_support.NecessaryTests.test_background_by_L_keeps_risk_denominators) ... ok
+test_bad_layer_or_standard_pyramid_keys_rejected (test_layer_support.NecessaryTests.test_bad_layer_or_standard_pyramid_keys_rejected) ... ok
+test_both_lost_or_kept_do_not_create_asymmetric_delta (test_layer_support.NecessaryTests.test_both_lost_or_kept_do_not_create_asymmetric_delta) ... ok
+test_duplicate_GT_keys_rejected (test_layer_support.NecessaryTests.test_duplicate_GT_keys_rejected) ... ok
+test_exact_075_is_included_without_tolerance (test_layer_support.NecessaryTests.test_exact_075_is_included_without_tolerance) ... ok
+test_failed_minus_survivor_direction_for_both_models (test_layer_support.NecessaryTests.test_failed_minus_survivor_direction_for_both_models) ... ok
+test_many_good_boxes_in_one_level_count_one (test_layer_support.NecessaryTests.test_many_good_boxes_in_one_level_count_one) ... ok
+test_paired_counts_and_zero_denominator (test_layer_support.NecessaryTests.test_paired_counts_and_zero_denominator) ... ok
+test_real_level_indices_not_size_or_flat_id_guess (test_layer_support.NecessaryTests.test_real_level_indices_not_size_or_flat_id_guess) ... ok
+test_zero_support_in_mother_set_is_error (test_layer_support.NecessaryTests.test_zero_support_in_mother_set_is_error) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.006s
+
+OK

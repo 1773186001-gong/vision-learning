@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "scope": "synthetic_tensor_unit_verification_only",
+  "tests_run": 19,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "protected_files_checked": 429,
+  "changed_protected_files": [],
+  "actual_command": "D:\\python\\.venv\\Scripts\\python.exe -B week09/day03/verify_trace.py --output week09/day03/checks/synthetic_unit_run01",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "real_model_loaded": false,
+  "checkpoint_loaded": false,
+  "real_image_forward": false,
+  "server_connected": false,
+  "source_sha256": {
+    "trace_rpn_stages.py": "f3e94c110fea4603432c7d8d8eac64a341f549ed13115076af5421e5cbc4f9b6",
+    "test_trace_rpn_stages.py": "da513e05249d18edba83b5a33c861ae8e6291ae9651b132db2cb4f652014ad9a",
+    "verify_trace.py": "b79494443e6eee7eef68f22dfcdc11b5b68b2c65a39ed31ae85231132653a8eb"
+  },
+  "source_rpn_sha256": "00ff7ea77fe9ba37038ad6b6c1289185b2e753ca124c50cf64d8f0d30edecd43",
+  "recorded_at_utc": "2026-11-08T04:44:41.507181+00:00"
+}

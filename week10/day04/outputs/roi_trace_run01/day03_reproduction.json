@@ -1,0 +1,9 @@
+{
+  "exact_reproduced": true,
+  "flat_sequence_equal": true,
+  "gt_equal": true,
+  "new_count": 51,
+  "day03_count": 51,
+  "final_count": 3,
+  "scope": "no tolerances; final order compared directly; proposals aligned by flat"
+}

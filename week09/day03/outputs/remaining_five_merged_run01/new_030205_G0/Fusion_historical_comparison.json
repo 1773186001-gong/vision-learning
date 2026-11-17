@@ -1,0 +1,98 @@
+{
+  "checkpoint": "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01\\best.pth",
+  "checkpoint_sha256_before": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+  "status": "captured",
+  "forward_calls": 1,
+  "config": {
+    "pre_nms_top_n": {
+      "training": 2000,
+      "testing": 150
+    },
+    "post_nms_top_n": {
+      "training": 2000,
+      "testing": 150
+    },
+    "active_pre_nms_top_n": 150,
+    "active_post_nms_top_n": 150,
+    "nms_thresh": 0.7,
+    "score_thresh": 0.05,
+    "minimum_box_size": 0.001,
+    "anchor_sizes": [
+      [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      [
+        32,
+        64,
+        128,
+        256,
+        512
+      ]
+    ],
+    "anchor_aspect_ratios": [
+      [
+        0.5,
+        1.0,
+        2.0
+      ],
+      [
+        0.5,
+        1.0,
+        2.0
+      ],
+      [
+        0.5,
+        1.0,
+        2.0
+      ]
+    ],
+    "transform_min_size": [
+      640
+    ],
+    "transform_max_size": 640,
+    "transform_mean": [
+      0.485,
+      0.456,
+      0.406,
+      0.485,
+      0.456,
+      0.406
+    ],
+    "transform_std": [
+      0.229,
+      0.224,
+      0.225,
+      0.229,
+      0.224,
+      0.225
+    ],
+    "roi_feature_keys": [
+      "0",
+      "1"
+    ],
+    "proposal_order": "Original filter_proposals output: batched_nms returns decreasing objectness score; keep is sliced by original post_nms_top_n, then [:K].",
+    "coordinate_system": "xyxy pixels in transformed, unpadded ImageList.image_sizes; GT captured from the same original forward call"
+  },
+  "state_sha256_before": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+  "state_sha256_after": "e7fdeb7134a88e71c997b706a9d4e43c89dcee82db4083f6470fb581ec3751da",
+  "checkpoint_sha256_after": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+  "restoration_verified": true,
+  "config_unchanged": true,
+  "final_max_iou_float32_cpu": 0.6967962980270386,
+  "day02_max_iou_float32_cpu": 0.6967962980270386,
+  "actual_difference": 0.0,
+  "atol": 1e-06,
+  "rtol": 0.0,
+  "final_max_iou_float64": 0.6967963257562008
+}

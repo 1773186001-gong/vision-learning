@@ -1,0 +1,26 @@
+[
+  {
+    "stem": "030129",
+    "parameters": "LetterboxParameters(original_wh=(1280, 1024), resized_wh=(640, 512), output_wh=(640, 640), scale=0.5, padding_ltrb=(0, 64, 0, 64))",
+    "GT_exact": true,
+    "zoom": [
+      264,
+      187,
+      390,
+      373
+    ],
+    "display_only": true
+  },
+  {
+    "stem": "030078",
+    "parameters": "LetterboxParameters(original_wh=(1280, 1024), resized_wh=(640, 512), output_wh=(640, 640), scale=0.5, padding_ltrb=(0, 64, 0, 64))",
+    "GT_exact": true,
+    "zoom": [
+      223,
+      206,
+      322,
+      399
+    ],
+    "display_only": true
+  }
+]

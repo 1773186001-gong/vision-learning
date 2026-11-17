@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "GT": 297,
+  "model_GT": 594,
+  "main_pairs": 23,
+  "directions": {
+    "positive": 22,
+    "equal": 1
+  },
+  "good_candidate_GT_rows": 4046,
+  "strict_relation_rows": 2047,
+  "equal_score_relation_rows": 0,
+  "audit_rows": 0,
+  "audit_disagreements": 0,
+  "raw_captures": 280,
+  "independent_scalar_verification": "exact membership, C, T, raw layers and outcomes; binary32 area formula; all candidate GT IoUs exact",
+  "new_forwards": 0,
+  "NMS_runs": 0
+}

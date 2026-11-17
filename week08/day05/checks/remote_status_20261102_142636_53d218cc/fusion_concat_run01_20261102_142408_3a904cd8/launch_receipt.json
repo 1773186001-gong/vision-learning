@@ -1,0 +1,5 @@
+﻿{
+    "return_value":  0,
+    "monitor_pid":  1916,
+    "command_line":  "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -ExecutionPolicy RemoteSigned -WindowStyle Hidden -File \"D:\\vision-learning-server\\week08\\day05\\monitor_fusion.ps1\" -JobDir \"D:\\vision-learning-server\\week08\\day05\\jobs\\fusion_concat_run01_20261102_142408_3a904cd8\""
+}

@@ -1,0 +1,3141 @@
+{
+  "190001": {
+    "IR": {
+      "modality": "IR",
+      "image_id": "190001",
+      "dataset_image_id": 0,
+      "GT": 2,
+      "predictions_above_threshold": 2,
+      "TP": 2,
+      "FP": 0,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 0,
+      "other": 0,
+      "gt_boxes": [
+        [
+          509.0,
+          229.0,
+          568.5,
+          358.0
+        ],
+        [
+          602.0,
+          216.0,
+          640.0,
+          329.5
+        ]
+      ],
+      "predictions": [
+        {
+          "prediction_id": 0,
+          "score": 0.9981532692909241,
+          "box": [
+            502.5111389160156,
+            225.03756713867188,
+            567.203369140625,
+            352.3962097167969
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 0,
+          "ious": [
+            0.822449803352356,
+            0.0
+          ],
+          "max_iou": 0.822449803352356,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 1,
+          "score": 0.926682710647583,
+          "box": [
+            604.6668701171875,
+            210.0248565673828,
+            639.444580078125,
+            336.1893310546875
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 1,
+          "ious": [
+            0.0,
+            0.830402672290802
+          ],
+          "max_iou": 0.830402672290802,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 2,
+          "score": 0.20714567601680756,
+          "box": [
+            180.1206817626953,
+            66.37308502197266,
+            220.24363708496094,
+            173.9453125
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 3,
+          "score": 0.026282086968421936,
+          "box": [
+            616.410400390625,
+            213.67617797851562,
+            640.0,
+            294.0361633300781
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.42145565152168274
+          ],
+          "max_iou": 0.42145565152168274,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 4,
+          "score": 0.0019866281654685736,
+          "box": [
+            599.5391845703125,
+            220.52438354492188,
+            624.4775390625,
+            326.5262145996094
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.5209309458732605
+          ],
+          "max_iou": 0.5209309458732605,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 5,
+          "score": 0.001915290136821568,
+          "box": [
+            530.1818237304688,
+            305.9935607910156,
+            569.8067016601562,
+            377.9313659667969
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.23353298008441925,
+            0.0
+          ],
+          "max_iou": 0.23353298008441925,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        }
+      ]
+    },
+    "RGB": {
+      "modality": "RGB",
+      "image_id": "190001",
+      "dataset_image_id": 0,
+      "GT": 2,
+      "predictions_above_threshold": 7,
+      "TP": 2,
+      "FP": 5,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 5,
+      "other": 0,
+      "gt_boxes": [
+        [
+          509.0,
+          229.0,
+          568.5,
+          358.0
+        ],
+        [
+          602.0,
+          216.0,
+          640.0,
+          329.5
+        ]
+      ],
+      "predictions": [
+        {
+          "prediction_id": 0,
+          "score": 0.976193904876709,
+          "box": [
+            519.6474609375,
+            226.7387237548828,
+            569.3284912109375,
+            346.6549987792969
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 0,
+          "ious": [
+            0.7289173603057861,
+            0.0
+          ],
+          "max_iou": 0.7289173603057861,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 1,
+          "score": 0.8724168539047241,
+          "box": [
+            265.26910400390625,
+            226.08824157714844,
+            314.7279052734375,
+            340.7513122558594
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 2,
+          "score": 0.8486207723617554,
+          "box": [
+            610.1034545898438,
+            217.60104370117188,
+            640.0,
+            336.2505187988281
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 1,
+          "ious": [
+            0.0,
+            0.7409806251525879
+          ],
+          "max_iou": 0.7409806251525879,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 3,
+          "score": 0.7053279876708984,
+          "box": [
+            137.8181915283203,
+            116.76850128173828,
+            175.3512420654297,
+            232.4923095703125
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 4,
+          "score": 0.5645022392272949,
+          "box": [
+            0.0,
+            489.6959228515625,
+            43.319332122802734,
+            569.858154296875
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 5,
+          "score": 0.551547646522522,
+          "box": [
+            501.7998046875,
+            481.93853759765625,
+            550.8394775390625,
+            574.8829956054688
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 6,
+          "score": 0.5054247975349426,
+          "box": [
+            199.72503662109375,
+            143.32681274414062,
+            236.63616943359375,
+            255.29641723632812
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 7,
+          "score": 0.43198955059051514,
+          "box": [
+            175.82981872558594,
+            137.56265258789062,
+            216.8536834716797,
+            247.53897094726562
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 8,
+          "score": 0.4052305519580841,
+          "box": [
+            171.65081787109375,
+            119.9127197265625,
+            206.63751220703125,
+            213.7037353515625
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 9,
+          "score": 0.38759222626686096,
+          "box": [
+            56.135498046875,
+            112.16546630859375,
+            92.17665100097656,
+            207.051513671875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 10,
+          "score": 0.2716037333011627,
+          "box": [
+            68.53668975830078,
+            115.72332763671875,
+            104.7739486694336,
+            209.41928100585938
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 11,
+          "score": 0.18921047449111938,
+          "box": [
+            505.6593017578125,
+            228.76528930664062,
+            550.036376953125,
+            339.6601257324219
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.5637186765670776,
+            0.0
+          ],
+          "max_iou": 0.5637186765670776,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 12,
+          "score": 0.18576988577842712,
+          "box": [
+            291.03179931640625,
+            133.42886352539062,
+            341.2518310546875,
+            234.7576904296875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 13,
+          "score": 0.1619931161403656,
+          "box": [
+            178.3685760498047,
+            111.4962158203125,
+            202.5153350830078,
+            186.38275146484375
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 14,
+          "score": 0.148771271109581,
+          "box": [
+            149.1676788330078,
+            136.1508026123047,
+            187.4064178466797,
+            245.03562927246094
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 15,
+          "score": 0.11518216878175735,
+          "box": [
+            50.301918029785156,
+            108.80267333984375,
+            79.97309112548828,
+            194.52059936523438
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 16,
+          "score": 0.11447896808385849,
+          "box": [
+            588.6149291992188,
+            83.64224243164062,
+            628.5215454101562,
+            176.21774291992188
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 17,
+          "score": 0.10546501725912094,
+          "box": [
+            280.03076171875,
+            131.535400390625,
+            316.47174072265625,
+            232.11273193359375
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 18,
+          "score": 0.09212710708379745,
+          "box": [
+            117.90962982177734,
+            110.83473205566406,
+            164.39720153808594,
+            235.70079040527344
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 19,
+          "score": 0.08526746928691864,
+          "box": [
+            180.99765014648438,
+            151.6805419921875,
+            203.83123779296875,
+            234.917236328125
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 20,
+          "score": 0.07572954148054123,
+          "box": [
+            196.88818359375,
+            129.88302612304688,
+            233.56964111328125,
+            202.39517211914062
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 21,
+          "score": 0.07007794827222824,
+          "box": [
+            47.7554817199707,
+            123.94855499267578,
+            85.642578125,
+            228.83676147460938
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 22,
+          "score": 0.050067752599716187,
+          "box": [
+            598.0579833984375,
+            72.82289123535156,
+            632.58935546875,
+            152.2236785888672
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 23,
+          "score": 0.018765762448310852,
+          "box": [
+            79.21475982666016,
+            98.62722778320312,
+            113.29839324951172,
+            190.83248901367188
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 24,
+          "score": 0.01573239080607891,
+          "box": [
+            76.53887939453125,
+            128.9147491455078,
+            118.48695373535156,
+            237.00914001464844
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 25,
+          "score": 0.012182921171188354,
+          "box": [
+            14.171516418457031,
+            79.15599060058594,
+            55.652618408203125,
+            178.52589416503906
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 26,
+          "score": 0.011836417950689793,
+          "box": [
+            148.5132598876953,
+            113.093505859375,
+            173.08912658691406,
+            185.07705688476562
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 27,
+          "score": 0.011721931397914886,
+          "box": [
+            112.7822036743164,
+            98.15455627441406,
+            145.3030548095703,
+            195.00233459472656
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 28,
+          "score": 0.00933771301060915,
+          "box": [
+            22.189077377319336,
+            103.52238464355469,
+            61.89369201660156,
+            195.07496643066406
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 29,
+          "score": 0.009048950858414173,
+          "box": [
+            210.5680694580078,
+            133.10353088378906,
+            237.70240783691406,
+            193.87413024902344
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 30,
+          "score": 0.0033047397155314684,
+          "box": [
+            237.79202270507812,
+            145.90330505371094,
+            273.5853271484375,
+            243.70143127441406
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        }
+      ]
+    }
+  },
+  "190040": {
+    "IR": {
+      "modality": "IR",
+      "image_id": "190040",
+      "dataset_image_id": 1,
+      "GT": 7,
+      "predictions_above_threshold": 6,
+      "TP": 5,
+      "FP": 1,
+      "FN": 2,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 0,
+      "other": 0,
+      "gt_boxes": [
+        [
+          0.5,
+          219.0,
+          45.0,
+          351.0
+        ],
+        [
+          61.0,
+          157.0,
+          117.0,
+          298.0
+        ],
+        [
+          240.5,
+          463.5,
+          295.0,
+          576.0
+        ],
+        [
+          285.5,
+          458.0,
+          337.0,
+          576.0
+        ],
+        [
+          0.5,
+          179.0,
+          47.5,
+          262.0
+        ],
+        [
+          316.5,
+          534.5,
+          369.0,
+          576.0
+        ],
+        [
+          274.0,
+          554.5,
+          321.5,
+          574.5
+        ]
+      ],
+      "predictions": [
+        {
+          "prediction_id": 0,
+          "score": 0.9943108558654785,
+          "box": [
+            286.147705078125,
+            453.9147033691406,
+            355.19146728515625,
+            577.47021484375
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 3,
+          "ious": [
+            0.0,
+            0.0,
+            0.07287249714136124,
+            0.6971598863601685,
+            0.0,
+            0.17637662589550018,
+            0.08058705180883408
+          ],
+          "max_iou": 0.6971598863601685,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 1,
+          "score": 0.9923439621925354,
+          "box": [
+            60.983848571777344,
+            158.6278533935547,
+            115.67353057861328,
+            295.39703369140625
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 1,
+          "ious": [
+            0.0,
+            0.9467530250549316,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.9467530250549316,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 2,
+          "score": 0.9907029867172241,
+          "box": [
+            241.07020568847656,
+            456.9757385253906,
+            290.62127685546875,
+            575.66357421875
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 2,
+          "ious": [
+            0.0,
+            0.0,
+            0.8610730171203613,
+            0.05306561663746834,
+            0.0,
+            0.0,
+            0.051152750849723816
+          ],
+          "max_iou": 0.8610730171203613,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 3,
+          "score": 0.8810128569602966,
+          "box": [
+            3.5933609008789062,
+            217.70309448242188,
+            37.93149185180664,
+            350.2222595214844
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 0,
+          "ious": [
+            0.761324942111969,
+            0.0,
+            0.0,
+            0.0,
+            0.2194787710905075,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.761324942111969,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 4,
+          "score": 0.7101892828941345,
+          "box": [
+            5.165258407592773,
+            174.82669067382812,
+            45.880126953125,
+            274.6277770996094
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 4,
+          "ious": [
+            0.28698137402534485,
+            0.0,
+            0.0,
+            0.0,
+            0.7370325922966003,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.7370325922966003,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 5,
+          "score": 0.6427104473114014,
+          "box": [
+            270.43878173828125,
+            468.3066101074219,
+            309.181640625,
+            575.9078979492188
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.34514105319976807,
+            0.33103471994400024,
+            0.0,
+            0.0,
+            0.1593678593635559
+          ],
+          "max_iou": 0.34514105319976807,
+          "fp_type": "localization",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 6,
+          "score": 0.16765011847019196,
+          "box": [
+            57.727272033691406,
+            160.45562744140625,
+            94.51148223876953,
+            271.4391784667969
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.4503117799758911,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.4503117799758911,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 7,
+          "score": 0.02572539448738098,
+          "box": [
+            15.528665542602539,
+            186.14622497558594,
+            41.382606506347656,
+            257.551513671875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.1482447236776352,
+            0.0,
+            0.0,
+            0.0,
+            0.4732396900653839,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.4732396900653839,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 8,
+          "score": 0.013670112006366253,
+          "box": [
+            323.5453186035156,
+            526.6201171875,
+            359.0492248535156,
+            572.721435546875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.08744325488805771,
+            0.0,
+            0.5519630312919617,
+            0.0
+          ],
+          "max_iou": 0.5519630312919617,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 9,
+          "score": 0.00662282295525074,
+          "box": [
+            0.3639106750488281,
+            209.0745849609375,
+            29.028785705566406,
+            298.3504943847656
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.36694109439849854,
+            0.0,
+            0.0,
+            0.0,
+            0.30501845479011536,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.36694109439849854,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 10,
+          "score": 0.0018983414629474282,
+          "box": [
+            253.2958221435547,
+            450.67218017578125,
+            327.2118835449219,
+            579.4022827148438
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.4282817244529724,
+            0.4612841308116913,
+            0.0,
+            0.03951695188879967,
+            0.09984003007411957
+          ],
+          "max_iou": 0.4612841308116913,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 11,
+          "score": 0.0018739855149760842,
+          "box": [
+            58.93781280517578,
+            168.87921142578125,
+            78.9588394165039,
+            249.54669189453125
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.17968632280826569,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.17968632280826569,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        }
+      ]
+    },
+    "RGB": {
+      "modality": "RGB",
+      "image_id": "190040",
+      "dataset_image_id": 1,
+      "GT": 7,
+      "predictions_above_threshold": 7,
+      "TP": 6,
+      "FP": 1,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 0,
+      "other": 0,
+      "gt_boxes": [
+        [
+          0.5,
+          219.0,
+          45.0,
+          351.0
+        ],
+        [
+          61.0,
+          157.0,
+          117.0,
+          298.0
+        ],
+        [
+          240.5,
+          463.5,
+          295.0,
+          576.0
+        ],
+        [
+          285.5,
+          458.0,
+          337.0,
+          576.0
+        ],
+        [
+          0.5,
+          179.0,
+          47.5,
+          262.0
+        ],
+        [
+          316.5,
+          534.5,
+          369.0,
+          576.0
+        ],
+        [
+          274.0,
+          554.5,
+          321.5,
+          574.5
+        ]
+      ],
+      "predictions": [
+        {
+          "prediction_id": 0,
+          "score": 0.9880103468894958,
+          "box": [
+            290.2418212890625,
+            458.45025634765625,
+            335.05902099609375,
+            571.9555053710938
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 3,
+          "ious": [
+            0.0,
+            0.0,
+            0.04821918159723282,
+            0.8370885848999023,
+            0.0,
+            0.10579513758420944,
+            0.09936105459928513
+          ],
+          "max_iou": 0.8370885848999023,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 1,
+          "score": 0.9874352216720581,
+          "box": [
+            1.9430198669433594,
+            222.21609497070312,
+            44.655696868896484,
+            349.9064025878906
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 0,
+          "ious": [
+            0.9284976124763489,
+            0.0,
+            0.0,
+            0.0,
+            0.2219618558883667,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.9284976124763489,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 2,
+          "score": 0.9735602736473083,
+          "box": [
+            241.8795928955078,
+            458.01629638671875,
+            294.38037109375,
+            569.6388549804688
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 2,
+          "ious": [
+            0.0,
+            0.0,
+            0.8680858612060547,
+            0.0905579924583435,
+            0.0,
+            0.0,
+            0.04745433107018471
+          ],
+          "max_iou": 0.8680858612060547,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 3,
+          "score": 0.9474403262138367,
+          "box": [
+            62.152122497558594,
+            160.14822387695312,
+            117.32038116455078,
+            292.4337463378906
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 1,
+          "ious": [
+            0.0,
+            0.9139872789382935,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.9139872789382935,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 4,
+          "score": 0.8755874037742615,
+          "box": [
+            322.2955627441406,
+            539.180419921875,
+            363.9986267089844,
+            575.7020263671875
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 5,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.07603386044502258,
+            0.0,
+            0.6990535259246826,
+            0.0
+          ],
+          "max_iou": 0.6990535259246826,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 5,
+          "score": 0.8748722672462463,
+          "box": [
+            98.42172241210938,
+            218.0201873779297,
+            132.65467834472656,
+            303.1589050292969
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.15935024619102478,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.15935024619102478,
+          "fp_type": "localization",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 6,
+          "score": 0.7440366148948669,
+          "box": [
+            6.646602630615234,
+            177.34194946289062,
+            47.508705139160156,
+            272.89239501953125
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 4,
+          "ious": [
+            0.2680378258228302,
+            0.0,
+            0.0,
+            0.0,
+            0.7681019306182861,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.7681019306182861,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 7,
+          "score": 0.4641295373439789,
+          "box": [
+            193.46900939941406,
+            158.93560791015625,
+            233.19215393066406,
+            257.1161804199219
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 8,
+          "score": 0.45909133553504944,
+          "box": [
+            140.16580200195312,
+            117.0552978515625,
+            175.23434448242188,
+            223.28155517578125
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 9,
+          "score": 0.35968729853630066,
+          "box": [
+            168.51470947265625,
+            124.85228729248047,
+            207.71432495117188,
+            225.2591552734375
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 10,
+          "score": 0.3495558798313141,
+          "box": [
+            273.4833679199219,
+            466.59295654296875,
+            312.5951232910156,
+            573.2994995117188
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.28668156266212463,
+            0.39286962151527405,
+            0.0,
+            0.0,
+            0.16498038172721863
+          ],
+          "max_iou": 0.39286962151527405,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 11,
+          "score": 0.25271719694137573,
+          "box": [
+            179.8351287841797,
+            165.12606811523438,
+            219.6224822998047,
+            259.65142822265625
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 12,
+          "score": 0.24925042688846588,
+          "box": [
+            296.1730651855469,
+            133.06185913085938,
+            341.3283386230469,
+            231.254150390625
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 13,
+          "score": 0.15062358975410461,
+          "box": [
+            56.49127960205078,
+            169.26904296875,
+            101.04096221923828,
+            268.4937438964844
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.476192444562912,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.476192444562912,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 14,
+          "score": 0.13461323082447052,
+          "box": [
+            263.5105285644531,
+            457.13861083984375,
+            302.9248962402344,
+            555.4556274414062
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.4072209596633911,
+            0.2057383805513382,
+            0.0,
+            0.0,
+            0.005761677399277687
+          ],
+          "max_iou": 0.4072209596633911,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 15,
+          "score": 0.12114803493022919,
+          "box": [
+            501.7216491699219,
+            481.1332092285156,
+            549.7601318359375,
+            573.7403564453125
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 16,
+          "score": 0.10744721442461014,
+          "box": [
+            265.0080871582031,
+            224.30258178710938,
+            313.1068420410156,
+            344.2467956542969
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 17,
+          "score": 0.07765926420688629,
+          "box": [
+            176.27224731445312,
+            125.98091888427734,
+            205.54937744140625,
+            192.37548828125
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 18,
+          "score": 0.048998523503541946,
+          "box": [
+            126.60270690917969,
+            113.19139862060547,
+            160.3716278076172,
+            223.24859619140625
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 19,
+          "score": 0.03183447942137718,
+          "box": [
+            0.4912223815917969,
+            482.17425537109375,
+            45.06924057006836,
+            569.4600219726562
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 20,
+          "score": 0.02181418240070343,
+          "box": [
+            197.9991455078125,
+            133.36404418945312,
+            231.97991943359375,
+            226.97418212890625
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 21,
+          "score": 0.016161641106009483,
+          "box": [
+            0.0,
+            242.71084594726562,
+            13.012022018432617,
+            337.3765563964844
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.200032576918602,
+            0.0,
+            0.0,
+            0.0,
+            0.04934048280119896,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.200032576918602,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 22,
+          "score": 0.012538330629467964,
+          "box": [
+            609.8486328125,
+            66.746826171875,
+            637.741943359375,
+            141.5509033203125
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 23,
+          "score": 0.006840692367404699,
+          "box": [
+            116.25040435791016,
+            139.64202880859375,
+            153.26739501953125,
+            238.7607421875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.005327592138200998,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.005327592138200998,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 24,
+          "score": 0.0027546784840524197,
+          "box": [
+            57.45133590698242,
+            196.22335815429688,
+            76.82614135742188,
+            260.47552490234375
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.12516774237155914,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.12516774237155914,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        }
+      ]
+    }
+  },
+  "190474": {
+    "IR": {
+      "modality": "IR",
+      "image_id": "190474",
+      "dataset_image_id": 12,
+      "GT": 4,
+      "predictions_above_threshold": 4,
+      "TP": 3,
+      "FP": 1,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 0,
+      "other": 0,
+      "gt_boxes": [
+        [
+          379.0,
+          113.5,
+          434.5,
+          219.5
+        ],
+        [
+          316.5,
+          510.5,
+          391.0,
+          576.0
+        ],
+        [
+          235.0,
+          549.0,
+          277.0,
+          576.0
+        ],
+        [
+          282.5,
+          546.5,
+          325.5,
+          576.0
+        ]
+      ],
+      "predictions": [
+        {
+          "prediction_id": 0,
+          "score": 0.9921706318855286,
+          "box": [
+            367.3040771484375,
+            107.60350036621094,
+            434.049072265625,
+            243.0786590576172
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 0,
+          "ious": [
+            0.6419301629066467,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.6419301629066467,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 1,
+          "score": 0.9847316741943359,
+          "box": [
+            327.6356201171875,
+            514.4183349609375,
+            387.5609130859375,
+            575.793701171875
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 1,
+          "ious": [
+            0.0,
+            0.7537142038345337,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.7537142038345337,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 2,
+          "score": 0.7668654918670654,
+          "box": [
+            280.0149230957031,
+            546.8567504882812,
+            309.9089050292969,
+            571.0498657226562
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.49909377098083496
+          ],
+          "max_iou": 0.49909377098083496,
+          "fp_type": "localization",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 3,
+          "score": 0.5904562473297119,
+          "box": [
+            245.0580596923828,
+            548.4805908203125,
+            269.9546813964844,
+            573.810546875
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 2,
+          "ious": [
+            0.0,
+            0.0,
+            0.5385663509368896,
+            0.0
+          ],
+          "max_iou": 0.5385663509368896,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 4,
+          "score": 0.34901729226112366,
+          "box": [
+            244.50547790527344,
+            545.1683959960938,
+            274.2061767578125,
+            564.4453735351562
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.3676373362541199,
+            0.0
+          ],
+          "max_iou": 0.3676373362541199,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 5,
+          "score": 0.20247001945972443,
+          "box": [
+            287.1719665527344,
+            548.4096069335938,
+            322.2181091308594,
+            572.9801635742188
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.025087179616093636,
+            0.0,
+            0.6788358092308044
+          ],
+          "max_iou": 0.6788358092308044,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 6,
+          "score": 0.055158715695142746,
+          "box": [
+            398.6648864746094,
+            155.0931396484375,
+            427.5091857910156,
+            254.114013671875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.26996922492980957,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.26996922492980957,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 7,
+          "score": 0.014003001153469086,
+          "box": [
+            357.26971435546875,
+            523.64599609375,
+            391.1112060546875,
+            572.5115966796875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.33739784359931946,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.33739784359931946,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 8,
+          "score": 0.008506933227181435,
+          "box": [
+            332.678955078125,
+            539.0087890625,
+            367.05084228515625,
+            571.5364990234375
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.22911804914474487,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.22911804914474487,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 9,
+          "score": 0.007023345213383436,
+          "box": [
+            369.00567626953125,
+            540.5617065429688,
+            391.09185791015625,
+            572.2691040039062
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.14282837510108948,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.14282837510108948,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 10,
+          "score": 0.006644642911851406,
+          "box": [
+            299.12152099609375,
+            553.4921264648438,
+            324.419921875,
+            574.2544555664062
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.03137752041220665,
+            0.0,
+            0.4140746593475342
+          ],
+          "max_iou": 0.4140746593475342,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 11,
+          "score": 0.0058779967948794365,
+          "box": [
+            373.2147216796875,
+            120.48112487792969,
+            401.37896728515625,
+            226.3506622314453
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.33328449726104736,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.33328449726104736,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 12,
+          "score": 0.0036191465333104134,
+          "box": [
+            187.77847290039062,
+            70.45429992675781,
+            222.81289672851562,
+            156.857421875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 13,
+          "score": 0.0024837434757500887,
+          "box": [
+            280.5064697265625,
+            549.7711791992188,
+            337.317138671875,
+            580.7539672851562
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0895993560552597,
+            0.0,
+            0.5933456420898438
+          ],
+          "max_iou": 0.5933456420898438,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 14,
+          "score": 0.0024623055942356586,
+          "box": [
+            407.24151611328125,
+            140.06097412109375,
+            448.574951171875,
+            253.99774169921875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.2569579482078552,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.2569579482078552,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 15,
+          "score": 0.0012255324982106686,
+          "box": [
+            401.38592529296875,
+            131.10836791992188,
+            425.79278564453125,
+            207.33309936523438
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.316234290599823,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.316234290599823,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        }
+      ]
+    },
+    "RGB": {
+      "modality": "RGB",
+      "image_id": "190474",
+      "dataset_image_id": 12,
+      "GT": 4,
+      "predictions_above_threshold": 7,
+      "TP": 3,
+      "FP": 4,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 3,
+      "other": 0,
+      "gt_boxes": [
+        [
+          379.0,
+          113.5,
+          434.5,
+          219.5
+        ],
+        [
+          316.5,
+          510.5,
+          391.0,
+          576.0
+        ],
+        [
+          235.0,
+          549.0,
+          277.0,
+          576.0
+        ],
+        [
+          282.5,
+          546.5,
+          325.5,
+          576.0
+        ]
+      ],
+      "predictions": [
+        {
+          "prediction_id": 0,
+          "score": 0.9768499135971069,
+          "box": [
+            334.6191711425781,
+            520.422607421875,
+            387.7234802246094,
+            574.61328125
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 1,
+          "ious": [
+            0.0,
+            0.5897347927093506,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.5897347927093506,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 1,
+          "score": 0.9264390468597412,
+          "box": [
+            381.1042175292969,
+            105.61016845703125,
+            433.7245178222656,
+            221.55020141601562
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 0,
+          "ious": [
+            0.8707010746002197,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.8707010746002197,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 2,
+          "score": 0.8706085085868835,
+          "box": [
+            240.61959838867188,
+            548.5467529296875,
+            274.0792541503906,
+            581.2108154296875
+          ],
+          "selected": true,
+          "status": "TP",
+          "matched_gt": 2,
+          "ious": [
+            0.0,
+            0.0,
+            0.6825830936431885,
+            0.0
+          ],
+          "max_iou": 0.6825830936431885,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 3,
+          "score": 0.8474676012992859,
+          "box": [
+            274.78692626953125,
+            551.2303466796875,
+            316.032958984375,
+            582.0274658203125
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.023331953212618828,
+            0.48625433444976807
+          ],
+          "max_iou": 0.48625433444976807,
+          "fp_type": "localization",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 4,
+          "score": 0.7758381366729736,
+          "box": [
+            138.92108154296875,
+            127.36546325683594,
+            183.01611328125,
+            244.67579650878906
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 5,
+          "score": 0.6484746932983398,
+          "box": [
+            266.7847900390625,
+            226.38909912109375,
+            313.54132080078125,
+            344.20208740234375
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 6,
+          "score": 0.5368859767913818,
+          "box": [
+            52.43132019042969,
+            118.90513610839844,
+            89.06529235839844,
+            226.9325714111328
+          ],
+          "selected": true,
+          "status": "FP",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": "low_overlap",
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 7,
+          "score": 0.4459066390991211,
+          "box": [
+            75.48200988769531,
+            115.81509399414062,
+            110.86734008789062,
+            233.09310913085938
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 8,
+          "score": 0.3948741853237152,
+          "box": [
+            0.06788253784179688,
+            484.6378479003906,
+            43.59833526611328,
+            571.3206176757812
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 9,
+          "score": 0.3633285462856293,
+          "box": [
+            174.2044677734375,
+            143.87368774414062,
+            212.38626098632812,
+            242.84695434570312
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 10,
+          "score": 0.3579522967338562,
+          "box": [
+            191.00445556640625,
+            143.26580810546875,
+            233.93814086914062,
+            246.10317993164062
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 11,
+          "score": 0.2656118869781494,
+          "box": [
+            288.49017333984375,
+            118.19329833984375,
+            354.0498046875,
+            233.4215087890625
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 12,
+          "score": 0.2615448236465454,
+          "box": [
+            502.6124572753906,
+            485.52203369140625,
+            553.3508911132812,
+            573.8145141601562
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 13,
+          "score": 0.09344399720430374,
+          "box": [
+            282.18072509765625,
+            121.02421569824219,
+            322.91107177734375,
+            220.4021759033203
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 14,
+          "score": 0.06103292107582092,
+          "box": [
+            195.56533813476562,
+            126.92615509033203,
+            234.16082763671875,
+            204.718505859375
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 15,
+          "score": 0.057784561067819595,
+          "box": [
+            177.46630859375,
+            127.74726867675781,
+            204.7091064453125,
+            193.5048370361328
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 16,
+          "score": 0.020736631006002426,
+          "box": [
+            50.11263656616211,
+            113.16963195800781,
+            81.86976623535156,
+            191.3166961669922
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 17,
+          "score": 0.019217319786548615,
+          "box": [
+            141.0156707763672,
+            111.48509216308594,
+            177.92103576660156,
+            199.45359802246094
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 18,
+          "score": 0.016365839168429375,
+          "box": [
+            108.4571762084961,
+            129.88424682617188,
+            145.13766479492188,
+            242.1982421875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 19,
+          "score": 0.011621919460594654,
+          "box": [
+            596.10986328125,
+            69.01730346679688,
+            636.31689453125,
+            148.27252197265625
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 20,
+          "score": 0.007630733773112297,
+          "box": [
+            305.7985534667969,
+            116.260009765625,
+            392.0500183105469,
+            229.05096435546875
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.09445276856422424,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.09445276856422424,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 21,
+          "score": 0.007307138293981552,
+          "box": [
+            180.57054138183594,
+            108.59361267089844,
+            211.3995819091797,
+            181.94456481933594
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 22,
+          "score": 0.0062615214847028255,
+          "box": [
+            85.50393676757812,
+            106.39923858642578,
+            108.73735046386719,
+            165.50033569335938
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 23,
+          "score": 0.0059990957379341125,
+          "box": [
+            292.21014404296875,
+            550.4520874023438,
+            333.12591552734375,
+            584.9982299804688
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.07237952947616577,
+            0.0,
+            0.4643671214580536
+          ],
+          "max_iou": 0.4643671214580536,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 24,
+          "score": 0.004136489238590002,
+          "box": [
+            78.65225219726562,
+            115.24049377441406,
+            104.81709289550781,
+            152.70469665527344
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 25,
+          "score": 0.0038987803272902966,
+          "box": [
+            198.89578247070312,
+            97.12592315673828,
+            231.6019287109375,
+            177.19198608398438
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 26,
+          "score": 0.002212498802691698,
+          "box": [
+            18.358379364013672,
+            79.8157958984375,
+            58.41318893432617,
+            163.03982543945312
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        },
+        {
+          "prediction_id": 27,
+          "score": 0.0017858018400147557,
+          "box": [
+            108.4853515625,
+            98.60820007324219,
+            142.50796508789062,
+            191.07994079589844
+          ],
+          "selected": false,
+          "status": "below_score",
+          "matched_gt": null,
+          "ious": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_iou": 0.0,
+          "fp_type": null,
+          "duplicate_links": [],
+          "reason": null,
+          "no_gt_fp": false
+        }
+      ]
+    }
+  }
+}

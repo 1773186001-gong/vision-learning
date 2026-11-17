@@ -1,0 +1,6 @@
+{
+    "exit_code":  0,
+    "completed_at":  "2026-11-05T13:37:30.8444895+08:00",
+    "scope":  "gpu_smoke",
+    "training":  false
+}

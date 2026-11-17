@@ -1,0 +1,7 @@
+﻿stem,gt_index,scene_id,image_index,IR_day01_max_iou,Fusion_day01_max_iou,gt_xmin,gt_ymin,gt_xmax,gt_ymax,category,selection_reason,case_id
+030269,1,03,21,0.7936670184135437,0.6052919030189514,166.5,203.0,208.0,290.5,IR_advantage,"IR>=0.75>Fusion; scene03 first, then descending IR-Fusion IoU",01_IR_advantage_030269_G1
+030308,1,03,24,0.8787937760353088,0.7122192978858948,50.5,64.5,84.5,98.0,IR_advantage,"IR>=0.75>Fusion; scene03 first, then descending IR-Fusion IoU",02_IR_advantage_030308_G1
+030205,0,03,16,0.8515424132347107,0.6967962980270386,383.5,306.5,425.0,439.0,IR_advantage,"IR>=0.75>Fusion; scene03 first, then descending IR-Fusion IoU",03_IR_advantage_030205_G0
+170100,1,17,120,0.5787856578826904,0.8459967970848083,167.5,440.5,211.5,541.5,Fusion_advantage,Fusion>=0.75>IR; descending Fusion-IR IoU,04_Fusion_advantage_170100_G1
+130126,3,13,85,0.6647025346755981,0.846598207950592,436.0,287.0,474.0,389.5,Fusion_advantage,Fusion>=0.75>IR; descending Fusion-IR IoU,05_Fusion_advantage_130126_G3
+170455,1,17,145,0.7500129342079163,0.6740851402282715,266.0,425.5,317.0,543.0,boundary,"unused GT; one side in [0.70,0.80]; crossing first, then min distance to 0.75",06_boundary_170455_G1

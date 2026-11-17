@@ -1,0 +1,10 @@
+{
+  "scope": "synthetic_only",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day06/run_checks.py --output week09/day06/checks/synthetic_run01",
+  "model_forward_performed": false,
+  "NMS_executed": false
+}

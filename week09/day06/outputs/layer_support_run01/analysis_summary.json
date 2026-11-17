@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "hypothesis": "failed model may have fewer pre-NMS supporting feature levels",
+  "primary_metric": "L only; CPU float32 IoU >= .75; no threshold tolerance",
+  "common_GT": 297,
+  "images": 140,
+  "model_image_captures_loaded_once": 280,
+  "model_GT_rows": 594,
+  "layer_rows": 1782,
+  "good_candidate_GT_trace_rows": 4046,
+  "asymmetric_GT": 31,
+  "category_counts": {
+    "neither_lost": 256,
+    "Fusion_only_lost": 20,
+    "IR_only_lost": 11,
+    "both_lost": 10
+  },
+  "direction_counts": {
+    "equal": 23,
+    "fewer": 7,
+    "more": 1
+  },
+  "tables_rows": {
+    "per_gt_support": 594,
+    "per_layer_support": 1782,
+    "good_candidate_trace": 4046,
+    "all_common_gt_pairs": 297,
+    "asymmetric_pairs": 31,
+    "direction_summary": 15,
+    "model_scene_L_summary": 30
+  }
+}

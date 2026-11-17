@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "six_saved_images_all_gt_pilot_not_full_validation",
+  "per_gt_stage_rows_verified": 210,
+  "model_gt_items": 30,
+  "stage_summary_rows_verified": 112,
+  "max_independent_float64_error": 0.0,
+  "float64_atol": 1e-12,
+  "historical_files_unchanged": 256,
+  "no_model_forward": true,
+  "no_checkpoint_load": true,
+  "no_nms_execution": true,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day04/verify_pilot.py --capture-dir week09/day04/outputs/six_image_all_gt_run02 --output week09/day04/checks/independent_pilot_run01",
+  "exit_code": 0,
+  "verification_source_sha256": "ca66ecabc38657d134ae6b22ee26d6170288ce907e2c606614411f864acce66f"
+}

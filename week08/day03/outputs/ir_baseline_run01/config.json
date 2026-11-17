@@ -1,0 +1,28 @@
+{
+  "model": "fasterrcnn_mobilenet_v3_large_320_fpn",
+  "epochs": 10,
+  "batch_size": 1,
+  "num_workers": 0,
+  "seed": 42,
+  "lr": 0.001,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "scheduler": null,
+  "amp": false,
+  "letterbox": 640,
+  "min_size": 640,
+  "max_size": 640,
+  "data_root": "D:\\vision-learning-server\\data\\LLVIP_1000",
+  "manifest_sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+  "selection": "val mAP50_95",
+  "weights": {
+    "source": "https://download.pytorch.org/models/fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+    "path": "C:\\Users\\gxbb\\.cache\\torch\\hub\\checkpoints\\fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth",
+    "exists": true,
+    "sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5"
+  },
+  "torch": "2.14.1+cu126",
+  "torchvision": "0.29.1+cu126",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "synthetic_adapter_tests_only",
+  "tests": 4,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "real_model_loaded": false,
+  "image_forward_performed": false,
+  "source_sha256": {
+    "capture_single_val.py": "1ad565f0dcc6d4ba124177583e8d81aa484672537d7c78d90f00bde382319de4",
+    "test_capture_single_val.py": "37d1a87b6d5ca0bdc66113bce545f239014dc9e7f3b3412c6d291fc30821d797"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 D:\\python\\test\\vision-learning\\week10\\day02\\replay_upstream.py --output D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "started_at_utc": "2026-11-11T08:39:13.521700+00:00",
+  "finished_at_utc": "2026-11-11T08:39:16.589419+00:00",
+  "exit_code": 0,
+  "source_sha256": {
+    "replay_upstream.py": "bd20cccb7a885f0a33c8e19c64f9602b014467795a49a0b490db612cfb9e963e",
+    "README.md": "5be9f90949e96e3e30f898c34cc552bb8c4e29288d40a40ef9f9a515af5780c0",
+    "run_replay.ps1": "1954eb55aaeb5dbfe4c8ea06181fd51e93c3eac2c1a4b4ab07b98ac711f51e5f"
+  },
+  "current_environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "counts": {
+    "main_replay_calls": 2,
+    "full_output_verifications": 2
+  }
+}

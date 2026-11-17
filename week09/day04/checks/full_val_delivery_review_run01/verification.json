@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "new_forward_calls": 288,
+  "reused_items": 12,
+  "actual": {
+    "IR": {
+      "images": 150,
+      "valid_gt": 416,
+      "covered_075": 302
+    },
+    "Fusion": {
+      "images": 150,
+      "valid_gt": 416,
+      "covered_075": 285
+    }
+  },
+  "per_gt_stage_rows": 5824,
+  "server_process_exit_code": 0,
+  "independent_exit_code": 0,
+  "docs_read_back": {
+    "week09\\day04\\README.md": {
+      "bytes": 11677,
+      "sha256": "4043b3df3d6fef9358349cf269ccbf57636766ceb5ec9c1d5b56725a1879e6d7",
+      "replacement_char_present": false
+    },
+    "week09\\day04\\DAY04_FULL_VAL_CAPTURE_DELIVERY.md": {
+      "bytes": 14315,
+      "sha256": "9709f7cfca9b0023165edb88cba3f4f66abe040a49ad15fc6f9d69a0b9589eb1",
+      "replacement_char_present": false
+    }
+  },
+  "model_improvement_experiment_started": false
+}

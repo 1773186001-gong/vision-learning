@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day03/nms_relationship_offline_run01/verify_exports.py --results week09/day03/nms_relationship_offline_run01/results --output week09/day03/nms_relationship_offline_run01/independent_verification",
+  "model_forward_performed": false,
+  "checkpoint_loaded": false,
+  "nms_executed": false,
+  "pair_rows_verified": 960,
+  "possible_rows_verified": 6,
+  "max_binary64_error": 0.0,
+  "binary64_atol": 1e-12,
+  "retained_frame_geometry": [
+    {
+      "stem": "030269",
+      "gt_index": 1,
+      "model": "Fusion",
+      "retained_flat_index": 2501,
+      "dx_right_positive": 0.64984130859375,
+      "dy_down_positive": 4.696311950683594,
+      "width_ratio_to_gt": 1.3096953242658131,
+      "height_ratio_to_gt": 1.261435023716518
+    },
+    {
+      "stem": "130126",
+      "gt_index": 3,
+      "model": "IR",
+      "retained_flat_index": 3221,
+      "dx_right_positive": -3.655731201171875,
+      "dy_down_positive": -11.28326416015625,
+      "width_ratio_to_gt": 0.8993578459087171,
+      "height_ratio_to_gt": 0.9833543730945122
+    },
+    {
+      "stem": "130126",
+      "gt_index": 3,
+      "model": "IR",
+      "retained_flat_index": 9221,
+      "dx_right_positive": -6.209014892578125,
+      "dy_down_positive": -10.095062255859375,
+      "width_ratio_to_gt": 0.909929777446546,
+      "height_ratio_to_gt": 0.9809272580030488
+    }
+  ],
+  "historical_files_unchanged": 174,
+  "results_files_unchanged": 12,
+  "exit_code": 0
+}

@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "gt_count": 7,
+  "new_forward_calls": 1,
+  "day01_comparisons": [
+    {
+      "model": "IR",
+      "stem": "080291",
+      "gt_index": 0,
+      "day01_max_iou": 0.847327709197998,
+      "pilot_max_iou": 0.847327709197998,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "gt_index": 1,
+      "day01_max_iou": 0.8471071720123291,
+      "pilot_max_iou": 0.8471071720123291,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "gt_index": 2,
+      "day01_max_iou": 0.8153483867645264,
+      "pilot_max_iou": 0.8153483867645264,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "gt_index": 3,
+      "day01_max_iou": 0.8603452444076538,
+      "pilot_max_iou": 0.8603452444076538,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "gt_index": 4,
+      "day01_max_iou": 0.7338993549346924,
+      "pilot_max_iou": 0.7338993549346924,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "gt_index": 5,
+      "day01_max_iou": 0.7877933382987976,
+      "pilot_max_iou": 0.7877933382987976,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "gt_index": 6,
+      "day01_max_iou": 0.7385431528091431,
+      "pilot_max_iou": 0.7385431528091431,
+      "actual_difference": 0.0,
+      "atol": 1e-06,
+      "rtol": 0.0,
+      "coverage_equal": true
+    }
+  ],
+  "same_device_exact_replay": true,
+  "restoration_verified": true,
+  "signature": "e0e246e18927443441eb338c0677c22426b54b5c357b5ce113cd81e455b763d7",
+  "raw_sha256": "8a9ace9305c76da571b362c3ebbf2440b83312d350598d0484017dbda0c2db37"
+}

@@ -1,0 +1,10 @@
+{
+  "model": "IR",
+  "stem": "030372",
+  "image_index": 29,
+  "scope": "val",
+  "command": "D:\\cv-server-env\\Scripts\\python.exe -B -X utf8 D:\\vision-learning-server\\week09\\day04\\capture_full_val.py --output D:\\vision-learning-server\\week09\\day04\\outputs\\full_val_stage_run01",
+  "new_forward_calls_authorized": 1,
+  "started_at_utc": "2026-11-08T13:31:47.350919+00:00",
+  "signature": "7b14892ff4612407fc54f2f0f16d76155fc25d7596dc0b4d21fdfda7669b4503"
+}

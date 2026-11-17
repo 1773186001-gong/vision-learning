@@ -1,0 +1,9 @@
+﻿{
+    "project_dir":  "D:\\vision-learning-server",
+    "python":  "D:\\cv-server-env\\Scripts\\python.exe",
+    "entry":  "D:\\vision-learning-server\\week08\\day04\\train_rgb.py",
+    "data_root":  "D:\\vision-learning-server\\data\\LLVIP_1000",
+    "output":  "D:\\vision-learning-server\\week08\\day04\\outputs\\rgb_baseline_run01",
+    "keep_awake":  true,
+    "created_at":  "2026-10-30T12:57:26.7173575+08:00"
+}

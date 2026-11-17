@@ -1,0 +1,962 @@
+[
+  {
+    "path": "D:\\python\\.venv\\Lib\\site-packages\\torchvision\\models\\detection\\roi_heads.py",
+    "sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b"
+  },
+  {
+    "path": "D:\\python\\.venv\\Lib\\site-packages\\torchvision\\ops\\boxes.py",
+    "sha256": "9c0afd11f8291569442752f7aaab607ad0f7bf57dccd645048a0b7196372f269"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\val\\030078.xml",
+    "sha256": "cd7da92bc2c440818fdccde2e99022514cee8d5f44caa0d4b75ebf966f4e8666"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\val\\030129.xml",
+    "sha256": "fdc654268bc68672aea6df1f01a85e7a95927ef9e3fad7b437fea72604226c3b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\infrared\\030078.jpg",
+    "sha256": "bdfa3441ac61666114c96f16529b76a7e7f10aed7b0125cbe6062aba2c866a21"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\infrared\\030129.jpg",
+    "sha256": "364cea25a309ec13593faf3a403481fb133a74b15e1e327c829d97f329c6fc03"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\visible\\030078.jpg",
+    "sha256": "267c9a91079f2ad41cd5357f60d3411fc2c7b3109637372003df8ab1d42099de"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\val\\visible\\030129.jpg",
+    "sha256": "79a2e9a24f91d4c49c66231d31b1fe63bf906c991c8e7b0f76a560f7a6b7d317"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\manifest.csv",
+    "sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day01\\llvip_dataset.py",
+    "sha256": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day02\\paired_horizontal_flip.py",
+    "sha256": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day02\\paired_letterbox.py",
+    "sha256": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day03\\ir_common.py",
+    "sha256": "6cf2ce268feb314d937a9476f88e1db53722eb9aa791571efe44af0f07abe73e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day03\\outputs\\ir_baseline_run01\\best.pth",
+    "sha256": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day05\\fusion_common.py",
+    "sha256": "6c45dc49da0bb9df03303316f45182f2e718801771082a0e67510be7ecc57250"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week08\\day05\\fusion_model.py",
+    "sha256": "fe27e92199e6a2ab2678ead46b548a01ece0193d9f611385edd3d09d90dbf09a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day01\\rpn_diagnostic.py",
+    "sha256": "06dee2f5ad1194d1eedee6bc8e437e79606a14ddbc38f16e61aca5adb3bd866a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day03\\capture_single_val.py",
+    "sha256": "1ad565f0dcc6d4ba124177583e8d81aa484672537d7c78d90f00bde382319de4"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day03\\nms_relationship_offline_run01\\results\\nms_source_readonly.txt",
+    "sha256": "ef0264535036ec05a1b98acbeecccaed2611a95401081400748e61e0dd8046d7"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day03\\nms_relationship_offline_run01\\results\\run_metadata.json",
+    "sha256": "095fe573fcfd9950693511fc2ea72e13cab0e87d8257aee07a9edcb9600a9d91"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day03\\trace_rpn_stages.py",
+    "sha256": "3a14d39c4c3b045e83f1ba420bd6bb92d1867ea1b3b085e3f616b3b63ee46b60"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\agnostic_capture.py",
+    "sha256": "54ee4fbf6c81bc2da1d62face0c5ec6907b6fe9ed9598f70471e3785f6cf855f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\capture_full_val.py",
+    "sha256": "34e61ac56ee46c2a801a7d9cdb2aff3d3119e3616f6b81e740a668565af941a6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\capture_ledger.py",
+    "sha256": "6f226b634e04d8eb51cc357de36a723a87e9bb8d315e1c0d175da18729c5ad39"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\coverage_statistics.py",
+    "sha256": "beb43626d2784d23d3fba52157438cc1d618cac97a954f6f7bbe7a3127fda177"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\full_val_analysis.py",
+    "sha256": "70952fc553392473311455162522cd986e16b6dba73908add6bebe21ce23321c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\offline_full_gt.py",
+    "sha256": "7afcb90f7839860af2cd218edebd43ae62f19d816395dffbf980b4c40afa853f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\artifact_manifest.json",
+    "sha256": "f1690013d727cb1fd7bd639aa0f9d10b46f1ac8eab5e559dc8b8818a15927f20"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\forward_ledger.csv",
+    "sha256": "dd4046f718d38541c37319955fb1373b15e9f31b3f1426c529d1ccfbd3c8bf6b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\Fusion_030078\\captured.json",
+    "sha256": "3d8ad446df95e93853e392b8b031a8ab9024a04d58b32aca0930eb27eb0a2ecf"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\Fusion_030078\\raw_capture.pth",
+    "sha256": "d87fddf9a7c8ae07c8348285e909068f56dcfdcd3fb5b0a234164a13d69a0d68"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\Fusion_030078\\started.json",
+    "sha256": "76b82ccaf29cfda5e671422b6efb141e9d550274d01b7e54e93969b99e95b8ad"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\Fusion_030078\\verified.json",
+    "sha256": "b0021caca320218286b785953cbaab847338c4327d155bb722b5e0d673b82a2e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\IR_030078\\captured.json",
+    "sha256": "ee0a604687056ec0861c6b49915dd322bc265ea4d23ba7ab3a3742ca4cb56518"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\IR_030078\\raw_capture.pth",
+    "sha256": "b5d1164e6bdc8cd0fb27ed8a7a13f71e310ef3e45056089352f35b457790bc6f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\IR_030078\\started.json",
+    "sha256": "01bf4d84e749ee53548a61b546aadbb19b3f02e536107131b6f4adf274a2e6ff"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_000\\IR_030078\\verified.json",
+    "sha256": "da85f72f662b36d7f199b64479c795519dc97309d7ff7cf2669a44c1ee55a9dd"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\Fusion_030129\\captured.json",
+    "sha256": "370d9d7b7ac2a82e852fdd6666ce7937564975ac721d1b55da8670342c2ff5d2"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\Fusion_030129\\raw_capture.pth",
+    "sha256": "a2a832a5f9308c08916dd54e08dfa8132fe2c7931def5884bc43c2741f80ce18"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\Fusion_030129\\started.json",
+    "sha256": "fd7510ecd2e6df559d9fc7079b4f6d606e0089d69842d0ee8412a450b24c6143"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\Fusion_030129\\verified.json",
+    "sha256": "cddc06574c0e3feb826450be54e394ec6bad65fc758638444e8748a54ae43984"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\IR_030129\\captured.json",
+    "sha256": "55690824e2799f91c9fb2f100a46052fc091e851ba447b1bfca6c36d656a5166"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\IR_030129\\raw_capture.pth",
+    "sha256": "9dadd705f3d7be7cde2c07f672a4f650f03bde23617b0694777d7ef3f671b7bf"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\IR_030129\\started.json",
+    "sha256": "5ab0f397c31f96d877423f5515ff409010b7e379ba4ca6976a1884706920a819"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\items\\block_001\\IR_030129\\verified.json",
+    "sha256": "9a403655a57d5f5e9504633deb34cae32c7408de0dd7fb8fc889407aabd8e78f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\preflight\\expected_inputs.json",
+    "sha256": "e2f8e8c4551d308c2929bbd5124ffc634e1a22d0fd8fb46c7942d5c794984e32"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\run_metadata.json",
+    "sha256": "b8e091b9a013995f927ec0c8eacf4290fbef0d8c12eb518bab73fe81d83d9761"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\source\\agnostic_capture.py",
+    "sha256": "54ee4fbf6c81bc2da1d62face0c5ec6907b6fe9ed9598f70471e3785f6cf855f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\source\\capture_full_val.py",
+    "sha256": "34e61ac56ee46c2a801a7d9cdb2aff3d3119e3616f6b81e740a668565af941a6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\source\\capture_ledger.py",
+    "sha256": "6f226b634e04d8eb51cc357de36a723a87e9bb8d315e1c0d175da18729c5ad39"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\outputs\\full_val_stage_run01\\source\\offline_full_gt.py",
+    "sha256": "7afcb90f7839860af2cd218edebd43ae62f19d816395dffbf980b4c40afa853f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\run_unit_checks.py",
+    "sha256": "3d4377cc98762381acf6db368b593834703597234e82eb1707b7c28f7fede95c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\test_coverage_statistics.py",
+    "sha256": "56c58fdc8f23fed27eded5bce2acdcf8f5b02d45345c0f5a039147dfe1913f03"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\test_full_capture.py",
+    "sha256": "879f8b9b75763674a1ac32a9ae614e5eefda87681d8f06048c5cfe4605a52df3"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day04\\verify_pilot.py",
+    "sha256": "ca66ecabc38657d134ae6b22ee26d6170288ce907e2c606614411f864acce66f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\README.md",
+    "sha256": "5666438c02737a137402bde732b7eb77395b3e89d0af1bac40574c33aa325529"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\analyze_competition.py",
+    "sha256": "6f82053a49bee54a61448d93563b7fe56ef772410a2e7d18d75fda59fbade187"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\outputs\\competition_run01\\capture_provenance.json",
+    "sha256": "74d45b3e72bd10038704505decfd8f4d4c5ab7e110205348fc37dcd681253628"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\outputs\\competition_run01\\competition_relations.csv",
+    "sha256": "b0a00aaa472b77e3a22d7d976738e7d83acc88ce47a22af9ac4e86dd27685526"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\outputs\\competition_run01\\good_candidates.csv",
+    "sha256": "8ca7b72f39078786974f01448032aef31f588d5d6627591bbbdc0807cdf75cb7"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\outputs\\competition_run01\\paired_23.csv",
+    "sha256": "a453cc5c52b3d7a74da238c51d6e4a9c4a6a05276b9972622d1d84bc8094d0e9"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\outputs\\competition_run01\\per_gt_metrics.csv",
+    "sha256": "d09e83ed5ad598a52e039ccc14fc27ddcd9a5c4f04e8c956926047c027dcba7d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\outputs\\competition_run01\\run_metadata.json",
+    "sha256": "fe5f381ea6f82f9ee8fddc1ecc4d01615b91bd87b9746aeeac4da110d617307e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week09\\day07\\outputs\\competition_run01\\verification.json",
+    "sha256": "2c53df60eb7c256a785b350cfb3b8652ffccc94369d9dff19fc14a2918f9fdc6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\README.md",
+    "sha256": "ec7b2431e72fddb91dff7a79d13dbd614778c9fa5a9a62d4570501e9a73068b2"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\analyze_candidates.py",
+    "sha256": "b55a687907982faaf499b4103be52b518424ddaf88ca63deb51b5019d2bb4ee8"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\all_score_filtered_candidates.csv",
+    "sha256": "e36257c57c2be610178da91a8504802a9e9e26d919486d374522ca5b82cbbb12"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\artifact_manifest.json",
+    "sha256": "2e2772ad7a98c14052b2b4464397aa5ac6c02f40dc97b50d8c821a228e427d09"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\case_report_zh.md",
+    "sha256": "17f233e90ff59452dc0d76e970b49657a8ce4a765128c4e50c9b770a83243d90"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\case_summary.csv",
+    "sha256": "98bb36084decc7bcd09c961c52ed03563ca2cc62caf9d3f96f5161ba656d5aed"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\competition_relations.csv",
+    "sha256": "498c6e0738c5e8f2244eb6654ad4a38c87b57d6ff43bd9fef2e33dd8e26c6e00"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\equal_score_relations.csv",
+    "sha256": "7efd38c9945dcc2285e4c498f07b999d7ea572cf90ffd1a39c4c776324a5d167"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_Fusion_candidate_atlas.png",
+    "sha256": "9b6f54f379fcb51a976df2320d0795a784a7375f9a6c87d3f42ea46661e8e20d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_Fusion_layer_0_relations.png",
+    "sha256": "12eb9d5f404a865fd10d66b17c9a4020f3aa4b7bc63b68fb18248fce8354e426"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_Fusion_layer_1_relations.png",
+    "sha256": "e76873d49d12d7ba514a8292c153e8472f8eb58f12b9f1d708fcef30763eebdc"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_IR_Fusion_comparison.png",
+    "sha256": "ca47b99100f3ad88b18de3bc61c35d7ee74ee824d550c4253e284c99db883106"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_IR_candidate_atlas.png",
+    "sha256": "6cc38c56762aa7aa2111930961ca3b3e495788acb1415e52b893a57ea2ad4fe7"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_IR_layer_0_relations.png",
+    "sha256": "087c591ed46f46bc3f00e9a3d496e4508d842dfad768858fbc71ef0e748d3b5b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_IR_layer_1_relations.png",
+    "sha256": "772d6437befb291700052fc263846d80d6c90817da3d083fa82387710d149b8b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030078_letterbox_geometry.png",
+    "sha256": "68f6c8fdf5a4911afbc42ad1e1738e3c1561b80add9f69198f4f6c89dcb7f046"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030129_Fusion_candidate_atlas.png",
+    "sha256": "28bf334d19188e6a909b12d198d94665f311dae0ed55ebb64f3e388825d17fae"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030129_Fusion_layer_1_relations.png",
+    "sha256": "95f796aea7e3a0b1e54075290f8e8917885c4ffb79b257f58579951fe40f962e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030129_IR_Fusion_comparison.png",
+    "sha256": "b4b4734405aa2f3c984a263517a112bc342ea53ef1f3c29507e47b1120d6ca94"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030129_IR_candidate_atlas.png",
+    "sha256": "6dc4afd308bf7eb5eea0449b20df07e210027ee8357989d2bf37cb50d599a4f6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030129_IR_layer_1_relations.png",
+    "sha256": "4f7a41081f9c45af046c8e17debd9a0b4b101bc4b2088327785c69b4c9effd3a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\figures\\030129_letterbox_geometry.png",
+    "sha256": "dff4094a53e16dcaf46c6d644d7f6f14b55860f8173cdf6b7b3663ba0c3b4c44"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\good_candidate_checks.csv",
+    "sha256": "c47e27d1ee19af842285411114f10d47c9862124ba0ea3a24983fdddb043d82e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\history_before.json",
+    "sha256": "9734ae8c5dedf81542c6551ce309a05c4985fd0546709913b25b5833d6dd1d54"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\history_hashes.json",
+    "sha256": "c15333dbdd57d42300fbe64a74569ec1ca1afb6923b550f84764b36b5a653bfc"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\input_provenance.json",
+    "sha256": "4750e08d5d631ab3135df014a6acd22e6ed7a3b4ee080d1f2b07139ee98721cc"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\original_nms_outputs.csv",
+    "sha256": "43eed02c1d2532549dea063325d9165e315aa1ad580e0c96c63ffec9a6084a7d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\precision_audit.csv",
+    "sha256": "b48ea1dca00f4e435151e8cbf79433ea606ee3dfc561659be591d7ac5a8ce7fb"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\run.log",
+    "sha256": "a17ffc0d05902fb9f162447f71563ec0954c57a4ace992a65d4e591994808aa9"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\run_metadata.json",
+    "sha256": "a135cda7e2215402042030f54bc1de50aa4a0e909f3f3273dd20e7d92dd6d62e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\selected_candidates.csv",
+    "sha256": "0a273ab9fc3f429f8898b4f5c71a8c763ff0d9582990770ae04349a5f332a18d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01\\verification.json",
+    "sha256": "4b56d68578702cd693d5d94a6a884b3a2412b7f1b04256e0247ffc65e388e1b1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\outputs\\candidate_review_run01_process.json",
+    "sha256": "8c2a2d2d404c6532e9566ee0cc9004c479aaa7ed7e070d3ef0149980282c5b28"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day01\\run_analysis.ps1",
+    "sha256": "e05a983c993f71b9e5f89448f62937b50878a4eeb998457a54c8d3de2cab5a83"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\README.md",
+    "sha256": "5be9f90949e96e3e30f898c34cc552bb8c4e29288d40a40ef9f9a515af5780c0"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\030078_key_candidates.png",
+    "sha256": "50a51af30ace9841344fd04ce8e47b7b5e3ba1d45e6148d2250a8e1665b0227c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\030078_process.png",
+    "sha256": "dbabcc68b0ac453be72317ca8bb7ff10d9daeb8a97f695596d751bc760214091"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\030078_replay_pair_checks.csv",
+    "sha256": "07e727d1a428907b8d40c0ee8ae2af4562e67ee7dd1c40b3038497e8cf32e197"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\030129_key_candidates.png",
+    "sha256": "3a3421173ed1b3a385050fc425a7295e053412a29e38398b8e090aa112c84cd0"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\030129_process.png",
+    "sha256": "1b4e4558680d45598b8b8a12774509b3adfd590ba9ac725e5f548999012bc407"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\030129_replay_pair_checks.csv",
+    "sha256": "31f83d7f3562d7013a005875a7d45e4abace7aaa6627ffc8c4e46bc96e06a344"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\all_inputs.csv",
+    "sha256": "dcccfd71ad87e0dc184a41f50ef2590a6b1008c6bb20a54e7b83e7bbb0987289"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\all_pair_numeric_audit.csv",
+    "sha256": "0a3f8590d70c4057de6560817b40a2d1f92d0311d42aad9c6d3a4f3b4bdd41c8"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\artifact_manifest.json",
+    "sha256": "f79ca5122866b782d667b79422d1ad71c4cefc36db28542b6e512dde51c4a488"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\case_details.json",
+    "sha256": "7a0c549131638ae2ceada9b13c06878b1dbaa8d41b6139281c1281c41cbd2970"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\case_relations.csv",
+    "sha256": "0feff11a92394c799ea6ef97f8d752e6ad553a57752dc834a54c5f685df818ef"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\case_report_zh.md",
+    "sha256": "f57d7de045bf015503609527523c0e6d5793d22a7b515506a100d795f7eb7a22"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\case_verification.csv",
+    "sha256": "fae3b8799e193573f4a2380996cc47c01c920f25587460e7d22fbd6c0c24d8e9"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\figure_geometry.json",
+    "sha256": "c5879e5e91f56e15f3e1b76d213effb90f131f936ba052aaaf97f4094c951644"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\good_survival_checks.csv",
+    "sha256": "45b8ba7eb3775f2a8ca35441406787850639af843350406287213bde93192155"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\history_before.json",
+    "sha256": "917f782f06e471b61d5d570b6700b569ad4bdd5ccd79e170c1347dd74fe92b54"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\history_hashes.json",
+    "sha256": "67d27f9b67226fbcd0f5e5aefbda6e7e788de761ec57bfba6972c840a7d12362"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\implementation_evidence.json",
+    "sha256": "fb4ee5ccf400488a925f94ca2af39eff545960fb2e7514ba7c7bb9c267661fde"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\input_provenance.json",
+    "sha256": "d00d3ba64d7bdde4c251c8f8a3c9cc2fa6d4938c451fb2b8417516e0dc8d8375"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\nms_source_evidence.txt",
+    "sha256": "ef0264535036ec05a1b98acbeecccaed2611a95401081400748e61e0dd8046d7"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\output_comparison.csv",
+    "sha256": "ec64f3ce36bdf1ef31798d3863fd110ba8d4d301987ed28edf97b736121c6637"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\replay_events.csv",
+    "sha256": "1d014cbfa9b025703fc716ab50a0e7888f45ea05b965a4e055cb57eccdd739ae"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\replay_steps.csv",
+    "sha256": "207ee3644b771ecac6e17352dfe228dec6d50a0f3d2af887a9a623583529fc80"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\run.log",
+    "sha256": "88f472c69da28c7a6062a809c2183f2b57244a664f1b8b990ad894f24e01819e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\run_metadata.json",
+    "sha256": "3e198a02d30dafeba98b227dadc82b6ee0be5a97bfaf0ae70b4062860502cac7"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\score_ties.csv",
+    "sha256": "1c214fda5d31c954e17c72fe9f08f688865e86dee633c381f823f5956fb34324"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\threshold_precision_audit.csv",
+    "sha256": "1c214fda5d31c954e17c72fe9f08f688865e86dee633c381f823f5956fb34324"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01\\verification.json",
+    "sha256": "e80f5f0c8edcd0b1146bb54c910fc3ff48fc01c559bce7c0340aa6d50748d89f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\outputs\\upstream_replay_run01_process.json",
+    "sha256": "7c914452961e709e89935cc129eaafefddc054a5a8a545e16092bb90efe62b4c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\replay_upstream.py",
+    "sha256": "bd20cccb7a885f0a33c8e19c64f9602b014467795a49a0b490db612cfb9e963e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day02\\run_replay.ps1",
+    "sha256": "1954eb55aaeb5dbfe4c8ea06181fd51e93c3eac2c1a4b4ab07b98ac711f51e5f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\README.md",
+    "sha256": "f82c27d3ed6061d860e4fb4847c1f90debdb4aa989750698505db4390341dcdf"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\030078_comparison.png",
+    "sha256": "c11e4a8729f199cdf63c3a397fda0296e018224740c9820f16189de1ded231d1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\030129_comparison.png",
+    "sha256": "e66762e95e5df5b853745a5e1d47192318aaf6aff121f3fcd5ca6bf37d9e5211"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\Fusion_030078_raw_capture.pth",
+    "sha256": "5d47d2214ca1b305d545966bb7331250075694e3356b6bd46a22f79f3fd3a9c4"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\Fusion_030129_raw_capture.pth",
+    "sha256": "e66ccfe884c6525cb0be634fb6ce47ff7df7702ce451af0946a9713dbdc73bfa"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\IR_030078_raw_capture.pth",
+    "sha256": "208ed6eb69056aac8a9b371c0c2f3c5c9e681b9f5f08d75b5ceadfe3edf9a058"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\IR_030129_raw_capture.pth",
+    "sha256": "8ec16b5152a1ef4cbec65a1d8d9c9208de981a296261457440f89b2c73b1b664"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\artifact_manifest.json",
+    "sha256": "ee5802d014c83cf9163625b9e5f624d656a60f95199a0868ac52d1374716c28d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\case_report_zh.md",
+    "sha256": "8023a204facf6dead6db76e3878a31845b4b2d3e8e3bc9808d9726c9ab2833d1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\delivery_audit.json",
+    "sha256": "9efb944b84234f26dba2887e1ac02d89da8371d284fe53a3ede2eac07f20c348"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\final_detections.csv",
+    "sha256": "81ef42ffbdd5e872bf56ae221c5ab066d5a67c4dcf705c7931e638caf17e0925"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\historical_differences.csv",
+    "sha256": "8e41691c8c1f04c3d534cb8d55c7ae99f4a9dc849a423548f3b1a71e91e3feaf"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\history_before.json",
+    "sha256": "8549eb13199f5f2b3ce13adc7eff80cb4cc34d6eb6bf79693931bec0cd390663"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\history_hashes.json",
+    "sha256": "ba4ad49cbf48bd6f8a6732ef698f5643f48a54fb8c365f0ad6df5294d2a82498"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\input_provenance.json",
+    "sha256": "3ec0bdb1c90da00d661383db12c0087ba30200b583f197f1fb3516b1dfe281cb"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\model_checks.json",
+    "sha256": "4012a82ccac86bfeecdb26940d21f497ee507a6db8ea17af425b689e3eef94d8"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\rpn_candidates.csv",
+    "sha256": "97867559e06c53bd3efe2a210e8cbdc99817ba22030229b89aa54e9b86b1d016"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\run.log",
+    "sha256": "395cebdbe0b2dff91d0c093d15ec5360eb44be2046ec5f1095af8a0b37f3c185"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\run_metadata.json",
+    "sha256": "58f4a421f4ec204acaa105722f0866d9eb57014e2c2cbc797abcbf52cee1867d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\structure_probes.json",
+    "sha256": "a3182b5705a8ffcb9e4c8730ffee570f80a8c4122ca0f6caa35f4b4710eb05a0"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\summary.csv",
+    "sha256": "59eccefa9b90bd9b07cce9e189ced61a7679c71ea3d4d47e876e6896590ad221"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day03\\outputs\\rpn_final_comparison_run01\\verification.json",
+    "sha256": "52607cba1a914a04c5c8a7929668fbb69688ea0d45c472108d8e2a16e8adebe1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\README.md",
+    "sha256": "6fd108b61acd69c66bc028dfc37e131de700671765e58b2296474a552bd3b0ec"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\artifact_manifest.json",
+    "sha256": "ae4bd10ced60e3784ed68aa6beb8becb7d4705bf0bac334c9699e7aee1c6e065"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\case_report_zh.md",
+    "sha256": "18e47bd71510a2146de3330db65a870061f616a7eefb9066203ed0327b5a1e48"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\day03_final_comparison.csv",
+    "sha256": "fd64672dbe6619e1b769fc0cb699c0e6ab15c7ceeced3c4c7f7a0aa1afadd1ca"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\day03_flat_comparison.csv",
+    "sha256": "c122ed627f3b151bb31d6796849309e59296d170833a41d5745b769245b2e1eb"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\day03_reproduction.json",
+    "sha256": "24a2417bae718ee2c8de6cbe03b72b32a5301b2b248cba6add7b408ec2167f53"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\delivery_audit.json",
+    "sha256": "023e3817f5b84e4d067cef620143f4f31c8d4ec8af11837095113d959ab44bfe"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\final_sources.csv",
+    "sha256": "44795de37ca46047a4a65e9a1cb371d116b633e5cf8894fe86a0fe7f1248f50e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\history_before.json",
+    "sha256": "9152ce9582088fd2ad1d27617e935f4babe4a9d7c97f39d415c8816b0ebbccff"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\history_hashes.json",
+    "sha256": "35afd2d9b4cac2b9a83bb0aec421030906d441bbce998090b3d1662433588ca2"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\identity_flow.png",
+    "sha256": "c4e2f0190a5e7814ef41097a35e9a4e46ac108c6a758dcf56b60b6e8edb540ed"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\key_boxes.png",
+    "sha256": "f556a71f79c873ab4ad798b21f3403904896147e9d260d647602f728a15fd836"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\model_checks.json",
+    "sha256": "d979896abcebad32078cc238e4f8353e26c78120dbb23905677794b822860f6a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\proposal_branches.csv",
+    "sha256": "c9417192364aad858dd96f11fc98a25eabca88b745b48c7c6760ba4aefb66392"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\provenance.json",
+    "sha256": "eeb71a612992ca7eff09390de043fd3becdab21178361288f53f4583b6c44136"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\raw_capture.pth",
+    "sha256": "160e811ac2b3faf0f4ecadb571d5d9ec976c24686daa7f315f7580d797ea6773"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\roi_heads_source.py.txt",
+    "sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\run.log",
+    "sha256": "914751657f64297b57f603557fb6fd463c1727053b325565dad4f1ec879a6af8"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\run_metadata.json",
+    "sha256": "5acdabbfec1c937fcdd1b4cfcda3327d9aca8c109343393656b84d4aee40d0b9"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_candidates.csv",
+    "sha256": "c374dc7937913a9e6d19bada5b498c6ef7578c7b6251afe0f68963af83f49280"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_coverage.csv",
+    "sha256": "ae81ebb1fb4ed4000f95f04ad217154ccbe6d44cccacdb1d5afda9ad90eb8992"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\stage_indices.json",
+    "sha256": "7c76ad7a9a17a432e6414b33d3d5315bc1e867466c07a2150548572cab5a9c28"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\trace_8877.csv",
+    "sha256": "2d24eab9c106dcde21cced7895dde53c902171ccafd287cbd76a858356b95261"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day04\\outputs\\roi_trace_run01\\verification.json",
+    "sha256": "f5f47875fc02e873408c63dddffb33df188dfbe1d62fa5b594275ec940e7ab8b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\README.md",
+    "sha256": "e2698e1f4e7a726ed24e48c95ef5f152ed11dc83bea180700ece48dfab616feb"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\all_pair_numeric_audit.csv",
+    "sha256": "46276e5fdce7a4ee431305aaf411c996f53bc1c498fcf6a6b418a985842b1266"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\artifact_manifest.json",
+    "sha256": "61a390dc35cbd07ca57df456be8842e2a3c03a2b1678348261b2fdb810f42035"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\boxes_source.py.txt",
+    "sha256": "9c0afd11f8291569442752f7aaab607ad0f7bf57dccd645048a0b7196372f269"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\candidate_decisions.csv",
+    "sha256": "a166d41bd721d06135755bb8f0c7cf44ee3ec9ac691179bee719cdfbcdf4c3a6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\case_report_zh.md",
+    "sha256": "5b73fc76ac7687baf79e95879610f62230ffd32c6ca05289492e78af3b4ffe48"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\figure_geometry.json",
+    "sha256": "fa6f0281ab21128d0762dd3bd681462be0a46d122cf09a7c39ba1896d12bd7a6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\focus_attributions.csv",
+    "sha256": "ae80eedf2f2409f178db44b2969a93e6ef589afcc8d5c4bb4d9d711c0c1b95b1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\history_before.json",
+    "sha256": "d96b2c65774b8149a7d516942ef5b5fd6255c649969518ef01bfda40567dd2ef"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\history_hashes.json",
+    "sha256": "49d200d35a3ec262036450ffb8882a56a994065963bb9cc0d4f4b20d10e82f32"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\image_context.png",
+    "sha256": "bd4405511edf42984a0ea3a7fc0a5d1935f58919ab7a1e6cd27af8eca5d198c3"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\implementation_evidence.json",
+    "sha256": "7f9e1895b01766ceeeac7242f25e5eae2875df4f318ce268bcb9c351f3ec6fc9"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\input_provenance.json",
+    "sha256": "8e2539849451cefa67d74195c87b101aca5e20c3406585ed395a9aedcd79540e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\key_candidates.png",
+    "sha256": "f576bcc17175311ff49c059a46f3b4959602b4ca5a64aabcd298286965a57188"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\nms_inputs.csv",
+    "sha256": "8a9aa18495a63c24e19a5cfc8455af440989f31d62f263225525a2829afe066b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\output_comparison.csv",
+    "sha256": "67924c2c4a16c4c045fb8e051268bc7f0e10efad01b0f3ee2f51c67893922e4f"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\output_verification.json",
+    "sha256": "f8b67e6066b33227d4ba925e0928e0f940f55c197dd68dcffd415a98915ba144"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\possible_retained_relations.csv",
+    "sha256": "9b48f5fa2012329143e0a8c729644474dde7f61505240d388161969419365704"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\replay_comparisons.csv",
+    "sha256": "e71e4a9e09ff3d870e810303bfb8123c47fefd50ab4b33585d9a85fdf863583b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\replay_process.png",
+    "sha256": "fdfb75ea760aa1cdf59a0d54a6afc251e9acf82dfc2a4fd58ef9b11ad0abe9c1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\replay_steps.csv",
+    "sha256": "216bc758c2ec6b1e8480b3ac01e42390fe1c56e57fbbe6e76167f7fccd0f9e7d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\retained_focus_all_pairs.csv",
+    "sha256": "892fad969e630cbb8ebaf6f25d0a95f9d38cb8eb389a36229d38d1e76e8bc30c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\run.log",
+    "sha256": "7e185ba623f7f575a928459723f794a76c25aaeed24d15ad23b01584a77a99dd"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\run_metadata.json",
+    "sha256": "161223e9e34abdaa2ec15422655203565a957e4567c2527e4b352297a1518669"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\score_ties.csv",
+    "sha256": "49f3cee4d4bbf863a0f7daf02fddeabd191b35c89c9fabb4b906e06243e9df2e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\threshold_precision_audit.csv",
+    "sha256": "49f3cee4d4bbf863a0f7daf02fddeabd191b35c89c9fabb4b906e06243e9df2e"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01\\verification.json",
+    "sha256": "5b350c64b980ce21816a8590855fdc438f8b938bb25688ec2d9631d99f458d36"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\outputs\\roi_nms_replay_run01_process.json",
+    "sha256": "d5d724b7a4ff76314e97c8d07390265f7b9da0d30dc4be38af626df607622755"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\replay_roi_nms.py",
+    "sha256": "97aa758afb9bbf581d6556638202100b19cabe9961bd916d3110cc6f96ce62bd"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day05\\run_replay.ps1",
+    "sha256": "eb25c3ed7e0568744df93b0ec85636850c2df779cc4265a1b17b3a37b0f203e6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\README.md",
+    "sha256": "cf9894c79be82f7c306ceb7b2daf484e322b4e6e77afba55d9760387c8c62261"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\artifact_manifest.json",
+    "sha256": "01c19527410f55278659be961aca252a619a08b2dd492a936fd9f73ec7036e97"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\case_report_zh.md",
+    "sha256": "0ecd86caa9b9fde2a7a9ff93c8256f0c20ead53d109a5720274ce9bcc017e0be"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\comparison_sources.json",
+    "sha256": "92dec0e29e8ec0ccc8cbfcc3c73cac1f011847dd6a3e16474f8eef4397fa4c8a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\day03_final_comparison.csv",
+    "sha256": "c16bd17bc9739f40b8506012779434f5614f22af3cb3c7a5689a32a14f7368b8"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\day03_flat_comparison.csv",
+    "sha256": "cc5c8020a21f0c4b3cf53ac5148a3105c811c526d6c191bb2759de966b07bcf4"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\day03_reproduction.json",
+    "sha256": "357e1e36008a6ed7ddcb8203774691435d6dbd3bf375491ed75f11f59aec9630"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\figure_geometry.json",
+    "sha256": "23ea2ef10e6b140e6bd192097ed4be55f282b8059db4ae2f12b5187cadf477fd"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\final_good_source_traces.csv",
+    "sha256": "d8bc1b832a43dfd293a327b6c357bb69f0fef258c76185cd99402d4a8d5f0041"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\final_sources.csv",
+    "sha256": "ce4f0e683a3a394c05003c1faf90ce4360ecc49dd279c14ffab4e19a35723e0b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\focus_traces.csv",
+    "sha256": "1d4aebb002dc18c0925c64c83fbf5a5134aed9339ee91ba23c4fb2619c1107b6"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\good_branch_outcomes.csv",
+    "sha256": "1d40a5f9553d8eebe64e0f2b5f3fd6cdae74d347219bbd723465585bdc9045ae"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\history_before.json",
+    "sha256": "db749f0a1de4a75954bcbc24f07097859710ccce0d461d3ab8d1635249147bec"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\history_hashes.json",
+    "sha256": "a8d4ffcc14d1d2bae1ff650ba87c2ebdbeb052731e54f8a20eff872b20e15d0a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\input_provenance.json",
+    "sha256": "0c5524af8061f12f5834c6c8b0d45cf149750dba709eec951b4a7a1d83362e9b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\key_candidates.png",
+    "sha256": "873ce2db4bcc787d5c27c231ccbfa9005be91c3bddc4c067096aa97e4af40390"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\model_checks.json",
+    "sha256": "5ba16a35d00c534fb56d69d67b1dd9acc14e607423e2a65fb7f5160579491fae"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\proposal_branches.csv",
+    "sha256": "3968d6d791739df3518b290e81d5cbbae4ab23e85821f8552afbf3932564979b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\raw_capture.pth",
+    "sha256": "51393139733f7b700cd8e1f97e123c4c0b56c094f34fdd0ac8ffb4f75a49b4fe"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\roi_heads_source.py.txt",
+    "sha256": "0fa89fccc19faa5aaa9dc984a9e3dc29684a4a944dbd5353dd65b82cbef7fc8b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\run.log",
+    "sha256": "aae9fe94770cc30b9a318e3f690c93ce982ca0760a0b8f3400015f344a8b8ea0"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\run_metadata.json",
+    "sha256": "106580f28e6267bea8aabd0a5b4ceb133dd905c46812e5497f40e29b6203d206"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\stage_candidates.csv",
+    "sha256": "eb07ad3b856d088e6f609e22458cbec8c508d87b09cb9e129195e61d49f60008"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\stage_coverage.csv",
+    "sha256": "9539af20db51af6b464b3d37550be055e027408956ff8af6a74485befdc0c07c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\stage_flow.png",
+    "sha256": "a3048d03a2de80258607d1ff3159969fee2f72f7b6d1e17f6d5eea7a4e29fef1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\stage_indices.json",
+    "sha256": "67de2552268b7d7aeb38ac497622a63930098dbc804e0a7ccf99fb2732c63241"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\success_summary.json",
+    "sha256": "655d54d3202d602c33e3a2be05434faf6d1d31454dfc11de9c7c762201bec3f1"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\trace_9141.csv",
+    "sha256": "11b13cc7598d86fda78da60a149f1c89a94f134bb856d8a7ec75083b7e4a6ed0"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\two_case_comparison.csv",
+    "sha256": "d9a6d269c1725b3058a2f92632efecb305154fb3922b9abf9a9b9bea67fcd30b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\two_case_key_boxes.png",
+    "sha256": "49fd2fce3f98cc382bcf4a774e4942e6259136a06b6ce7bf75b6f222e474bd0c"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01\\verification.json",
+    "sha256": "0d912728966983c58eed037ad9263187162285ad4220f1318118eac0eaea7f9a"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01_process.json",
+    "sha256": "c5cff7484393d7a8f515513751e2d27cb49edb3bed21c88a21ac10496090104d"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\run_trace.ps1",
+    "sha256": "13a1824031790a8f199a0282d96f55c1b2eef1f275874eaa768a5fb1f712e22b"
+  },
+  {
+    "path": "D:\\python\\test\\vision-learning\\week10\\day06\\trace_success.py",
+    "sha256": "7a671ecbfc1be50f7d411e63dcf95f9873ea285ed39e0bdd619dbce23f920e8c"
+  }
+]

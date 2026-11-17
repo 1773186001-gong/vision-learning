@@ -1,0 +1,5 @@
+﻿{
+    "return_value":  0,
+    "monitor_pid":  5972,
+    "command_line":  "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -ExecutionPolicy RemoteSigned -WindowStyle Hidden -File \"D:\\vision-learning-server\\week08\\day04\\monitor_rgb.ps1\" -JobDir \"D:\\vision-learning-server\\week08\\day04\\jobs\\rgb_baseline_run01_20261030_125726_0d9fec62\""
+}

@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "saved_capture_export_checks": 4,
+  "additional_model_forwards": 0,
+  "additional_checkpoint_loads": 0,
+  "source_inputs_unchanged": true,
+  "history_reproduction": [
+    {
+      "model": "IR",
+      "stem": "030078",
+      "historical_count": 36,
+      "new_count": 36,
+      "flat_set_equal": true,
+      "flat_sequence_equal": true,
+      "max_positional_coordinate_delta": 0.03887939453125,
+      "max_positional_objectness_delta": 0.0015743374824523926,
+      "note": "positional deltas compare same output rank; not a candidate identity mapping when order differs"
+    },
+    {
+      "model": "IR",
+      "stem": "030129",
+      "historical_count": 51,
+      "new_count": 51,
+      "flat_set_equal": true,
+      "flat_sequence_equal": false,
+      "max_positional_coordinate_delta": 50.125762939453125,
+      "max_positional_objectness_delta": 0.0012714862823486328,
+      "note": "positional deltas compare same output rank; not a candidate identity mapping when order differs"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030078",
+      "historical_count": 67,
+      "new_count": 67,
+      "flat_set_equal": true,
+      "flat_sequence_equal": true,
+      "max_positional_coordinate_delta": 0.032012939453125,
+      "max_positional_objectness_delta": 0.0007734894752502441,
+      "note": "positional deltas compare same output rank; not a candidate identity mapping when order differs"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030129",
+      "historical_count": 64,
+      "new_count": 64,
+      "flat_set_equal": true,
+      "flat_sequence_equal": false,
+      "max_positional_coordinate_delta": 32.5615234375,
+      "max_positional_objectness_delta": 0.0006965398788452148,
+      "note": "positional deltas compare same output rank; not a candidate identity mapping when order differs"
+    }
+  ],
+  "checked_at": "2026-11-11T17:05:55.136098+08:00",
+  "exit_code": 0
+}

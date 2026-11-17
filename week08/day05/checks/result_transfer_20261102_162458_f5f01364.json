@@ -1,0 +1,8 @@
+﻿{
+    "status":  "downloaded_pending_verification",
+    "output":  "D:\\python\\test\\vision-learning\\week08\\day05\\outputs\\fusion_concat_run01",
+    "server":  "192.168.0.149",
+    "remote_run":  "fusion_concat_run01",
+    "training_repeated":  false,
+    "test_inference_repeated":  false
+}

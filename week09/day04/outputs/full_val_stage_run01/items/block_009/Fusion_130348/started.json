@@ -1,0 +1,10 @@
+{
+  "model": "Fusion",
+  "stem": "130348",
+  "image_index": 101,
+  "scope": "val",
+  "command": "D:\\cv-server-env\\Scripts\\python.exe -B -X utf8 D:\\vision-learning-server\\week09\\day04\\capture_full_val.py --output D:\\vision-learning-server\\week09\\day04\\outputs\\full_val_stage_run01",
+  "new_forward_calls_authorized": 1,
+  "started_at_utc": "2026-11-08T13:33:02.218354+00:00",
+  "signature": "e44025fe5600a9e02a0b53a8a77c68a461163fa916dbe2b0191ecb2839e78929"
+}

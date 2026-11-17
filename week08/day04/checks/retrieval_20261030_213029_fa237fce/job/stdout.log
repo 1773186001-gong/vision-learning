@@ -1,0 +1,83 @@
+SMOKE PASSED {"samples": [{"stem": "010001", "total_loss": 1.3820651769638062, "loss_classifier": 0.9466607570648193, "loss_box_reg": 0.4093560576438904, "loss_objectness": 0.010551472194492817, "loss_rpn_box_reg": 0.015496863052248955}, {"stem": "100030", "total_loss": 0.9247241020202637, "loss_classifier": 0.7905479073524475, "loss_box_reg": 0.0, "loss_objectness": 0.13417616486549377, "loss_rpn_box_reg": 0.0}], "resize_boxes_unchanged": true, "peak_allocated_bytes": 318372352, "weights_restored_before_training": true, "peak_reserved_bytes": 413138944, "modality": "visible"}
+RGB epoch=1 batch=100/700 loss=0.543727
+RGB epoch=1 batch=200/700 loss=0.137612
+RGB epoch=1 batch=300/700 loss=0.814553
+RGB epoch=1 batch=400/700 loss=0.685377
+RGB epoch=1 batch=500/700 loss=0.275919
+RGB epoch=1 batch=600/700 loss=0.253363
+RGB epoch=1 batch=700/700 loss=0.412494
+{"epoch": 1, "total_loss": 0.506035297960043, "loss_classifier": 0.18250048005421246, "loss_box_reg": 0.2928035214530038, "loss_objectness": 0.022807685487433834, "loss_rpn_box_reg": 0.007923610291015524, "lr": 0.001, "epoch_seconds": 128.29656190000242, "peak_allocated_bytes": 395375104, "peak_reserved_bytes": 484442112, "precision": 0.7159420289855073, "recall": 0.59375, "AP50": 0.6424393048554577, "mAP50_95": 0.2448941817699038}
+RGB epoch=2 batch=100/700 loss=0.436734
+RGB epoch=2 batch=200/700 loss=0.235306
+RGB epoch=2 batch=300/700 loss=0.165506
+RGB epoch=2 batch=400/700 loss=1.064653
+RGB epoch=2 batch=500/700 loss=0.551253
+RGB epoch=2 batch=600/700 loss=0.371205
+RGB epoch=2 batch=700/700 loss=0.259125
+{"epoch": 2, "total_loss": 0.5611061128654651, "loss_classifier": 0.1959416697094483, "loss_box_reg": 0.3447840050368437, "loss_objectness": 0.013745674487145152, "loss_rpn_box_reg": 0.0066347633678170885, "lr": 0.001, "epoch_seconds": 128.02497269999003, "peak_allocated_bytes": 394217984, "peak_reserved_bytes": 486539264, "precision": 0.696236559139785, "recall": 0.6225961538461539, "AP50": 0.6373202379753965, "mAP50_95": 0.2387482230226476}
+RGB epoch=3 batch=100/700 loss=0.189045
+RGB epoch=3 batch=200/700 loss=0.699640
+RGB epoch=3 batch=300/700 loss=1.029208
+RGB epoch=3 batch=400/700 loss=0.580698
+RGB epoch=3 batch=500/700 loss=0.508492
+RGB epoch=3 batch=600/700 loss=0.813274
+RGB epoch=3 batch=700/700 loss=0.609620
+{"epoch": 3, "total_loss": 0.6096443022521478, "loss_classifier": 0.20303119921258517, "loss_box_reg": 0.38892291118789996, "loss_objectness": 0.011541092472824468, "loss_rpn_box_reg": 0.006149098949847809, "lr": 0.001, "epoch_seconds": 129.74665119999554, "peak_allocated_bytes": 392636928, "peak_reserved_bytes": 486539264, "precision": 0.7797619047619048, "recall": 0.6298076923076923, "AP50": 0.665828237332379, "mAP50_95": 0.2469701389915382}
+RGB epoch=4 batch=100/700 loss=0.159988
+RGB epoch=4 batch=200/700 loss=0.606718
+RGB epoch=4 batch=300/700 loss=0.701396
+RGB epoch=4 batch=400/700 loss=0.953351
+RGB epoch=4 batch=500/700 loss=1.018973
+RGB epoch=4 batch=600/700 loss=0.333960
+RGB epoch=4 batch=700/700 loss=0.900108
+{"epoch": 4, "total_loss": 0.6076715106969434, "loss_classifier": 0.1992285843193531, "loss_box_reg": 0.39279011440862505, "loss_objectness": 0.00991255599793346, "loss_rpn_box_reg": 0.005740253930811637, "lr": 0.001, "epoch_seconds": 132.26514419999148, "peak_allocated_bytes": 394009088, "peak_reserved_bytes": 486539264, "precision": 0.6771844660194175, "recall": 0.6706730769230769, "AP50": 0.6763494644896395, "mAP50_95": 0.26463491363210484}
+RGB epoch=5 batch=100/700 loss=0.631556
+RGB epoch=5 batch=200/700 loss=0.762040
+RGB epoch=5 batch=300/700 loss=0.611020
+RGB epoch=5 batch=400/700 loss=0.441231
+RGB epoch=5 batch=500/700 loss=0.716373
+RGB epoch=5 batch=600/700 loss=0.356170
+RGB epoch=5 batch=700/700 loss=0.516827
+{"epoch": 5, "total_loss": 0.6344128350487778, "loss_classifier": 0.20650918799252915, "loss_box_reg": 0.41277691816112827, "loss_objectness": 0.009502441725988839, "loss_rpn_box_reg": 0.005624289302359102, "lr": 0.001, "epoch_seconds": 134.88879599999927, "peak_allocated_bytes": 393999872, "peak_reserved_bytes": 486539264, "precision": 0.7131367292225201, "recall": 0.6394230769230769, "AP50": 0.6700056794804624, "mAP50_95": 0.26386518322191316}
+RGB epoch=6 batch=100/700 loss=1.356389
+RGB epoch=6 batch=200/700 loss=0.227751
+RGB epoch=6 batch=300/700 loss=1.105174
+RGB epoch=6 batch=400/700 loss=0.211450
+RGB epoch=6 batch=500/700 loss=0.563304
+RGB epoch=6 batch=600/700 loss=0.326428
+RGB epoch=6 batch=700/700 loss=1.194922
+{"epoch": 6, "total_loss": 0.6296587507546481, "loss_classifier": 0.19861074749646443, "loss_box_reg": 0.41748662327017105, "loss_objectness": 0.008340442191256443, "loss_rpn_box_reg": 0.005220937385144809, "lr": 0.001, "epoch_seconds": 136.44926979999582, "peak_allocated_bytes": 381565952, "peak_reserved_bytes": 486539264, "precision": 0.7591036414565826, "recall": 0.6514423076923077, "AP50": 0.6610332659145116, "mAP50_95": 0.2512450642253931}
+RGB epoch=7 batch=100/700 loss=0.501038
+RGB epoch=7 batch=200/700 loss=1.208526
+RGB epoch=7 batch=300/700 loss=0.472899
+RGB epoch=7 batch=400/700 loss=0.687736
+RGB epoch=7 batch=500/700 loss=0.355033
+RGB epoch=7 batch=600/700 loss=0.544582
+RGB epoch=7 batch=700/700 loss=0.755595
+{"epoch": 7, "total_loss": 0.6209255001439513, "loss_classifier": 0.19709422581546407, "loss_box_reg": 0.41020149850951776, "loss_objectness": 0.008464402303798125, "loss_rpn_box_reg": 0.005165373573306299, "lr": 0.001, "epoch_seconds": 136.90646749999723, "peak_allocated_bytes": 394217984, "peak_reserved_bytes": 486539264, "precision": 0.7774480712166172, "recall": 0.6298076923076923, "AP50": 0.666328504384052, "mAP50_95": 0.2642338912783083}
+RGB epoch=8 batch=100/700 loss=0.317595
+RGB epoch=8 batch=200/700 loss=0.815996
+RGB epoch=8 batch=300/700 loss=0.575796
+RGB epoch=8 batch=400/700 loss=0.822908
+RGB epoch=8 batch=500/700 loss=0.790247
+RGB epoch=8 batch=600/700 loss=0.750114
+RGB epoch=8 batch=700/700 loss=0.552634
+{"epoch": 8, "total_loss": 0.6021256962754498, "loss_classifier": 0.1900475633746412, "loss_box_reg": 0.3996248520804303, "loss_objectness": 0.007468834337424986, "loss_rpn_box_reg": 0.004984445745555734, "lr": 0.001, "epoch_seconds": 137.30805469999905, "peak_allocated_bytes": 379776000, "peak_reserved_bytes": 486539264, "precision": 0.7562326869806094, "recall": 0.65625, "AP50": 0.6706165546155384, "mAP50_95": 0.260348547674122}
+RGB epoch=9 batch=100/700 loss=0.282047
+RGB epoch=9 batch=200/700 loss=0.655769
+RGB epoch=9 batch=300/700 loss=0.854321
+RGB epoch=9 batch=400/700 loss=0.874395
+RGB epoch=9 batch=500/700 loss=0.900784
+RGB epoch=9 batch=600/700 loss=0.487742
+RGB epoch=9 batch=700/700 loss=0.573053
+{"epoch": 9, "total_loss": 0.6232104168443142, "loss_classifier": 0.18793235788753787, "loss_box_reg": 0.42330643413854496, "loss_objectness": 0.007138862264504756, "loss_rpn_box_reg": 0.004832761755221457, "lr": 0.001, "epoch_seconds": 138.724401200001, "peak_allocated_bytes": 384073728, "peak_reserved_bytes": 486539264, "precision": 0.6610576923076923, "recall": 0.6610576923076923, "AP50": 0.6430492735285812, "mAP50_95": 0.24234746536358537}
+RGB epoch=10 batch=100/700 loss=1.189532
+RGB epoch=10 batch=200/700 loss=0.484169
+RGB epoch=10 batch=300/700 loss=0.437172
+RGB epoch=10 batch=400/700 loss=0.729099
+RGB epoch=10 batch=500/700 loss=0.527410
+RGB epoch=10 batch=600/700 loss=0.388941
+RGB epoch=10 batch=700/700 loss=0.682905
+{"epoch": 10, "total_loss": 0.6190152451076678, "loss_classifier": 0.19077004826228533, "loss_box_reg": 0.41679191120634124, "loss_objectness": 0.006698251267911733, "loss_rpn_box_reg": 0.0047550348220205966, "lr": 0.001, "epoch_seconds": 139.09899459998996, "peak_allocated_bytes": 381775872, "peak_reserved_bytes": 486539264, "precision": 0.7703488372093024, "recall": 0.6370192307692307, "AP50": 0.6517518379142473, "mAP50_95": 0.25509043387908814}
+COMPLETED RGB {"precision": 0.4917763157894737, "recall": 0.8591954022988506, "AP50": 0.8001258873790847, "mAP50_95": 0.36830385695197043, "TP": 299, "FP": 309, "FN": 49, "score_threshold": 0.5, "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"}
+EXIT_STATUS {"exit_code": 0, "pid": 3024, "seconds": 1403.2012082}

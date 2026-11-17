@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "all_six_images_opened_and_visually_reviewed": true,
+  "coordinate_view": "same IR letterbox background and same zoom on both models",
+  "inset_title_and_legend_overlap_resolved": true,
+  "no_model_forward_during_rerender": true,
+  "files_sha256": {
+    "case_01_IR_advantage_030269_G1.png": "7aa4a2657abccd86c3be2c230a9a554f611ce9ceb49295bf860063dee0956420",
+    "case_02_IR_advantage_030308_G1.png": "de69d3a2a17220fca93d3dc82bff6302986a13224fac67e88ee978d4485c7a4b",
+    "case_03_IR_advantage_030205_G0.png": "41db56c809ddb4c1ea5f9601e19a953ddeb20e136a91e6627c33e4a0af7a9b97",
+    "case_04_Fusion_advantage_170100_G1.png": "823de586b64b9fc99fe5d53f0ebe6211310ddeeb71114925e49b5653b366a125",
+    "case_05_Fusion_advantage_130126_G3.png": "0f31013ce1aa855caaee3872db7abcded899cf227bc6c0fd061eb5176ed0658b",
+    "case_06_boundary_170455_G1.png": "8521d04c0c240deb528b84043297b18fd724031979dc7710c5771b1c3ee58a37"
+  },
+  "report_sha256": "77bee7b04bfa3b6611d88b9ce6902b7966b0f27e00c8c1f96d3c7f18b73f25c6"
+}

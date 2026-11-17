@@ -1,0 +1,13 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week10/day07/build_review.py --output week10/day07/outputs/week10_review_run02",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "started_at_utc": "2026-11-12T04:50:53.518399+00:00",
+  "finished_at_utc": "2026-11-12T04:50:55.941691+00:00",
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "imports": "Python standard library only"
+  },
+  "source_sha256": "5fa3f7612930f5beb721283c947c4e81e6aefa94d80b8c8cd13115f0f2c5795f",
+  "exit_code": 0
+}

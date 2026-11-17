@@ -1,0 +1,5042 @@
+[
+  {
+    "model": "IR",
+    "stem": "030001",
+    "relative_raw": "items/block_000/IR_030001/raw_capture.pth",
+    "raw_sha256": "155be91c1b7b37b7f1e150001aedb17a2d33c26afb285f3bbca8fc7038532e50",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030001",
+    "relative_raw": "items/block_000/Fusion_030001/raw_capture.pth",
+    "raw_sha256": "0213358637608d62a41d71972a9e1fc2024d002f72706395fd21474167eb2e54",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030014",
+    "relative_raw": "items/block_000/IR_030014/raw_capture.pth",
+    "raw_sha256": "bdeb4b93f2d64f7045ceb386819b5bae7297eef56156ef94f8fe5614dea3f028",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030014",
+    "relative_raw": "items/block_000/Fusion_030014/raw_capture.pth",
+    "raw_sha256": "e325b35ec2f5d2fc2df60bf33e1f020fb56d2c239f7131da1e164c82e1ab715e",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030027",
+    "relative_raw": "items/block_000/IR_030027/raw_capture.pth",
+    "raw_sha256": "af0a79b549c9e0c3d482f44f142178e0fde6abb2c66fb2c186c5f0853b9cd5b6",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030027",
+    "relative_raw": "items/block_000/Fusion_030027/raw_capture.pth",
+    "raw_sha256": "e1d2b5c81f8124253ddb9c0f01402368c8b8b01f8a746a2b82d547957748cd4a",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030039",
+    "relative_raw": "items/block_000/IR_030039/raw_capture.pth",
+    "raw_sha256": "a4c4aea3f412ef60cb0360705c975461e611113753631cb63c2dcb7dc8b65846",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030039",
+    "relative_raw": "items/block_000/Fusion_030039/raw_capture.pth",
+    "raw_sha256": "81c9d1eb7413984d0e928dd9819d48a1ef59a1ab592a5a092006d259e15215e6",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030052",
+    "relative_raw": "items/block_000/IR_030052/raw_capture.pth",
+    "raw_sha256": "d9fe63482683f41e807f0665c43d2a1d74baccbaeb77db81dccc91f9a26c69a2",
+    "selected_gt_indices": "[0, 2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030052",
+    "relative_raw": "items/block_000/Fusion_030052/raw_capture.pth",
+    "raw_sha256": "6accc07e15035d9905f535210c163f69f8e7a266bacda352820c04719f9b9715",
+    "selected_gt_indices": "[0, 2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030065",
+    "relative_raw": "items/block_000/IR_030065/raw_capture.pth",
+    "raw_sha256": "30ae8dffb2bf6747e5d6af5ff47ce38706d7ef28eee0f35a6a30411191487b9c",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030065",
+    "relative_raw": "items/block_000/Fusion_030065/raw_capture.pth",
+    "raw_sha256": "8285424df6bc8bb0644147ec959c2e89521b85c65407ee9bfa1921eb78649144",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030078",
+    "relative_raw": "items/block_000/IR_030078/raw_capture.pth",
+    "raw_sha256": "b5d1164e6bdc8cd0fb27ed8a7a13f71e310ef3e45056089352f35b457790bc6f",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030078",
+    "relative_raw": "items/block_000/Fusion_030078/raw_capture.pth",
+    "raw_sha256": "d87fddf9a7c8ae07c8348285e909068f56dcfdcd3fb5b0a234164a13d69a0d68",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030090",
+    "relative_raw": "items/block_000/IR_030090/raw_capture.pth",
+    "raw_sha256": "a657814716042e34b9adb6ca4dce0de051567688697c62af6a4fe034df79d541",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030090",
+    "relative_raw": "items/block_000/Fusion_030090/raw_capture.pth",
+    "raw_sha256": "72c5e5c9d895c16f0271327afe87ccf70326c81832b10f724d9aa39a0550f516",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030103",
+    "relative_raw": "items/block_000/IR_030103/raw_capture.pth",
+    "raw_sha256": "0baad4f1f7cb20fff9e46e2fb86c645919155fc19c4b8253b2982f93c60f0517",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030103",
+    "relative_raw": "items/block_000/Fusion_030103/raw_capture.pth",
+    "raw_sha256": "700ac5bb52824151ca9cdbab10fb8bacb66a27523ea27457f125e837f9a7f190",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030116",
+    "relative_raw": "items/block_000/IR_030116/raw_capture.pth",
+    "raw_sha256": "613b7c89a996c618b5176c7f457c76cbed83c77fa1130683cb2119dc8ab3b2e0",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030116",
+    "relative_raw": "items/block_000/Fusion_030116/raw_capture.pth",
+    "raw_sha256": "25b0689c44e3d90b398df6ecd99aaed9bf40bfad4a22f9eed7a5c93099c989b3",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030129",
+    "relative_raw": "items/block_001/IR_030129/raw_capture.pth",
+    "raw_sha256": "9dadd705f3d7be7cde2c07f672a4f650f03bde23617b0694777d7ef3f671b7bf",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030129",
+    "relative_raw": "items/block_001/Fusion_030129/raw_capture.pth",
+    "raw_sha256": "a2a832a5f9308c08916dd54e08dfa8132fe2c7931def5884bc43c2741f80ce18",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030141",
+    "relative_raw": "items/block_001/IR_030141/raw_capture.pth",
+    "raw_sha256": "0cc976d07f612b3ff6879c7056442289b5e16ee340ec4e94df84c0fa84f33f1c",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030141",
+    "relative_raw": "items/block_001/Fusion_030141/raw_capture.pth",
+    "raw_sha256": "5603cd7676f078e6701129bb4898fa1f8aae35fcf765247b23fa21a535c64f1f",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030154",
+    "relative_raw": "items/block_001/IR_030154/raw_capture.pth",
+    "raw_sha256": "f9081280ca884b1446f91018738c643034dc5c3b598e3a7c2b7e31fc160831ea",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030154",
+    "relative_raw": "items/block_001/Fusion_030154/raw_capture.pth",
+    "raw_sha256": "03370dfdc907f8726ff8efac8bf768f0edd9ca6888d5fe8b3671da792503fde2",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030167",
+    "relative_raw": "items/block_001/IR_030167/raw_capture.pth",
+    "raw_sha256": "531bf8ffdcb106d9231054555328c4f6c106b7902caf666bfbf34223bdb8d25c",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030167",
+    "relative_raw": "items/block_001/Fusion_030167/raw_capture.pth",
+    "raw_sha256": "f2107539fa640595b1d567f467b919db5cc22280161cbea2a1eb4b78dfad24ef",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030180",
+    "relative_raw": "items/block_001/IR_030180/raw_capture.pth",
+    "raw_sha256": "9554a9d22666aa0429940ed2f3f54d46d8655118156ee72220dc67135df7b79b",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030180",
+    "relative_raw": "items/block_001/Fusion_030180/raw_capture.pth",
+    "raw_sha256": "60571407914615ee3176f8f4eb202f1460e868379b44e280bcdda674953fc321",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030192",
+    "relative_raw": "items/block_001/IR_030192/raw_capture.pth",
+    "raw_sha256": "b37eef0abf3976b8a854469c12dad22ef98fec8ba18a6c4e6a2556c266e0f3dc",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030192",
+    "relative_raw": "items/block_001/Fusion_030192/raw_capture.pth",
+    "raw_sha256": "e74c69c4719f916fa83b4f6f9325a2d9758453ebda02bd4a84e1ed6d93bb52d3",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030218",
+    "relative_raw": "items/block_001/IR_030218/raw_capture.pth",
+    "raw_sha256": "32a0932e72bd4e7945e2f546f4ae3a8f4390ce42b21687b5cf6dd6ce25cc2def",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030218",
+    "relative_raw": "items/block_001/Fusion_030218/raw_capture.pth",
+    "raw_sha256": "2958b2f546a8fc86e1b3c51e0e5621b0ee03a51916735d08fd0856861032f628",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030231",
+    "relative_raw": "items/block_001/IR_030231/raw_capture.pth",
+    "raw_sha256": "068fe44122ebd5008f78a32451132baf71f83fee281a11df6a086d225e6c269a",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030231",
+    "relative_raw": "items/block_001/Fusion_030231/raw_capture.pth",
+    "raw_sha256": "4e1bb691f86249676699fdaaa395e54f04ef9e44ccff5e997c28c250d897a119",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030243",
+    "relative_raw": "items/block_001/IR_030243/raw_capture.pth",
+    "raw_sha256": "045225d8bcbc39499ed5b5b06fc7eacec834dadb52639ae39a5e3f8f7a6e4020",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030243",
+    "relative_raw": "items/block_001/Fusion_030243/raw_capture.pth",
+    "raw_sha256": "a49c207696a4ca9aaf44ed2e76e0ade1caae0ba891384a1f4a0c0b2fed9ebcff",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030256",
+    "relative_raw": "items/block_001/IR_030256/raw_capture.pth",
+    "raw_sha256": "4152a60c8562584e72c0749f1903d692585745593c12dc54bc660cfb56c00118",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030256",
+    "relative_raw": "items/block_001/Fusion_030256/raw_capture.pth",
+    "raw_sha256": "59c4cf7c78c2d94e7661209bf274bfcee2ed981a380a7c721586c4ba58c9b92f",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030269",
+    "relative_raw": "reuse/IR_030269/raw_capture.pth",
+    "raw_sha256": "45677e88efb18970da7eb132853e4d47fbd160313ceef871e9d751bb53566042",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030269",
+    "relative_raw": "reuse/Fusion_030269/raw_capture.pth",
+    "raw_sha256": "e87ac56d1d362bd7d447222207b7603a64bc326a918c9e8e8eeb52060a07c8ff",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030282",
+    "relative_raw": "items/block_002/IR_030282/raw_capture.pth",
+    "raw_sha256": "3a48297a5d3909e4bac69ba1078748a49b147bd79c6d31201c9f3b4f29dbe36c",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030282",
+    "relative_raw": "items/block_002/Fusion_030282/raw_capture.pth",
+    "raw_sha256": "85dad149deddd07e4dac99cb13d97142f34e38943450837fae8392c86e75e476",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030294",
+    "relative_raw": "items/block_002/IR_030294/raw_capture.pth",
+    "raw_sha256": "98ef635ef5b13cacbdfa819aab11fb9a4ca3bc1fba7bc3de7a857667cbc060a6",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030294",
+    "relative_raw": "items/block_002/Fusion_030294/raw_capture.pth",
+    "raw_sha256": "ef05a06601c15d9d1a42cb43c55b26222acfb90bf01892825f89e3570898f377",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030308",
+    "relative_raw": "reuse/IR_030308/raw_capture.pth",
+    "raw_sha256": "956e0363258e2ecc9a7c39f44dc093ca2452e01ae1aa2f40d5189e13b56910ec",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030308",
+    "relative_raw": "reuse/Fusion_030308/raw_capture.pth",
+    "raw_sha256": "c2a85237d4f2c3fb71041a1d57c07168dc6b2a8beb5203acfa59804810661e7b",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030321",
+    "relative_raw": "items/block_002/IR_030321/raw_capture.pth",
+    "raw_sha256": "bc2c0fcd5ff4763bf589e526ed2d4424473e00dfc834641489fd81bda803b729",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030321",
+    "relative_raw": "items/block_002/Fusion_030321/raw_capture.pth",
+    "raw_sha256": "8af16958b4fea4ac2707969e07504316691bfd2913549e68d765097c840ff94a",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030334",
+    "relative_raw": "items/block_002/IR_030334/raw_capture.pth",
+    "raw_sha256": "ae0cac313d2dd84446c021d10d181e994fe2f54f501d64f4637292ea88a42990",
+    "selected_gt_indices": "[0, 1, 2, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030334",
+    "relative_raw": "items/block_002/Fusion_030334/raw_capture.pth",
+    "raw_sha256": "7179a888cccae52b0e679fc6e2ba191c658f1b7a67448c0edf1391287a3369aa",
+    "selected_gt_indices": "[0, 1, 2, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030346",
+    "relative_raw": "items/block_002/IR_030346/raw_capture.pth",
+    "raw_sha256": "2dc35c5aabad610fc1afada5264b5ca5eaf8b15451f25a5c83f6107972583139",
+    "selected_gt_indices": "[0, 1, 2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030346",
+    "relative_raw": "items/block_002/Fusion_030346/raw_capture.pth",
+    "raw_sha256": "28eab2a0ee8d4526aff2d3b6a88c87bddbce29033f5d08eff543aae59ae34332",
+    "selected_gt_indices": "[0, 1, 2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030359",
+    "relative_raw": "items/block_002/IR_030359/raw_capture.pth",
+    "raw_sha256": "15fe774463ef0fe02eadde1302b1a0a729670e0bc8f8845bae3d48ad405e74d6",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030359",
+    "relative_raw": "items/block_002/Fusion_030359/raw_capture.pth",
+    "raw_sha256": "e3e96fed5b90d8cd3018598bba4f1b39e60f47abe76acc7ac83cb23699bf5949",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030372",
+    "relative_raw": "items/block_002/IR_030372/raw_capture.pth",
+    "raw_sha256": "5fc057aae608ddaadaa628cbfc91619ed1ebf87399a9aefb24de0181c50109bc",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030372",
+    "relative_raw": "items/block_002/Fusion_030372/raw_capture.pth",
+    "raw_sha256": "14e81830739811173549d6050b4da028d316f843cc6db1257664fdf9b8071e71",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030385",
+    "relative_raw": "items/block_002/IR_030385/raw_capture.pth",
+    "raw_sha256": "caf9cbe65563e26e4d5cb36ea7c544991868621fba583ae5ffaae46fefc35c5e",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030385",
+    "relative_raw": "items/block_002/Fusion_030385/raw_capture.pth",
+    "raw_sha256": "15b2dd5bb29bfed2946840ab96b96a2e306b239840c1e100c1fb001bacedd96c",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030397",
+    "relative_raw": "items/block_002/IR_030397/raw_capture.pth",
+    "raw_sha256": "6c4e9f00a79bf683d7c415737abaac3743e82b1f30fb538c45ab58ee8f94d130",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030397",
+    "relative_raw": "items/block_002/Fusion_030397/raw_capture.pth",
+    "raw_sha256": "e130970bcb6acaf55ce024946c689c84a6faae9a0dffeae94cc8a4c6d7fc3905",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030410",
+    "relative_raw": "items/block_002/IR_030410/raw_capture.pth",
+    "raw_sha256": "400f8e0d8842cdd9ffc61567ba8b035074ff7700b6c362e407933681a4cb796f",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030410",
+    "relative_raw": "items/block_002/Fusion_030410/raw_capture.pth",
+    "raw_sha256": "b2903039d279d81949cd304d2d6a25fe32e8cc6a685b8ad13206cd6b55b97afd",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030423",
+    "relative_raw": "items/block_003/IR_030423/raw_capture.pth",
+    "raw_sha256": "e9cde6144290d87715faa7057fdd3a09e40714601a49ff885fb3b838674c1be2",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030423",
+    "relative_raw": "items/block_003/Fusion_030423/raw_capture.pth",
+    "raw_sha256": "afdc59713e915b8a137dd2c60179c9e5bf0657d1188b0ff85dbd5093c72ce63b",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030436",
+    "relative_raw": "items/block_003/IR_030436/raw_capture.pth",
+    "raw_sha256": "48c65fe93faf6bab2d613ffd6b7155af51e7e6a771aec3a382263ec80d7c95f9",
+    "selected_gt_indices": "[0, 1, 2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030436",
+    "relative_raw": "items/block_003/Fusion_030436/raw_capture.pth",
+    "raw_sha256": "9d1c915a02fa4362c656e1b6632edde8800f97dd336aae85fbdc482430e90a1c",
+    "selected_gt_indices": "[0, 1, 2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030448",
+    "relative_raw": "items/block_003/IR_030448/raw_capture.pth",
+    "raw_sha256": "33be8faa50766844e6a84417952cbe4bcb1cc1ceaebf246c5ac074fcf7443238",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030448",
+    "relative_raw": "items/block_003/Fusion_030448/raw_capture.pth",
+    "raw_sha256": "ae0fcda4a61cf86c2187dc71e5058380b8d847dbb04d4756f3ba5d80751f5a40",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "030474",
+    "relative_raw": "items/block_003/IR_030474/raw_capture.pth",
+    "raw_sha256": "5112226386d780ed6b21604f34384278d8ada8663ab5309fd1e7072cf3bd1f40",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "030474",
+    "relative_raw": "items/block_003/Fusion_030474/raw_capture.pth",
+    "raw_sha256": "d76bec570198580ce595d9640b7432b6b411868d3e69f8d1691250b8ec671994",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080001",
+    "relative_raw": "items/block_003/IR_080001/raw_capture.pth",
+    "raw_sha256": "0fd20b505daa311e5f85a0e9180a8d213fa12bfb0412d2696f5988255f4486a0",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080001",
+    "relative_raw": "items/block_003/Fusion_080001/raw_capture.pth",
+    "raw_sha256": "c08e1de537aebff4ac737d95b28613d7c82d39f90d96f2cdd4e7b6268f05ad95",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080042",
+    "relative_raw": "items/block_003/IR_080042/raw_capture.pth",
+    "raw_sha256": "e638f9838789b877defd304e7ed25c65a92bed684a128ca13f5d54f0da7c848a",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080042",
+    "relative_raw": "items/block_003/Fusion_080042/raw_capture.pth",
+    "raw_sha256": "6e70827694f5a5adf3b1f42b35e855c88486ce8ecd8163e96f23d9d4b9401e26",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080083",
+    "relative_raw": "items/block_003/IR_080083/raw_capture.pth",
+    "raw_sha256": "0d303a23b222e057d7543807f7f16360033727c0cf395db603652c33639d52f2",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080083",
+    "relative_raw": "items/block_003/Fusion_080083/raw_capture.pth",
+    "raw_sha256": "614c0b8ff7da2a3a1b933ecb2bc83204d5c79b43b89f773d185f6ad47003ae78",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080125",
+    "relative_raw": "items/block_003/IR_080125/raw_capture.pth",
+    "raw_sha256": "fb623a580b269e048107472abaa6e90c856d7fc0684cfdbf00c83d3ea35fead1",
+    "selected_gt_indices": "[1, 3, 4, 6, 7, 8]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080125",
+    "relative_raw": "items/block_003/Fusion_080125/raw_capture.pth",
+    "raw_sha256": "6d2129cf2872fe08db8f6393b8adca90ea9cfd1dbf1d313e6fe8d0350d8cc80b",
+    "selected_gt_indices": "[1, 3, 4, 6, 7, 8]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080166",
+    "relative_raw": "items/block_003/IR_080166/raw_capture.pth",
+    "raw_sha256": "397e373dd80b1ac16f1556f98ae347390bab5f1e2df0d25ab10a1a32146e682d",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080166",
+    "relative_raw": "items/block_003/Fusion_080166/raw_capture.pth",
+    "raw_sha256": "826892353b325621cc4406b95f579b1948295bffda4865806e5df960951c4231",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080209",
+    "relative_raw": "items/block_004/IR_080209/raw_capture.pth",
+    "raw_sha256": "8ba725990bd620be9cc60b69efb6a6acdd7869cf069937e49628724d46d45fb9",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080209",
+    "relative_raw": "items/block_004/Fusion_080209/raw_capture.pth",
+    "raw_sha256": "4b2ecd430c576486996f8da8654cef1ebbb134b15282501ef40e98301454e2ca",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080250",
+    "relative_raw": "items/block_004/IR_080250/raw_capture.pth",
+    "raw_sha256": "dcc8a52f646a8916833434a2b5c95539cb584d28b64f223c6d6c7a554dbc2146",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080250",
+    "relative_raw": "items/block_004/Fusion_080250/raw_capture.pth",
+    "raw_sha256": "5cfd86e975b67671aeff77fd664a220b78cdcb18ee1917ee1b686a302d2f93a8",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080291",
+    "relative_raw": "items/block_004/IR_080291/raw_capture.pth",
+    "raw_sha256": "8a9ace9305c76da571b362c3ebbf2440b83312d350598d0484017dbda0c2db37",
+    "selected_gt_indices": "[0, 1, 2, 3, 5]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080291",
+    "relative_raw": "items/block_004/Fusion_080291/raw_capture.pth",
+    "raw_sha256": "4eb4a08ba4e689cb37355c64c004ebb558633881f187a5a433501a4ab27657ea",
+    "selected_gt_indices": "[0, 1, 2, 3, 5]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080332",
+    "relative_raw": "items/block_004/IR_080332/raw_capture.pth",
+    "raw_sha256": "f3b2afa20aff8b14840dad33ef6a8583b5e4612607f89947fa40df6407c72246",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080332",
+    "relative_raw": "items/block_004/Fusion_080332/raw_capture.pth",
+    "raw_sha256": "51d350ab33718f7c80dec10289c2885846c29a89446feea8c5f0f765e45d9f58",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080457",
+    "relative_raw": "items/block_004/IR_080457/raw_capture.pth",
+    "raw_sha256": "3c4217bc072e765bdd54a15c58f9beb8f9337404ca0a5818baf27f1c81d27108",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080457",
+    "relative_raw": "items/block_004/Fusion_080457/raw_capture.pth",
+    "raw_sha256": "35bb0cb8cc06f990a03282d61ca25502fb3035dfca5b6afcf8d9c263bad25b19",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080498",
+    "relative_raw": "items/block_004/IR_080498/raw_capture.pth",
+    "raw_sha256": "f79cf35f7a8fbfdb360446b2a84df4bc3dfdf9d98daf8c0da1b8a6770565f1df",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080498",
+    "relative_raw": "items/block_004/Fusion_080498/raw_capture.pth",
+    "raw_sha256": "1d0dbf1d190a59d46a8715db49d1480f656756edea23ecc882880c8562d0f240",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080539",
+    "relative_raw": "items/block_004/IR_080539/raw_capture.pth",
+    "raw_sha256": "0575b3560a0fcf48eb8f4b3b618b266ade583b939a2185f13618c4a27a8512f4",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080539",
+    "relative_raw": "items/block_004/Fusion_080539/raw_capture.pth",
+    "raw_sha256": "a6fe24a50eee92ee8bd5c87b42d8ce71bc70063ed423b6a2bef2c21b343b1804",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080581",
+    "relative_raw": "items/block_004/IR_080581/raw_capture.pth",
+    "raw_sha256": "74064c304d62fd271c6eb0242a3e0555cc57c1fd611805499489674e31b6f8e3",
+    "selected_gt_indices": "[0, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080581",
+    "relative_raw": "items/block_004/Fusion_080581/raw_capture.pth",
+    "raw_sha256": "a112bb6b482a9832037981a3ca44628d41e1dded60cc9526f30a0f17ad6bb85f",
+    "selected_gt_indices": "[0, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080622",
+    "relative_raw": "items/block_005/IR_080622/raw_capture.pth",
+    "raw_sha256": "49a5968f38edc139c1a6092a28990f670ead44a9c919201fe9215b9ca706ec26",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080622",
+    "relative_raw": "items/block_005/Fusion_080622/raw_capture.pth",
+    "raw_sha256": "65df019421f0632bf78c6803b9a139621c31f4f3abd56c5bb626a1be71917ede",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080663",
+    "relative_raw": "items/block_005/IR_080663/raw_capture.pth",
+    "raw_sha256": "1c8230e237aacc07b8abba73c952355fb507564f2c056a2f1ad359a4f2a420cd",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080663",
+    "relative_raw": "items/block_005/Fusion_080663/raw_capture.pth",
+    "raw_sha256": "1860809bb527f8d735fd11d2bf42fd60b8f894fd2e6587439ecf13143396ed88",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080704",
+    "relative_raw": "items/block_005/IR_080704/raw_capture.pth",
+    "raw_sha256": "f4ac5da49c1f3222e43575190186d311f849d97976ac00d0695d5844121fc242",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080704",
+    "relative_raw": "items/block_005/Fusion_080704/raw_capture.pth",
+    "raw_sha256": "5057a8dbabbdfe395856b96bca6e93d65be51b61f555b0f1d80de5e5e94af65c",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080746",
+    "relative_raw": "items/block_005/IR_080746/raw_capture.pth",
+    "raw_sha256": "6b4d364bc66b9890b9b138f6e08b1726330e03a4acd95d7271e6451ff4fd6c7a",
+    "selected_gt_indices": "[0, 2, 4, 5, 7]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080746",
+    "relative_raw": "items/block_005/Fusion_080746/raw_capture.pth",
+    "raw_sha256": "fdb54c81adabcaffc45a8c37803c4a83237368997ea43e60d35cdde66a86b498",
+    "selected_gt_indices": "[0, 2, 4, 5, 7]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080787",
+    "relative_raw": "items/block_005/IR_080787/raw_capture.pth",
+    "raw_sha256": "76004f16077b3ce732499d1145286b45d83bcd7909d19a6e75398c2c39012530",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080787",
+    "relative_raw": "items/block_005/Fusion_080787/raw_capture.pth",
+    "raw_sha256": "7d07ffc9ba286372db2c96b8983ce4ed64c0228b0ad2292fa2815dd68536568f",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080829",
+    "relative_raw": "items/block_005/IR_080829/raw_capture.pth",
+    "raw_sha256": "90c2f6a86439032ad32667b0242d750ee1b4f6ba1088aa8f900ea921db6a0cd1",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080829",
+    "relative_raw": "items/block_005/Fusion_080829/raw_capture.pth",
+    "raw_sha256": "aff2a6f5bb7a8fb81b97428a1b914e68e52a890231344ebb9be753ca3063eccc",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080870",
+    "relative_raw": "items/block_005/IR_080870/raw_capture.pth",
+    "raw_sha256": "58b61de86adbc4481e65b2209ae97f4cafe844aace3e282c728be348098d3c86",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080870",
+    "relative_raw": "items/block_005/Fusion_080870/raw_capture.pth",
+    "raw_sha256": "f80a194d99f00dae2c29a2fd7e1ae0f4e5b8d9489494a70f108fa022bb91b7e0",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080912",
+    "relative_raw": "items/block_005/IR_080912/raw_capture.pth",
+    "raw_sha256": "5194ba945526922a72e512c0d256afa2d9e7ed3847cf79bb2ab189ba8b7a24e8",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080912",
+    "relative_raw": "items/block_005/Fusion_080912/raw_capture.pth",
+    "raw_sha256": "046edf264685f08f9a004def72d863bdbcf3d320b81dc36850d58da16b82a719",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080953",
+    "relative_raw": "items/block_005/IR_080953/raw_capture.pth",
+    "raw_sha256": "75775de8c7e1e6c311bd10869d94b04300875f3c176922de2654e7f02c2cb3af",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080953",
+    "relative_raw": "items/block_005/Fusion_080953/raw_capture.pth",
+    "raw_sha256": "ab344432a2615942bc0015dab6e0912fb9e22f257d7fc9e30091a25a1fa1ccb8",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "080994",
+    "relative_raw": "items/block_005/IR_080994/raw_capture.pth",
+    "raw_sha256": "be780000d2eeff0dea1977c32b6dbf3fd3ca45d6f152c2bff511396a8d3ba433",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "080994",
+    "relative_raw": "items/block_005/Fusion_080994/raw_capture.pth",
+    "raw_sha256": "4570a6922f94f606a88e6be566db3b9d8f8c9e379540bc9e90887d3f632d554c",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081076",
+    "relative_raw": "items/block_006/IR_081076/raw_capture.pth",
+    "raw_sha256": "6939788f3d87357810c0b97845a97659f6c45ff93e39c6d73f2bf0dba878ebba",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081076",
+    "relative_raw": "items/block_006/Fusion_081076/raw_capture.pth",
+    "raw_sha256": "b0428dde3e6a34cc859acc4ad2451578db587e033a973668f3026287ce35401f",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081117",
+    "relative_raw": "items/block_006/IR_081117/raw_capture.pth",
+    "raw_sha256": "5fac7e34f948271aeaf3cac7fe43aea86d851a85304755e288ab9cce23a81cec",
+    "selected_gt_indices": "[0, 2, 6]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081117",
+    "relative_raw": "items/block_006/Fusion_081117/raw_capture.pth",
+    "raw_sha256": "cdbf4c46d21db68f4a27b082f33a141f6c7571e7bebf7bd3df0bc083016819e8",
+    "selected_gt_indices": "[0, 2, 6]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081158",
+    "relative_raw": "items/block_006/IR_081158/raw_capture.pth",
+    "raw_sha256": "3225d47846e4b74f56d332b43d6088142516e6564da8d4dcbcac73728850709d",
+    "selected_gt_indices": "[1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081158",
+    "relative_raw": "items/block_006/Fusion_081158/raw_capture.pth",
+    "raw_sha256": "f4bd4201b4afb5a533c81c0e68e84302e6dcd4aaf5176cae8a276e8d8317530c",
+    "selected_gt_indices": "[1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081199",
+    "relative_raw": "items/block_006/IR_081199/raw_capture.pth",
+    "raw_sha256": "5a008c6f07f912a66b57cb19053a9da71015f9a161b00a57227354a348edd72b",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081199",
+    "relative_raw": "items/block_006/Fusion_081199/raw_capture.pth",
+    "raw_sha256": "ccb129f70f63b6e52637f44ef72dc9d4c630fce89cd089ca5868669232e9a9b1",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081240",
+    "relative_raw": "items/block_006/IR_081240/raw_capture.pth",
+    "raw_sha256": "0987abe2eab89645a31a17d46454738748fcb875807ced30e55a42e48b7f29cb",
+    "selected_gt_indices": "[0, 1, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081240",
+    "relative_raw": "items/block_006/Fusion_081240/raw_capture.pth",
+    "raw_sha256": "b8d46340141e7604225edc3e79fefde1736bc952132a7370a31a6c8eea3f6b88",
+    "selected_gt_indices": "[0, 1, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081281",
+    "relative_raw": "items/block_006/IR_081281/raw_capture.pth",
+    "raw_sha256": "1db3b3ba2bd1de36bfa2d76dd052101223480b8177874c5773ee759e04788feb",
+    "selected_gt_indices": "[0, 1, 2, 3, 4, 5, 7]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081281",
+    "relative_raw": "items/block_006/Fusion_081281/raw_capture.pth",
+    "raw_sha256": "35a831359a69eb635307b7b445690f4c82500e27f4b78ac66346fd53bb330c43",
+    "selected_gt_indices": "[0, 1, 2, 3, 4, 5, 7]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081322",
+    "relative_raw": "items/block_006/IR_081322/raw_capture.pth",
+    "raw_sha256": "51569d4e2fd5a27f074c9e9b914fc8cdeafe0cfda13eac946bf09dfe8a4becbc",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081322",
+    "relative_raw": "items/block_006/Fusion_081322/raw_capture.pth",
+    "raw_sha256": "e1818a3c5ce89f7e584deb29be959768f7ab4eaa89c406a8a28c867a26965159",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081363",
+    "relative_raw": "items/block_006/IR_081363/raw_capture.pth",
+    "raw_sha256": "d94a64a3f498d1891314ed57f50666dfb5423650bc2f6b4484303cadae2f8b74",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081363",
+    "relative_raw": "items/block_006/Fusion_081363/raw_capture.pth",
+    "raw_sha256": "70acc409c69944745f41c36b1354d54d4c809349978e244219561919424e8288",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081404",
+    "relative_raw": "items/block_006/IR_081404/raw_capture.pth",
+    "raw_sha256": "d154c441296adbf8c2dc51753331c5acb2f8eaa44b4e3dd20b81948114fd21c8",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081404",
+    "relative_raw": "items/block_006/Fusion_081404/raw_capture.pth",
+    "raw_sha256": "105e066e63e5a821abcb64768b0f3545fd3683ff5ddb53a424636269805ee284",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081445",
+    "relative_raw": "items/block_007/IR_081445/raw_capture.pth",
+    "raw_sha256": "4298ad49ffa220b29ae346fb2ea952c8d89f7c2127df41494153a02ed1efd424",
+    "selected_gt_indices": "[0, 2, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081445",
+    "relative_raw": "items/block_007/Fusion_081445/raw_capture.pth",
+    "raw_sha256": "95b77b6c7168b9ea6dd4ddb06d8f18654e4a71c05918e4eef4a273d8d01ba05a",
+    "selected_gt_indices": "[0, 2, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081486",
+    "relative_raw": "items/block_007/IR_081486/raw_capture.pth",
+    "raw_sha256": "90437235a71206bad2c9e85f6b2cdfa7c8f053f73b63d13cbe29533b1b97f3c5",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081486",
+    "relative_raw": "items/block_007/Fusion_081486/raw_capture.pth",
+    "raw_sha256": "78399fde80d777c71887649d6f798915dce34d677a43fbab0e9e28f63ca1e970",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "081527",
+    "relative_raw": "items/block_007/IR_081527/raw_capture.pth",
+    "raw_sha256": "7df1ce9ded836a3d33a52ecc8272403840adce18c6bdf059357a03afa9bf9940",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "081527",
+    "relative_raw": "items/block_007/Fusion_081527/raw_capture.pth",
+    "raw_sha256": "cda7ddd9ac5e839d9745296de2f32b39619fda8ed19e639a585d934321cf07ae",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130001",
+    "relative_raw": "items/block_007/IR_130001/raw_capture.pth",
+    "raw_sha256": "85d3c565e6c1f2347b50af4f7ef2652aabee3a98b1fca2b925652a931ab7df09",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130001",
+    "relative_raw": "items/block_007/Fusion_130001/raw_capture.pth",
+    "raw_sha256": "8dd08c5f4a4828c8c555f7bb8141e74de7504a96de505712c65575c5414a449a",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130015",
+    "relative_raw": "items/block_007/IR_130015/raw_capture.pth",
+    "raw_sha256": "3e302a674fb9549949e21fddc964dbb9536bec49592efe73284c98ecad75c254",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130015",
+    "relative_raw": "items/block_007/Fusion_130015/raw_capture.pth",
+    "raw_sha256": "31e08a204101f71aa39234d6e31f17ebef580361fe7d31d994082d4230c08b4e",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130029",
+    "relative_raw": "items/block_007/IR_130029/raw_capture.pth",
+    "raw_sha256": "181ffed9ed22013100764ca93661e33565d93e2680e048134fafc494d0a537fd",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130029",
+    "relative_raw": "items/block_007/Fusion_130029/raw_capture.pth",
+    "raw_sha256": "5ee5d413c6b2ecb568ae089dbf3948ef0d5bcc9c418c378ae710d7094c121bbd",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130043",
+    "relative_raw": "items/block_007/IR_130043/raw_capture.pth",
+    "raw_sha256": "e79f239359ceaf7d3d83981b2f87a261c2d2412ba33136296724c157235e2ef5",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130043",
+    "relative_raw": "items/block_007/Fusion_130043/raw_capture.pth",
+    "raw_sha256": "bf21c90a75043c1833cba20888cc56787242d45cdfa7e51669f658f9adcf4eaa",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130056",
+    "relative_raw": "items/block_007/IR_130056/raw_capture.pth",
+    "raw_sha256": "ab9231deaddd6fb23a2a005b38df186e5c61b4a2e94dc027a45c33fd2f142af3",
+    "selected_gt_indices": "[1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130056",
+    "relative_raw": "items/block_007/Fusion_130056/raw_capture.pth",
+    "raw_sha256": "d5c4a9339273106ef8173d0bd109841d29c6e377ae39cc63e6eb8e0096a3cd19",
+    "selected_gt_indices": "[1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130070",
+    "relative_raw": "items/block_007/IR_130070/raw_capture.pth",
+    "raw_sha256": "0c069b442e50a47b26e06d0411ff40ad0388d130843bbd3f9164c0afd028398c",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130070",
+    "relative_raw": "items/block_007/Fusion_130070/raw_capture.pth",
+    "raw_sha256": "e0a87792a13ed29deac9b9f6485f560abcc85e190739f177c9839d8704e4d4f3",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130084",
+    "relative_raw": "items/block_007/IR_130084/raw_capture.pth",
+    "raw_sha256": "58c30cbe3d5f027356ce16eeed99d3915b22a6d3e1e326e6511c80e3ee5d680b",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130084",
+    "relative_raw": "items/block_007/Fusion_130084/raw_capture.pth",
+    "raw_sha256": "0c28a9c9316fe60b01c412e82dc9c1f5754fa89e06ecf23556a371e23468e89b",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130098",
+    "relative_raw": "items/block_008/IR_130098/raw_capture.pth",
+    "raw_sha256": "36cd0432105cb0af93f0139ac4f85ccf58091d6082d126d805d8961fa3e54d1b",
+    "selected_gt_indices": "[2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130098",
+    "relative_raw": "items/block_008/Fusion_130098/raw_capture.pth",
+    "raw_sha256": "44c7c7fb8c5a27f87063a6e7658d68d8e7558c3b7440bfef150a05c96407ed50",
+    "selected_gt_indices": "[2, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130112",
+    "relative_raw": "items/block_008/IR_130112/raw_capture.pth",
+    "raw_sha256": "2c9fe56bebcaadf4222715830bc24a2e496b67817023f9858eb77fd6d353da08",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130112",
+    "relative_raw": "items/block_008/Fusion_130112/raw_capture.pth",
+    "raw_sha256": "8f395d0b07fa2cd4db7f25c8e5a49ec3e20b06c22195412b020a650ab91a040c",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130126",
+    "relative_raw": "reuse/IR_130126/raw_capture.pth",
+    "raw_sha256": "85b2b98203617ba16b71954e4fe5b1a80a0fd584d91334e00bc5c68feede2159",
+    "selected_gt_indices": "[0, 2, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130126",
+    "relative_raw": "reuse/Fusion_130126/raw_capture.pth",
+    "raw_sha256": "8a0f1a94b85bc30f9de121402d01242a2b98ea723a6fa476ba8f6b63e21ddc11",
+    "selected_gt_indices": "[0, 2, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130140",
+    "relative_raw": "items/block_008/IR_130140/raw_capture.pth",
+    "raw_sha256": "163a615422a784c8f2562f0392a78562c94d41a77410b9491d414391d6ed2568",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130140",
+    "relative_raw": "items/block_008/Fusion_130140/raw_capture.pth",
+    "raw_sha256": "856af64c8fe829e12752dea038291d9bfa03b0ba22bc503c83e6c8eeec17d39f",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130153",
+    "relative_raw": "items/block_008/IR_130153/raw_capture.pth",
+    "raw_sha256": "4c19a09a57bc7e3ef5037252580cb97c3217e337eb7ba5b3868632ec6175ad9c",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130153",
+    "relative_raw": "items/block_008/Fusion_130153/raw_capture.pth",
+    "raw_sha256": "b47b6816088ba1af9229e6a4272ed85024e8c2368ca4d37fd9bde91525f94750",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130167",
+    "relative_raw": "items/block_008/IR_130167/raw_capture.pth",
+    "raw_sha256": "f4b43293b306d4557034a8590eb2b1fb3bc23e1e41ab526798922afca9358c0a",
+    "selected_gt_indices": "[0, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130167",
+    "relative_raw": "items/block_008/Fusion_130167/raw_capture.pth",
+    "raw_sha256": "540b02138c525eb79de61a66d17ead8e7aa4c9edc31a733ce5398f4f8edf7dc5",
+    "selected_gt_indices": "[0, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130181",
+    "relative_raw": "items/block_008/IR_130181/raw_capture.pth",
+    "raw_sha256": "b4bf5647a8296aa57403dc5b7fc796bf0d94f9bf3c42486a2e93458546e6d77d",
+    "selected_gt_indices": "[2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130181",
+    "relative_raw": "items/block_008/Fusion_130181/raw_capture.pth",
+    "raw_sha256": "09de1691672caed59b2035dba4b1ee5b8b1df5215d295fd03bdde18cadb3fa2f",
+    "selected_gt_indices": "[2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130195",
+    "relative_raw": "items/block_008/IR_130195/raw_capture.pth",
+    "raw_sha256": "eb73b2dbc04a5483c8e8336b1adf36172d84a18edcbb1b0269c5a6800a808334",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130195",
+    "relative_raw": "items/block_008/Fusion_130195/raw_capture.pth",
+    "raw_sha256": "5b51e49ad2278d2958d591011bcab104db08d15be444c33cff65bffe97d1f038",
+    "selected_gt_indices": "[0, 1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130209",
+    "relative_raw": "items/block_008/IR_130209/raw_capture.pth",
+    "raw_sha256": "5479b02340ab08bce67833e8baf63ef38e05641df6a7376e1623679f91e79705",
+    "selected_gt_indices": "[1, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130209",
+    "relative_raw": "items/block_008/Fusion_130209/raw_capture.pth",
+    "raw_sha256": "96f43a6efbf4ede97106fb0ca0d155e5e0d2a6f0077befb2d3afeb66deecbacf",
+    "selected_gt_indices": "[1, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130223",
+    "relative_raw": "items/block_008/IR_130223/raw_capture.pth",
+    "raw_sha256": "b8d522840301b183df4a9c3332679c68ff8ff3c3f7b0f26fabd6ba1e5d12fbd1",
+    "selected_gt_indices": "[1, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130223",
+    "relative_raw": "items/block_008/Fusion_130223/raw_capture.pth",
+    "raw_sha256": "990392841e7597ffcb033d115e3e5f022f096266f68e2a2dfa157b91e57e296a",
+    "selected_gt_indices": "[1, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130237",
+    "relative_raw": "items/block_008/IR_130237/raw_capture.pth",
+    "raw_sha256": "a11058f3876910c772716dc3e625d368f7a02ba2d1f940a6498d8b782c460191",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130237",
+    "relative_raw": "items/block_008/Fusion_130237/raw_capture.pth",
+    "raw_sha256": "31b8e3da7b845f524bd58d4da44b498cfc36ea1571d931f883b84b5ff991dbe6",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130251",
+    "relative_raw": "items/block_009/IR_130251/raw_capture.pth",
+    "raw_sha256": "9df9c056f7ae20867ab4d63b2c574bcdd3aea62a63d077f7c167376a7940e5cb",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130251",
+    "relative_raw": "items/block_009/Fusion_130251/raw_capture.pth",
+    "raw_sha256": "ba93fbf136ec95a508169bac6d9563dd8ecba09a55a914eb0e3413c4996b3785",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130264",
+    "relative_raw": "items/block_009/IR_130264/raw_capture.pth",
+    "raw_sha256": "d21159f25cb200583e576619eaf7a9a577f5c39753ab1a1faa84ea2771c45f56",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130264",
+    "relative_raw": "items/block_009/Fusion_130264/raw_capture.pth",
+    "raw_sha256": "76cceb35a75a3d0365c0e5ea28ce396159f8b2c54b11ab01020e802722c12bee",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130278",
+    "relative_raw": "items/block_009/IR_130278/raw_capture.pth",
+    "raw_sha256": "769e533f83e5f9e123c321f2ce3e56b644e3c1428b3d715e6b95f0f2f905801b",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130278",
+    "relative_raw": "items/block_009/Fusion_130278/raw_capture.pth",
+    "raw_sha256": "9233597217a38fdf34a7aefc6965453a9b71dd4648df1436bc89a6feddf7533f",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130292",
+    "relative_raw": "items/block_009/IR_130292/raw_capture.pth",
+    "raw_sha256": "4e7e63defc85b1e37a83d47a908031338752bc9805320c5d0a166d1b0fe69acb",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130292",
+    "relative_raw": "items/block_009/Fusion_130292/raw_capture.pth",
+    "raw_sha256": "9b66e2536541474f277da065172b93bb62da7a8d8dc157c12f7409358046840e",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130306",
+    "relative_raw": "items/block_009/IR_130306/raw_capture.pth",
+    "raw_sha256": "2f5191f1c7ddb29287024dcd6caf0a94d5ed8ac7ac54b737b1de92c995b35482",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130306",
+    "relative_raw": "items/block_009/Fusion_130306/raw_capture.pth",
+    "raw_sha256": "decbf0866161ddfac1cc351f6fae94c56acfeed9842296abe7774d5c34796b42",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130320",
+    "relative_raw": "items/block_009/IR_130320/raw_capture.pth",
+    "raw_sha256": "be8dbf95b67378c10d469d24de2e75439fd90987b958c14a2e5fc994602629af",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130320",
+    "relative_raw": "items/block_009/Fusion_130320/raw_capture.pth",
+    "raw_sha256": "6902d882c8088fab5f58f5ccf62e646c77be1d479f2bfd17b13b20474e3d33d4",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130334",
+    "relative_raw": "items/block_009/IR_130334/raw_capture.pth",
+    "raw_sha256": "e821d3f2a635347454d8e9f84cce55fcfbf8b354ce82cf816fba506147047c02",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130334",
+    "relative_raw": "items/block_009/Fusion_130334/raw_capture.pth",
+    "raw_sha256": "ac6fefce0176c26279b5f0dd793b70d65ceb11ca072be5ffd9f4bdf37e5a50b3",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130348",
+    "relative_raw": "items/block_009/IR_130348/raw_capture.pth",
+    "raw_sha256": "87f484758946a0d669e8ebe64d09a3f8ef99a57c248ff727eae3d43be99ae220",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130348",
+    "relative_raw": "items/block_009/Fusion_130348/raw_capture.pth",
+    "raw_sha256": "3bc5800ea42cca2aba7675af5710b1fa33204c9e1dbe689f1957ef5a5f455f48",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130361",
+    "relative_raw": "items/block_009/IR_130361/raw_capture.pth",
+    "raw_sha256": "41cf1dac94ea813ce39af54618cf6a346694d88034cf84c28b5ba235ae034579",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130361",
+    "relative_raw": "items/block_009/Fusion_130361/raw_capture.pth",
+    "raw_sha256": "7f9341fbfd65e4fa4b4f5ead46d50db1d9983872dcb014608095befff119ed6c",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130375",
+    "relative_raw": "items/block_009/IR_130375/raw_capture.pth",
+    "raw_sha256": "b596cb40b3ee530f34e651b4aece7b5938be26b7020ad023ca49e6c53b426502",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130375",
+    "relative_raw": "items/block_009/Fusion_130375/raw_capture.pth",
+    "raw_sha256": "24d3d3fa1892860176661a8861fb1c2b71c2871a79ee89e64eb64d1d8d48b703",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130389",
+    "relative_raw": "items/block_010/IR_130389/raw_capture.pth",
+    "raw_sha256": "79c2df76fa6df1334904f94323d9ccf359d68a741dbb1500f0f5f4f9a4c94fe4",
+    "selected_gt_indices": "[1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130389",
+    "relative_raw": "items/block_010/Fusion_130389/raw_capture.pth",
+    "raw_sha256": "f06df1f4f6ca0326d404d18888b7684481e42e31ac94b34d612a400c4527fa41",
+    "selected_gt_indices": "[1, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130403",
+    "relative_raw": "items/block_010/IR_130403/raw_capture.pth",
+    "raw_sha256": "8bb0341d5ea963aef981e8ca3bd6815153b0de65136c1059c518c91db25159c0",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130403",
+    "relative_raw": "items/block_010/Fusion_130403/raw_capture.pth",
+    "raw_sha256": "be47e8f74d88f029433e2fffa9c5dcb498a66768957a421f7b8e1679da6ed773",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130417",
+    "relative_raw": "items/block_010/IR_130417/raw_capture.pth",
+    "raw_sha256": "dad54505b885219341a8910f19a9795633e81df959491fa2ceb598cd26b88710",
+    "selected_gt_indices": "[0, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130417",
+    "relative_raw": "items/block_010/Fusion_130417/raw_capture.pth",
+    "raw_sha256": "56e33fcb18972c262e3fc8beddbb397d8c7ed4708be7dec6ef8078a48457b65e",
+    "selected_gt_indices": "[0, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130431",
+    "relative_raw": "items/block_010/IR_130431/raw_capture.pth",
+    "raw_sha256": "34a556fbec5eca83bad615bb8a22e0ac48d717d201eba01718ee8a1cd85f264c",
+    "selected_gt_indices": "[0, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130431",
+    "relative_raw": "items/block_010/Fusion_130431/raw_capture.pth",
+    "raw_sha256": "a99ada8a82f8a14be3038b84345ad10cec18a3ce7cf54a5b9bc47b96a1bdfa22",
+    "selected_gt_indices": "[0, 2, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130445",
+    "relative_raw": "items/block_010/IR_130445/raw_capture.pth",
+    "raw_sha256": "dcebcec0a2557d366ad3ac0a2a3518a4031b8d462a6cbbd87bac79a586b3ba44",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130445",
+    "relative_raw": "items/block_010/Fusion_130445/raw_capture.pth",
+    "raw_sha256": "3d7b2f478ea33fad492d08330fb1d2bdb1b80b57ffaedcdc6477c0a3f1620dfd",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130458",
+    "relative_raw": "items/block_010/IR_130458/raw_capture.pth",
+    "raw_sha256": "299293f3c01727517729ead1328e3c585db6f8a79fcaefc17858e694cfa7f3c6",
+    "selected_gt_indices": "[0, 1, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130458",
+    "relative_raw": "items/block_010/Fusion_130458/raw_capture.pth",
+    "raw_sha256": "329cc0fd9d86d749005346989ac17906f5e74ae58b8b374a896f73e574e6aba7",
+    "selected_gt_indices": "[0, 1, 3, 4]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130472",
+    "relative_raw": "items/block_010/IR_130472/raw_capture.pth",
+    "raw_sha256": "4a3ed36fa4c92225e19027999a5895ef2dd5d02dd8d3b8865766ff388463a655",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130472",
+    "relative_raw": "items/block_010/Fusion_130472/raw_capture.pth",
+    "raw_sha256": "d267f5f57af2c08f7b32610d04356d22d607881b1f7df24131905cd57cb8a13f",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130486",
+    "relative_raw": "items/block_010/IR_130486/raw_capture.pth",
+    "raw_sha256": "01e854fd9b2902b7426da2dd064050650c0dc483d719952565b7a44eeb17e471",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130486",
+    "relative_raw": "items/block_010/Fusion_130486/raw_capture.pth",
+    "raw_sha256": "482fe13d48f2157b8d9708129f4159a22b977ef2f8847f33a9ab222c24a5d5b0",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "130500",
+    "relative_raw": "items/block_010/IR_130500/raw_capture.pth",
+    "raw_sha256": "8b92abf09d8fa569c679d6501cc41e69e82be14a0783584be0a7752b39559d1e",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "130500",
+    "relative_raw": "items/block_010/Fusion_130500/raw_capture.pth",
+    "raw_sha256": "84bb3b9c7d65933ce9333255dbc6a197f31f5dd716427150ab04540e8e7c557c",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170001",
+    "relative_raw": "items/block_010/IR_170001/raw_capture.pth",
+    "raw_sha256": "69f9591e91bb90a8233c186d22f9064dbeb7234f0385f3e4d4d7b3531bb4d0bc",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170001",
+    "relative_raw": "items/block_010/Fusion_170001/raw_capture.pth",
+    "raw_sha256": "d18ce21beb820463d12d8889039495c61574ca6deb2af8f262411311d2704cfb",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170015",
+    "relative_raw": "items/block_011/IR_170015/raw_capture.pth",
+    "raw_sha256": "b7e317fde6c3e9d4c120b7b384e0dfdcad377e4dd09fce0c1bdd4d5b2c4b4f23",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170015",
+    "relative_raw": "items/block_011/Fusion_170015/raw_capture.pth",
+    "raw_sha256": "b349c3758df98469090067bd5e7b8d4b70a29a298a6dd95404e19f590aeb21e1",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170029",
+    "relative_raw": "items/block_011/IR_170029/raw_capture.pth",
+    "raw_sha256": "284c537393717661c5a37528efb8200a9625e86bdc5a6c5676aca6fc89a3034e",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170029",
+    "relative_raw": "items/block_011/Fusion_170029/raw_capture.pth",
+    "raw_sha256": "6a742249f661159d8129dc1a80843aebd867f30c038345b0bf4fa1845a9d7baa",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170058",
+    "relative_raw": "items/block_011/IR_170058/raw_capture.pth",
+    "raw_sha256": "96e64d46368d3143f3c4442233e2d94b0ad895788c7b505b3f3152fe34fb592b",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170058",
+    "relative_raw": "items/block_011/Fusion_170058/raw_capture.pth",
+    "raw_sha256": "9a05d662d07ca41f67ceb1d79d7311b966a68fd81d0f42b6b19c11c418a5a1f1",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170072",
+    "relative_raw": "items/block_011/IR_170072/raw_capture.pth",
+    "raw_sha256": "07fa3c6ee9e59ad93f2df39c38ba0b6e5b41e45ac73d13f2b69074100d779367",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170072",
+    "relative_raw": "items/block_011/Fusion_170072/raw_capture.pth",
+    "raw_sha256": "cf47072f8b853905300fee2033ce9440799a282a1c10a02e3968d65051840c31",
+    "selected_gt_indices": "[0, 1, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170086",
+    "relative_raw": "items/block_011/IR_170086/raw_capture.pth",
+    "raw_sha256": "5d8e4c4df0ba6c44c75e0dc01e4a3d0c08fe38783d17e09a8da768b16b5f5a83",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170086",
+    "relative_raw": "items/block_011/Fusion_170086/raw_capture.pth",
+    "raw_sha256": "9ff9eeedc92093d5e2b2deb5b8de0903d50900b61ec72c81630ac880610a71e6",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170100",
+    "relative_raw": "reuse/IR_170100/raw_capture.pth",
+    "raw_sha256": "ee3461c2de0580ebf5094b4552507fa7d679c4a832ae306ce4a0f7bc333e0c93",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170100",
+    "relative_raw": "reuse/Fusion_170100/raw_capture.pth",
+    "raw_sha256": "29512a8df702f738351080035d6f8307f3b7df44e9b45b9ae040af5d8e32a724",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170114",
+    "relative_raw": "items/block_011/IR_170114/raw_capture.pth",
+    "raw_sha256": "6eff3c29505637f6d28c016bc072a2dd9e87472721a19b362f5197f71d58f715",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170114",
+    "relative_raw": "items/block_011/Fusion_170114/raw_capture.pth",
+    "raw_sha256": "90ff45c4df182b5f2aff6266fcc2a6f77c2150104c55b45b852656270992d4be",
+    "selected_gt_indices": "[0, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170143",
+    "relative_raw": "items/block_011/IR_170143/raw_capture.pth",
+    "raw_sha256": "4ae470912839d5ad6f29d32ae8354607ea520db5042bf586b1161eaf5d5954be",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170143",
+    "relative_raw": "items/block_011/Fusion_170143/raw_capture.pth",
+    "raw_sha256": "24891b08bb2266ad128fc0c9cf8039be0958adb33fbc0c0be9f2567792687859",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170157",
+    "relative_raw": "items/block_011/IR_170157/raw_capture.pth",
+    "raw_sha256": "9666c48cf4ae62b34a5ea5d0219724daf0b043b9b1d2243a98c8b5a15ee90f32",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170157",
+    "relative_raw": "items/block_011/Fusion_170157/raw_capture.pth",
+    "raw_sha256": "e3ea0f417ddf3636578616f7fa0fdf16477b8ad39586f3a097a796a16694efa3",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170199",
+    "relative_raw": "items/block_012/IR_170199/raw_capture.pth",
+    "raw_sha256": "adf40f177d6df340e1bff97c907180b071ef588effadef9386bd392ac822f1ee",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170199",
+    "relative_raw": "items/block_012/Fusion_170199/raw_capture.pth",
+    "raw_sha256": "c98c4c3f29da8ecdcf29695b2113d91bc1143a7e1203678458ebde999030fe72",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170213",
+    "relative_raw": "items/block_012/IR_170213/raw_capture.pth",
+    "raw_sha256": "1f4f4457e01c3042684522b7f659bc6c77fddd13916b87471ef49ac360f90369",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170213",
+    "relative_raw": "items/block_012/Fusion_170213/raw_capture.pth",
+    "raw_sha256": "a3619a55c7507517399179a4575f5f9f3c06ab9aadda2d0f239f2065f54a880b",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170228",
+    "relative_raw": "items/block_012/IR_170228/raw_capture.pth",
+    "raw_sha256": "b10f8dd246976d2efc737a2ef49404eaeda3e214e1e4aac1c5a8e1698f38f672",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170228",
+    "relative_raw": "items/block_012/Fusion_170228/raw_capture.pth",
+    "raw_sha256": "3953836f30e683126e5093a75eecd3e6757ae4cf7a3b046cd301de9a269e89ef",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170242",
+    "relative_raw": "items/block_012/IR_170242/raw_capture.pth",
+    "raw_sha256": "76b3c0b10201eb00375fe91c1fb39513b8d4e4c4156055d7f3771e319b45add6",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170242",
+    "relative_raw": "items/block_012/Fusion_170242/raw_capture.pth",
+    "raw_sha256": "eaa78e6929293d06d62e60af141c72660689716d2e62d8e12d9b97ae046b4d49",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170256",
+    "relative_raw": "items/block_012/IR_170256/raw_capture.pth",
+    "raw_sha256": "c0166b0e113d1cc6adabba7997a78d7ef8c90d5f1345ba4c5f863b1cb34c88a4",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170256",
+    "relative_raw": "items/block_012/Fusion_170256/raw_capture.pth",
+    "raw_sha256": "8349e833bb65a71cba301271a256aa355a5eea1fbd982fd84d1becdd86cb45c7",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170270",
+    "relative_raw": "items/block_012/IR_170270/raw_capture.pth",
+    "raw_sha256": "9a070204a49ae2da2ed80a6210dd4ea6448f9e5adad80c695536f3f16dc87ba1",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170270",
+    "relative_raw": "items/block_012/Fusion_170270/raw_capture.pth",
+    "raw_sha256": "90654859011588c39293e9ed4113759e26c4fbcb72b123095d705e639c29cc63",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170284",
+    "relative_raw": "items/block_012/IR_170284/raw_capture.pth",
+    "raw_sha256": "0bf07331e3c591fdbf6c6cef52213ffe772578786836eb9ba2bd638196695c3a",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170284",
+    "relative_raw": "items/block_012/Fusion_170284/raw_capture.pth",
+    "raw_sha256": "e198a5f28198c66ffa136a5dfddef8e37826905874fda2a89e1a1464977b5597",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170299",
+    "relative_raw": "items/block_012/IR_170299/raw_capture.pth",
+    "raw_sha256": "090b0876df45439001a67b73bdd9abe3e9fe0efb49aaffdb7e416665764426f7",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170299",
+    "relative_raw": "items/block_012/Fusion_170299/raw_capture.pth",
+    "raw_sha256": "ad378aabdabe14f9fab4b5dc0d0b021bb2abbe406a2d31b734e9a034d37fd0a1",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170313",
+    "relative_raw": "items/block_013/IR_170313/raw_capture.pth",
+    "raw_sha256": "23fc26026834bdda851382d1972fb659840de9580c5a49dcc51932333b729c1e",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170313",
+    "relative_raw": "items/block_013/Fusion_170313/raw_capture.pth",
+    "raw_sha256": "254cde0ed484fdce4cd09ca2c56724944c3a1ca381f5fe959f1e81ae75ca634f",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170327",
+    "relative_raw": "items/block_013/IR_170327/raw_capture.pth",
+    "raw_sha256": "ee1010ca8d193b20326677a87eb82d887da3a5bda135a3c3dba0d87834e6c4cf",
+    "selected_gt_indices": "[0, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170327",
+    "relative_raw": "items/block_013/Fusion_170327/raw_capture.pth",
+    "raw_sha256": "205908d9f08c94abf6a4225af3e553b5e7e8434e26b2b9d3ca61c14a138891a5",
+    "selected_gt_indices": "[0, 3]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170341",
+    "relative_raw": "items/block_013/IR_170341/raw_capture.pth",
+    "raw_sha256": "e3841b46dc228eb79b22938c7ec60f59c8defd37b5c08f5dc25cd6eb92f9f010",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170341",
+    "relative_raw": "items/block_013/Fusion_170341/raw_capture.pth",
+    "raw_sha256": "1b381adb43d00b9a01dff5ab3aef5613b4b9dc48b5939a8a0463c2d33b65a806",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170356",
+    "relative_raw": "items/block_013/IR_170356/raw_capture.pth",
+    "raw_sha256": "928dfb69a3920586b5b6dd1520080e4cee561e80f1281cd7e6801f89b8267a5d",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170356",
+    "relative_raw": "items/block_013/Fusion_170356/raw_capture.pth",
+    "raw_sha256": "431205ab5ab189b768e2c34c38812f761caccfde44b47056792ad4dcc6e83243",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170370",
+    "relative_raw": "items/block_013/IR_170370/raw_capture.pth",
+    "raw_sha256": "baf301f7769e765e7b14c0902735fb8b2ca332cad927dac3ac33cfb8d1228c1b",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170370",
+    "relative_raw": "items/block_013/Fusion_170370/raw_capture.pth",
+    "raw_sha256": "fd00cada34f80ce32c095cf2faba085a75dac33f13bd0844900b6a46ac5ac78f",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170384",
+    "relative_raw": "items/block_013/IR_170384/raw_capture.pth",
+    "raw_sha256": "58a32cbc88d5c4fa1fb730e934d9dfa72969c5c4b100417add141fab09a6019d",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170384",
+    "relative_raw": "items/block_013/Fusion_170384/raw_capture.pth",
+    "raw_sha256": "ab1d69357d58ffc155289ecc3b53791f59363c15f63d4abd5e3be3e10ce20839",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170413",
+    "relative_raw": "items/block_013/IR_170413/raw_capture.pth",
+    "raw_sha256": "698419d1a1f7ad9235bb6ce71f75e6a82c113598a84ad678bd56b2c4a063e4fc",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170413",
+    "relative_raw": "items/block_013/Fusion_170413/raw_capture.pth",
+    "raw_sha256": "2bed010831e134950a586c65cd28982e641634451e4826639d0e9834055221a5",
+    "selected_gt_indices": "[1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170427",
+    "relative_raw": "items/block_013/IR_170427/raw_capture.pth",
+    "raw_sha256": "df88b65d00262d082bb333e0da46390e45e18950ee211c7262c8a9c7e38f72a7",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170427",
+    "relative_raw": "items/block_013/Fusion_170427/raw_capture.pth",
+    "raw_sha256": "3275415c463a54eff2d588b41dcc0f48377fae750d304cf60ea9d74c8829b4f4",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170441",
+    "relative_raw": "items/block_013/IR_170441/raw_capture.pth",
+    "raw_sha256": "061b12975955a09af079f99796d298a2470a2083b58d503c7802b2c40c7d3954",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170441",
+    "relative_raw": "items/block_013/Fusion_170441/raw_capture.pth",
+    "raw_sha256": "6852b5430ba7db80a0501f701e62d81742834d52635bec2b0e9ded0cd6aac421",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170455",
+    "relative_raw": "reuse/IR_170455/raw_capture.pth",
+    "raw_sha256": "6610af79bb55155fad27784ab772e862c2c9c7483cc58cc31f277934c1fb6d70",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170455",
+    "relative_raw": "reuse/Fusion_170455/raw_capture.pth",
+    "raw_sha256": "7f091b4f5c3fd7d68c52054f0d1cb6f116cbf44cccdd96bfd988c2a58743e56a",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170470",
+    "relative_raw": "items/block_014/IR_170470/raw_capture.pth",
+    "raw_sha256": "6268cea31cce8c5bea495600494bafade8a712e1e3f7dc3c4d41bec08147aa0b",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170470",
+    "relative_raw": "items/block_014/Fusion_170470/raw_capture.pth",
+    "raw_sha256": "9760f7527249812e7f35319e27faea5583399f95fc61018944a09a63f601fd78",
+    "selected_gt_indices": "[0, 1, 2]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170484",
+    "relative_raw": "items/block_014/IR_170484/raw_capture.pth",
+    "raw_sha256": "b033cfe71381ba41fd05805230405df3b49596005959801d91b4b3c83a414ce7",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170484",
+    "relative_raw": "items/block_014/Fusion_170484/raw_capture.pth",
+    "raw_sha256": "259c751b98d5a072c4e202dc1e776d042626fb10f9aab0c98f0604d9e7692fae",
+    "selected_gt_indices": "[0, 1]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170498",
+    "relative_raw": "items/block_014/IR_170498/raw_capture.pth",
+    "raw_sha256": "3722adca3164fc9a6af815db403e4478c438dee58df1a4b2948b9b0c428a8f30",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170498",
+    "relative_raw": "items/block_014/Fusion_170498/raw_capture.pth",
+    "raw_sha256": "b947877873bc6a6d8de882e62d75ac45ccc85c55409577a337593fb6dde3a4ae",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "IR",
+    "stem": "170512",
+    "relative_raw": "items/block_014/IR_170512/raw_capture.pth",
+    "raw_sha256": "01420cfc8dc382e6cc9f3139d347bdf93e834443a791d65e83bf2ae104e5564f",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  },
+  {
+    "model": "Fusion",
+    "stem": "170512",
+    "relative_raw": "items/block_014/Fusion_170512/raw_capture.pth",
+    "raw_sha256": "6bc972ccc1b6a473df8524c4c75074aee026060ae5b7c3182de476b73079580a",
+    "selected_gt_indices": "[0]",
+    "actual_layer_keys": [
+      "0",
+      "1",
+      "pool"
+    ],
+    "actual_layer_counts": [
+      6000,
+      6000,
+      1500
+    ],
+    "raw_deserializations": 1
+  }
+]

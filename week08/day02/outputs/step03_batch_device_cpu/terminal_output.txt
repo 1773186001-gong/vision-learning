@@ -1,0 +1,106 @@
+Week08 Day02 Step3 | device=cpu | seed=42 | batch_size=2
+Python=D:\python\.venv\Scripts\python.exe; torch=2.14.1+cpu; CUDA build=None
+CPU 逻辑验证；GPU 名称、显存、CUDA 传输/计算均待服务器实测
+
+[train] stems=['010001', '100030']; flip_p=0.5; CPU before:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(6, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(6,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(6,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(6,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(0, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(0,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(0,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(0,), dtype=torch.int64, device=cpu
+cpu after:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(6, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(6,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(6,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(6,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(0, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(0,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(0,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(0,), dtype=torch.int64, device=cpu
+PASS: 全部 Tensor 保持 shape/dtype/数值；基础运算结果与 CPU 一致
+blend_means=[0.16638202965259552, 0.28582146763801575]; copy_ms=2.498; basic_ops_ms=2.915
+
+[val] stems=['030001', '030014']; flip_p=0.0; CPU before:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(3, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(3,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(3,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(3,), dtype=torch.int64, device=cpu
+cpu after:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(3, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(3,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(3,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(3,), dtype=torch.int64, device=cpu
+PASS: 全部 Tensor 保持 shape/dtype/数值；基础运算结果与 CPU 一致
+blend_means=[0.28762203454971313, 0.26325833797454834]; copy_ms=2.467; basic_ops_ms=2.462
+
+[test] stems=['190001', '190040']; flip_p=0.0; CPU before:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(7, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(7,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(7,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(7,), dtype=torch.int64, device=cpu
+cpu after:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(7, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(7,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(7,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(7,), dtype=torch.int64, device=cpu
+PASS: 全部 Tensor 保持 shape/dtype/数值；基础运算结果与 CPU 一致
+blend_means=[0.3289640545845032, 0.33761098980903625]; copy_ms=2.338; basic_ops_ms=2.043
+
+PASS: 原代码/Step1/Step2产物和所用源数据哈希未变
+当前设备验证通过；GPU status=pending_not_run_cpu
+结果：D:\python\test\vision-learning\week08\day02\outputs\step03_batch_device_cpu

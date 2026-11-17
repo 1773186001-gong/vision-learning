@@ -1,0 +1,62 @@
+{
+  "exact_cross_day_fields": [
+    {
+      "stem": "030078",
+      "comparison_field": "rpn_max_iou",
+      "day03_field": "rpn_max_iou",
+      "value": "0.7578962445259094",
+      "exact_equal": true
+    },
+    {
+      "stem": "030078",
+      "comparison_field": "final_best_iou",
+      "day03_field": "final_correct_max_iou",
+      "value": "0.7583428025245667",
+      "exact_equal": true
+    },
+    {
+      "stem": "030078",
+      "comparison_field": "final_best_iou_score",
+      "day03_field": "final_best_iou_score",
+      "value": "0.9814887642860413",
+      "exact_equal": true
+    },
+    {
+      "stem": "030078",
+      "comparison_field": "final_count",
+      "day03_field": "final_count",
+      "value": "4",
+      "exact_equal": true
+    },
+    {
+      "stem": "030129",
+      "comparison_field": "rpn_max_iou",
+      "day03_field": "rpn_max_iou",
+      "value": "0.7663343548774719",
+      "exact_equal": true
+    },
+    {
+      "stem": "030129",
+      "comparison_field": "final_best_iou",
+      "day03_field": "final_correct_max_iou",
+      "value": "0.7003291249275208",
+      "exact_equal": true
+    },
+    {
+      "stem": "030129",
+      "comparison_field": "final_best_iou_score",
+      "day03_field": "final_best_iou_score",
+      "value": "0.0024934702087193727",
+      "exact_equal": true
+    },
+    {
+      "stem": "030129",
+      "comparison_field": "final_count",
+      "day03_field": "final_count",
+      "value": "3",
+      "exact_equal": true
+    }
+  ],
+  "identity_checks": true,
+  "replay_full_output_checks": true
+}

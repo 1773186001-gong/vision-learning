@@ -1,0 +1,23 @@
+{
+  "analyze_detection_errors.py": "fa6c79190142611f9e68e6f01a338304dffb4b7e504c0830c18647d616326e49",
+  "DAY04_ERROR_ANALYSIS_GPT_HANDOFF.md": "9b0900bc897a3d8006ad268b1de3946cadfaea011c84cf6e81219020d7bd5044",
+  "README.md": "682b6231a34cb23b33105ad0410bbd86bb02f033920ba16280b9216453db6c11",
+  "run.log": "8bb78766844d0a12604721693253b90c44580875971f81ee52334f553f1e6536",
+  "results\\fp_comparison.csv": "24e3aac8ab4af4b94661043f90c5303e3853ea79e073f752765962bebe96fdd3",
+  "results\\fp_iou_distribution.png": "9d7a8816bf129a89cefd11c70ddd59e4b768ceab03a5b45294560494933c3dad",
+  "results\\fp_score_distribution.png": "e83abd736f5359cfaa58cbab8d009f37263b24a6494ed11fb3de58a6abf72a81",
+  "results\\fp_type_comparison.png": "a90d78e029ce29c24859de683aa9fbcf7d7c40ccd2c181883aa30dd28f2a2ca7",
+  "results\\ir_error_summary.json": "8d62d5814d670080eeab11d3227347a5b4dd69e2e02487812d949db0688cfe0a",
+  "results\\ir_matching_details.json": "c71def9ffc73a77c2f86058a166b94151f05ea5a32f7cac281ba27cba5c6df76",
+  "results\\paired_fp_difference.csv": "7f97661e3db3c1aa942edfdb0213b05f4f297af0a19e2b6fa70c641c4eafbcfa",
+  "results\\per_image_errors.csv": "c190d39f212b95e1c303d48bc8ef52d51740e6f89bef0de0a2b3ea1f6e19c176",
+  "results\\per_prediction_errors.csv": "0a2a0d28ec67008ea7a883e7c7fb3828233c705b855ead545128c5596d5e3045",
+  "results\\rgb_error_summary.json": "74baa4f65d1d69744e0343045405b8a1267f5b82ef759f5a5ae62d9800cefa16",
+  "results\\rgb_matching_details.json": "9ffa23830f7cd5ad86ed3b76ce238afdd9181766719ee287544e20b0a24e533f",
+  "results\\run_metadata.json": "d8f3ab342eb485d81648bfaee44c5d86f13ce0b8d0379db9e85968b8584c5059",
+  "results\\verification.json": "727a23eff89d0dad67ebf8b6d93a808e162772e65be0db20c5557fe2b87e9d7f",
+  "results\\comparison_examples\\190001_rgb_ir.png": "36d66cb045545fb76c3422a12fd2a095c96fc7eb4c3c220eecf486eeede850de",
+  "results\\comparison_examples\\190040_rgb_ir.png": "574f3f9338bc08a19b7337e02694f69796e1cf6328adde939cfa309d6679fd30",
+  "results\\comparison_examples\\190474_rgb_ir.png": "0e3d114fbd2d35aa05220188ee4cc44aeab868ed585c6c03121796bd50aac978",
+  "results\\comparison_examples\\matching_details.json": "0a7d8fd69ce43bb47f516053c14eed2d268237011b28905116ff8233375362b7"
+}

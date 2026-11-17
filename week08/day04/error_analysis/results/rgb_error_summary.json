@@ -1,0 +1,207 @@
+{
+  "TP": 299,
+  "FP": 309,
+  "FN": 49,
+  "GT": 348,
+  "categories": {
+    "duplicate": {
+      "count": 10,
+      "fraction": 0.032362459546925564
+    },
+    "localization": {
+      "count": 72,
+      "fraction": 0.23300970873786409
+    },
+    "low_overlap": {
+      "count": 227,
+      "fraction": 0.7346278317152104
+    },
+    "other": {
+      "count": 0,
+      "fraction": 0.0
+    }
+  },
+  "no_gt_images": 0,
+  "no_gt_fp": 0,
+  "per_image_fp_distribution": {
+    "0": 25,
+    "1": 40,
+    "2": 34,
+    "3": 24,
+    "4": 13,
+    "5": 9,
+    "6": 3,
+    "7": 2
+  },
+  "score_distribution": {
+    "n": 309,
+    "min": 0.5008555054664612,
+    "max": 0.9872423410415649,
+    "mean": 0.7250650845299261,
+    "quantiles": {
+      "q0": 0.5008555054664612,
+      "q25": 0.6018357276916504,
+      "q50": 0.7174988389015198,
+      "q75": 0.8497909903526306,
+      "q100": 0.9872423410415649
+    }
+  },
+  "max_iou_distribution": {
+    "n": 309,
+    "min": 0.0,
+    "max": 0.7188484072685242,
+    "mean": 0.10254966891687183,
+    "quantiles": {
+      "q0": 0.0,
+      "q25": 0.0,
+      "q50": 0.0,
+      "q75": 0.1556248664855957,
+      "q100": 0.7188484072685242
+    }
+  },
+  "high_score_definition": "score >= 0.9 (diagnostic only; no threshold tuning)",
+  "high_score_fp": 55,
+  "high_score_fp_fraction": 0.1779935275080906,
+  "top10": [
+    {
+      "modality": "RGB",
+      "image_id": "190435",
+      "dataset_image_id": 11,
+      "GT": 3,
+      "predictions_above_threshold": 10,
+      "TP": 3,
+      "FP": 7,
+      "FN": 0,
+      "duplicate": 1,
+      "localization": 1,
+      "low_overlap": 5,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190593",
+      "dataset_image_id": 15,
+      "GT": 1,
+      "predictions_above_threshold": 8,
+      "TP": 1,
+      "FP": 7,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 7,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190119",
+      "dataset_image_id": 3,
+      "GT": 2,
+      "predictions_above_threshold": 7,
+      "TP": 1,
+      "FP": 6,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 5,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190711",
+      "dataset_image_id": 18,
+      "GT": 2,
+      "predictions_above_threshold": 8,
+      "TP": 2,
+      "FP": 6,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 6,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190751",
+      "dataset_image_id": 19,
+      "GT": 4,
+      "predictions_above_threshold": 10,
+      "TP": 4,
+      "FP": 6,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 1,
+      "low_overlap": 5,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190001",
+      "dataset_image_id": 0,
+      "GT": 2,
+      "predictions_above_threshold": 7,
+      "TP": 2,
+      "FP": 5,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 5,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190199",
+      "dataset_image_id": 5,
+      "GT": 1,
+      "predictions_above_threshold": 6,
+      "TP": 1,
+      "FP": 5,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 5,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190395",
+      "dataset_image_id": 10,
+      "GT": 2,
+      "predictions_above_threshold": 7,
+      "TP": 2,
+      "FP": 5,
+      "FN": 0,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 5,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "190791",
+      "dataset_image_id": 20,
+      "GT": 2,
+      "predictions_above_threshold": 6,
+      "TP": 1,
+      "FP": 5,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 0,
+      "low_overlap": 5,
+      "other": 0
+    },
+    {
+      "modality": "RGB",
+      "image_id": "210312",
+      "dataset_image_id": 59,
+      "GT": 5,
+      "predictions_above_threshold": 9,
+      "TP": 4,
+      "FP": 5,
+      "FN": 1,
+      "duplicate": 0,
+      "localization": 3,
+      "low_overlap": 2,
+      "other": 0
+    }
+  ]
+}

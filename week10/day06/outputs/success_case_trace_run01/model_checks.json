@@ -1,0 +1,115 @@
+{
+  "state_before": "a3eff18b532886e15c2b21403734eebb997b9559e6ede16eb1ea839aaef7b69a",
+  "state_after": "a3eff18b532886e15c2b21403734eebb997b9559e6ede16eb1ea839aaef7b69a",
+  "state_equal": true,
+  "day03_initial_state_equal": true,
+  "configuration": {
+    "rpn": {
+      "pre": 150,
+      "post": 150,
+      "score": 0.05,
+      "nms": 0.7,
+      "min_size": 0.001,
+      "anchors": [
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ]
+      ],
+      "ratios": [
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "roi": {
+      "score": 0.001,
+      "nms": 0.5,
+      "detections": 100,
+      "featmaps": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "bbox_weights": [
+        10.0,
+        10.0,
+        5.0,
+        5.0
+      ]
+    },
+    "transform": {
+      "min": [
+        640
+      ],
+      "max": 640,
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "size_divisible": 32
+    }
+  },
+  "configuration_unchanged": true,
+  "day03_configuration_equal": true,
+  "hooks_restored": true,
+  "temporary_methods_restored": true,
+  "checkpoint_sha_before": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+  "checkpoint_sha_after": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+  "checkpoint_unchanged": true,
+  "all_modules_eval": true,
+  "frozen_bn_modules": 46,
+  "counts": {
+    "checkpoint_loads": 1,
+    "strict_state_loads": 1,
+    "model_restores": 1,
+    "full_forward_attempts": 1,
+    "full_model_forward_calls": 1,
+    "structure_probes": 0,
+    "reference_capture_loads": 1,
+    "independent_nms_replays": 0,
+    "original_rpn_batched_nms_calls": 1,
+    "original_roi_batched_nms_calls": 1,
+    "server_connections": 0,
+    "test_inference": 0,
+    "training": 0,
+    "fusion_forwards": 0,
+    "additional_030129_forwards": 0
+  }
+}

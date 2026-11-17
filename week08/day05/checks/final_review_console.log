@@ -1,0 +1,309 @@
+{
+  "status": "passed",
+  "review_device": "cpu",
+  "training": false,
+  "model_forward": false,
+  "epochs": 10,
+  "best_epoch": 6,
+  "checkpoints": {
+    "best.pth": {
+      "epoch": 6,
+      "bytes": 190083098,
+      "sha256": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+      "strict_load": true
+    },
+    "last.pth": {
+      "epoch": 10,
+      "bytes": 190083866,
+      "sha256": "106451b3eb027be4ff958daa6f6cdfa3682e8d9d4716a5cf6dd76d773025d7bc",
+      "strict_load": true
+    }
+  },
+  "test_cache_images": 150,
+  "GT_boxes": 348,
+  "comparison": {
+    "IR": {
+      "metrics": {
+        "precision": 0.850415512465374,
+        "recall": 0.882183908045977,
+        "AP50": 0.8989071207511944,
+        "mAP50_95": 0.4716263012372224,
+        "TP": 307,
+        "FP": 54,
+        "FN": 41,
+        "score_threshold": 0.5,
+        "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+      },
+      "FP_types": {
+        "localization": 22,
+        "duplicate": 3,
+        "low_overlap": 29
+      }
+    },
+    "RGB": {
+      "metrics": {
+        "precision": 0.4917763157894737,
+        "recall": 0.8591954022988506,
+        "AP50": 0.8001258873790847,
+        "mAP50_95": 0.36830385695197043,
+        "TP": 299,
+        "FP": 309,
+        "FN": 49,
+        "score_threshold": 0.5,
+        "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+      },
+      "FP_types": {
+        "low_overlap": 227,
+        "localization": 72,
+        "duplicate": 10
+      }
+    },
+    "Fusion": {
+      "metrics": {
+        "precision": 0.8898550724637682,
+        "recall": 0.882183908045977,
+        "AP50": 0.9032342060788215,
+        "mAP50_95": 0.439998157680316,
+        "TP": 307,
+        "FP": 38,
+        "FN": 41,
+        "score_threshold": 0.5,
+        "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+      },
+      "FP_types": {
+        "localization": 24,
+        "duplicate": 9,
+        "low_overlap": 5
+      }
+    }
+  },
+  "cases": {
+    "190001": {
+      "IR": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "FP_types": {}
+      },
+      "RGB": {
+        "TP": 2,
+        "FP": 5,
+        "FN": 0,
+        "FP_types": {
+          "low_overlap": 5
+        }
+      },
+      "Fusion": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "FP_types": {}
+      }
+    },
+    "190040": {
+      "IR": {
+        "TP": 5,
+        "FP": 1,
+        "FN": 2,
+        "FP_types": {
+          "localization": 1
+        }
+      },
+      "RGB": {
+        "TP": 6,
+        "FP": 1,
+        "FN": 1,
+        "FP_types": {
+          "localization": 1
+        }
+      },
+      "Fusion": {
+        "TP": 6,
+        "FP": 0,
+        "FN": 1,
+        "FP_types": {}
+      }
+    },
+    "190435": {
+      "IR": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0,
+        "FP_types": {}
+      },
+      "RGB": {
+        "TP": 3,
+        "FP": 7,
+        "FN": 0,
+        "FP_types": {
+          "low_overlap": 5,
+          "localization": 1,
+          "duplicate": 1
+        }
+      },
+      "Fusion": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0,
+        "FP_types": {}
+      }
+    },
+    "190474": {
+      "IR": {
+        "TP": 3,
+        "FP": 1,
+        "FN": 1,
+        "FP_types": {
+          "localization": 1
+        }
+      },
+      "RGB": {
+        "TP": 3,
+        "FP": 4,
+        "FN": 1,
+        "FP_types": {
+          "localization": 1,
+          "low_overlap": 3
+        }
+      },
+      "Fusion": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 0,
+        "FP_types": {}
+      }
+    },
+    "190593": {
+      "IR": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "FP_types": {}
+      },
+      "RGB": {
+        "TP": 1,
+        "FP": 7,
+        "FN": 0,
+        "FP_types": {
+          "low_overlap": 7
+        }
+      },
+      "Fusion": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "FP_types": {}
+      }
+    }
+  },
+  "decoded_pngs": 16,
+  "smoke": {
+    "samples": [
+      {
+        "stem": "010001",
+        "total_loss": 1.4615275859832764,
+        "loss_classifier": 0.8858948349952698,
+        "loss_box_reg": 0.5566082000732422,
+        "loss_objectness": 0.00792636163532734,
+        "loss_rpn_box_reg": 0.011098267510533333
+      },
+      {
+        "stem": "100030",
+        "total_loss": 0.8781349658966064,
+        "loss_classifier": 0.8002586364746094,
+        "loss_box_reg": 0.0,
+        "loss_objectness": 0.07787633687257767,
+        "loss_rpn_box_reg": 0.0
+      }
+    ],
+    "eval_forward_finite": true,
+    "branch_shapes": {
+      "0": {
+        "rgb": [
+          1,
+          256,
+          20,
+          20
+        ],
+        "infrared": [
+          1,
+          256,
+          20,
+          20
+        ],
+        "fused": [
+          1,
+          256,
+          20,
+          20
+        ]
+      },
+      "1": {
+        "rgb": [
+          1,
+          256,
+          20,
+          20
+        ],
+        "infrared": [
+          1,
+          256,
+          20,
+          20
+        ],
+        "fused": [
+          1,
+          256,
+          20,
+          20
+        ]
+      },
+      "pool": {
+        "rgb": [
+          1,
+          256,
+          10,
+          10
+        ],
+        "infrared": [
+          1,
+          256,
+          10,
+          10
+        ],
+        "fused": [
+          1,
+          256,
+          10,
+          10
+        ]
+      }
+    },
+    "peak_allocated": 549265408,
+    "peak_reserved": 620756992,
+    "all_state_restored_exactly": true
+  },
+  "epoch_seconds_sum": 1603.5867188000007,
+  "peak_allocated_bytes": 546796032,
+  "peak_reserved_bytes": 660602880,
+  "state": {
+    "status": "SUCCEEDED",
+    "monitor_pid": 1916,
+    "python_pid": 2156,
+    "started_at": "2026-11-02T14:24:08.5085507+08:00",
+    "finished_at": "2026-11-02T14:52:25.4580329+08:00",
+    "exit_code": 0,
+    "output": "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01",
+    "error": null
+  },
+  "exit_status": {
+    "exit_code": 0,
+    "seconds": 1692.5854731,
+    "pid": 2940
+  },
+  "historical_local_hashes_verified": 204,
+  "remote_historical_hashes_verified": 198,
+  "resume_interrupted_training_tested": false,
+  "limitation": "Local artifact hashes are not an independent full remote per-file SHA comparison"
+}
+AUDIT_FOLDER D:\python\test\vision-learning\week08\day05\checks\final_review_1793608106351600200

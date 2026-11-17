@@ -1,0 +1,1357 @@
+{
+  "requested_device": "cuda:0",
+  "seed": 42,
+  "torch": "2.14.1+cu126",
+  "python": "D:\\cv-server-env\\Scripts\\python.exe",
+  "cuda_build": "12.6",
+  "gpu_status": "passed",
+  "gpu_name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "gpu_memory": {
+    "allocated_bytes": 1024,
+    "reserved_bytes": 44040192,
+    "peak_allocated_bytes": 39328768,
+    "peak_reserved_bytes": 44040192,
+    "device_free_bytes": 5316280320,
+    "device_total_bytes": 6441926656
+  },
+  "batches": [
+    {
+      "split": "train",
+      "stems": [
+        "010001",
+        "100030"
+      ],
+      "flip_p": 0.5,
+      "before": {
+        "images[0].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[0].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[1].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[1].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].boxes": {
+          "shape": [
+            6,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].labels": {
+          "shape": [
+            6
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[0].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[0].area": {
+          "shape": [
+            6
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].iscrowd": {
+          "shape": [
+            6
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].boxes": {
+          "shape": [
+            0,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[1].labels": {
+          "shape": [
+            0
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].area": {
+          "shape": [
+            0
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[1].iscrowd": {
+          "shape": [
+            0
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        }
+      },
+      "after": {
+        "images[0].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[0].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[1].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[1].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].boxes": {
+          "shape": [
+            6,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].labels": {
+          "shape": [
+            6
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[0].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[0].area": {
+          "shape": [
+            6
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].iscrowd": {
+          "shape": [
+            6
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].boxes": {
+          "shape": [
+            0,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[1].labels": {
+          "shape": [
+            0
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].area": {
+          "shape": [
+            0
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[1].iscrowd": {
+          "shape": [
+            0
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        }
+      },
+      "targets_cpu": [
+        {
+          "boxes": [
+            [
+              143.5,
+              278.0,
+              175.5,
+              395.0
+            ],
+            [
+              175.5,
+              259.5,
+              212.0,
+              385.0
+            ],
+            [
+              233.0,
+              247.5,
+              275.0,
+              371.0
+            ],
+            [
+              350.0,
+              241.0,
+              380.5,
+              356.5
+            ],
+            [
+              352.0,
+              322.5,
+              403.0,
+              461.0
+            ],
+            [
+              562.0,
+              75.0,
+              598.0,
+              186.5
+            ]
+          ],
+          "labels": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "image_id": [
+            0
+          ],
+          "area": [
+            3744.0,
+            4580.75,
+            5187.0,
+            3522.75,
+            7063.5,
+            4014.0
+          ],
+          "iscrowd": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "boxes": [],
+          "labels": [],
+          "image_id": [
+            330
+          ],
+          "area": [],
+          "iscrowd": []
+        }
+      ],
+      "targets_after": [
+        {
+          "boxes": [
+            [
+              143.5,
+              278.0,
+              175.5,
+              395.0
+            ],
+            [
+              175.5,
+              259.5,
+              212.0,
+              385.0
+            ],
+            [
+              233.0,
+              247.5,
+              275.0,
+              371.0
+            ],
+            [
+              350.0,
+              241.0,
+              380.5,
+              356.5
+            ],
+            [
+              352.0,
+              322.5,
+              403.0,
+              461.0
+            ],
+            [
+              562.0,
+              75.0,
+              598.0,
+              186.5
+            ]
+          ],
+          "labels": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "image_id": [
+            0
+          ],
+          "area": [
+            3744.0,
+            4580.75,
+            5187.0,
+            3522.75,
+            7063.5,
+            4014.0
+          ],
+          "iscrowd": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "boxes": [],
+          "labels": [],
+          "image_id": [
+            330
+          ],
+          "area": [],
+          "iscrowd": []
+        }
+      ],
+      "transfer_exact": true,
+      "basic_ops_close": true,
+      "blend_means": [
+        0.1663820594549179,
+        0.28582149744033813
+      ],
+      "transfer_ms": 4.75209999785875,
+      "basic_ops_ms": 6.420199999411125,
+      "memory_after_transfer": {
+        "allocated_bytes": 19663872,
+        "reserved_bytes": 23068672,
+        "peak_allocated_bytes": 19663872,
+        "peak_reserved_bytes": 23068672,
+        "device_free_bytes": 5337251840,
+        "device_total_bytes": 6441926656
+      },
+      "memory_after_compute": {
+        "allocated_bytes": 29495808,
+        "reserved_bytes": 44040192,
+        "peak_allocated_bytes": 39325696,
+        "peak_reserved_bytes": 44040192,
+        "device_free_bytes": 5316280320,
+        "device_total_bytes": 6441926656
+      }
+    },
+    {
+      "split": "val",
+      "stems": [
+        "030001",
+        "030014"
+      ],
+      "flip_p": 0.0,
+      "before": {
+        "images[0].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[0].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[1].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[1].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].boxes": {
+          "shape": [
+            2,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].labels": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[0].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[0].area": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].iscrowd": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].boxes": {
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[1].labels": {
+          "shape": [
+            3
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].area": {
+          "shape": [
+            3
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[1].iscrowd": {
+          "shape": [
+            3
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        }
+      },
+      "after": {
+        "images[0].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[0].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[1].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[1].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].boxes": {
+          "shape": [
+            2,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].labels": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[0].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[0].area": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].iscrowd": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].boxes": {
+          "shape": [
+            3,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[1].labels": {
+          "shape": [
+            3
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].area": {
+          "shape": [
+            3
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[1].iscrowd": {
+          "shape": [
+            3
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        }
+      },
+      "targets_cpu": [
+        {
+          "boxes": [
+            [
+              1.0,
+              64.5,
+              44.0,
+              172.5
+            ],
+            [
+              171.0,
+              65.5,
+              231.0,
+              174.0
+            ]
+          ],
+          "labels": [
+            1,
+            1
+          ],
+          "image_id": [
+            0
+          ],
+          "area": [
+            4644.0,
+            6510.0
+          ],
+          "iscrowd": [
+            0,
+            0
+          ]
+        },
+        {
+          "boxes": [
+            [
+              49.5,
+              308.5,
+              101.0,
+              429.0
+            ],
+            [
+              95.0,
+              238.0,
+              152.0,
+              368.0
+            ],
+            [
+              65.0,
+              461.0,
+              117.0,
+              515.0
+            ]
+          ],
+          "labels": [
+            1,
+            1,
+            1
+          ],
+          "image_id": [
+            1
+          ],
+          "area": [
+            6205.75,
+            7410.0,
+            2808.0
+          ],
+          "iscrowd": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "targets_after": [
+        {
+          "boxes": [
+            [
+              1.0,
+              64.5,
+              44.0,
+              172.5
+            ],
+            [
+              171.0,
+              65.5,
+              231.0,
+              174.0
+            ]
+          ],
+          "labels": [
+            1,
+            1
+          ],
+          "image_id": [
+            0
+          ],
+          "area": [
+            4644.0,
+            6510.0
+          ],
+          "iscrowd": [
+            0,
+            0
+          ]
+        },
+        {
+          "boxes": [
+            [
+              49.5,
+              308.5,
+              101.0,
+              429.0
+            ],
+            [
+              95.0,
+              238.0,
+              152.0,
+              368.0
+            ],
+            [
+              65.0,
+              461.0,
+              117.0,
+              515.0
+            ]
+          ],
+          "labels": [
+            1,
+            1,
+            1
+          ],
+          "image_id": [
+            1
+          ],
+          "area": [
+            6205.75,
+            7410.0,
+            2808.0
+          ],
+          "iscrowd": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "transfer_exact": true,
+      "basic_ops_close": true,
+      "blend_means": [
+        0.2876220643520355,
+        0.2632583677768707
+      ],
+      "transfer_ms": 3.9116000007197727,
+      "basic_ops_ms": 0.5084000003989786,
+      "memory_after_transfer": {
+        "allocated_bytes": 19666944,
+        "reserved_bytes": 44040192,
+        "peak_allocated_bytes": 39325696,
+        "peak_reserved_bytes": 44040192,
+        "device_free_bytes": 5316280320,
+        "device_total_bytes": 6441926656
+      },
+      "memory_after_compute": {
+        "allocated_bytes": 29499392,
+        "reserved_bytes": 44040192,
+        "peak_allocated_bytes": 39328768,
+        "peak_reserved_bytes": 44040192,
+        "device_free_bytes": 5316280320,
+        "device_total_bytes": 6441926656
+      }
+    },
+    {
+      "split": "test",
+      "stems": [
+        "190001",
+        "190040"
+      ],
+      "flip_p": 0.0,
+      "before": {
+        "images[0].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[0].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[1].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "images[1].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].boxes": {
+          "shape": [
+            2,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].labels": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[0].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[0].area": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[0].iscrowd": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].boxes": {
+          "shape": [
+            7,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[1].labels": {
+          "shape": [
+            7
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        },
+        "targets[1].area": {
+          "shape": [
+            7
+          ],
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "targets[1].iscrowd": {
+          "shape": [
+            7
+          ],
+          "dtype": "torch.int64",
+          "device": "cpu"
+        }
+      },
+      "after": {
+        "images[0].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[0].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[1].visible": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "images[1].infrared": {
+          "shape": [
+            3,
+            640,
+            640
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].boxes": {
+          "shape": [
+            2,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].labels": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[0].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[0].area": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[0].iscrowd": {
+          "shape": [
+            2
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].boxes": {
+          "shape": [
+            7,
+            4
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[1].labels": {
+          "shape": [
+            7
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].image_id": {
+          "shape": [
+            1
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        },
+        "targets[1].area": {
+          "shape": [
+            7
+          ],
+          "dtype": "torch.float32",
+          "device": "cuda:0"
+        },
+        "targets[1].iscrowd": {
+          "shape": [
+            7
+          ],
+          "dtype": "torch.int64",
+          "device": "cuda:0"
+        }
+      },
+      "targets_cpu": [
+        {
+          "boxes": [
+            [
+              509.0,
+              229.0,
+              568.5,
+              358.0
+            ],
+            [
+              602.0,
+              216.0,
+              640.0,
+              329.5
+            ]
+          ],
+          "labels": [
+            1,
+            1
+          ],
+          "image_id": [
+            0
+          ],
+          "area": [
+            7675.5,
+            4313.0
+          ],
+          "iscrowd": [
+            0,
+            0
+          ]
+        },
+        {
+          "boxes": [
+            [
+              0.5,
+              219.0,
+              45.0,
+              351.0
+            ],
+            [
+              61.0,
+              157.0,
+              117.0,
+              298.0
+            ],
+            [
+              240.5,
+              463.5,
+              295.0,
+              576.0
+            ],
+            [
+              285.5,
+              458.0,
+              337.0,
+              576.0
+            ],
+            [
+              0.5,
+              179.0,
+              47.5,
+              262.0
+            ],
+            [
+              316.5,
+              534.5,
+              369.0,
+              576.0
+            ],
+            [
+              274.0,
+              554.5,
+              321.5,
+              574.5
+            ]
+          ],
+          "labels": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "image_id": [
+            1
+          ],
+          "area": [
+            5874.0,
+            7896.0,
+            6131.25,
+            6077.0,
+            3901.0,
+            2178.75,
+            950.0
+          ],
+          "iscrowd": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "targets_after": [
+        {
+          "boxes": [
+            [
+              509.0,
+              229.0,
+              568.5,
+              358.0
+            ],
+            [
+              602.0,
+              216.0,
+              640.0,
+              329.5
+            ]
+          ],
+          "labels": [
+            1,
+            1
+          ],
+          "image_id": [
+            0
+          ],
+          "area": [
+            7675.5,
+            4313.0
+          ],
+          "iscrowd": [
+            0,
+            0
+          ]
+        },
+        {
+          "boxes": [
+            [
+              0.5,
+              219.0,
+              45.0,
+              351.0
+            ],
+            [
+              61.0,
+              157.0,
+              117.0,
+              298.0
+            ],
+            [
+              240.5,
+              463.5,
+              295.0,
+              576.0
+            ],
+            [
+              285.5,
+              458.0,
+              337.0,
+              576.0
+            ],
+            [
+              0.5,
+              179.0,
+              47.5,
+              262.0
+            ],
+            [
+              316.5,
+              534.5,
+              369.0,
+              576.0
+            ],
+            [
+              274.0,
+              554.5,
+              321.5,
+              574.5
+            ]
+          ],
+          "labels": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "image_id": [
+            1
+          ],
+          "area": [
+            5874.0,
+            7896.0,
+            6131.25,
+            6077.0,
+            3901.0,
+            2178.75,
+            950.0
+          ],
+          "iscrowd": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "transfer_exact": true,
+      "basic_ops_close": true,
+      "blend_means": [
+        0.32896408438682556,
+        0.33761104941368103
+      ],
+      "transfer_ms": 3.7794999989273492,
+      "basic_ops_ms": 0.6523999982164241,
+      "memory_after_transfer": {
+        "allocated_bytes": 19666944,
+        "reserved_bytes": 44040192,
+        "peak_allocated_bytes": 39328768,
+        "peak_reserved_bytes": 44040192,
+        "device_free_bytes": 5316280320,
+        "device_total_bytes": 6441926656
+      },
+      "memory_after_compute": {
+        "allocated_bytes": 29499392,
+        "reserved_bytes": 44040192,
+        "peak_allocated_bytes": 39328768,
+        "peak_reserved_bytes": 44040192,
+        "device_free_bytes": 5316280320,
+        "device_total_bytes": 6441926656
+      }
+    }
+  ],
+  "memory_baseline": {
+    "allocated_bytes": 0,
+    "reserved_bytes": 2097152,
+    "peak_allocated_bytes": 0,
+    "peak_reserved_bytes": 2097152,
+    "device_free_bytes": 5358223360,
+    "device_total_bytes": 6441926656
+  },
+  "protected_sha256": {
+    "D:\\vision-learning-server\\week08\\day01\\llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "D:\\vision-learning-server\\week08\\day01\\visualize_llvip_pairs.py": "5883d5e6371d56b2b3f997f30da57a76d59a6b0466455d3b6dd62c18cad7dfea",
+    "D:\\vision-learning-server\\week08\\day01\\DAY01_HANDOFF.md": "bf59f850cbe5b5479728486591720ee97e97a2244ec709542e04e5248a8b2108",
+    "D:\\vision-learning-server\\week08\\day01\\README.md": "2e4e1e51d991fc1753599920cd9cf249f24d8ed7bb7d6aaa71eba559c38ca9d3",
+    "D:\\vision-learning-server\\week08\\day02\\paired_letterbox.py": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+    "D:\\vision-learning-server\\week08\\day02\\paired_horizontal_flip.py": "c68ffec6618c87b732be85d4ad60b5225c699d917b1961534d4add9030b2aa6c",
+    "D:\\vision-learning-server\\week08\\day02\\experiment_letterbox.py": "e3451706272aa276ea3ab0dcdd0559627066b49eb4bae0012966ef7c9363c115",
+    "D:\\vision-learning-server\\week08\\day02\\experiment_horizontal_flip.py": "5e2a6cf90d5319d6b9188571b3a8b521d623c14914b4cf57b0d556b42dae8177",
+    "D:\\vision-learning-server\\week08\\day02\\DAY02_STEP01_GPT_HANDOFF.md": "8d1c1c4567ce72f516a98ef62243cba1553e943ebceb0625d579c0f685288c4a",
+    "D:\\vision-learning-server\\week08\\day02\\DAY02_STEP02_GPT_HANDOFF.md": "922669333cb6c9c05ff9de93a987c2f11b6fafd964e7261588b7e3e3542fec25",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step01_letterbox\\overview.jpg": "aaedaaa13fd8cd8e5c5b9a1bc4a34d2e020950e7a4cd2c077524fddf247eab75",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step01_letterbox\\results.json": "60fc026abea5b526885e8a93f5cbd95236fb3caf9ee2420bb49bcab0cb776ce9",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step01_letterbox\\terminal_output.txt": "9aa66885ab31b0dd00dceafc6e6f21663374d94254f11e67e6c9a662bc10b113",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step01_letterbox\\test_190001_comparison.jpg": "d139129782d19937ae1ae44e8d12307c016c79a85b03b1a0d786f3ab77999b81",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step01_letterbox\\train_010001_comparison.jpg": "c361165f948486d4075489c2ad5d9ac86062a2c40dec852049542696b7dabcf0",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step01_letterbox\\train_100030_comparison.jpg": "e74510a0fe8dfa0d7a1d3c60292f66cac6c7cd5ec2df184950fa4955364ab1a6",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step01_letterbox\\val_030001_comparison.jpg": "577c1261bdea89e047e3c05618cda11d7d85568660cc7303fee1dc767db65e45",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step02_horizontal_flip\\overview.jpg": "60290abc94431f373daef0527ee61c08b645f5309240eb0b3104808010d02077",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step02_horizontal_flip\\results.json": "1a01aaa7523d607836519ceb6fc0eb961ba5e6a0dd3c417bae6267b90519b61f",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step02_horizontal_flip\\terminal_output.txt": "b8664aed50fd0f66f58e4c0e93d6394ef6f7b90211e34fe154dcd771d4341e79",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step02_horizontal_flip\\train_010001_flip_comparison.jpg": "01012716875912cb0bd7e7ae28d642b1b3daa7e731508b0d71d4276f89075900",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step02_horizontal_flip\\train_010001_no_flip_comparison.jpg": "bcef721d49e75e102f1bdd29ad7d060ee9859a2fe4248a69d0643f27918782b8",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step02_horizontal_flip\\train_100030_flip_comparison.jpg": "c19feb9a351ce9ff62e3618a084619b36d24f78842dbf449c7fe8d0879ec10f2",
+    "D:\\vision-learning-server\\week08\\day02\\outputs\\step02_horizontal_flip\\train_100030_no_flip_comparison.jpg": "0ebba17d2351f8bc484df6ff0287cab8733e4e47a5f4ee7d4de76e5b479e390a",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\summary.json": "50c64abce0447813277a00cb5730d77fbb194e0fc3093ef99d9811eaf6952850",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\train\\visible\\010001.jpg": "91f5533e4f67a6974065ba90bf68255ab393a5ef47bb78d994b1251f8ef01aaf",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\train\\infrared\\010001.jpg": "87b143759f8558c3db387c045c3ec045f4954319b4ce58053ab6732a1fd64a5c",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\train\\010001.xml": "059e5a1f8da3e96ccd32676bc68fa84d655fb2a500d588e1ea2bcd58a976538a",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\train\\visible\\100030.jpg": "4a178d11fd234a2261143948a41c74687ec4666e21b4c568fc0831215139daf2",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\train\\infrared\\100030.jpg": "f7105b26cd717d0d3c0820bb16cbcdc4f0371ebbed7174e429f6068d7281a055",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\train\\100030.xml": "ce0e4e6ccbfa9b86f2e4aaae70946700b147c6059171481855d03b812d0688be",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030001.jpg": "888d973fb975dbd86ae4c883b30e478a87e5bc84d6c52f989fd1a9973be5408c",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030001.jpg": "1cc0ce53695a33a58409f03917b67dd32ff97d1c24ee7f49d7f8b5c2ab739be8",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030001.xml": "3bee60b12bb94a816a575d996f41cfdcbc0c35628b73770368b39e1451199abf",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\visible\\030014.jpg": "10934b8c852b58afae7031272f8bfa7a88a2ae1e33872488ff1315946cbc26a2",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\val\\infrared\\030014.jpg": "132ecf75a7dd03dae4b361098ea03ce61a679f27da89eac543aeaa60daf50064",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\val\\030014.xml": "b85950e7a47dcc4749651d016934a352e84936b41245cd214b7a7563c28824c7",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\test\\visible\\190001.jpg": "a321a256fd4de20354dddf50309f070ad840b311ba5f7436cfd75d3395754870",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\test\\infrared\\190001.jpg": "4b3f0535863ce5f595bc9e466fc3422e12a3fa8ebbe953a1825b0c0104ea4e20",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\test\\190001.xml": "dcdc40c20f7ab3d731d4deecbc0e31058bcf2261d75117c30f0094d42554aaeb",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\test\\visible\\190040.jpg": "3646dd585a7501fa2c895f0c6be752f8940b7d1c61485675c731190c248f89d8",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\images\\test\\infrared\\190040.jpg": "b83cdb27fb34a1106efe499be7f29b40ad8fa4d813e814316c9e7b5b7beea082",
+    "D:\\vision-learning-server\\data\\LLVIP_1000\\annotations_voc\\test\\190040.xml": "e3b074bcff639d875eea24896e1b808045b4c3e2df0bfe5cbf69eb6664b33b03"
+  },
+  "current_device_checks_passed": true,
+  "comparison_policy": {
+    "copy": "same dtype, exact torch.equal",
+    "operations": {
+      "rtol": 1e-05,
+      "atol": 1e-06
+    }
+  }
+}

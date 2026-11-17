@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\python\test\vision-learning\week10\day07\build_review.py", line 182, in main
+    try:result=run(out);code=0
+               ~~~^^^^^
+  File "D:\python\test\vision-learning\week10\day07\build_review.py", line 32, in run
+    prov=load(b/PROVS[i-1]);badprov=[x['path'] for x in prov if sha(x['path'])!=x['sha256']];require(not badprov,f'Day{i} provenance changed')
+                                                                    ~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+{"status": "failed", "historical_files_and_memory_unchanged": true, "protected_files": 2131, "exit_code": 1}
+EXIT 1

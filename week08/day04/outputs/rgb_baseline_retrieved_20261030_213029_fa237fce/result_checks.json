@@ -1,0 +1,7 @@
+{
+  "cache_images": 150,
+  "GT_boxes": 348,
+  "cached_metrics_match": true,
+  "test_inference_runs": 1,
+  "extra_model_inference_for_visualization": false
+}

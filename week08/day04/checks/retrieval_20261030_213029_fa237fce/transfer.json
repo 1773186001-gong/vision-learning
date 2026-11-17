@@ -1,0 +1,9 @@
+﻿{
+    "status":  "downloaded_pending_review",
+    "output":  "D:\\python\\test\\vision-learning\\week08\\day04\\outputs\\rgb_baseline_retrieved_20261030_213029_fa237fce",
+    "job":  "D:\\python\\test\\vision-learning\\week08\\day04\\checks\\retrieval_20261030_213029_fa237fce\\job",
+    "server":  "192.168.0.149",
+    "remote_run":  "rgb_baseline_run01",
+    "training_started":  false,
+    "shutdown_requested":  false
+}

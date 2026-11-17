@@ -1,0 +1,344 @@
+{
+  "seed": 42,
+  "samples": [
+    {
+      "stem": "010001",
+      "negative": false,
+      "boxes_raw": [
+        [
+          287.0,
+          428.0,
+          351.0,
+          662.0
+        ],
+        [
+          351.0,
+          391.0,
+          424.0,
+          642.0
+        ],
+        [
+          466.0,
+          367.0,
+          550.0,
+          614.0
+        ],
+        [
+          700.0,
+          354.0,
+          761.0,
+          585.0
+        ],
+        [
+          704.0,
+          517.0,
+          806.0,
+          794.0
+        ],
+        [
+          1124.0,
+          22.0,
+          1196.0,
+          245.0
+        ]
+      ],
+      "boxes_before_flip": [
+        [
+          143.5,
+          278.0,
+          175.5,
+          395.0
+        ],
+        [
+          175.5,
+          259.5,
+          212.0,
+          385.0
+        ],
+        [
+          233.0,
+          247.5,
+          275.0,
+          371.0
+        ],
+        [
+          350.0,
+          241.0,
+          380.5,
+          356.5
+        ],
+        [
+          352.0,
+          322.5,
+          403.0,
+          461.0
+        ],
+        [
+          562.0,
+          75.0,
+          598.0,
+          186.5
+        ]
+      ],
+      "cases": [
+        {
+          "flip": true,
+          "p": 1.0,
+          "boxes_after": [
+            [
+              464.5,
+              278.0,
+              496.5,
+              395.0
+            ],
+            [
+              428.0,
+              259.5,
+              464.5,
+              385.0
+            ],
+            [
+              365.0,
+              247.5,
+              407.0,
+              371.0
+            ],
+            [
+              259.5,
+              241.0,
+              290.0,
+              356.5
+            ],
+            [
+              237.0,
+              322.5,
+              288.0,
+              461.0
+            ],
+            [
+              42.0,
+              75.0,
+              78.0,
+              186.5
+            ]
+          ],
+          "boxes_shape": [
+            6,
+            4
+          ],
+          "area_before": [
+            3744.0,
+            4580.75,
+            5187.0,
+            3522.75,
+            7063.5,
+            4014.0
+          ],
+          "area_after": [
+            3744.0,
+            4580.75,
+            5187.0,
+            3522.75,
+            7063.5,
+            4014.0
+          ],
+          "image": "train_010001_flip_comparison.jpg"
+        },
+        {
+          "flip": false,
+          "p": 0.0,
+          "boxes_after": [
+            [
+              143.5,
+              278.0,
+              175.5,
+              395.0
+            ],
+            [
+              175.5,
+              259.5,
+              212.0,
+              385.0
+            ],
+            [
+              233.0,
+              247.5,
+              275.0,
+              371.0
+            ],
+            [
+              350.0,
+              241.0,
+              380.5,
+              356.5
+            ],
+            [
+              352.0,
+              322.5,
+              403.0,
+              461.0
+            ],
+            [
+              562.0,
+              75.0,
+              598.0,
+              186.5
+            ]
+          ],
+          "boxes_shape": [
+            6,
+            4
+          ],
+          "area_before": [
+            3744.0,
+            4580.75,
+            5187.0,
+            3522.75,
+            7063.5,
+            4014.0
+          ],
+          "area_after": [
+            3744.0,
+            4580.75,
+            5187.0,
+            3522.75,
+            7063.5,
+            4014.0
+          ],
+          "image": "train_010001_no_flip_comparison.jpg"
+        }
+      ],
+      "checks_passed": true
+    },
+    {
+      "stem": "100030",
+      "negative": true,
+      "boxes_raw": [],
+      "boxes_before_flip": [],
+      "cases": [
+        {
+          "flip": true,
+          "p": 1.0,
+          "boxes_after": [],
+          "boxes_shape": [
+            0,
+            4
+          ],
+          "area_before": [],
+          "area_after": [],
+          "image": "train_100030_flip_comparison.jpg"
+        },
+        {
+          "flip": false,
+          "p": 0.0,
+          "boxes_after": [],
+          "boxes_shape": [
+            0,
+            4
+          ],
+          "area_before": [],
+          "area_after": [],
+          "image": "train_100030_no_flip_comparison.jpg"
+        }
+      ],
+      "checks_passed": true
+    }
+  ],
+  "random_decisions": [
+    false,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false
+  ],
+  "dataloader": [
+    {
+      "split": "train",
+      "p": 0.5,
+      "decisions": [
+        false,
+        false
+      ],
+      "boxes_shapes": [
+        [
+          6,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "split": "val",
+      "p": 0.0,
+      "decisions": [
+        false,
+        false
+      ],
+      "boxes_shapes": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "p": 0.0,
+      "decisions": [
+        false,
+        false
+      ],
+      "boxes_shapes": [
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          4
+        ]
+      ]
+    }
+  ],
+  "protected_sha256": {
+    "D:\\python\\test\\vision-learning\\week08\\day01\\check_llvip_dataloader.py": "771bdb1c95ef8c86373dc401aee87667db831bfe04b2a85144a1fda1f168c71d",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\inspect_llvip.py": "23c9b6197cd9752b2156e9defaba15052985184a6b452e4a7122987719f01713",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\llvip_dataset.py": "03c2b8fef00f7bc12c68f6284a5b25a5d48003b5f52287211d1b631aa7d31c1a",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\prepare_llvip_subset.py": "abd13801a50478bb0991d12a43f43b1f53f06676b31a5a4f3951ecaa8ca25583",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\visualize_llvip_pairs.py": "5883d5e6371d56b2b3f997f30da57a76d59a6b0466455d3b6dd62c18cad7dfea",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\DAY01_HANDOFF.md": "bf59f850cbe5b5479728486591720ee97e97a2244ec709542e04e5248a8b2108",
+    "D:\\python\\test\\vision-learning\\week08\\day01\\README.md": "2e4e1e51d991fc1753599920cd9cf249f24d8ed7bb7d6aaa71eba559c38ca9d3",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\paired_letterbox.py": "43c797a374ccd5189775db18d8663957f5a0f1b79b5f2796585b9fe89698713d",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\experiment_letterbox.py": "e3451706272aa276ea3ab0dcdd0559627066b49eb4bae0012966ef7c9363c115",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\DAY02_STEP01_GPT_HANDOFF.md": "8d1c1c4567ce72f516a98ef62243cba1553e943ebceb0625d579c0f685288c4a",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\manifest.csv": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\outputs\\step01_letterbox\\overview.jpg": "aaedaaa13fd8cd8e5c5b9a1bc4a34d2e020950e7a4cd2c077524fddf247eab75",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\outputs\\step01_letterbox\\results.json": "60fc026abea5b526885e8a93f5cbd95236fb3caf9ee2420bb49bcab0cb776ce9",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\outputs\\step01_letterbox\\terminal_output.txt": "9aa66885ab31b0dd00dceafc6e6f21663374d94254f11e67e6c9a662bc10b113",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\outputs\\step01_letterbox\\test_190001_comparison.jpg": "d139129782d19937ae1ae44e8d12307c016c79a85b03b1a0d786f3ab77999b81",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\outputs\\step01_letterbox\\train_010001_comparison.jpg": "c361165f948486d4075489c2ad5d9ac86062a2c40dec852049542696b7dabcf0",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\outputs\\step01_letterbox\\train_100030_comparison.jpg": "e74510a0fe8dfa0d7a1d3c60292f66cac6c7cd5ec2df184950fa4955364ab1a6",
+    "D:\\python\\test\\vision-learning\\week08\\day02\\outputs\\step01_letterbox\\val_030001_comparison.jpg": "577c1261bdea89e047e3c05618cda11d7d85568660cc7303fee1dc767db65e45",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\visible\\010001.jpg": "91f5533e4f67a6974065ba90bf68255ab393a5ef47bb78d994b1251f8ef01aaf",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\infrared\\010001.jpg": "87b143759f8558c3db387c045c3ec045f4954319b4ce58053ab6732a1fd64a5c",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\train\\010001.xml": "059e5a1f8da3e96ccd32676bc68fa84d655fb2a500d588e1ea2bcd58a976538a",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\visible\\100030.jpg": "4a178d11fd234a2261143948a41c74687ec4666e21b4c568fc0831215139daf2",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\images\\train\\infrared\\100030.jpg": "f7105b26cd717d0d3c0820bb16cbcdc4f0371ebbed7174e429f6068d7281a055",
+    "D:\\python\\test\\vision-learning\\data\\LLVIP_1000\\annotations_voc\\train\\100030.xml": "ce0e4e6ccbfa9b86f2e4aaae70946700b147c6059171481855d03b812d0688be"
+  },
+  "all_checks_passed": true
+}

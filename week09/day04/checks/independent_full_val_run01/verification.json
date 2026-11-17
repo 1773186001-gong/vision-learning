@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "scope": "full_validation_150_images_per_model",
+  "per_gt_stage_rows_verified": 5824,
+  "model_gt_items": 832,
+  "stage_summary_rows_verified": 140,
+  "max_independent_float64_error": 0.0,
+  "float64_atol": 1e-12,
+  "historical_files_unchanged": 256,
+  "no_model_forward": true,
+  "no_checkpoint_load": true,
+  "no_nms_execution": true,
+  "actual": {
+    "IR": {
+      "images": 150,
+      "valid_gt": 416,
+      "covered_075": 302
+    },
+    "Fusion": {
+      "images": 150,
+      "valid_gt": 416,
+      "covered_075": 285
+    }
+  },
+  "new_forward_calls_verified": 288,
+  "reused_model_image_items": 12,
+  "archive_artifact_files_sha256_verified": 1198,
+  "server_protected_files_unchanged": 1048,
+  "local_historical_files_unchanged": 256,
+  "path_normalization": "In-memory raw path rebasing; numeric audit local protection view uses preserved pilot snapshot. Original server before/after snapshot equality checked separately.",
+  "max_day01_abs_difference": 0.0,
+  "independent_numeric_source_sha256": "ca66ecabc38657d134ae6b22ee26d6170288ce907e2c606614411f864acce66f",
+  "verification_source_sha256": "52484d43f8f2585b61a8b64244923a7b25005206975df6ab444452b1f908bd1c",
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week09/day04/verify_full_val.py --capture-dir week09/day04/outputs/full_val_stage_run01 --output week09/day04/checks/independent_full_val_run01",
+  "exit_code": 0
+}

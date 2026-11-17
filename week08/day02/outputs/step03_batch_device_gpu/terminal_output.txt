@@ -1,0 +1,109 @@
+Week08 Day02 Step3 | device=cuda:0 | seed=42 | batch_size=2
+Python=D:\cv-server-env\Scripts\python.exe; torch=2.14.1+cu126; CUDA build=12.6
+实际 GPU=NVIDIA GeForce RTX 3060 Laptop GPU; baseline={'allocated_bytes': 0, 'reserved_bytes': 2097152, 'peak_allocated_bytes': 0, 'peak_reserved_bytes': 2097152, 'device_free_bytes': 5358223360, 'device_total_bytes': 6441926656}
+
+[train] stems=['010001', '100030']; flip_p=0.5; CPU before:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(6, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(6,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(6,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(6,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(0, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(0,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(0,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(0,), dtype=torch.int64, device=cpu
+cuda:0 after:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  targets[0].boxes: shape=(6, 4), dtype=torch.float32, device=cuda:0
+  targets[0].labels: shape=(6,), dtype=torch.int64, device=cuda:0
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cuda:0
+  targets[0].area: shape=(6,), dtype=torch.float32, device=cuda:0
+  targets[0].iscrowd: shape=(6,), dtype=torch.int64, device=cuda:0
+  targets[1].boxes: shape=(0, 4), dtype=torch.float32, device=cuda:0
+  targets[1].labels: shape=(0,), dtype=torch.int64, device=cuda:0
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cuda:0
+  targets[1].area: shape=(0,), dtype=torch.float32, device=cuda:0
+  targets[1].iscrowd: shape=(0,), dtype=torch.int64, device=cuda:0
+PASS: 全部 Tensor 保持 shape/dtype/数值；基础运算结果与 CPU 一致
+blend_means=[0.1663820594549179, 0.28582149744033813]; copy_ms=4.752; basic_ops_ms=6.420
+显存 after_transfer={'allocated_bytes': 19663872, 'reserved_bytes': 23068672, 'peak_allocated_bytes': 19663872, 'peak_reserved_bytes': 23068672, 'device_free_bytes': 5337251840, 'device_total_bytes': 6441926656}; after_ops={'allocated_bytes': 29495808, 'reserved_bytes': 44040192, 'peak_allocated_bytes': 39325696, 'peak_reserved_bytes': 44040192, 'device_free_bytes': 5316280320, 'device_total_bytes': 6441926656}
+
+[val] stems=['030001', '030014']; flip_p=0.0; CPU before:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(3, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(3,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(3,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(3,), dtype=torch.int64, device=cpu
+cuda:0 after:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cuda:0
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cuda:0
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cuda:0
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cuda:0
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cuda:0
+  targets[1].boxes: shape=(3, 4), dtype=torch.float32, device=cuda:0
+  targets[1].labels: shape=(3,), dtype=torch.int64, device=cuda:0
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cuda:0
+  targets[1].area: shape=(3,), dtype=torch.float32, device=cuda:0
+  targets[1].iscrowd: shape=(3,), dtype=torch.int64, device=cuda:0
+PASS: 全部 Tensor 保持 shape/dtype/数值；基础运算结果与 CPU 一致
+blend_means=[0.2876220643520355, 0.2632583677768707]; copy_ms=3.912; basic_ops_ms=0.508
+显存 after_transfer={'allocated_bytes': 19666944, 'reserved_bytes': 44040192, 'peak_allocated_bytes': 39325696, 'peak_reserved_bytes': 44040192, 'device_free_bytes': 5316280320, 'device_total_bytes': 6441926656}; after_ops={'allocated_bytes': 29499392, 'reserved_bytes': 44040192, 'peak_allocated_bytes': 39328768, 'peak_reserved_bytes': 44040192, 'device_free_bytes': 5316280320, 'device_total_bytes': 6441926656}
+
+[test] stems=['190001', '190040']; flip_p=0.0; CPU before:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cpu
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cpu
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cpu
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cpu
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cpu
+  targets[1].boxes: shape=(7, 4), dtype=torch.float32, device=cpu
+  targets[1].labels: shape=(7,), dtype=torch.int64, device=cpu
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cpu
+  targets[1].area: shape=(7,), dtype=torch.float32, device=cpu
+  targets[1].iscrowd: shape=(7,), dtype=torch.int64, device=cpu
+cuda:0 after:
+  images[0].visible: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[0].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[1].visible: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  images[1].infrared: shape=(3, 640, 640), dtype=torch.float32, device=cuda:0
+  targets[0].boxes: shape=(2, 4), dtype=torch.float32, device=cuda:0
+  targets[0].labels: shape=(2,), dtype=torch.int64, device=cuda:0
+  targets[0].image_id: shape=(1,), dtype=torch.int64, device=cuda:0
+  targets[0].area: shape=(2,), dtype=torch.float32, device=cuda:0
+  targets[0].iscrowd: shape=(2,), dtype=torch.int64, device=cuda:0
+  targets[1].boxes: shape=(7, 4), dtype=torch.float32, device=cuda:0
+  targets[1].labels: shape=(7,), dtype=torch.int64, device=cuda:0
+  targets[1].image_id: shape=(1,), dtype=torch.int64, device=cuda:0
+  targets[1].area: shape=(7,), dtype=torch.float32, device=cuda:0
+  targets[1].iscrowd: shape=(7,), dtype=torch.int64, device=cuda:0
+PASS: 全部 Tensor 保持 shape/dtype/数值；基础运算结果与 CPU 一致
+blend_means=[0.32896408438682556, 0.33761104941368103]; copy_ms=3.779; basic_ops_ms=0.652
+显存 after_transfer={'allocated_bytes': 19666944, 'reserved_bytes': 44040192, 'peak_allocated_bytes': 39328768, 'peak_reserved_bytes': 44040192, 'device_free_bytes': 5316280320, 'device_total_bytes': 6441926656}; after_ops={'allocated_bytes': 29499392, 'reserved_bytes': 44040192, 'peak_allocated_bytes': 39328768, 'peak_reserved_bytes': 44040192, 'device_free_bytes': 5316280320, 'device_total_bytes': 6441926656}
+
+PASS: 原代码/Step1/Step2产物和所用源数据哈希未变
+当前设备验证通过；GPU status=passed
+结果：D:\vision-learning-server\week08\day02\outputs\step03_batch_device_gpu

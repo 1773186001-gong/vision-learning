@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "days_verified": 6,
+  "manifest_files_verified": 152,
+  "evidence_claims": 18,
+  "execution_totals": {
+    "validation_full_forwards": 6,
+    "checkpoint_loads": 4,
+    "independent_main_nms_replays": 3,
+    "structure_probes": 1
+  },
+  "document_consistency_checks": true,
+  "unpassed_items": [],
+  "limitations": [
+    "Day03 start/finish timestamps absent where null in ledger",
+    "Some days zero operations and original-model NMS lack uniform direct counters; code/scoped-run evidence distinguished",
+    "Fusion internal RoI not yet traced",
+    "No independent confirmatory evaluation"
+  ],
+  "new_model_forwards": 0,
+  "new_checkpoint_loads": 0,
+  "new_nms_replays": 0,
+  "week11_executed": false,
+  "historical_files_and_memory_unchanged": true,
+  "protected_files": 2131,
+  "exit_code": 0
+}

@@ -1,0 +1,4 @@
+﻿{
+    "exit_code":  0,
+    "command":  "capture_full_val.py --output full_val_stage_run01"
+}

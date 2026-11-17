@@ -1,0 +1,44 @@
+{
+  "original_wh": [
+    1280,
+    1024
+  ],
+  "letterbox_wh": [
+    640,
+    640
+  ],
+  "resized_wh": [
+    640,
+    512
+  ],
+  "scale": 0.5,
+  "padding_ltrb": [
+    0,
+    64,
+    0,
+    64
+  ],
+  "coordinates": "640x640 including padding for GT and actual RoI input",
+  "GT_all": [
+    [
+      302.5,
+      224.0,
+      359.5,
+      332.0
+    ],
+    [
+      281.5,
+      207.0,
+      316.5,
+      315.5
+    ]
+  ],
+  "GT_exact_match": true,
+  "shared_zoom_xyxy": [
+    261,
+    185,
+    376,
+    358
+  ],
+  "crop_for_display_only": true
+}

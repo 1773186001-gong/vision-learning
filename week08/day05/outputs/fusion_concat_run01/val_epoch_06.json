@@ -1,0 +1,11 @@
+{
+  "precision": 0.8740740740740741,
+  "recall": 0.8509615384615384,
+  "AP50": 0.8939053659414109,
+  "mAP50_95": 0.4351669866328862,
+  "TP": 354,
+  "FP": 51,
+  "FN": 62,
+  "score_threshold": 0.5,
+  "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+}

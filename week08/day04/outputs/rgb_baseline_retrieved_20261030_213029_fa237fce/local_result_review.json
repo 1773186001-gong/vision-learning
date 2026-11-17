@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "review_device": "cpu",
+  "training_or_model_inference_during_review": false,
+  "checkpoints": {
+    "best.pth": {
+      "epoch": 4,
+      "bytes": 151536180,
+      "sha256": "d37d901d5459ffe1d70472b03a1637dc5a075f6a22c63ed249f96e5f6748df32",
+      "strict_load": true,
+      "history_matches_csv": true
+    },
+    "last.pth": {
+      "epoch": 10,
+      "bytes": 151537332,
+      "sha256": "bbc33ca8655c7b68b1b14502890d37d4355c328c76eb0449defd35b3df367eb4",
+      "strict_load": true,
+      "history_matches_csv": true
+    }
+  },
+  "csv_epochs": 10,
+  "best_epoch": 4,
+  "cache_images": 150,
+  "GT_boxes": 348,
+  "test": {
+    "precision": 0.4917763157894737,
+    "recall": 0.8591954022988506,
+    "AP50": 0.8001258873790847,
+    "mAP50_95": 0.36830385695197043,
+    "TP": 299,
+    "FP": 309,
+    "FN": 49,
+    "score_threshold": 0.5,
+    "protocol": "single_person_101pt_all_area_max100_no_ignore; not official COCO API"
+  },
+  "comparison_matches": true,
+  "protected_files_unchanged": 40,
+  "epoch_seconds_sum": 1341.7093137999618,
+  "peak_allocated_bytes": 395375104,
+  "peak_reserved_bytes": 486539264,
+  "decoded_PNG_count": 10,
+  "monitor_state": {
+    "status": "SUCCEEDED",
+    "monitor_pid": 5972,
+    "python_pid": 13292,
+    "started_at": "2026-10-30T12:57:26.9361332+08:00",
+    "finished_at": "2026-10-30T13:20:53.3332116+08:00",
+    "exit_code": 0,
+    "output": "D:\\vision-learning-server\\week08\\day04\\outputs\\rgb_baseline_run01",
+    "error": null
+  },
+  "exit_status": {
+    "exit_code": 0,
+    "pid": 3024,
+    "seconds": 1403.2012082
+  },
+  "resume_after_interruption_tested": false,
+  "note": "本地SHA用于保存后核对，不等于全部文件与服务器另做逐字节远程哈希对照"
+}

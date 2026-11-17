@@ -1,0 +1,6 @@
+﻿model,stem,branch_id,flat,proposal_row,rpn_gt_iou,decoded_gt_iou,clipped_gt_iou,person_score,good_at_rpn,good_after_decode,nms_input_position,nms_kept,nms_output_position,final_output_index,final_good,first_absent_stage
+IR,030078,success_case_trace_run01/IR/030078/3142/class1,3142,12,0.5889886617660522,0.77202308177948,0.77202308177948,0.8207557201385498,False,True,12,False,,,False,nms_all_output
+IR,030078,success_case_trace_run01/IR/030078/8847/class1,8847,4,0.7238329648971558,0.7583428025245667,0.7583428025245667,0.9814887642860413,False,True,4,True,0,0,True,
+IR,030078,success_case_trace_run01/IR/030078/9141/class1,9141,16,0.7578962445259094,0.7943789958953857,0.7943789958953857,0.9456144571304321,True,True,16,False,,,False,nms_all_output
+IR,030078,success_case_trace_run01/IR/030078/9142/class1,9142,15,0.5861640572547913,0.7685381174087524,0.7685381174087524,0.817990243434906,False,True,15,False,,,False,nms_all_output
+IR,030078,success_case_trace_run01/IR/030078/9447/class1,9447,25,0.5792799592018127,0.7724978923797607,0.7724978923797607,0.31079691648483276,False,True,25,False,,,False,nms_all_output

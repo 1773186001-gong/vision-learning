@@ -1,0 +1,16 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week10/day07/refresh_review.py --output week10/day07/outputs/week10_review_run04",
+  "started_at_utc": "2026-11-15T04:50:28.201422+00:00",
+  "finished_at_utc": "2026-11-15T04:50:34.987957+00:00",
+  "timezone_note": "Timestamps stored as UTC; user timezone Asia/Shanghai",
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "imports": "Python standard library only"
+  },
+  "source_sha256": {
+    "D:\\python\\test\\vision-learning\\week10\\day07\\refresh_review.py": "3c845e9b8a6d3bf288901669bfff83110f81d801e4d10ea87c450fa83b89df01",
+    "D:\\python\\test\\vision-learning\\week10\\day07\\build_review.py": "3fdcce1207b8afd30479857814518bc2f6e86157fb379893efeca18324d81cde"
+  },
+  "exit_code": 0
+}

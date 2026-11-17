@@ -1,0 +1,17 @@
+{
+  "IR": {
+    "n": 307,
+    "definition": "Pearson over original fixed-match TP only; not calibration or causation",
+    "pearson": 0.2620867697381287
+  },
+  "RGB": {
+    "n": 299,
+    "definition": "Pearson over original fixed-match TP only; not calibration or causation",
+    "pearson": 0.3320758078760253
+  },
+  "Fusion": {
+    "n": 307,
+    "definition": "Pearson over original fixed-match TP only; not calibration or causation",
+    "pearson": 0.3026759270819321
+  }
+}

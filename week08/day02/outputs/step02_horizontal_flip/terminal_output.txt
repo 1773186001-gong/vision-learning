@@ -1,0 +1,28 @@
+Week08 Day02 Step 2 | seed=42 | CPU | num_workers=0
+环境 torch=2.14.1+cpu; dataset train=700
+
+[train/010001] negative=False; W=640; boxes=(6, 4)
+Letterbox 后/翻转前 xyxy=[[143.5, 278.0, 175.5, 395.0], [175.5, 259.5, 212.0, 385.0], [233.0, 247.5, 275.0, 371.0], [350.0, 241.0, 380.5, 356.5], [352.0, 322.5, 403.0, 461.0], [562.0, 75.0, 598.0, 186.5]]
+p=1.0; shared_flip=True; xyxy=[[464.5, 278.0, 496.5, 395.0], [428.0, 259.5, 464.5, 385.0], [365.0, 247.5, 407.0, 371.0], [259.5, 241.0, 290.0, 356.5], [237.0, 322.5, 288.0, 461.0], [42.0, 75.0, 78.0, 186.5]]
+area before=[3744.0, 4580.75, 5187.0, 3522.75, 7063.5, 4014.0]; after=[3744.0, 4580.75, 5187.0, 3522.75, 7063.5, 4014.0]
+p=0.0; shared_flip=False; xyxy=[[143.5, 278.0, 175.5, 395.0], [175.5, 259.5, 212.0, 385.0], [233.0, 247.5, 275.0, 371.0], [350.0, 241.0, 380.5, 356.5], [352.0, 322.5, 403.0, 461.0], [562.0, 75.0, 598.0, 186.5]]
+area before=[3744.0, 4580.75, 5187.0, 3522.75, 7063.5, 4014.0]; after=[3744.0, 4580.75, 5187.0, 3522.75, 7063.5, 4014.0]
+PASS: 强制两分支同步、框/面积/字段、输入不变且无共享存储、双翻转精确恢复
+
+[train/100030] negative=True; W=640; boxes=(0, 4)
+Letterbox 后/翻转前 xyxy=[]
+p=1.0; shared_flip=True; xyxy=[]
+area before=[]; after=[]
+p=0.0; shared_flip=False; xyxy=[]
+area before=[]; after=[]
+PASS: 强制两分支同步、框/面积/字段、输入不变且无共享存储、双翻转精确恢复
+
+p=0.5，固定种子随机序列（True=翻转）：[False, False, True, False, True, False, True, False, False, True, False, False]
+PASS: 两次独立同种子运行的决策、RGB/IR 和 boxes 相同
+DataLoader train: p=0.5; decisions=[False, False]; RGB/IR=(3,640,640); boxes=[[6, 4], [0, 4]]; PASS
+DataLoader val: p=0.0; decisions=[False, False]; RGB/IR=(3,640,640); boxes=[[2, 4], [3, 4]]; PASS
+DataLoader test: p=0.0; decisions=[False, False]; RGB/IR=(3,640,640); boxes=[[2, 4], [7, 4]]; PASS
+PASS: 拒绝 RGB/IR 尺寸不一致（人为构造的反例）
+PASS: Day01、Step1 代码/产物、manifest 与所用源文件 SHA256 前后一致
+
+ALL CHECKS PASSED；结果目录：D:\python\test\vision-learning\week08\day02\outputs\step02_horizontal_flip

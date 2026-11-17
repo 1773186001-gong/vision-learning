@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "readback_only_no_analysis_rerun": true,
+  "tests_run": 10,
+  "analysis_exit_code": 0,
+  "independent_exit_code": 0,
+  "events": 58,
+  "distinct_GT": 48,
+  "candidate_GT_rows": 119,
+  "primary_relation_rows": 130,
+  "common_risk_summary": {
+    "scene_id": "ALL",
+    "cohort": "both_precovered",
+    "GT_denominator": "297",
+    "IR_precovered_gt": "297",
+    "Fusion_precovered_gt": "297",
+    "IR_lost_gt": "21",
+    "Fusion_lost_gt": "30",
+    "IR_conditional_loss_rate": "0.0707070707070707",
+    "Fusion_conditional_loss_rate": "0.10101010101010101",
+    "both_lost": "10",
+    "IR_only_lost": "11",
+    "Fusion_only_lost": "20",
+    "neither_lost": "256",
+    "Fusion_minus_IR_lost_gt": "9",
+    "same_risk_loss_rate_difference": "0.030303030303030304",
+    "interpretation": "same_GT_comparison_not_causation"
+  },
+  "historical_before_after_snapshots_equal": true,
+  "historical_files_previously_verified_unchanged": 1503,
+  "documents_read_back": {
+    "week09\\day05\\README.md": {
+      "bytes": 9459,
+      "sha256": "574725bbf905a2d4a575403f772d055f3fb7ef228fcae97e0da16f6c02fcc4dc",
+      "replacement_character_present": false
+    },
+    "week09\\day05\\outputs\\full_val_nms_relations_run01\\day05_report.md": {
+      "bytes": 5580,
+      "sha256": "4ad3a7abaf56d0e04b08502db0bbd388113fd35655faaeb7a2fc0728490a0ddf",
+      "replacement_character_present": false
+    }
+  },
+  "new_model_forward_calls": 0,
+  "NMS_executed": false
+}

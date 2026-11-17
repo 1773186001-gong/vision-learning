@@ -1,0 +1,10 @@
+﻿{
+    "status":  "RUNNING",
+    "monitor_pid":  1916,
+    "python_pid":  2156,
+    "started_at":  "2026-11-02T14:24:08.5085507+08:00",
+    "finished_at":  null,
+    "exit_code":  null,
+    "output":  "D:\\vision-learning-server\\week08\\day05\\outputs\\fusion_concat_run01",
+    "error":  null
+}

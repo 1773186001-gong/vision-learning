@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "started_at": "2026-11-12T12:03:25.4610456+08:00",
+  "finished_at": "2026-11-12T12:03:35.6117068+08:00",
+  "command": "& 'D:\\python\\.venv\\Scripts\\python.exe' -B -X utf8 'D:\\python\\test\\vision-learning\\week10\\day06\\trace_success.py' --output 'D:\\python\\test\\vision-learning\\week10\\day06\\outputs\\success_case_trace_run01'",
+  "working_directory": "D:\\python\\test\\vision-learning"
+}

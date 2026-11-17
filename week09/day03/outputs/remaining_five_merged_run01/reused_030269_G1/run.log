@@ -1,0 +1,6 @@
+COMMAND D:\cv-server-env\Scripts\python.exe -B D:\vision-learning-server\week09\day03\capture_single_val.py --device cuda:0 --output D:\vision-learning-server\week09\day03\outputs\single_030269_run01
+ENVIRONMENT {"python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]", "executable": "D:\\cv-server-env\\Scripts\\python.exe", "hostname": "DESKTOP-BFIO0RA", "platform": "Windows-10-10.0.19045-SP0", "torch": "2.14.1+cu126", "torchvision": "0.29.1+cu126", "device": "cuda:0", "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU", "cudnn": 91002, "seed": 42, "threads": 2, "cudnn_deterministic": true, "cudnn_benchmark": false}
+PREFLIGHT_PASSED protected_files=451 image=030269 GT=1
+MODEL_VERIFIED IR forward_calls=1 f32_cpu=0.7936670184135437 day02_delta=0 f64=0.7936670774730248 restored=True
+MODEL_VERIFIED Fusion forward_calls=1 f32_cpu=0.6052919030189514 day02_delta=0 f64=0.6052918661582033 restored=True
+COMPLETED single_image=030269 GT=1 IR_forwards=1 Fusion_forwards=1

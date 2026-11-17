@@ -1,0 +1,7 @@
+{
+  "strict_checkpoint_restore": true,
+  "state_exact": true,
+  "trainable_flags_exact": true,
+  "interrupted_training_resume_tested": false,
+  "training": false
+}

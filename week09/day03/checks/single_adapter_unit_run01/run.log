@@ -1,0 +1,9 @@
+test_export_all_empty_stages (test_capture_single_val.AdapterTests.test_export_all_empty_stages) ... ok
+test_float32_cpu_and_float64_are_separate_and_exports_keep_ids (test_capture_single_val.AdapterTests.test_float32_cpu_and_float64_are_separate_and_exports_keep_ids) ... ok
+test_loss_transitions_do_not_ignore_recovery (test_capture_single_val.AdapterTests.test_loss_transitions_do_not_ignore_recovery) ... ok
+test_raw_save_includes_originals_when_replay_fails (test_capture_single_val.AdapterTests.test_raw_save_includes_originals_when_replay_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.030s
+
+OK

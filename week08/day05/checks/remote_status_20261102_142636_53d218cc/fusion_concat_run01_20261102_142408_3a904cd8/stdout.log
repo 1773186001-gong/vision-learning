@@ -1,0 +1,13 @@
+SMOKE PASSED
+fusion epoch=1 batch=50/700 loss=0.280027
+fusion epoch=1 batch=100/700 loss=0.590823
+fusion epoch=1 batch=150/700 loss=0.531751
+fusion epoch=1 batch=200/700 loss=0.246769
+fusion epoch=1 batch=250/700 loss=0.550541
+fusion epoch=1 batch=300/700 loss=0.961905
+fusion epoch=1 batch=350/700 loss=1.198152
+fusion epoch=1 batch=400/700 loss=0.987764
+fusion epoch=1 batch=450/700 loss=0.834162
+fusion epoch=1 batch=500/700 loss=0.549487
+fusion epoch=1 batch=550/700 loss=0.368958
+fusion epoch=1 batch=600/700 loss=0.580626
