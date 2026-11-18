@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "sources": {
+    "day01_failed": {
+      "path": "day01/outputs/fusion_roi_trace_run01/verification.json",
+      "sha256": "489459596a361c246e72f145f5f1236c8a4f2f524916ee78b1447637d8096ddf"
+    },
+    "day01": {
+      "path": "day01/outputs/fusion_roi_trace_run02/verification.json",
+      "sha256": "8b195b3aa9f49e170eec35a2ec4bbe033d68f3e38983454f84cec89f78234059"
+    },
+    "day02": {
+      "path": "day02/outputs/fusion_nms_030129_run01/verification.json",
+      "sha256": "f60186627431511be3d2ec9c3d57b378f4a1acb90487c2ecf488dd2943f53a25"
+    },
+    "day03": {
+      "path": "day03/outputs/fusion_nms_030078_run01/verification.json",
+      "sha256": "31b32cf4746b61f9a30ff71d1002e44eaadf7c27cfb0934b78dad4e8f559a275"
+    },
+    "day04": {
+      "path": "day04/outputs/full_val_scope_run02/scope.json",
+      "sha256": "c5437e17b368d52803b44eab20c270ceb8d990e2245aa2804c6bcfab0d237c59"
+    },
+    "day05": {
+      "path": "day05/outputs/full_val_roi_capture_run01/verification.json",
+      "sha256": "4b5bd406e096868de01a6568f6a2ec4a5851626755e8ca8a639243df22c6626c"
+    },
+    "day06": {
+      "path": "day06/outputs/full_val_roi_analysis_run01/verification.json",
+      "sha256": "e5e5dcf87dcca65aeaffe93736bd009f7fcd322918dd2102cf904d314442fab7"
+    }
+  },
+  "checked_previous_manifest_artifacts": 59,
+  "capture_index_sha256": "d0b205b70b5a67ec5581febb2bcc5f5c341eb48df90188385afcc7d8881632bd",
+  "totals": {
+    "validation_full_forwards": 298,
+    "checkpoint_loads": 4,
+    "structure_probes": 3,
+    "independent_nms_replays": 2
+  },
+  "day07_added": {
+    "validation_full_forwards": 0,
+    "checkpoint_loads": 0,
+    "structure_probes": 0,
+    "independent_nms_replays": 0
+  },
+  "validation_summary": {
+    "by_model": {
+      "IR": {
+        "total_gt": 416,
+        "rpn_covered": 302,
+        "first_covered_at_decode": 54,
+        "first_covered_at_clip": 0,
+        "coverage_lost_at_decode": 33,
+        "before_nms_covered": 322,
+        "nms_lost": 97,
+        "after_nms_covered": 225,
+        "nms_loss_rate": 0.30124223602484473,
+        "budget_lost": 0,
+        "final_covered": 225,
+        "never_covered": 60,
+        "nms_loss_with_top_score_kept": 97,
+        "nms_loss_with_top_score_tie": 0
+      },
+      "Fusion": {
+        "total_gt": 416,
+        "rpn_covered": 285,
+        "first_covered_at_decode": 60,
+        "first_covered_at_clip": 0,
+        "coverage_lost_at_decode": 19,
+        "before_nms_covered": 324,
+        "nms_lost": 124,
+        "after_nms_covered": 200,
+        "nms_loss_rate": 0.38271604938271603,
+        "budget_lost": 0,
+        "final_covered": 200,
+        "never_covered": 71,
+        "nms_loss_with_top_score_kept": 124,
+        "nms_loss_with_top_score_tie": 0
+      }
+    },
+    "paired": {
+      "shared_pre_nms_covered": 297,
+      "both_preserved": 167,
+      "only_ir_lost": 25,
+      "only_fusion_lost": 50,
+      "both_lost": 55,
+      "per_stage": {
+        "rpn": {
+          "both": 255,
+          "only_ir": 47,
+          "only_fusion": 30,
+          "neither": 84
+        },
+        "decode": {
+          "both": 299,
+          "only_ir": 24,
+          "only_fusion": 27,
+          "neither": 66
+        },
+        "clip": {
+          "both": 299,
+          "only_ir": 24,
+          "only_fusion": 27,
+          "neither": 66
+        },
+        "remove_background": {
+          "both": 299,
+          "only_ir": 24,
+          "only_fusion": 27,
+          "neither": 66
+        },
+        "score_filter": {
+          "both": 297,
+          "only_ir": 25,
+          "only_fusion": 27,
+          "neither": 67
+        },
+        "before_nms": {
+          "both": 297,
+          "only_ir": 25,
+          "only_fusion": 27,
+          "neither": 67
+        },
+        "after_nms": {
+          "both": 167,
+          "only_ir": 58,
+          "only_fusion": 33,
+          "neither": 158
+        },
+        "budget": {
+          "both": 167,
+          "only_ir": 58,
+          "only_fusion": 33,
+          "neither": 158
+        },
+        "final": {
+          "both": 167,
+          "only_ir": 58,
+          "only_fusion": 33,
+          "neither": 158
+        }
+      }
+    }
+  },
+  "validation_summary_sha256": "74ca262a22b40099df756a208735a1225d04562f3a92680bcd80a37a2c5d4f8d"
+}

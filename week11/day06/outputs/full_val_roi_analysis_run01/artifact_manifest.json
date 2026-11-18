@@ -1,0 +1,10 @@
+{
+  "case_report_zh.md": "c0ca9297b9d7196054031bfa589c6128af383b53c52bb45e5d9552912bcb6827",
+  "paired_per_gt.csv": "bc2ae884a58cc1b8adb8e1164bebf44ac4beb60d82c6a79e607f650da217abf7",
+  "per_gt_coverage.csv": "2c781269e7d449ddf2f7de92b3f99a5df6cfac167aecdd5ea03341f0dfa19da1",
+  "per_gt_stage.csv": "350fe29bebed0d375724fb5719b6e03a33af3982d35b0dd9c77f583670b88821",
+  "provenance.json": "6fe0a26c6592d4e9936729452f5811631bf70d049531208e8908ddd0cc64473f",
+  "stage_summary.csv": "49392850079a1dcde64d3c65702c166370976c22c1b2d4ea4bf6fa467668a463",
+  "summary.json": "74ca262a22b40099df756a208735a1225d04562f3a92680bcd80a37a2c5d4f8d",
+  "verification.json": "e5e5dcf87dcca65aeaffe93736bd009f7fcd322918dd2102cf904d314442fab7"
+}

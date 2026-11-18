@@ -1,0 +1,1322 @@
+[
+  {
+    "input_position": 0,
+    "flat": 4271,
+    "roi_row": 0,
+    "classification_score": 0.9721205234527588,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.9775511622428894
+  },
+  {
+    "input_position": 1,
+    "flat": 10271,
+    "roi_row": 1,
+    "classification_score": 0.9707226157188416,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.9661529660224915
+  },
+  {
+    "input_position": 2,
+    "flat": 13091,
+    "roi_row": 2,
+    "classification_score": 0.9747041463851929,
+    "action": "keep",
+    "step": 1,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 3,
+    "flat": 2696,
+    "roi_row": 3,
+    "classification_score": 0.9585282802581787,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.9754003286361694
+  },
+  {
+    "input_position": 4,
+    "flat": 3791,
+    "roi_row": 4,
+    "classification_score": 0.6420831084251404,
+    "action": "keep",
+    "step": 4,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 5,
+    "flat": 3206,
+    "roi_row": 5,
+    "classification_score": 0.8626109957695007,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.9490007758140564
+  },
+  {
+    "input_position": 6,
+    "flat": 9206,
+    "roi_row": 6,
+    "classification_score": 0.8926488757133484,
+    "action": "keep",
+    "step": 3,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 7,
+    "flat": 9791,
+    "roi_row": 7,
+    "classification_score": 0.6169292330741882,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.9531619548797607
+  },
+  {
+    "input_position": 8,
+    "flat": 8696,
+    "roi_row": 8,
+    "classification_score": 0.9738845229148865,
+    "action": "keep",
+    "step": 2,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 9,
+    "flat": 13001,
+    "roi_row": 9,
+    "classification_score": 0.5956647396087646,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.9397964477539062
+  },
+  {
+    "input_position": 10,
+    "flat": 9506,
+    "roi_row": 10,
+    "classification_score": 0.8236834406852722,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.8231200575828552
+  },
+  {
+    "input_position": 11,
+    "flat": 9491,
+    "roi_row": 11,
+    "classification_score": 0.14450208842754364,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.6838846802711487
+  },
+  {
+    "input_position": 12,
+    "flat": 3506,
+    "roi_row": 12,
+    "classification_score": 0.8252381086349487,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.827434778213501
+  },
+  {
+    "input_position": 13,
+    "flat": 3491,
+    "roi_row": 13,
+    "classification_score": 0.1454724818468094,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.6969585418701172
+  },
+  {
+    "input_position": 14,
+    "flat": 9207,
+    "roi_row": 14,
+    "classification_score": 0.6519031524658203,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.8349584341049194
+  },
+  {
+    "input_position": 15,
+    "flat": 9486,
+    "roi_row": 15,
+    "classification_score": 0.02002808265388012,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.6674342751502991
+  },
+  {
+    "input_position": 16,
+    "flat": 3507,
+    "roi_row": 16,
+    "classification_score": 0.4633137285709381,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.7891274690628052
+  },
+  {
+    "input_position": 17,
+    "flat": 11246,
+    "roi_row": 17,
+    "classification_score": 0.029847275465726852,
+    "action": "keep",
+    "step": 7,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 18,
+    "flat": 10272,
+    "roi_row": 18,
+    "classification_score": 0.8706158995628357,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.9100058078765869
+  },
+  {
+    "input_position": 19,
+    "flat": 12851,
+    "roi_row": 19,
+    "classification_score": 0.2253817468881607,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.598688006401062
+  },
+  {
+    "input_position": 20,
+    "flat": 9191,
+    "roi_row": 20,
+    "classification_score": 0.453917920589447,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6872665882110596
+  },
+  {
+    "input_position": 21,
+    "flat": 4566,
+    "roi_row": 21,
+    "classification_score": 0.9391200542449951,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8909111618995667
+  },
+  {
+    "input_position": 22,
+    "flat": 9971,
+    "roi_row": 22,
+    "classification_score": 0.8963263630867004,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.9604445099830627
+  },
+  {
+    "input_position": 23,
+    "flat": 9492,
+    "roi_row": 23,
+    "classification_score": 0.1241052970290184,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.55226731300354
+  },
+  {
+    "input_position": 24,
+    "flat": 4272,
+    "roi_row": 24,
+    "classification_score": 0.7909386157989502,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8945850133895874
+  },
+  {
+    "input_position": 25,
+    "flat": 2697,
+    "roi_row": 25,
+    "classification_score": 0.6987638473510742,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.8865684270858765
+  },
+  {
+    "input_position": 26,
+    "flat": 3486,
+    "roi_row": 26,
+    "classification_score": 0.03331085294485092,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.7235707640647888
+  },
+  {
+    "input_position": 27,
+    "flat": 3492,
+    "roi_row": 27,
+    "classification_score": 0.13095708191394806,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.541062593460083
+  },
+  {
+    "input_position": 28,
+    "flat": 5096,
+    "roi_row": 28,
+    "classification_score": 0.02683260105550289,
+    "action": "delete",
+    "step": 5,
+    "suppressor_flat": 4791,
+    "pair_iou": 0.6700947284698486
+  },
+  {
+    "input_position": 29,
+    "flat": 3191,
+    "roi_row": 29,
+    "classification_score": 0.6459657549858093,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6965617537498474
+  },
+  {
+    "input_position": 30,
+    "flat": 3490,
+    "roi_row": 30,
+    "classification_score": 0.016192467883229256,
+    "action": "delete",
+    "step": 10,
+    "suppressor_flat": 9490,
+    "pair_iou": 0.910646378993988
+  },
+  {
+    "input_position": 31,
+    "flat": 5246,
+    "roi_row": 31,
+    "classification_score": 0.02938992902636528,
+    "action": "delete",
+    "step": 7,
+    "suppressor_flat": 11246,
+    "pair_iou": 0.9726187586784363
+  },
+  {
+    "input_position": 32,
+    "flat": 3505,
+    "roi_row": 32,
+    "classification_score": 0.023154908791184425,
+    "action": "delete",
+    "step": 6,
+    "suppressor_flat": 9505,
+    "pair_iou": 0.9276471734046936
+  },
+  {
+    "input_position": 33,
+    "flat": 11096,
+    "roi_row": 33,
+    "classification_score": 0.021488364785909653,
+    "action": "delete",
+    "step": 5,
+    "suppressor_flat": 4791,
+    "pair_iou": 0.6663471460342407
+  },
+  {
+    "input_position": 34,
+    "flat": 4791,
+    "roi_row": 34,
+    "classification_score": 0.04178209230303764,
+    "action": "keep",
+    "step": 5,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 35,
+    "flat": 9502,
+    "roi_row": 35,
+    "classification_score": 0.23474064469337463,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.7598920464515686
+  },
+  {
+    "input_position": 36,
+    "flat": 9192,
+    "roi_row": 36,
+    "classification_score": 0.48313143849372864,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.7845880389213562
+  },
+  {
+    "input_position": 37,
+    "flat": 12852,
+    "roi_row": 37,
+    "classification_score": 0.24588175117969513,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6833807229995728
+  },
+  {
+    "input_position": 38,
+    "flat": 3971,
+    "roi_row": 38,
+    "classification_score": 0.8761248588562012,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.9774537086486816
+  },
+  {
+    "input_position": 39,
+    "flat": 10791,
+    "roi_row": 39,
+    "classification_score": 0.03285887837409973,
+    "action": "delete",
+    "step": 5,
+    "suppressor_flat": 4791,
+    "pair_iou": 0.8931704759597778
+  },
+  {
+    "input_position": 40,
+    "flat": 9186,
+    "roi_row": 40,
+    "classification_score": 0.18553270399570465,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6647621393203735
+  },
+  {
+    "input_position": 41,
+    "flat": 13002,
+    "roi_row": 41,
+    "classification_score": 0.1675686538219452,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.7225841283798218
+  },
+  {
+    "input_position": 42,
+    "flat": 9505,
+    "roi_row": 42,
+    "classification_score": 0.037796810269355774,
+    "action": "keep",
+    "step": 6,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 43,
+    "flat": 9490,
+    "roi_row": 43,
+    "classification_score": 0.017070742323994637,
+    "action": "keep",
+    "step": 10,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 44,
+    "flat": 9806,
+    "roi_row": 44,
+    "classification_score": 0.011531725525856018,
+    "action": "keep",
+    "step": 11,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 45,
+    "flat": 12846,
+    "roi_row": 45,
+    "classification_score": 0.09397286176681519,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6192461252212524
+  },
+  {
+    "input_position": 46,
+    "flat": 9187,
+    "roi_row": 46,
+    "classification_score": 0.5662214756011963,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.8470784425735474
+  },
+  {
+    "input_position": 47,
+    "flat": 3487,
+    "roi_row": 47,
+    "classification_score": 0.09040717780590057,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.7076230645179749
+  },
+  {
+    "input_position": 48,
+    "flat": 8697,
+    "roi_row": 48,
+    "classification_score": 0.8365153670310974,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.9343511462211609
+  },
+  {
+    "input_position": 49,
+    "flat": 3485,
+    "roi_row": 49,
+    "classification_score": 0.009538554586470127,
+    "action": "delete",
+    "step": 10,
+    "suppressor_flat": 9490,
+    "pair_iou": 0.7024899125099182
+  },
+  {
+    "input_position": 50,
+    "flat": 3186,
+    "roi_row": 50,
+    "classification_score": 0.33072468638420105,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6895473599433899
+  },
+  {
+    "input_position": 51,
+    "flat": 10796,
+    "roi_row": 51,
+    "classification_score": 0.033180393278598785,
+    "action": "delete",
+    "step": 5,
+    "suppressor_flat": 4791,
+    "pair_iou": 0.8181790709495544
+  },
+  {
+    "input_position": 52,
+    "flat": 10091,
+    "roi_row": 52,
+    "classification_score": 0.03659607097506523,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.7529188394546509
+  },
+  {
+    "input_position": 53,
+    "flat": 3187,
+    "roi_row": 53,
+    "classification_score": 0.5363003015518188,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.8695651888847351
+  },
+  {
+    "input_position": 54,
+    "flat": 4796,
+    "roi_row": 54,
+    "classification_score": 0.03743227943778038,
+    "action": "delete",
+    "step": 5,
+    "suppressor_flat": 4791,
+    "pair_iou": 0.8091135621070862
+  },
+  {
+    "input_position": 55,
+    "flat": 9792,
+    "roi_row": 55,
+    "classification_score": 0.177208811044693,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.7352752089500427
+  },
+  {
+    "input_position": 56,
+    "flat": 3806,
+    "roi_row": 56,
+    "classification_score": 0.008594131097197533,
+    "action": "delete",
+    "step": 11,
+    "suppressor_flat": 9806,
+    "pair_iou": 0.8624024987220764
+  },
+  {
+    "input_position": 57,
+    "flat": 2576,
+    "roi_row": 57,
+    "classification_score": 0.0019523637602105737,
+    "action": "keep",
+    "step": 17,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 58,
+    "flat": 3496,
+    "roi_row": 58,
+    "classification_score": 0.016166867688298225,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6996380090713501
+  },
+  {
+    "input_position": 59,
+    "flat": 13087,
+    "roi_row": 59,
+    "classification_score": 0.6131643056869507,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8763421773910522
+  },
+  {
+    "input_position": 60,
+    "flat": 3196,
+    "roi_row": 60,
+    "classification_score": 0.07139880210161209,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.9313518404960632
+  },
+  {
+    "input_position": 61,
+    "flat": 3641,
+    "roi_row": 61,
+    "classification_score": 0.00839485414326191,
+    "action": "delete",
+    "step": 8,
+    "suppressor_flat": 9941,
+    "pair_iou": 0.7677899599075317
+  },
+  {
+    "input_position": 62,
+    "flat": 9641,
+    "roi_row": 62,
+    "classification_score": 0.009025813080370426,
+    "action": "delete",
+    "step": 8,
+    "suppressor_flat": 9941,
+    "pair_iou": 0.7412375211715698
+  },
+  {
+    "input_position": 63,
+    "flat": 9496,
+    "roi_row": 63,
+    "classification_score": 0.031986504793167114,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.7577577829360962
+  },
+  {
+    "input_position": 64,
+    "flat": 9801,
+    "roi_row": 64,
+    "classification_score": 0.004946608562022448,
+    "action": "delete",
+    "step": 11,
+    "suppressor_flat": 9806,
+    "pair_iou": 0.7243202924728394
+  },
+  {
+    "input_position": 65,
+    "flat": 10086,
+    "roi_row": 65,
+    "classification_score": 0.0033767439890652895,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.6592089533805847
+  },
+  {
+    "input_position": 66,
+    "flat": 9941,
+    "roi_row": 66,
+    "classification_score": 0.017687510699033737,
+    "action": "keep",
+    "step": 8,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 67,
+    "flat": 4270,
+    "roi_row": 67,
+    "classification_score": 0.3731374442577362,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.7844647169113159
+  },
+  {
+    "input_position": 68,
+    "flat": 10270,
+    "roi_row": 68,
+    "classification_score": 0.3039109408855438,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8236367106437683
+  },
+  {
+    "input_position": 69,
+    "flat": 3792,
+    "roi_row": 69,
+    "classification_score": 0.27383607625961304,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.7583986520767212
+  },
+  {
+    "input_position": 70,
+    "flat": 3192,
+    "roi_row": 70,
+    "classification_score": 0.5055833458900452,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.8280571103096008
+  },
+  {
+    "input_position": 71,
+    "flat": 13090,
+    "roi_row": 71,
+    "classification_score": 0.053310152143239975,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.7810781598091125
+  },
+  {
+    "input_position": 72,
+    "flat": 9966,
+    "roi_row": 72,
+    "classification_score": 0.08596331626176834,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8338288068771362
+  },
+  {
+    "input_position": 73,
+    "flat": 3790,
+    "roi_row": 73,
+    "classification_score": 0.12722241878509521,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.5729884505271912
+  },
+  {
+    "input_position": 74,
+    "flat": 3495,
+    "roi_row": 74,
+    "classification_score": 0.009532961063086987,
+    "action": "delete",
+    "step": 6,
+    "suppressor_flat": 9505,
+    "pair_iou": 0.697416365146637
+  },
+  {
+    "input_position": 75,
+    "flat": 3801,
+    "roi_row": 75,
+    "classification_score": 0.004842968191951513,
+    "action": "delete",
+    "step": 11,
+    "suppressor_flat": 9806,
+    "pair_iou": 0.6554638147354126
+  },
+  {
+    "input_position": 76,
+    "flat": 4091,
+    "roi_row": 76,
+    "classification_score": 0.036041662096977234,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.7310967445373535
+  },
+  {
+    "input_position": 77,
+    "flat": 4797,
+    "roi_row": 77,
+    "classification_score": 0.00566617539152503,
+    "action": "delete",
+    "step": 5,
+    "suppressor_flat": 4791,
+    "pair_iou": 0.5129339098930359
+  },
+  {
+    "input_position": 78,
+    "flat": 3941,
+    "roi_row": 78,
+    "classification_score": 0.009847387671470642,
+    "action": "delete",
+    "step": 8,
+    "suppressor_flat": 9941,
+    "pair_iou": 0.8897373080253601
+  },
+  {
+    "input_position": 79,
+    "flat": 10797,
+    "roi_row": 79,
+    "classification_score": 0.0034350191708654165,
+    "action": "delete",
+    "step": 5,
+    "suppressor_flat": 4791,
+    "pair_iou": 0.5210886001586914
+  },
+  {
+    "input_position": 80,
+    "flat": 4282,
+    "roi_row": 80,
+    "classification_score": 0.03820524737238884,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.7668168544769287
+  },
+  {
+    "input_position": 81,
+    "flat": 11226,
+    "roi_row": 81,
+    "classification_score": 0.0013667860766872764,
+    "action": "keep",
+    "step": 18,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 82,
+    "flat": 8576,
+    "roi_row": 82,
+    "classification_score": 0.0019410130335018039,
+    "action": "delete",
+    "step": 17,
+    "suppressor_flat": 2576,
+    "pair_iou": 0.9260592460632324
+  },
+  {
+    "input_position": 83,
+    "flat": 12926,
+    "roi_row": 83,
+    "classification_score": 0.008767473511397839,
+    "action": "delete",
+    "step": 8,
+    "suppressor_flat": 9941,
+    "pair_iou": 0.7634592056274414
+  },
+  {
+    "input_position": 84,
+    "flat": 3802,
+    "roi_row": 84,
+    "classification_score": 0.003916013520210981,
+    "action": "delete",
+    "step": 13,
+    "suppressor_flat": 9802,
+    "pair_iou": 0.9551891684532166
+  },
+  {
+    "input_position": 85,
+    "flat": 9196,
+    "roi_row": 85,
+    "classification_score": 0.11100276559591293,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.9103631973266602
+  },
+  {
+    "input_position": 86,
+    "flat": 12866,
+    "roi_row": 86,
+    "classification_score": 0.0024046495091170073,
+    "action": "keep",
+    "step": 16,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 87,
+    "flat": 8395,
+    "roi_row": 87,
+    "classification_score": 0.005783664528280497,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.6858121156692505
+  },
+  {
+    "input_position": 88,
+    "flat": 12921,
+    "roi_row": 88,
+    "classification_score": 0.00478173466399312,
+    "action": "delete",
+    "step": 8,
+    "suppressor_flat": 9941,
+    "pair_iou": 0.6149283051490784
+  },
+  {
+    "input_position": 89,
+    "flat": 4086,
+    "roi_row": 89,
+    "classification_score": 0.0061761788092553616,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.7018139958381653
+  },
+  {
+    "input_position": 90,
+    "flat": 5245,
+    "roi_row": 90,
+    "classification_score": 0.011616234667599201,
+    "action": "delete",
+    "step": 7,
+    "suppressor_flat": 11246,
+    "pair_iou": 0.7104679942131042
+  },
+  {
+    "input_position": 91,
+    "flat": 9636,
+    "roi_row": 91,
+    "classification_score": 0.0036323072854429483,
+    "action": "delete",
+    "step": 8,
+    "suppressor_flat": 9941,
+    "pair_iou": 0.6464990377426147
+  },
+  {
+    "input_position": 92,
+    "flat": 9495,
+    "roi_row": 92,
+    "classification_score": 0.011129782535135746,
+    "action": "delete",
+    "step": 6,
+    "suppressor_flat": 9505,
+    "pair_iou": 0.7155534029006958
+  },
+  {
+    "input_position": 93,
+    "flat": 3640,
+    "roi_row": 93,
+    "classification_score": 0.0025328840129077435,
+    "action": "delete",
+    "step": 15,
+    "suppressor_flat": 9640,
+    "pair_iou": 0.947265088558197
+  },
+  {
+    "input_position": 94,
+    "flat": 3636,
+    "roi_row": 94,
+    "classification_score": 0.0030730038415640593,
+    "action": "delete",
+    "step": 8,
+    "suppressor_flat": 9941,
+    "pair_iou": 0.6463558673858643
+  },
+  {
+    "input_position": 95,
+    "flat": 8901,
+    "roi_row": 95,
+    "classification_score": 0.0012085853377357125,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6996667981147766
+  },
+  {
+    "input_position": 96,
+    "flat": 13000,
+    "roi_row": 96,
+    "classification_score": 0.10787854343652725,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.5879203677177429
+  },
+  {
+    "input_position": 97,
+    "flat": 9480,
+    "roi_row": 98,
+    "classification_score": 0.007857086136937141,
+    "action": "delete",
+    "step": 10,
+    "suppressor_flat": 9490,
+    "pair_iou": 0.6241574287414551
+  },
+  {
+    "input_position": 98,
+    "flat": 10282,
+    "roi_row": 99,
+    "classification_score": 0.0344952754676342,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8536936044692993
+  },
+  {
+    "input_position": 99,
+    "flat": 9802,
+    "roi_row": 100,
+    "classification_score": 0.006821040529757738,
+    "action": "keep",
+    "step": 13,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 100,
+    "flat": 3805,
+    "roi_row": 101,
+    "classification_score": 0.004262590315192938,
+    "action": "delete",
+    "step": 12,
+    "suppressor_flat": 9805,
+    "pair_iou": 0.8081599473953247
+  },
+  {
+    "input_position": 101,
+    "flat": 3205,
+    "roi_row": 103,
+    "classification_score": 0.036967214196920395,
+    "action": "delete",
+    "step": 6,
+    "suppressor_flat": 9505,
+    "pair_iou": 0.6623223423957825
+  },
+  {
+    "input_position": 102,
+    "flat": 9790,
+    "roi_row": 104,
+    "classification_score": 0.15987080335617065,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.6036863923072815
+  },
+  {
+    "input_position": 103,
+    "flat": 10286,
+    "roi_row": 105,
+    "classification_score": 0.012200084514915943,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8030933737754822
+  },
+  {
+    "input_position": 104,
+    "flat": 4570,
+    "roi_row": 106,
+    "classification_score": 0.016122475266456604,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.6711496710777283
+  },
+  {
+    "input_position": 105,
+    "flat": 12862,
+    "roi_row": 108,
+    "classification_score": 0.01475074514746666,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.7132853865623474
+  },
+  {
+    "input_position": 106,
+    "flat": 2395,
+    "roi_row": 109,
+    "classification_score": 0.010504959151148796,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.7568963170051575
+  },
+  {
+    "input_position": 107,
+    "flat": 13241,
+    "roi_row": 110,
+    "classification_score": 0.0557156503200531,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8230578303337097
+  },
+  {
+    "input_position": 108,
+    "flat": 11245,
+    "roi_row": 113,
+    "classification_score": 0.00689932145178318,
+    "action": "delete",
+    "step": 7,
+    "suppressor_flat": 11246,
+    "pair_iou": 0.7193824648857117
+  },
+  {
+    "input_position": 109,
+    "flat": 9640,
+    "roi_row": 114,
+    "classification_score": 0.0030475743114948273,
+    "action": "keep",
+    "step": 15,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 110,
+    "flat": 10257,
+    "roi_row": 115,
+    "classification_score": 0.007851196452975273,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.6350144147872925
+  },
+  {
+    "input_position": 111,
+    "flat": 9807,
+    "roi_row": 116,
+    "classification_score": 0.09620106965303421,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6754359006881714
+  },
+  {
+    "input_position": 112,
+    "flat": 8681,
+    "roi_row": 117,
+    "classification_score": 0.41231420636177063,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.6836968064308167
+  },
+  {
+    "input_position": 113,
+    "flat": 9481,
+    "roi_row": 118,
+    "classification_score": 0.004434453323483467,
+    "action": "keep",
+    "step": 14,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 114,
+    "flat": 2677,
+    "roi_row": 121,
+    "classification_score": 0.07956907898187637,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.7339317202568054
+  },
+  {
+    "input_position": 115,
+    "flat": 9205,
+    "roi_row": 125,
+    "classification_score": 0.025311071425676346,
+    "action": "delete",
+    "step": 6,
+    "suppressor_flat": 9505,
+    "pair_iou": 0.7113940119743347
+  },
+  {
+    "input_position": 116,
+    "flat": 10556,
+    "roi_row": 126,
+    "classification_score": 0.01766924373805523,
+    "action": "keep",
+    "step": 9,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 117,
+    "flat": 2997,
+    "roi_row": 128,
+    "classification_score": 0.08459214121103287,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.6950547099113464
+  },
+  {
+    "input_position": 118,
+    "flat": 9181,
+    "roi_row": 130,
+    "classification_score": 0.014398356899619102,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.6489591598510742
+  },
+  {
+    "input_position": 119,
+    "flat": 10570,
+    "roi_row": 131,
+    "classification_score": 0.0936068743467331,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.7490317821502686
+  },
+  {
+    "input_position": 120,
+    "flat": 2695,
+    "roi_row": 132,
+    "classification_score": 0.028088843449950218,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.8036430478096008
+  },
+  {
+    "input_position": 121,
+    "flat": 12925,
+    "roi_row": 133,
+    "classification_score": 0.002113346941769123,
+    "action": "delete",
+    "step": 15,
+    "suppressor_flat": 9640,
+    "pair_iou": 0.9110879302024841
+  },
+  {
+    "input_position": 122,
+    "flat": 2907,
+    "roi_row": 134,
+    "classification_score": 0.5403608083724976,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.8239855766296387
+  },
+  {
+    "input_position": 123,
+    "flat": 4265,
+    "roi_row": 135,
+    "classification_score": 0.010344249196350574,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.7767775058746338
+  },
+  {
+    "input_position": 124,
+    "flat": 8692,
+    "roi_row": 136,
+    "classification_score": 0.9148371815681458,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.7692223787307739
+  },
+  {
+    "input_position": 125,
+    "flat": 12746,
+    "roi_row": 138,
+    "classification_score": 0.06212295591831207,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.5851696729660034
+  },
+  {
+    "input_position": 126,
+    "flat": 8906,
+    "roi_row": 139,
+    "classification_score": 0.283066987991333,
+    "action": "delete",
+    "step": 3,
+    "suppressor_flat": 9206,
+    "pair_iou": 0.9042457342147827
+  },
+  {
+    "input_position": 127,
+    "flat": 3966,
+    "roi_row": 140,
+    "classification_score": 0.06220431253314018,
+    "action": "delete",
+    "step": 1,
+    "suppressor_flat": 13091,
+    "pair_iou": 0.8377211689949036
+  },
+  {
+    "input_position": 128,
+    "flat": 8695,
+    "roi_row": 141,
+    "classification_score": 0.024096831679344177,
+    "action": "delete",
+    "step": 2,
+    "suppressor_flat": 8696,
+    "pair_iou": 0.7784218788146973
+  },
+  {
+    "input_position": 129,
+    "flat": 9805,
+    "roi_row": 143,
+    "classification_score": 0.008776740171015263,
+    "action": "keep",
+    "step": 12,
+    "suppressor_flat": null,
+    "pair_iou": null
+  },
+  {
+    "input_position": 130,
+    "flat": 8276,
+    "roi_row": 147,
+    "classification_score": 0.0018651480786502361,
+    "action": "delete",
+    "step": 17,
+    "suppressor_flat": 2576,
+    "pair_iou": 0.6127449870109558
+  },
+  {
+    "input_position": 131,
+    "flat": 9776,
+    "roi_row": 149,
+    "classification_score": 0.09624256193637848,
+    "action": "delete",
+    "step": 4,
+    "suppressor_flat": 3791,
+    "pair_iou": 0.5253121256828308
+  }
+]

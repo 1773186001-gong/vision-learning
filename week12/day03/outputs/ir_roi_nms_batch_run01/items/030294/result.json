@@ -1,0 +1,51 @@
+{
+  "model": "IR",
+  "stem": "030294",
+  "status": "passed",
+  "capture_sha256": "1e46a372c3317e45f1421966ae3f2a4414d769ad4a8924c256def1436ed7c305",
+  "nms_input_count": 97,
+  "nms_kept_count": 9,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 9792,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "8992": 12897,
+        "2992": 12897
+      }
+    },
+    {
+      "gt_index": 2,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 9792,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "10596": 10901,
+        "4596": 10901
+      }
+    },
+    {
+      "gt_index": 3,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 9792,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "9297": 12897,
+        "3592": 12897,
+        "9592": 12897
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day03/outputs/ir_roi_nms_batch_run01/items/030294/result.json"
+}

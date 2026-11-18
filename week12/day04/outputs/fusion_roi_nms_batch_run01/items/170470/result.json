@@ -1,0 +1,59 @@
+{
+  "model": "Fusion",
+  "stem": "170470",
+  "status": "passed",
+  "capture_sha256": "4a3d350e4e5e0617d9deae37ba6a54cc27fe819f6c22b3e69feba4a59bbab00e",
+  "nms_input_count": 102,
+  "nms_kept_count": 13,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 3866,
+      "qualified_count": 9,
+      "top_score_first_suppressed": 9,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "3567": 3866,
+        "9552": 3866,
+        "3552": 3866,
+        "3562": 3866,
+        "9562": 3866,
+        "3547": 3866,
+        "3556": 3866,
+        "9847": 3866,
+        "9556": 3866
+      }
+    },
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 3866,
+      "qualified_count": 16,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "4692": 4391,
+        "13152": 4391,
+        "10706": 4391,
+        "10402": 4391,
+        "13147": 4391,
+        "10407": 4391,
+        "10387": 4391,
+        "4402": 4391,
+        "4706": 4391,
+        "4707": 4391,
+        "10092": 4391,
+        "10401": 4391,
+        "13302": 4391,
+        "4401": 4391,
+        "4681": 4391,
+        "4092": 4391
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/170470/result.json"
+}

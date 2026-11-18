@@ -1,0 +1,62 @@
+{
+  "total_frozen_loss_targets": {
+    "IR": 97,
+    "Fusion": 124
+  },
+  "full_loss_queue_counts": {
+    "IR": {
+      "all": 28,
+      "partial": 3,
+      "none": 66,
+      "unverified": 0
+    },
+    "Fusion": {
+      "all": 37,
+      "partial": 0,
+      "none": 85,
+      "unverified": 2
+    }
+  },
+  "shared_pre_nms_gt": 297,
+  "paired_loss_blocks": {
+    "both_preserved": 167,
+    "only_ir_lost": 25,
+    "only_fusion_lost": 50,
+    "both_lost": 55
+  },
+  "paired_outcome_counts": {
+    "IR": {
+      "preserved": 217,
+      "all": 25,
+      "partial": 3,
+      "none": 52,
+      "unverified": 0
+    },
+    "Fusion": {
+      "preserved": 192,
+      "all": 33,
+      "partial": 0,
+      "none": 70,
+      "unverified": 2
+    }
+  },
+  "paired_loss_difference_by_category": {
+    "all": 8,
+    "partial": -3,
+    "none": 18,
+    "unverified": 2
+  },
+  "paired_net_extra_fusion_loss": 25,
+  "only_ir_lost_categories": {
+    "all": 9,
+    "partial": 0,
+    "none": 16,
+    "unverified": 0
+  },
+  "only_fusion_lost_categories": {
+    "all": 18,
+    "partial": 0,
+    "none": 31,
+    "unverified": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "shared_pre_nms_gt": 297,
+  "by_model": {
+    "IR": {
+      "targets": 52,
+      "by_retained_step_group": {
+        "all_at_step_2": 26,
+        "some_at_step_2": 0,
+        "first_at_step_3_or_later": 26
+      },
+      "one_suppressor": 50,
+      "multiple_suppressors": 2
+    },
+    "Fusion": {
+      "targets": 70,
+      "by_retained_step_group": {
+        "all_at_step_2": 31,
+        "some_at_step_2": 1,
+        "first_at_step_3_or_later": 38
+      },
+      "one_suppressor": 69,
+      "multiple_suppressors": 1
+    }
+  },
+  "fusion_minus_ir_by_step_group": {
+    "all_at_step_2": 5,
+    "some_at_step_2": 1,
+    "first_at_step_3_or_later": 12
+  }
+}

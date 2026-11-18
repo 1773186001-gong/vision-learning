@@ -1,0 +1,75 @@
+[
+  {
+    "model": "IR",
+    "stem": "030052",
+    "status": "passed",
+    "capture_sha256": "80e1630cda7076c9a7ae6b62e73fc7ae96cb0b4222b02529aeb8d1d5c2654ada",
+    "nms_input_count": 123,
+    "nms_kept_count": 17,
+    "full_output_match": true,
+    "targets": [
+      {
+        "gt_index": 0,
+        "both_models_pre_nms_covered": true,
+        "top_score_flat": 3477,
+        "qualified_count": 4,
+        "top_score_first_suppressed": 3,
+        "category": "partial",
+        "first_suppressor_by_flat": {
+          "10062": 9447,
+          "10057": 3477,
+          "4057": 3477,
+          "9752": 3477
+        }
+      },
+      {
+        "gt_index": 3,
+        "both_models_pre_nms_covered": false,
+        "top_score_flat": 3477,
+        "qualified_count": 1,
+        "top_score_first_suppressed": 0,
+        "category": "none",
+        "first_suppressor_by_flat": {
+          "7037": 1061
+        }
+      },
+      {
+        "gt_index": 4,
+        "both_models_pre_nms_covered": true,
+        "top_score_flat": 3477,
+        "qualified_count": 4,
+        "top_score_first_suppressed": 0,
+        "category": "none",
+        "first_suppressor_by_flat": {
+          "7036": 1046,
+          "7347": 1046,
+          "1042": 1046,
+          "7342": 1046
+        }
+      }
+    ]
+  },
+  {
+    "model": "Fusion",
+    "stem": "030027",
+    "status": "passed",
+    "capture_sha256": "4fadbd1e7bb34b9ad25e0aa6414be5d8e1a7eda700a8e4de92514ace73760a01",
+    "nms_input_count": 52,
+    "nms_kept_count": 3,
+    "full_output_match": true,
+    "targets": [
+      {
+        "gt_index": 1,
+        "both_models_pre_nms_covered": true,
+        "top_score_flat": 1286,
+        "qualified_count": 2,
+        "top_score_first_suppressed": 0,
+        "category": "none",
+        "first_suppressor_by_flat": {
+          "726": 1026,
+          "6726": 1026
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "scope": "Fusion/030078/G0",
+  "error": null,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week11/day02/replay_fusion_nms.py --stem 030078 --output week11/day03/outputs/fusion_nms_030078_run01",
+  "counts": {
+    "candidate_capture_loads": 1,
+    "independent_nms_replays": 1,
+    "full_output_verifications": 1,
+    "checkpoint_loads": 0,
+    "model_forwards": 0,
+    "original_nms_operator_calls": 0,
+    "training": 0,
+    "server_connections": 0
+  },
+  "exit_code": 0,
+  "nms_input_count": 58,
+  "nms_output_count": 7,
+  "good_box_count": 3,
+  "identity_chain_verified": true,
+  "keep_order_exact": true,
+  "focus": {
+    "input_position": 19,
+    "roi_row": 19,
+    "flat": 2841,
+    "score": 0.7636697292327881,
+    "gt_iou": 0.7863445281982422,
+    "action": "delete",
+    "replay_step": 1,
+    "first_suppressor_flat": 2832,
+    "suppressor_score": 0.9612109661102295,
+    "suppressor_gt_iou": 0.6152200698852539,
+    "pair_iou": 0.7443315386772156,
+    "day01_kept": false
+  },
+  "first_suppressor_counts": {
+    "2832": 3
+  }
+}

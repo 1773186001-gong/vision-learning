@@ -1,0 +1,14 @@
+{
+  "ambiguities": [
+    {
+      "reason": "comparison_near_threshold",
+      "positions": [
+        6,
+        47
+      ],
+      "iou": 0.4999999403953552
+    }
+  ],
+  "comparison_count": 236,
+  "threshold_tolerance_used": false
+}

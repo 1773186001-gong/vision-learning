@@ -1,0 +1,60 @@
+{
+  "model": "Fusion",
+  "stem": "081486",
+  "status": "passed",
+  "capture_sha256": "fe610e1e158a16ab13427e16b6f02259e0ed1a314bb6ce401f1e34121c70a244",
+  "nms_input_count": 81,
+  "nms_kept_count": 9,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 4016,
+      "qualified_count": 18,
+      "top_score_first_suppressed": 18,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "10017": 4016,
+        "13122": 4016,
+        "4032": 4016,
+        "10027": 4016,
+        "10332": 4016,
+        "13121": 4016,
+        "10011": 4016,
+        "4327": 4016,
+        "10327": 4016,
+        "4012": 4016,
+        "10031": 4016,
+        "10311": 4016,
+        "10312": 4016,
+        "4312": 4016,
+        "13116": 4016,
+        "12972": 4016,
+        "10026": 4016,
+        "9732": 4016
+      }
+    },
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 4016,
+      "qualified_count": 8,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "9746": 4046,
+        "13137": 4046,
+        "3746": 4046,
+        "10057": 4046,
+        "10062": 4046,
+        "4057": 4046,
+        "3747": 4046,
+        "4062": 4046
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/081486/result.json"
+}

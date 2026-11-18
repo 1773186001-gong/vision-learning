@@ -1,0 +1,102 @@
+{
+  "state_before": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+  "state_after": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+  "configuration": {
+    "rpn": {
+      "pre": 150,
+      "post": 150,
+      "score": 0.05,
+      "nms": 0.7,
+      "min_size": 0.001,
+      "anchors": [
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ]
+      ],
+      "ratios": [
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "roi": {
+      "score": 0.001,
+      "nms": 0.5,
+      "detections": 100,
+      "featmaps": [
+        "0",
+        "1"
+      ],
+      "bbox_weights": [
+        10.0,
+        10.0,
+        5.0,
+        5.0
+      ]
+    },
+    "transform": {
+      "min": [
+        640
+      ],
+      "max": 640,
+      "mean": [
+        0.485,
+        0.456,
+        0.406,
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225,
+        0.229,
+        0.224,
+        0.225
+      ],
+      "size_divisible": 32
+    }
+  },
+  "counts": {
+    "checkpoint_loads": 1,
+    "strict_state_loads": 1,
+    "model_restore_attempts": 1,
+    "structure_probes": 1,
+    "validation_full_forward_attempts": 148,
+    "validation_full_forwards_returned": 148,
+    "model_forward_calls": 148,
+    "original_roi_nms_calls": 148,
+    "original_rpn_nms_records": 148
+  }
+}

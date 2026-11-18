@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "error": null,
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week11/day06/analyze_full_val.py --output week11/day06/outputs/full_val_roi_analysis_run01",
+  "counts": {
+    "candidate_captures_read": 300,
+    "model_forwards": 0,
+    "checkpoint_loads": 0,
+    "independent_nms_replays": 0
+  },
+  "stage_rows": 7488,
+  "model_gt_rows": 832,
+  "paired_gt_rows": 416,
+  "day01_case_anchors_verified": 4,
+  "gt_iou_threshold": 0.75
+}

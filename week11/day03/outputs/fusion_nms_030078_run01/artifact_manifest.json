@@ -1,0 +1,12 @@
+{
+  "attribution_checks.json": "edc36d6bb45b9f0cac587eb507e1d95bf9a487d8b48f7932e0d99ee8c0c8711a",
+  "boxes_source.py.txt": "9c0afd11f8291569442752f7aaab607ad0f7bf57dccd645048a0b7196372f269",
+  "candidate_decisions.csv": "458f7b59999b6b43eebb2bd5a4719077acba5d1db5857745fe261a9a262ae1c2",
+  "case_report_zh.md": "1c3871de433f59741fc9d7968d4815db2d466aad3bc4d21bae445e756b9f6e62",
+  "good_box_attributions.csv": "5165be984ec943967f435505e9348b956a0a25267fd0cf56eec159c00fe1cff8",
+  "input_provenance.json": "2f91b8f2714957d27bf8ca4febda7daf7d94bf3bd0039fea4f936aa41a555ac3",
+  "output_comparison.json": "ea95e68e279e02e3d225d2cbf67ef5a11de9b9446b3f5f5f3dda791eb4933dac",
+  "replay_steps.csv": "f1f128d77f9ba8c5af7e03af5d7befc306c6b00349b8c9ea79bde299b72f5639",
+  "retained_vs_2841.csv": "e1b53b9b8f3fea919b778dd29ff9802c9bc3157d2a5a072ad514adfc7925098e",
+  "verification.json": "31b32cf4746b61f9a30ff71d1002e44eaadf7c27cfb0934b78dad4e8f559a275"
+}

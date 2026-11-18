@@ -1,0 +1,99 @@
+{
+  "by_model": {
+    "IR": {
+      "total_gt": 416,
+      "rpn_covered": 302,
+      "first_covered_at_decode": 54,
+      "first_covered_at_clip": 0,
+      "coverage_lost_at_decode": 33,
+      "before_nms_covered": 322,
+      "nms_lost": 97,
+      "after_nms_covered": 225,
+      "nms_loss_rate": 0.30124223602484473,
+      "budget_lost": 0,
+      "final_covered": 225,
+      "never_covered": 60,
+      "nms_loss_with_top_score_kept": 97,
+      "nms_loss_with_top_score_tie": 0
+    },
+    "Fusion": {
+      "total_gt": 416,
+      "rpn_covered": 285,
+      "first_covered_at_decode": 60,
+      "first_covered_at_clip": 0,
+      "coverage_lost_at_decode": 19,
+      "before_nms_covered": 324,
+      "nms_lost": 124,
+      "after_nms_covered": 200,
+      "nms_loss_rate": 0.38271604938271603,
+      "budget_lost": 0,
+      "final_covered": 200,
+      "never_covered": 71,
+      "nms_loss_with_top_score_kept": 124,
+      "nms_loss_with_top_score_tie": 0
+    }
+  },
+  "paired": {
+    "shared_pre_nms_covered": 297,
+    "both_preserved": 167,
+    "only_ir_lost": 25,
+    "only_fusion_lost": 50,
+    "both_lost": 55,
+    "per_stage": {
+      "rpn": {
+        "both": 255,
+        "only_ir": 47,
+        "only_fusion": 30,
+        "neither": 84
+      },
+      "decode": {
+        "both": 299,
+        "only_ir": 24,
+        "only_fusion": 27,
+        "neither": 66
+      },
+      "clip": {
+        "both": 299,
+        "only_ir": 24,
+        "only_fusion": 27,
+        "neither": 66
+      },
+      "remove_background": {
+        "both": 299,
+        "only_ir": 24,
+        "only_fusion": 27,
+        "neither": 66
+      },
+      "score_filter": {
+        "both": 297,
+        "only_ir": 25,
+        "only_fusion": 27,
+        "neither": 67
+      },
+      "before_nms": {
+        "both": 297,
+        "only_ir": 25,
+        "only_fusion": 27,
+        "neither": 67
+      },
+      "after_nms": {
+        "both": 167,
+        "only_ir": 58,
+        "only_fusion": 33,
+        "neither": 158
+      },
+      "budget": {
+        "both": 167,
+        "only_ir": 58,
+        "only_fusion": 33,
+        "neither": 158
+      },
+      "final": {
+        "both": 167,
+        "only_ir": 58,
+        "only_fusion": 33,
+        "neither": 158
+      }
+    }
+  }
+}

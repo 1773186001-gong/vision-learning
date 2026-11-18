@@ -1,0 +1,12 @@
+{
+  "Fusion_030027/attribution_checks.json": "4cc6f431b08fc3dea0d4340293ff8c6c357f7ca91f8226972f7bc8ae8688f79f",
+  "Fusion_030027/candidate_decisions.json": "377f0667c148da7a141939787209e9c90f0796c51ff30b806c7770f2e8736680",
+  "Fusion_030027/output_comparison.json": "cd2a6770da9e580376c9a3c4e762d61e40744c6272d1e404d1d1fb91e893459e",
+  "Fusion_030027/result.json": "399d79565553cf6412a812e5a604bd952761e8ad79f62bbca728c638ce926ac0",
+  "IR_030052/attribution_checks.json": "a17bac97c2843a175d26784f3d2c1c8c09b5d92869d62392f14247bad0aadf8b",
+  "IR_030052/candidate_decisions.json": "25ad9cc42294aefe12929b990680836c6894cf411a769ca4630e5cc616e84182",
+  "IR_030052/output_comparison.json": "d161020e0c859d56cc588fa7811d85f995720be2c5817f7785cbb8544dd51bd8",
+  "IR_030052/result.json": "66114c436287ab0fa22e2fc065a704becc3c3fbd25b80aaceacf73c51fb299c7",
+  "pilot_index.json": "469c8e4c07f8e5b00bb5cefb519ae2e077471d3a64e2b0f54667ebf04bb66e0b",
+  "verification.json": "da8cdcd8db9920e587a18ca1537338058a22dbe26de785bbe76edccd240d4791"
+}

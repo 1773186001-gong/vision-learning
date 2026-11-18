@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "original_keep_order_exact": true,
+    "original_postprocess_exact": true,
+    "original_final_output_exact": true
+  },
+  "captured_keep": [
+    8,
+    0,
+    3,
+    21,
+    68,
+    81,
+    98,
+    61,
+    86,
+    113,
+    119,
+    111
+  ],
+  "replay_keep": [
+    8,
+    0,
+    3,
+    21,
+    68,
+    81,
+    98,
+    61,
+    86,
+    113,
+    119,
+    111
+  ]
+}

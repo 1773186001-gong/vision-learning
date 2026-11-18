@@ -1,0 +1,97 @@
+{
+  "model": "Fusion",
+  "stem": "081117",
+  "status": "passed",
+  "capture_sha256": "8866ee9658595a4f23d337bb37daa35ecb4419c61d07053c96736a68558a795c",
+  "nms_input_count": 140,
+  "nms_kept_count": 22,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10451,
+      "qualified_count": 8,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "10421": 13167,
+        "4421": 13167,
+        "13166": 13167,
+        "10121": 13167,
+        "4121": 13167,
+        "13161": 13167,
+        "4716": 13167,
+        "10716": 13167
+      }
+    },
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10451,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "10136": 10137,
+        "4136": 10137
+      }
+    },
+    {
+      "gt_index": 2,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10451,
+      "qualified_count": 5,
+      "top_score_first_suppressed": 5,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "13181": 10451,
+        "4446": 10451,
+        "4151": 10451,
+        "10146": 10451,
+        "4146": 10451
+      }
+    },
+    {
+      "gt_index": 3,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10451,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "10766": 5066
+      }
+    },
+    {
+      "gt_index": 4,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10451,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "5371": 11380
+      }
+    },
+    {
+      "gt_index": 5,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 10451,
+      "qualified_count": 6,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "10481": 4796,
+        "4481": 4796,
+        "4777": 4796,
+        "4476": 4796,
+        "13191": 4796,
+        "10182": 4796
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/081117/result.json"
+}

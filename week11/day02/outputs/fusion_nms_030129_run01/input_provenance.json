@@ -1,0 +1,16 @@
+{
+  "day01": "D:\\python\\test\\vision-learning\\week11\\day01\\outputs\\fusion_roi_trace_run02",
+  "files": {
+    "verification.json": "8b195b3aa9f49e170eec35a2ec4bbe033d68f3e38983454f84cec89f78234059",
+    "run_metadata.json": "db33158f9d65ffb7169872e046a45ca403d1ccc367728d6d368f7402b64bc652",
+    "030129/verification.json": "d87bb840f943e7b02a5b567e5baad8ac050c37b6d7fe20eb3a64dd4c28529c5a",
+    "030129/raw_capture.pth": "7934c10edee7e868894a51e48194cdb049e8d3d8dbe947f54a0926e80e4fc928",
+    "030129/stage_candidates.csv": "c64a0ed7966107e58004097705307dac26e259db6b0e30b665ebd1d9f83f849a",
+    "030129/final_sources.csv": "845431ae3c79b80f817ffe2b8252776f0e6570b8cfcfbf1b3a533b675e3a95b8"
+  },
+  "day01_manifest_sha256": "c75960edc68750d103f1ed4629c631f0a4c34319f00634686a4beab8adfe84a9",
+  "replay_source": "D:\\python\\test\\vision-learning\\week10\\day05\\replay_roi_nms.py",
+  "replay_source_sha256": "97aa758afb9bbf581d6556638202100b19cabe9961bd916d3110cc6f96ce62bd",
+  "nms_source": "D:\\python\\.venv\\Lib\\site-packages\\torchvision\\ops\\boxes.py",
+  "nms_source_sha256": "9c0afd11f8291569442752f7aaab607ad0f7bf57dccd645048a0b7196372f269"
+}

@@ -1,0 +1,55 @@
+{
+  "model": "IR",
+  "stem": "130500",
+  "status": "passed",
+  "capture_sha256": "dfb3830429fe83c7a5be0d967e431cdd43a227f9674bbf6d691c2ca5b0185bbd",
+  "nms_input_count": 139,
+  "nms_kept_count": 22,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 12521,
+      "qualified_count": 8,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "9176": 3176,
+        "12851": 3176,
+        "8886": 3176,
+        "2886": 3176,
+        "3191": 3176,
+        "9476": 3176,
+        "8875": 3176,
+        "12852": 3176
+      }
+    },
+    {
+      "gt_index": 3,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 12521,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "9731": 3716,
+        "3731": 3716
+      }
+    },
+    {
+      "gt_index": 4,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 12521,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "3697": 9401
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day03/outputs/ir_roi_nms_batch_run01/items/130500/result.json"
+}

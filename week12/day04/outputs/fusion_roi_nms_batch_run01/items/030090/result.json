@@ -1,0 +1,59 @@
+{
+  "model": "Fusion",
+  "stem": "030090",
+  "status": "passed",
+  "capture_sha256": "4fad7c68a106a10eeaecd83e5082ef0887290048752e5f83d04bb4cefd9431ff",
+  "nms_input_count": 106,
+  "nms_kept_count": 14,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10391,
+      "qualified_count": 10,
+      "top_score_first_suppressed": 10,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "10366": 10391,
+        "4366": 10391,
+        "4367": 10391,
+        "10977": 10391,
+        "4977": 10391,
+        "4666": 10391,
+        "10382": 10391,
+        "10666": 10391,
+        "13142": 10391,
+        "4077": 10391
+      }
+    },
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10391,
+      "qualified_count": 15,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "5037": 11036,
+        "5017": 11036,
+        "11017": 11036,
+        "13312": 11036,
+        "4737": 11036,
+        "5026": 11036,
+        "10737": 11036,
+        "5022": 11036,
+        "5326": 11036,
+        "11332": 11036,
+        "11026": 11036,
+        "13317": 11036,
+        "11326": 11036,
+        "5047": 11036,
+        "5027": 11036
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/030090/result.json"
+}

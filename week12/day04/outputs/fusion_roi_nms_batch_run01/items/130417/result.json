@@ -1,0 +1,50 @@
+{
+  "model": "Fusion",
+  "stem": "130417",
+  "status": "passed",
+  "capture_sha256": "96e9a9c72550ca34cbfe8f820d886acc1387fe3513a4330cadb0cc4441bb4f6f",
+  "nms_input_count": 120,
+  "nms_kept_count": 19,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 5256,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "4331": 10016
+      }
+    },
+    {
+      "gt_index": 2,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 5256,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "9146": 9446,
+        "3146": 9446
+      }
+    },
+    {
+      "gt_index": 3,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 5256,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 3,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "5561": 5256,
+        "11271": 5256,
+        "11266": 5256
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/130417/result.json"
+}

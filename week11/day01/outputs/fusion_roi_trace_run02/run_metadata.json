@@ -1,0 +1,31 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week11/day01/trace_fusion.py --output week11/day01/outputs/fusion_roi_trace_run02",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "device": "cpu",
+    "threads": 2,
+    "seed": 42
+  },
+  "source_sha256": "edbde33c3d0e1196fbb6b92ea5a7bcc77a747ae9b15c97727199ebb5edf6aff5",
+  "counts": {
+    "checkpoint_loads": 1,
+    "strict_state_loads": 1,
+    "model_restore_attempts": 1,
+    "structure_probes": 1,
+    "validation_full_forward_attempts": 2,
+    "validation_full_forwards_returned": 2,
+    "model_forward_calls": 2,
+    "original_roi_nms_calls": 2,
+    "original_rpn_nms_records": 2,
+    "reference_capture_loads": 2,
+    "ir_forwards": 0,
+    "independent_nms_replays": 0,
+    "training": 0,
+    "server_connections": 0,
+    "test_inference": 0
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,27 @@
+{
+  "model": "IR",
+  "stem": "170086",
+  "status": "passed",
+  "capture_sha256": "dc8fd1def19ebcc0a64cdf4f11a4e6fafa5444403ad60ee6a4a74e7755651120",
+  "nms_input_count": 85,
+  "nms_kept_count": 12,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 9837,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 3,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "10135": 9837,
+        "9835": 9837,
+        "10130": 9837
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day03/outputs/ir_roi_nms_batch_run01/items/170086/result.json"
+}

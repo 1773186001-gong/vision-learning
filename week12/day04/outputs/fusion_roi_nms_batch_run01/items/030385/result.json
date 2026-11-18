@@ -1,0 +1,50 @@
+{
+  "model": "Fusion",
+  "stem": "030385",
+  "status": "passed",
+  "capture_sha256": "d521f3a355d9cb9fc861025a6afbdf525b60c3462f35b4c438d204809137da0d",
+  "nms_input_count": 122,
+  "nms_kept_count": 12,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 12356,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "1521": 1826,
+        "8116": 1826,
+        "1832": 1826
+      }
+    },
+    {
+      "gt_index": 2,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 12356,
+      "qualified_count": 13,
+      "top_score_first_suppressed": 13,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "7601": 12356,
+        "1601": 12356,
+        "7597": 12356,
+        "7596": 12356,
+        "1597": 12356,
+        "1306": 12356,
+        "7616": 12356,
+        "1291": 12356,
+        "6991": 12356,
+        "7306": 12356,
+        "7291": 12356,
+        "1616": 12356,
+        "12346": 12356
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/030385/result.json"
+}

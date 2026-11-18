@@ -1,0 +1,10 @@
+﻿model,stem,stage,count,max_gt_iou,qualifying_count,qualifying_flats,maximum_iou_flats,evidence
+Fusion,030078,rpn_proposals,67,0.7057053446769714,0,[],[2846],actual RPN return and RoI input
+Fusion,030078,person_decoded,67,0.7863445281982422,3,"[8846, 2846, 2841]",[2841],actual decode
+Fusion,030078,person_clipped,67,0.7863445281982422,3,"[8846, 2846, 2841]",[2841],actual clip
+Fusion,030078,background_removed_expanded,67,0.7863445281982422,3,"[8846, 2846, 2841]",[2841],reconstructed and checked at small-box input
+Fusion,030078,score_filtered,58,0.7863445281982422,3,"[8846, 2846, 2841]",[2841],strict score indices checked at actual small-box input
+Fusion,030078,small_filtered,58,0.7863445281982422,3,"[8846, 2846, 2841]",[2841],actual small-box indices and NMS input
+Fusion,030078,nms_all_output,7,0.6152200698852539,0,[],[2832],actual full NMS indices
+Fusion,030078,detections_budget,7,0.6152200698852539,0,[],[2832],budget slice checked at actual postprocess
+Fusion,030078,model_output,7,0.6152200698852539,0,[],[2832],actual model output

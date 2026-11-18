@@ -1,0 +1,408 @@
+{
+  "exact_reproduced": true,
+  "checks": {
+    "rpn_flat_sequence_exact": true,
+    "rpn_flats_unique": true,
+    "rpn_boxes_and_objectness_by_flat": true,
+    "actual_rpn_return_exact": true,
+    "ordered_final_output_exact": true,
+    "gt_exact": true,
+    "coordinates_exact": true,
+    "configuration_exact": true,
+    "checkpoint_sha_exact": true,
+    "model_state_exact": true,
+    "all_modules_eval": true,
+    "hooks_restored": true,
+    "temporary_attributes_restored": true
+  },
+  "state_before": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+  "state_after": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+  "day03_state": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0",
+  "ordered_flat_ids": [
+    8862,
+    2862,
+    12687,
+    2861,
+    8546,
+    12837,
+    2546,
+    12681,
+    2556,
+    8547,
+    12836,
+    8542,
+    2876,
+    8541,
+    2842,
+    8876,
+    9161,
+    2847,
+    2577,
+    2542,
+    8577,
+    12831,
+    3156,
+    8262,
+    2571,
+    9156,
+    9157,
+    2541,
+    2551,
+    3161,
+    3157,
+    8551,
+    8256,
+    8571,
+    2576,
+    2845,
+    8576,
+    2262,
+    8841,
+    12676,
+    8246,
+    8241,
+    12685,
+    8560,
+    2841,
+    9176,
+    8261,
+    2560,
+    8845,
+    3151,
+    8851,
+    2545,
+    2256,
+    2875,
+    8545,
+    2552,
+    3176,
+    2851,
+    2241,
+    2555,
+    8260,
+    2543,
+    8552,
+    2840
+  ],
+  "day03_ordered_flat_ids": [
+    8862,
+    2862,
+    12687,
+    2861,
+    8546,
+    12837,
+    2546,
+    12681,
+    2556,
+    8547,
+    12836,
+    8542,
+    2876,
+    8541,
+    2842,
+    8876,
+    9161,
+    2847,
+    2577,
+    2542,
+    8577,
+    12831,
+    3156,
+    8262,
+    2571,
+    9156,
+    9157,
+    2541,
+    2551,
+    3161,
+    3157,
+    8551,
+    8256,
+    8571,
+    2576,
+    2845,
+    8576,
+    2262,
+    8841,
+    12676,
+    8246,
+    8241,
+    12685,
+    8560,
+    2841,
+    9176,
+    8261,
+    2560,
+    8845,
+    3151,
+    8851,
+    2545,
+    2256,
+    2875,
+    8545,
+    2552,
+    3176,
+    2851,
+    2241,
+    2555,
+    8260,
+    2543,
+    8552,
+    2840
+  ],
+  "current_coordinates": {
+    "original_wh": [
+      1280,
+      1024
+    ],
+    "letterbox_wh": [
+      640,
+      640
+    ],
+    "scale": 0.5,
+    "padding_ltrb": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "internal_wh": [
+      640,
+      640
+    ],
+    "final_output_wh": [
+      640,
+      640
+    ],
+    "final_output": "model returns coordinates of supplied Letterbox input; no unpadding"
+  },
+  "day03_coordinates": {
+    "original_wh": [
+      1280,
+      1024
+    ],
+    "letterbox_wh": [
+      640,
+      640
+    ],
+    "scale": 0.5,
+    "padding_ltrb": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "internal_wh": [
+      640,
+      640
+    ],
+    "final_output_wh": [
+      640,
+      640
+    ],
+    "final_output": "model returns coordinates of supplied Letterbox input; no unpadding"
+  },
+  "current_config": {
+    "rpn": {
+      "pre": 150,
+      "post": 150,
+      "score": 0.05,
+      "nms": 0.7,
+      "min_size": 0.001,
+      "anchors": [
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ]
+      ],
+      "ratios": [
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "roi": {
+      "score": 0.001,
+      "nms": 0.5,
+      "detections": 100,
+      "featmaps": [
+        "0",
+        "1"
+      ],
+      "bbox_weights": [
+        10.0,
+        10.0,
+        5.0,
+        5.0
+      ]
+    },
+    "transform": {
+      "min": [
+        640
+      ],
+      "max": 640,
+      "mean": [
+        0.485,
+        0.456,
+        0.406,
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225,
+        0.229,
+        0.224,
+        0.225
+      ],
+      "size_divisible": 32
+    }
+  },
+  "day03_config": {
+    "rpn": {
+      "pre": 150,
+      "post": 150,
+      "score": 0.05,
+      "nms": 0.7,
+      "min_size": 0.001,
+      "anchors": [
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        [
+          32,
+          64,
+          128,
+          256,
+          512
+        ]
+      ],
+      "ratios": [
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ],
+        [
+          0.5,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "roi": {
+      "score": 0.001,
+      "nms": 0.5,
+      "detections": 100,
+      "featmaps": [
+        "0",
+        "1"
+      ],
+      "bbox_weights": [
+        10.0,
+        10.0,
+        5.0,
+        5.0
+      ]
+    },
+    "transform": {
+      "min": [
+        640
+      ],
+      "max": 640,
+      "mean": [
+        0.485,
+        0.456,
+        0.406,
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225,
+        0.229,
+        0.224,
+        0.225
+      ],
+      "size_divisible": 32
+    }
+  },
+  "current_gt": [
+    [
+      302.5,
+      224.0,
+      359.5,
+      332.0
+    ],
+    [
+      281.5,
+      207.0,
+      316.5,
+      315.5
+    ]
+  ],
+  "day03_gt": [
+    [
+      302.5,
+      224.0,
+      359.5,
+      332.0
+    ],
+    [
+      281.5,
+      207.0,
+      316.5,
+      315.5
+    ]
+  ],
+  "tolerance_used": false
+}

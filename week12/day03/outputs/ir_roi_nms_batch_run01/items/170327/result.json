@@ -1,0 +1,54 @@
+{
+  "model": "IR",
+  "stem": "170327",
+  "status": "passed",
+  "capture_sha256": "4ff1fd9ab70581150562c3a025f1900497acf346e5975b5a4e7262e104ca196c",
+  "nms_input_count": 90,
+  "nms_kept_count": 13,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 4106,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "9776": 4076,
+        "9771": 4076
+      }
+    },
+    {
+      "gt_index": 2,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 4106,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "11201": 4901,
+        "5201": 4901
+      }
+    },
+    {
+      "gt_index": 3,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 4106,
+      "qualified_count": 6,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "4586": 10586,
+        "10886": 10586,
+        "10587": 10586,
+        "4887": 10586,
+        "10582": 10586,
+        "4582": 10586
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day03/outputs/ir_roi_nms_batch_run01/items/170327/result.json"
+}

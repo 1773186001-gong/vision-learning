@@ -1,0 +1,41 @@
+{
+  "model": "IR",
+  "stem": "081240",
+  "status": "passed",
+  "capture_sha256": "3010f71d3df53520975def5c462977c369648ca003191f99512edecdb7a5e95c",
+  "nms_input_count": 139,
+  "nms_kept_count": 16,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 2,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 12957,
+      "qualified_count": 2,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "5267": 11276,
+        "10966": 11276
+      }
+    },
+    {
+      "gt_index": 4,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 12957,
+      "qualified_count": 5,
+      "top_score_first_suppressed": 5,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "4002": 12957,
+        "4012": 12957,
+        "3701": 12957,
+        "9697": 12957,
+        "3697": 12957
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day03/outputs/ir_roi_nms_batch_run01/items/081240/result.json"
+}

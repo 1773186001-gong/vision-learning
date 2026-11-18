@@ -1,0 +1,118 @@
+﻿model,stem,flat,roi_row,branch_id,roles,stage,present,stage_index,gt_iou,person_score
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",rpn_proposals,True,28,0.49440786242485046,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",person_decoded,True,28,0.7977884411811829,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",person_clipped,True,28,0.7977884411811829,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",background_removed_expanded,True,28,0.7977884411811829,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",score_filtered,True,28,0.7977884411811829,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",small_filtered,True,28,0.7977884411811829,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",nms_all_output,False,,,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",detections_budget,False,,,0.05356269329786301
+Fusion,030129,2551,28,fusion_roi_trace_run02/Fusion/030129/2551/class1,"[""达标""]",model_output,False,,,0.05356269329786301
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",rpn_proposals,True,8,0.6663830876350403,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",person_decoded,True,8,0.7566068768501282,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",person_clipped,True,8,0.7566068768501282,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",background_removed_expanded,True,8,0.7566068768501282,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",score_filtered,True,8,0.7566068768501282,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",small_filtered,True,8,0.7566068768501282,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",nms_all_output,False,,,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",detections_budget,False,,,0.9455159306526184
+Fusion,030129,2556,8,fusion_roi_trace_run02/Fusion/030129/2556/class1,"[""达标""]",model_output,False,,,0.9455159306526184
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",rpn_proposals,True,24,0.5484074950218201,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",person_decoded,True,24,0.8562780618667603,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",person_clipped,True,24,0.8562780618667603,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",background_removed_expanded,True,24,0.8562780618667603,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",score_filtered,True,24,0.8562780618667603,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",small_filtered,True,24,0.8562780618667603,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",nms_all_output,False,,,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",detections_budget,False,,,0.04816426336765289
+Fusion,030129,2571,24,fusion_roi_trace_run02/Fusion/030129/2571/class1,"[""达标""]",model_output,False,,,0.04816426336765289
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",rpn_proposals,True,34,0.5404720902442932,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",person_decoded,True,34,0.7894802689552307,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",person_clipped,True,34,0.7894802689552307,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",background_removed_expanded,True,34,0.7894802689552307,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",score_filtered,True,33,0.7894802689552307,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",small_filtered,True,33,0.7894802689552307,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",nms_all_output,False,,,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",detections_budget,False,,,0.1586097776889801
+Fusion,030129,2576,34,fusion_roi_trace_run02/Fusion/030129/2576/class1,"[""达标""]",model_output,False,,,0.1586097776889801
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",rpn_proposals,True,57,0.48629072308540344,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",person_decoded,True,57,0.752806544303894,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",person_clipped,True,57,0.752806544303894,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",background_removed_expanded,True,57,0.752806544303894,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",score_filtered,True,50,0.752806544303894,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",small_filtered,True,50,0.752806544303894,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",nms_all_output,False,,,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",detections_budget,False,,,0.10473864525556564
+Fusion,030129,2851,57,fusion_roi_trace_run02/Fusion/030129/2851/class1,"[""达标""]",model_output,False,,,0.10473864525556564
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",rpn_proposals,True,3,0.7340067028999329,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",person_decoded,True,3,0.7362606525421143,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",person_clipped,True,3,0.7362606525421143,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",background_removed_expanded,True,3,0.7362606525421143,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",score_filtered,True,3,0.7362606525421143,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",small_filtered,True,3,0.7362606525421143,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",nms_all_output,True,0,0.7362606525421143,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",detections_budget,True,0,0.7362606525421143,0.9919335246086121
+Fusion,030129,2861,3,fusion_roi_trace_run02/Fusion/030129/2861/class1,"[""RPN最高IoU"", ""NMS前最高分类分数"", ""最终最高IoU"", ""最终最高分类分数""]",model_output,True,0,0.7362606525421143,0.9919335246086121
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",rpn_proposals,True,12,0.5801180601119995,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",person_decoded,True,12,0.7885874509811401,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",person_clipped,True,12,0.7885874509811401,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",background_removed_expanded,True,12,0.7885874509811401,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",score_filtered,True,12,0.7885874509811401,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",small_filtered,True,12,0.7885874509811401,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",nms_all_output,False,,,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",detections_budget,False,,,0.2319294810295105
+Fusion,030129,2876,12,fusion_roi_trace_run02/Fusion/030129/2876/class1,"[""达标""]",model_output,False,,,0.2319294810295105
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",rpn_proposals,True,22,0.5064600110054016,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",person_decoded,True,22,0.7757384777069092,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",person_clipped,True,22,0.7757384777069092,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",background_removed_expanded,True,22,0.7757384777069092,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",score_filtered,True,22,0.7757384777069092,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",small_filtered,True,22,0.7757384777069092,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",nms_all_output,False,,,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",detections_budget,False,,,0.5065174698829651
+Fusion,030129,3156,22,fusion_roi_trace_run02/Fusion/030129/3156/class1,"[""达标""]",model_output,False,,,0.5065174698829651
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",rpn_proposals,True,29,0.5733508467674255,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",person_decoded,True,29,0.7730640172958374,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",person_clipped,True,29,0.7730640172958374,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",background_removed_expanded,True,29,0.7730640172958374,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",score_filtered,True,29,0.7730640172958374,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",small_filtered,True,29,0.7730640172958374,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",nms_all_output,False,,,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",detections_budget,False,,,0.7264177799224854
+Fusion,030129,3161,29,fusion_roi_trace_run02/Fusion/030129/3161/class1,"[""达标""]",model_output,False,,,0.7264177799224854
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",rpn_proposals,True,33,0.5908238887786865,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",person_decoded,True,33,0.873180091381073,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",person_clipped,True,33,0.873180091381073,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",background_removed_expanded,True,33,0.873180091381073,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",score_filtered,True,32,0.873180091381073,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",small_filtered,True,32,0.873180091381073,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",nms_all_output,False,,,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",detections_budget,False,,,0.11902549862861633
+Fusion,030129,8571,33,fusion_roi_trace_run02/Fusion/030129/8571/class1,"[""达标"", ""NMS前最高IoU""]",model_output,False,,,0.11902549862861633
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",rpn_proposals,True,36,0.5448392629623413,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",person_decoded,True,36,0.7783521413803101,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",person_clipped,True,36,0.7783521413803101,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",background_removed_expanded,True,36,0.7783521413803101,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",score_filtered,True,35,0.7783521413803101,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",small_filtered,True,35,0.7783521413803101,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",nms_all_output,False,,,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",detections_budget,False,,,0.2074728012084961
+Fusion,030129,8576,36,fusion_roi_trace_run02/Fusion/030129/8576/class1,"[""达标""]",model_output,False,,,0.2074728012084961
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",rpn_proposals,True,25,0.48951974511146545,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",person_decoded,True,25,0.7526443600654602,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",person_clipped,True,25,0.7526443600654602,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",background_removed_expanded,True,25,0.7526443600654602,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",score_filtered,True,25,0.7526443600654602,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",small_filtered,True,25,0.7526443600654602,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",nms_all_output,False,,,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",detections_budget,False,,,0.49181681871414185
+Fusion,030129,9156,25,fusion_roi_trace_run02/Fusion/030129/9156/class1,"[""达标""]",model_output,False,,,0.49181681871414185
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",rpn_proposals,True,16,0.5726224184036255,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",person_decoded,True,16,0.7547183036804199,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",person_clipped,True,16,0.7547183036804199,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",background_removed_expanded,True,16,0.7547183036804199,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",score_filtered,True,16,0.7547183036804199,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",small_filtered,True,16,0.7547183036804199,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",nms_all_output,False,,,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",detections_budget,False,,,0.7933043241500854
+Fusion,030129,9161,16,fusion_roi_trace_run02/Fusion/030129/9161/class1,"[""达标""]",model_output,False,,,0.7933043241500854

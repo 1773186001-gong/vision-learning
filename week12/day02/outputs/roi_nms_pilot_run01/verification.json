@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "counts": {
+    "candidate_capture_loads": 2,
+    "new_replays": 2,
+    "full_output_verifications": 2,
+    "model_forwards": 0,
+    "checkpoint_loads": 0
+  },
+  "queued_pilot_jobs": 2,
+  "verified_targets": 4,
+  "queue_sha256": "3a97195ccbf39ca14121918b66052a67b94c12c3876b1543239a379bf79f9c12",
+  "source_sha256": "40731fd5e75870c9d2c37127e9c41179048dab489392a45d52aaaa79b6b5d7e1",
+  "greedy_replay_source_sha256": "97aa758afb9bbf581d6556638202100b19cabe9961bd916d3110cc6f96ce62bd",
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week12/day02/replay_pilot.py --output week12/day02/outputs/roi_nms_pilot_run01"
+}

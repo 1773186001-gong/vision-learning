@@ -1,0 +1,52 @@
+{
+  "model": "Fusion",
+  "stem": "080291",
+  "status": "passed",
+  "capture_sha256": "7302c17a8191b432272a2924fddd042a4a5c0da2eee9fd3691b31f74e3e30bf7",
+  "nms_input_count": 134,
+  "nms_kept_count": 18,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10016,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "9412": 12821
+      }
+    },
+    {
+      "gt_index": 1,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10016,
+      "qualified_count": 6,
+      "top_score_first_suppressed": 6,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "13121": 10016,
+        "10331": 10016,
+        "4331": 10016,
+        "13116": 10016,
+        "10026": 10016,
+        "4026": 10016
+      }
+    },
+    {
+      "gt_index": 4,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 10016,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "3471": 3176
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/080291/result.json"
+}

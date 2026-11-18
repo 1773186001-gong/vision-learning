@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "completed": [],
+  "failed_phase": "030078 reference checks",
+  "error": "Model state or configuration differs before forward",
+  "counts": {
+    "checkpoint_loads": 1,
+    "strict_state_loads": 1,
+    "model_restore_attempts": 1,
+    "structure_probes": 1,
+    "validation_full_forward_attempts": 0,
+    "validation_full_forwards_returned": 0,
+    "model_forward_calls": 0,
+    "original_roi_nms_calls": 0,
+    "original_rpn_nms_records": 0,
+    "reference_capture_loads": 1,
+    "ir_forwards": 0,
+    "independent_nms_replays": 0,
+    "training": 0,
+    "server_connections": 0,
+    "test_inference": 0
+  },
+  "iou_threshold": 0.75,
+  "exit_code": 1
+}

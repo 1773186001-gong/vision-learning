@@ -1,0 +1,27 @@
+{
+  "model": "Fusion",
+  "stem": "170256",
+  "status": "passed",
+  "capture_sha256": "c8cf09a4701dd3c2db7b3f7d5dd15c3308800180619f9c14c9c9e3be53120a64",
+  "nms_input_count": 62,
+  "nms_kept_count": 12,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 4691,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 3,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "10386": 4691,
+        "10392": 4691,
+        "10977": 4691
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/170256/result.json"
+}

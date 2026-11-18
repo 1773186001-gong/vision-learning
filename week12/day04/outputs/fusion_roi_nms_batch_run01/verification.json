@@ -1,0 +1,50 @@
+{
+  "status": "complete_with_unverified_jobs",
+  "model": "Fusion",
+  "queued_jobs": 83,
+  "queued_targets": 124,
+  "archived_jobs": 2,
+  "pilot_jobs": 1,
+  "full_output_matches": 83,
+  "categories": {
+    "all": 37,
+    "partial": 0,
+    "none": 85,
+    "unverified": 2
+  },
+  "paired_loss_categories": {
+    "all": 33,
+    "partial": 0,
+    "none": 70,
+    "unverified": 2
+  },
+  "unverified_jobs": [
+    {
+      "stem": "030397",
+      "reason": "First-suppressor attribution cannot be assigned unambiguously",
+      "ambiguity_details": [
+        {
+          "reason": "comparison_near_threshold",
+          "positions": [
+            6,
+            47
+          ],
+          "iou": 0.4999999403953552
+        }
+      ],
+      "full_output_match": true,
+      "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/030397/result.json"
+    }
+  ],
+  "counts": {
+    "candidate_capture_loads": 80,
+    "new_replays": 80,
+    "full_output_verifications": 80,
+    "model_forwards": 0,
+    "checkpoint_loads": 0
+  },
+  "queue_sha256": "3a97195ccbf39ca14121918b66052a67b94c12c3876b1543239a379bf79f9c12",
+  "source_sha256": "24173dc36ed1094c140410fe61f16a09d67daf867d1964c2f2c3f003d432cd7f",
+  "replay_source_sha256": "40731fd5e75870c9d2c37127e9c41179048dab489392a45d52aaaa79b6b5d7e1",
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week12/day03/replay_batch.py --model Fusion --output week12/day04/outputs/fusion_roi_nms_batch_run01"
+}

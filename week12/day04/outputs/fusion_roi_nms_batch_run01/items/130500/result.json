@@ -1,0 +1,49 @@
+{
+  "model": "Fusion",
+  "stem": "130500",
+  "status": "passed",
+  "capture_sha256": "66aaa64ae37c3c277d2e108e820be56b958b1ad9a0dce9510ef06065fa3ea9b6",
+  "nms_input_count": 138,
+  "nms_kept_count": 18,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 7931,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 1,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "12521": 7931
+      }
+    },
+    {
+      "gt_index": 3,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 7931,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "12971": 9716,
+        "3731": 9716,
+        "9731": 9716
+      }
+    },
+    {
+      "gt_index": 4,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 7931,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "3397": 9401
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/130500/result.json"
+}

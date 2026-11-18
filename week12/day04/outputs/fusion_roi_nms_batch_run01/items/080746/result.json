@@ -1,0 +1,64 @@
+{
+  "model": "Fusion",
+  "stem": "080746",
+  "status": "passed",
+  "capture_sha256": "3b03c1a3914da539b2e7ada22ec62b4c9c029a8d8e082b7550405209942c4dd7",
+  "nms_input_count": 126,
+  "nms_kept_count": 17,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": false,
+      "top_score_flat": 2006,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "12521": 7931
+      }
+    },
+    {
+      "gt_index": 3,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 2006,
+      "qualified_count": 5,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "2292": 8291,
+        "2287": 8291,
+        "8287": 8291,
+        "7986": 8291,
+        "1986": 8291
+      }
+    },
+    {
+      "gt_index": 5,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 2006,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "2047": 2051,
+        "8047": 2051,
+        "12577": 2051
+      }
+    },
+    {
+      "gt_index": 6,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 2006,
+      "qualified_count": 1,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "8397": 2396
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/080746/result.json"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "error": null,
+  "exit_code": 0,
+  "completed_models": [
+    "IR",
+    "Fusion"
+  ],
+  "elapsed_seconds": 137.265,
+  "items_verified": 300,
+  "reuse_count": 4,
+  "counts_by_model": {
+    "IR": {
+      "checkpoint_loads": 1,
+      "strict_state_loads": 1,
+      "model_restore_attempts": 1,
+      "structure_probes": 0,
+      "validation_full_forward_attempts": 148,
+      "validation_full_forwards_returned": 148,
+      "model_forward_calls": 148,
+      "original_roi_nms_calls": 148,
+      "original_rpn_nms_records": 148
+    },
+    "Fusion": {
+      "checkpoint_loads": 1,
+      "strict_state_loads": 1,
+      "model_restore_attempts": 1,
+      "structure_probes": 1,
+      "validation_full_forward_attempts": 148,
+      "validation_full_forwards_returned": 148,
+      "model_forward_calls": 148,
+      "original_roi_nms_calls": 148,
+      "original_rpn_nms_records": 148
+    }
+  },
+  "independent_nms_replays": 0,
+  "training": 0,
+  "server_connections": 0
+}

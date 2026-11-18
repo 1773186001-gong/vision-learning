@@ -1,0 +1,48 @@
+{
+  "model": "Fusion",
+  "stem": "081527",
+  "status": "passed",
+  "capture_sha256": "3c62d6fe477e8f248ca479db8feea511a57e3cbfa8721474d5485553e3c5e17a",
+  "nms_input_count": 139,
+  "nms_kept_count": 17,
+  "full_output_match": true,
+  "targets": [
+    {
+      "gt_index": 0,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 4106,
+      "qualified_count": 11,
+      "top_score_first_suppressed": 11,
+      "category": "all",
+      "first_suppressor_by_flat": {
+        "4091": 4106,
+        "9806": 4106,
+        "3801": 4106,
+        "9786": 4106,
+        "3791": 4106,
+        "3786": 4106,
+        "9791": 4106,
+        "13001": 4106,
+        "12996": 4106,
+        "4081": 4106,
+        "4096": 4106
+      }
+    },
+    {
+      "gt_index": 2,
+      "both_models_pre_nms_covered": true,
+      "top_score_flat": 4106,
+      "qualified_count": 3,
+      "top_score_first_suppressed": 0,
+      "category": "none",
+      "first_suppressor_by_flat": {
+        "7571": 7556,
+        "12341": 7556,
+        "7552": 7556
+      }
+    }
+  ],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/081527/result.json"
+}

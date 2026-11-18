@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\python\test\vision-learning\week12\day03\replay_batch.py", line 57, in run_job
+    result = replay_job(job, folder, counts, replay_budget=budget)
+  File "D:\python\test\vision-learning\week12\day02\replay_pilot.py", line 104, in replay_job
+    require(not ambiguous, 'First-suppressor attribution cannot be assigned unambiguously')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\test\vision-learning\week10\day05\replay_roi_nms.py", line 21, in require
+    if not ok:raise ValueError(note)
+              ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: First-suppressor attribution cannot be assigned unambiguously

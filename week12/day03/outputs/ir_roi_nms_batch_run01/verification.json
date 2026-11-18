@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "model": "IR",
+  "queued_jobs": 68,
+  "queued_targets": 97,
+  "archived_jobs": 1,
+  "pilot_jobs": 1,
+  "full_output_matches": 68,
+  "categories": {
+    "all": 28,
+    "partial": 3,
+    "none": 66,
+    "unverified": 0
+  },
+  "paired_loss_categories": {
+    "all": 25,
+    "partial": 3,
+    "none": 52,
+    "unverified": 0
+  },
+  "unverified_jobs": [],
+  "counts": {
+    "candidate_capture_loads": 66,
+    "new_replays": 66,
+    "full_output_verifications": 66,
+    "model_forwards": 0,
+    "checkpoint_loads": 0
+  },
+  "queue_sha256": "3a97195ccbf39ca14121918b66052a67b94c12c3876b1543239a379bf79f9c12",
+  "source_sha256": "24173dc36ed1094c140410fe61f16a09d67daf867d1964c2f2c3f003d432cd7f",
+  "replay_source_sha256": "40731fd5e75870c9d2c37127e9c41179048dab489392a45d52aaaa79b6b5d7e1",
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week12/day03/replay_batch.py --model IR --output week12/day03/outputs/ir_roi_nms_batch_run01"
+}

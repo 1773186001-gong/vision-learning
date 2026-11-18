@@ -1,0 +1,9 @@
+{
+  "scope": "D:\\python\\test\\vision-learning\\week11\\day04\\outputs\\full_val_scope_run02\\scope.json",
+  "scope_sha256": "c5437e17b368d52803b44eab20c270ceb8d990e2245aa2804c6bcfab0d237c59",
+  "capture_index": "D:\\python\\test\\vision-learning\\week11\\day05\\outputs\\full_val_roi_capture_run01\\capture_index.json",
+  "capture_index_sha256": "d0b205b70b5a67ec5581febb2bcc5f5c341eb48df90188385afcc7d8881632bd",
+  "anchors": "D:\\python\\test\\vision-learning\\week11\\day01\\outputs\\fusion_roi_trace_run02\\ir_fusion_comparison.csv",
+  "anchors_sha256": "9d74fefff540e23967101b371fd216fb2302b6a9c0ad32509ec44ad80a030f84",
+  "source_sha256": "3b43a79828c4cdf521c5f18dfc46b97d60f750f99a74b82c72cce898edf05a75"
+}

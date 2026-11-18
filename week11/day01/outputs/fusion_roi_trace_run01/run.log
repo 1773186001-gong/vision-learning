@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\python\test\vision-learning\week11\day01\trace_fusion.py", line 469, in main
+    require(state == initial_state == reference_state['state_before'] and
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            configuration == normalized(config(model.detector)) == reference['configuration'] == reference_state['config'],
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            'Model state or configuration differs before forward')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\test\vision-learning\week10\day06\trace_success.py", line 21, in require
+    if not ok:raise ValueError(note)
+              ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Model state or configuration differs before forward

@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "full_keep_order_exact": true,
+    "replay_budget_and_post_exact": true,
+    "replay_final_model_output_exact": true
+  },
+  "original_indices": [
+    3,
+    41,
+    21,
+    50,
+    42,
+    55,
+    53
+  ],
+  "replay_indices": [
+    3,
+    41,
+    21,
+    50,
+    42,
+    55,
+    53
+  ]
+}

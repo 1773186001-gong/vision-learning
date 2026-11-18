@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "shared_rows": 297,
+  "loss_rows_checked": 221,
+  "attribution_verified_loss_rows": 219,
+  "full_output_matches_by_model": {
+    "IR": 68,
+    "Fusion": 83
+  },
+  "new_replays": 0,
+  "candidate_captures_read": 0,
+  "model_forwards": 0,
+  "checkpoint_loads": 0,
+  "source_sha256": "22ad71120aac042d79c91cbe1d37ba5f255dc5dfdd10e0fe2776dcefd91c9df0",
+  "input_artifacts": {
+    "week12/day01/outputs/frozen_roi_nms_queue_run01/replay_queue.json": "3a97195ccbf39ca14121918b66052a67b94c12c3876b1543239a379bf79f9c12",
+    "week12/day01/outputs/frozen_roi_nms_queue_run01/verification.json": "61404e76970a4773e6170b9ebc19df4c8f385b78fd6894117c6d5b59aed61d24",
+    "week11/day06/outputs/full_val_roi_analysis_run01/paired_per_gt.csv": "bc2ae884a58cc1b8adb8e1164bebf44ac4beb60d82c6a79e607f650da217abf7",
+    "week11/day06/outputs/full_val_roi_analysis_run01/summary.json": "74ca262a22b40099df756a208735a1225d04562f3a92680bcd80a37a2c5d4f8d",
+    "week12/day03/outputs/ir_roi_nms_batch_run01/verification.json": "80af22fd3aea7f207d5e9536dde312015dbcc24c8e9f711647e48d73604be65f",
+    "week12/day03/outputs/ir_roi_nms_batch_run01/target_attributions.csv": "4a0bfe247253399b94967d258e6f0b0398f14c5b562c34922fecdd3a80d107f0",
+    "week12/day04/outputs/fusion_roi_nms_batch_run01/verification.json": "0b7850029f0562d191929b10068ac98bb685d15d504406c0e78c2aed3f4079fe",
+    "week12/day04/outputs/fusion_roi_nms_batch_run01/target_attributions.csv": "4cba9b4654a0d85c8609e2c2006140ae12191484193a0be36f8269d8a6226300"
+  },
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week12/day05/summarize_paired.py --output week12/day05/outputs/roi_nms_paired_run01"
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "model": "IR",
+    "stem": "030129",
+    "replay_source": "week10/day05/outputs/roi_nms_replay_run01",
+    "original_keep_indices": [
+      0,
+      7,
+      23
+    ],
+    "complete_decision_count": 44,
+    "targets": [
+      {
+        "gt_index": 0,
+        "top_score_flat": 8862,
+        "qualified_count": 5,
+        "top_score_first_suppressed": 4,
+        "category": "partial",
+        "first_suppressor_by_flat": {
+          "8571": 2571,
+          "8576": 8862,
+          "9156": 8862,
+          "12831": 8862,
+          "2576": 8862
+        }
+      }
+    ]
+  },
+  {
+    "model": "Fusion",
+    "stem": "030078",
+    "replay_source": "week11/day03/outputs/fusion_nms_030078_run01",
+    "original_keep_indices": [
+      3,
+      41,
+      21,
+      50,
+      42,
+      55,
+      53
+    ],
+    "complete_decision_count": 58,
+    "targets": [
+      {
+        "gt_index": 0,
+        "top_score_flat": 2832,
+        "qualified_count": 3,
+        "top_score_first_suppressed": 3,
+        "category": "all",
+        "first_suppressor_by_flat": {
+          "8846": 2832,
+          "2846": 2832,
+          "2841": 2832
+        }
+      },
+      {
+        "gt_index": 1,
+        "top_score_flat": 2832,
+        "qualified_count": 3,
+        "top_score_first_suppressed": 3,
+        "category": "all",
+        "first_suppressor_by_flat": {
+          "2531": 2832,
+          "8531": 2832,
+          "12671": 2832
+        }
+      }
+    ]
+  },
+  {
+    "model": "Fusion",
+    "stem": "030129",
+    "replay_source": "week11/day02/outputs/fusion_nms_030129_run01",
+    "original_keep_indices": [
+      3,
+      4,
+      49,
+      47,
+      41,
+      52
+    ],
+    "complete_decision_count": 54,
+    "targets": [
+      {
+        "gt_index": 0,
+        "top_score_flat": 2861,
+        "qualified_count": 12,
+        "top_score_first_suppressed": 12,
+        "category": "all",
+        "first_suppressor_by_flat": {
+          "2556": 2861,
+          "2876": 2861,
+          "9161": 2861,
+          "3156": 2861,
+          "2571": 2861,
+          "9156": 2861,
+          "2551": 2861,
+          "3161": 2861,
+          "8571": 2861,
+          "2576": 2861,
+          "8576": 2861,
+          "2851": 2861
+        }
+      },
+      {
+        "gt_index": 1,
+        "top_score_flat": 2861,
+        "qualified_count": 1,
+        "top_score_first_suppressed": 0,
+        "category": "none",
+        "first_suppressor_by_flat": {
+          "8246": 8546
+        }
+      }
+    ]
+  }
+]

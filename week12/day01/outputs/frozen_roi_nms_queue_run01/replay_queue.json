@@ -1,0 +1,5089 @@
+{
+  "status": "frozen",
+  "definition": "covered before RoI class NMS and not covered afterward",
+  "original_nms_iou_threshold": 0.5,
+  "gt_iou_threshold": 0.75,
+  "total_paired_gt": 416,
+  "shared_pre_nms_covered_gt": 297,
+  "loss_targets": {
+    "IR": 97,
+    "Fusion": 124
+  },
+  "shared_cohort_loss_targets": {
+    "IR": 80,
+    "Fusion": 105
+  },
+  "model_image_jobs": 151,
+  "by_model": {
+    "IR": {
+      "new_replay": 67,
+      "reuse_replay": 1
+    },
+    "Fusion": {
+      "new_replay": 81,
+      "reuse_replay": 2
+    }
+  },
+  "entries": [
+    {
+      "model": "IR",
+      "stem": "030052",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030052/raw_capture.pth",
+      "capture_sha256": "80e1630cda7076c9a7ae6b62e73fc7ae96cb0b4222b02529aeb8d1d5c2654ada",
+      "run_identity": "full_val_roi_capture_run01/IR/030052",
+      "nms_input_count": 123,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10062,
+            10057,
+            4057,
+            9752
+          ],
+          "top_score_flats": [
+            3477
+          ],
+          "nms_input_count": 123
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            7037
+          ],
+          "top_score_flats": [
+            3477
+          ],
+          "nms_input_count": 123
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7036,
+            7347,
+            1042,
+            7342
+          ],
+          "top_score_flats": [
+            3477
+          ],
+          "nms_input_count": 123
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "action": "new_replay",
+      "capture_path": "week10/day06/outputs/success_case_trace_run01/raw_capture.pth",
+      "capture_sha256": "51393139733f7b700cd8e1f97e123c4c0b56c094f34fdd0ac8ffb4f75a49b4fe",
+      "run_identity": "success_case_trace_run01/IR/030078",
+      "nms_input_count": 33,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2831,
+            8531,
+            12671
+          ],
+          "top_score_flats": [
+            8847
+          ],
+          "nms_input_count": 33
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030090",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030090/raw_capture.pth",
+      "capture_sha256": "e63e025ac01e7459d0710890311ed540cb014b1c34a08f34208d4dbc022e912e",
+      "run_identity": "full_val_roi_capture_run01/IR/030090",
+      "nms_input_count": 71,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10687,
+            4366,
+            10366,
+            4681,
+            4666,
+            10681,
+            10977,
+            10666
+          ],
+          "top_score_flats": [
+            10691
+          ],
+          "nms_input_count": 71
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030129",
+      "action": "reuse_replay",
+      "capture_path": "week10/day04/outputs/roi_trace_run01/raw_capture.pth",
+      "capture_sha256": "160e811ac2b3faf0f4ecadb571d5d9ec976c24686daa7f315f7580d797ea6773",
+      "run_identity": "roi_trace_run01/IR/030129",
+      "nms_input_count": 44,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8571,
+            8576,
+            9156,
+            12831,
+            2576
+          ],
+          "top_score_flats": [
+            8862
+          ],
+          "nms_input_count": 44
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030167",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030167/raw_capture.pth",
+      "capture_sha256": "e5d4facfb552907f2a07565edbba2f0ed39b3096c2132dc27868fbef23f547f5",
+      "run_identity": "full_val_roi_capture_run01/IR/030167",
+      "nms_input_count": 59,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            12356,
+            7301,
+            12357,
+            1301,
+            7285
+          ],
+          "top_score_flats": [
+            1286
+          ],
+          "nms_input_count": 59
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2861,
+            3162,
+            8861,
+            9157,
+            9462,
+            8872,
+            3462,
+            2872,
+            8851,
+            2851,
+            12687,
+            3172,
+            3151,
+            9151
+          ],
+          "top_score_flats": [
+            1286
+          ],
+          "nms_input_count": 59
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030192",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030192/raw_capture.pth",
+      "capture_sha256": "ba6ca3d237ecb2b58e663ede3b6ce1af9dbb9c96c3bf0af06b9c51468551f090",
+      "run_identity": "full_val_roi_capture_run01/IR/030192",
+      "nms_input_count": 50,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            7856,
+            1851,
+            1835,
+            1831,
+            7835
+          ],
+          "top_score_flats": [
+            1256
+          ],
+          "nms_input_count": 50
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            6951,
+            1246,
+            951,
+            6956
+          ],
+          "top_score_flats": [
+            1256
+          ],
+          "nms_input_count": 50
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030218",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030218/raw_capture.pth",
+      "capture_sha256": "48cfe68889e3697bd9dc771ad297ea1a770a298ce2029fb9f0a5fc7296d33ee3",
+      "run_identity": "full_val_roi_capture_run01/IR/030218",
+      "nms_input_count": 69,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            7357,
+            12382
+          ],
+          "top_score_flats": [
+            7346
+          ],
+          "nms_input_count": 69
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030294",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030294/raw_capture.pth",
+      "capture_sha256": "1e46a372c3317e45f1421966ae3f2a4414d769ad4a8924c256def1436ed7c305",
+      "run_identity": "full_val_roi_capture_run01/IR/030294",
+      "nms_input_count": 97,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            8992,
+            2992
+          ],
+          "top_score_flats": [
+            9792
+          ],
+          "nms_input_count": 97
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10596,
+            4596
+          ],
+          "top_score_flats": [
+            9792
+          ],
+          "nms_input_count": 97
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9297,
+            3592,
+            9592
+          ],
+          "top_score_flats": [
+            9792
+          ],
+          "nms_input_count": 97
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030346",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030346/raw_capture.pth",
+      "capture_sha256": "bfdb5989e9fdf0ce37b1b0db27c3648d15c52e64d006cb1ead320f281d12a3eb",
+      "run_identity": "full_val_roi_capture_run01/IR/030346",
+      "nms_input_count": 126,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10296,
+            4296,
+            13101
+          ],
+          "top_score_flats": [
+            1361
+          ],
+          "nms_input_count": 126
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            1306,
+            7306
+          ],
+          "top_score_flats": [
+            1361
+          ],
+          "nms_input_count": 126
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030359",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030359/raw_capture.pth",
+      "capture_sha256": "d85c7864ccef78a65905617ddfbd4e95253d52a71ee8552b06a73a33b0ae215d",
+      "run_identity": "full_val_roi_capture_run01/IR/030359",
+      "nms_input_count": 45,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9801,
+            3811,
+            3801,
+            9811,
+            10101,
+            13006,
+            4101,
+            9796
+          ],
+          "top_score_flats": [
+            13017
+          ],
+          "nms_input_count": 45
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030372",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030372/raw_capture.pth",
+      "capture_sha256": "6afbc532bb7fe103fe39d45da27ef44d680fc1ec792d2af94278d9dc593d095e",
+      "run_identity": "full_val_roi_capture_run01/IR/030372",
+      "nms_input_count": 32,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8455
+          ],
+          "top_score_flats": [
+            2456
+          ],
+          "nms_input_count": 32
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030397",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030397/raw_capture.pth",
+      "capture_sha256": "a8886312bd18dbe8f2f74752adb1a75f7fccdb0fb303602c92a25bc25702b321",
+      "run_identity": "full_val_roi_capture_run01/IR/030397",
+      "nms_input_count": 49,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8151,
+            2151
+          ],
+          "top_score_flats": [
+            2457
+          ],
+          "nms_input_count": 49
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030410",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030410/raw_capture.pth",
+      "capture_sha256": "dd33234546ac4dde9a3d1358a3a0d992a24ea454269b3f5bb4acdf193eeef63e",
+      "run_identity": "full_val_roi_capture_run01/IR/030410",
+      "nms_input_count": 61,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8711,
+            12761,
+            8706,
+            2711,
+            2706
+          ],
+          "top_score_flats": [
+            2517
+          ],
+          "nms_input_count": 61
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030423",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030423/raw_capture.pth",
+      "capture_sha256": "a6dd446d0e1b770a3f4b5af783d4bb13fd1e49fe65dfcb0bee84378336e1d7bb",
+      "run_identity": "full_val_roi_capture_run01/IR/030423",
+      "nms_input_count": 105,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            1571,
+            7572,
+            1567,
+            7872,
+            1872,
+            1576,
+            1561
+          ],
+          "top_score_flats": [
+            4136
+          ],
+          "nms_input_count": 105
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030436",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030436/raw_capture.pth",
+      "capture_sha256": "404b5e682da4c151572aeac6def104cf91cd2699ae64822967d5097007abd7ea",
+      "run_identity": "full_val_roi_capture_run01/IR/030436",
+      "nms_input_count": 87,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10402,
+            4402
+          ],
+          "top_score_flats": [
+            2832
+          ],
+          "nms_input_count": 87
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "030461",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/030461/raw_capture.pth",
+      "capture_sha256": "032f25152c635983d946be92800725c70107c5781e0e361dc8266332be69aa2f",
+      "run_identity": "full_val_roi_capture_run01/IR/030461",
+      "nms_input_count": 74,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12761,
+            8721,
+            2721,
+            2726,
+            9025
+          ],
+          "top_score_flats": [
+            7841
+          ],
+          "nms_input_count": 74
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080042",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080042/raw_capture.pth",
+      "capture_sha256": "03d4e4d2edf5120ebfd5fa7f46bdde3d898680129257ab6fd29255099d0107c1",
+      "run_identity": "full_val_roi_capture_run01/IR/080042",
+      "nms_input_count": 94,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5062,
+            10462,
+            4462
+          ],
+          "top_score_flats": [
+            12581
+          ],
+          "nms_input_count": 94
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080083",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080083/raw_capture.pth",
+      "capture_sha256": "ce1f50d166ff722aa92d3623be2a238e014020b89cfa2fb35ee6f5b335b2d2e3",
+      "run_identity": "full_val_roi_capture_run01/IR/080083",
+      "nms_input_count": 72,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9446,
+            3441,
+            9747,
+            9436,
+            9746,
+            3436
+          ],
+          "top_score_flats": [
+            3146
+          ],
+          "nms_input_count": 72
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080209",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080209/raw_capture.pth",
+      "capture_sha256": "5271e92ed4e42a9d2159f12c99a61596486cd9c6c06568640b77c04473b1a38b",
+      "run_identity": "full_val_roi_capture_run01/IR/080209",
+      "nms_input_count": 59,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10161
+          ],
+          "top_score_flats": [
+            10467
+          ],
+          "nms_input_count": 59
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080250",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080250/raw_capture.pth",
+      "capture_sha256": "9cd95895b6b7257fa5d7b7d1cffbf4b2041aea43e9abcae667fba0e57f05249f",
+      "run_identity": "full_val_roi_capture_run01/IR/080250",
+      "nms_input_count": 69,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9686,
+            9987,
+            3997,
+            3387,
+            3976,
+            3692
+          ],
+          "top_score_flats": [
+            8051
+          ],
+          "nms_input_count": 69
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080291/raw_capture.pth",
+      "capture_sha256": "fc82001e5ea839d566968867b38073c464b8e6e89063c388a0a96b2dd12d3830",
+      "run_identity": "full_val_roi_capture_run01/IR/080291",
+      "nms_input_count": 139,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9121,
+            12811
+          ],
+          "top_score_flats": [
+            3431
+          ],
+          "nms_input_count": 139
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13121,
+            10012
+          ],
+          "top_score_flats": [
+            3431
+          ],
+          "nms_input_count": 139
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13031
+          ],
+          "top_score_flats": [
+            3431
+          ],
+          "nms_input_count": 139
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080539",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080539/raw_capture.pth",
+      "capture_sha256": "9b11a90ac1ac243a7a74a06a88ad1546dd4cec31cba3275b6fa6af704042061f",
+      "run_identity": "full_val_roi_capture_run01/IR/080539",
+      "nms_input_count": 98,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            1436,
+            7736,
+            1736
+          ],
+          "top_score_flats": [
+            13287
+          ],
+          "nms_input_count": 98
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080746",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080746/raw_capture.pth",
+      "capture_sha256": "b31d9d96fab7f141ae74f9f2a36ac36e280ab9f607b5d4ca9efde7cc22438836",
+      "run_identity": "full_val_roi_capture_run01/IR/080746",
+      "nms_input_count": 135,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            2576,
+            8571
+          ],
+          "top_score_flats": [
+            2051
+          ],
+          "nms_input_count": 135
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12547
+          ],
+          "top_score_flats": [
+            2051
+          ],
+          "nms_input_count": 135
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8007,
+            7706
+          ],
+          "top_score_flats": [
+            2051
+          ],
+          "nms_input_count": 135
+        },
+        {
+          "gt_index": 5,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8051,
+            12581,
+            1746,
+            7746,
+            8351,
+            7766
+          ],
+          "top_score_flats": [
+            2051
+          ],
+          "nms_input_count": 135
+        },
+        {
+          "gt_index": 6,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8091,
+            8096
+          ],
+          "top_score_flats": [
+            2051
+          ],
+          "nms_input_count": 135
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "080953",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/080953/raw_capture.pth",
+      "capture_sha256": "0b6009dc5deb8ef118450ae24790d0161f4da01111b3cc8e7dcb9f6d6a4a093d",
+      "run_identity": "full_val_roi_capture_run01/IR/080953",
+      "nms_input_count": 51,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10392,
+            4392,
+            13152,
+            4687,
+            10386,
+            13146,
+            10091,
+            10087,
+            4087,
+            10381,
+            4381,
+            13141,
+            4102
+          ],
+          "top_score_flats": [
+            4407
+          ],
+          "nms_input_count": 51
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081035",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081035/raw_capture.pth",
+      "capture_sha256": "6cd7b297786d5192275bba2c66752864b30e8aa446a4419647af9ed4e74d956b",
+      "run_identity": "full_val_roi_capture_run01/IR/081035",
+      "nms_input_count": 37,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2022,
+            8022,
+            12567,
+            8602
+          ],
+          "top_score_flats": [
+            8322
+          ],
+          "nms_input_count": 37
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081076",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081076/raw_capture.pth",
+      "capture_sha256": "9858935dfacd7c340b6f91297f5aa5a664ad79b9972b531beef6117f3bdf5a64",
+      "run_identity": "full_val_roi_capture_run01/IR/081076",
+      "nms_input_count": 22,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10611,
+            10915,
+            4915
+          ],
+          "top_score_flats": [
+            10916
+          ],
+          "nms_input_count": 22
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081117",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081117/raw_capture.pth",
+      "capture_sha256": "50676273cb8358e4a178777b1e97c6e9c0ac608c043d537d2ed67ac9552fe44a",
+      "run_identity": "full_val_roi_capture_run01/IR/081117",
+      "nms_input_count": 143,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10136,
+            4136
+          ],
+          "top_score_flats": [
+            4451
+          ],
+          "nms_input_count": 143
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10151,
+            4151,
+            13332,
+            13331,
+            13180
+          ],
+          "top_score_flats": [
+            4451
+          ],
+          "nms_input_count": 143
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10761,
+            10777
+          ],
+          "top_score_flats": [
+            4451
+          ],
+          "nms_input_count": 143
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5371
+          ],
+          "top_score_flats": [
+            4451
+          ],
+          "nms_input_count": 143
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081158",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081158/raw_capture.pth",
+      "capture_sha256": "f29570744b5b85c5ca660ee41663befaf62f50d639f508910158022dd64ed2c5",
+      "run_identity": "full_val_roi_capture_run01/IR/081158",
+      "nms_input_count": 127,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5046,
+            10751,
+            4751,
+            10746,
+            4746
+          ],
+          "top_score_flats": [
+            9866
+          ],
+          "nms_input_count": 127
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081240",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081240/raw_capture.pth",
+      "capture_sha256": "3010f71d3df53520975def5c462977c369648ca003191f99512edecdb7a5e95c",
+      "run_identity": "full_val_roi_capture_run01/IR/081240",
+      "nms_input_count": 139,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            5267,
+            10966
+          ],
+          "top_score_flats": [
+            12957
+          ],
+          "nms_input_count": 139
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            4002,
+            4012,
+            3701,
+            9697,
+            3697
+          ],
+          "top_score_flats": [
+            12957
+          ],
+          "nms_input_count": 139
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081322",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081322/raw_capture.pth",
+      "capture_sha256": "b705b62bd5b9f23b406bba7d80acf73a3219fe1f454656c85a1057c1586cf752",
+      "run_identity": "full_val_roi_capture_run01/IR/081322",
+      "nms_input_count": 52,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7737,
+            7732,
+            1732,
+            1432,
+            8037
+          ],
+          "top_score_flats": [
+            4791
+          ],
+          "nms_input_count": 52
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081445",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081445/raw_capture.pth",
+      "capture_sha256": "58779d306b1365ec78c05eafd98987fe6d8deec34e504decd27d8b4b8f0e690a",
+      "run_identity": "full_val_roi_capture_run01/IR/081445",
+      "nms_input_count": 98,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            11136
+          ],
+          "top_score_flats": [
+            13317
+          ],
+          "nms_input_count": 98
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081486",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081486/raw_capture.pth",
+      "capture_sha256": "622f36243ddf9e6987abcbfe5732db80d68abd945a424b89a5b3153f663e90a3",
+      "run_identity": "full_val_roi_capture_run01/IR/081486",
+      "nms_input_count": 67,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            7526,
+            1526,
+            7521
+          ],
+          "top_score_flats": [
+            4016
+          ],
+          "nms_input_count": 67
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "081527",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/081527/raw_capture.pth",
+      "capture_sha256": "62abad68cd336a69420ff0d929cb17c49dddf00cfc8a08065fd8ed9f185e3545",
+      "run_identity": "full_val_roi_capture_run01/IR/081527",
+      "nms_input_count": 140,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12341,
+            7571,
+            1571,
+            7552,
+            1552,
+            7572,
+            1546,
+            7567
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 140
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130001",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130001/raw_capture.pth",
+      "capture_sha256": "ea3baf1980525df889930bf312c3e4ce9206bc2f43829be1c24351db8a9c9f6f",
+      "run_identity": "full_val_roi_capture_run01/IR/130001",
+      "nms_input_count": 120,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            11296,
+            13316,
+            11016,
+            11305,
+            5016,
+            5320,
+            11320,
+            11295
+          ],
+          "top_score_flats": [
+            3491
+          ],
+          "nms_input_count": 120
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130015",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130015/raw_capture.pth",
+      "capture_sha256": "332ba32cef963fb39d445beae9357c44306df1311e2d3ed51cc5df0dffc64339",
+      "run_identity": "full_val_roi_capture_run01/IR/130015",
+      "nms_input_count": 84,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3446,
+            9441,
+            3441,
+            9747,
+            3747
+          ],
+          "top_score_flats": [
+            9416
+          ],
+          "nms_input_count": 84
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3266,
+            3267,
+            3262,
+            3566
+          ],
+          "top_score_flats": [
+            9416
+          ],
+          "nms_input_count": 84
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130029",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130029/raw_capture.pth",
+      "capture_sha256": "07af88786bc9e40add36895e06fb78b02b97d9e90ff7d9fdd15f35598ae89491",
+      "run_identity": "full_val_roi_capture_run01/IR/130029",
+      "nms_input_count": 64,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5052,
+            11052
+          ],
+          "top_score_flats": [
+            3821
+          ],
+          "nms_input_count": 64
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130043",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130043/raw_capture.pth",
+      "capture_sha256": "027f3838a01932a96e193cac29f8742f8373d8b06d3fb8a4908202bdab233c6a",
+      "run_identity": "full_val_roi_capture_run01/IR/130043",
+      "nms_input_count": 131,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2680,
+            2980,
+            8980,
+            8680,
+            12745,
+            2675,
+            2975
+          ],
+          "top_score_flats": [
+            9716
+          ],
+          "nms_input_count": 131
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130056",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130056/raw_capture.pth",
+      "capture_sha256": "0af605378332e8c4d9db972f1c2af28e98fd9ac101c172c7e0e124057b4ac48e",
+      "run_identity": "full_val_roi_capture_run01/IR/130056",
+      "nms_input_count": 86,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3236,
+            9236,
+            9237
+          ],
+          "top_score_flats": [
+            3216
+          ],
+          "nms_input_count": 86
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12986,
+            3761,
+            12987,
+            12836,
+            9161,
+            9156,
+            9451,
+            12831
+          ],
+          "top_score_flats": [
+            3216
+          ],
+          "nms_input_count": 86
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130098",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130098/raw_capture.pth",
+      "capture_sha256": "25f687f16da570365e6e0a1a5caea2a7329ccda30313b31b0dd4fb69318e7654",
+      "run_identity": "full_val_roi_capture_run01/IR/130098",
+      "nms_input_count": 120,
+      "targets": [
+        {
+          "gt_index": 4,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            8066,
+            2061,
+            2066,
+            8061
+          ],
+          "top_score_flats": [
+            12716
+          ],
+          "nms_input_count": 120
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130112",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130112/raw_capture.pth",
+      "capture_sha256": "25f41fc401c0f9bd05854212b183d55588a27e2b24df3db04ea1caf2342f6a3d",
+      "run_identity": "full_val_roi_capture_run01/IR/130112",
+      "nms_input_count": 116,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4271,
+            10271,
+            10256,
+            4251,
+            3971,
+            3956,
+            9972
+          ],
+          "top_score_flats": [
+            9716
+          ],
+          "nms_input_count": 116
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130126",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130126/raw_capture.pth",
+      "capture_sha256": "d4bce43e53b6563750dcf3d1108fbe77111f773476cad6e7a08a84a513f2a34d",
+      "run_identity": "full_val_roi_capture_run01/IR/130126",
+      "nms_input_count": 122,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13226,
+            10836
+          ],
+          "top_score_flats": [
+            3791
+          ],
+          "nms_input_count": 122
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9791,
+            9787,
+            3787,
+            9781,
+            3781,
+            12997,
+            12991,
+            9772
+          ],
+          "top_score_flats": [
+            3791
+          ],
+          "nms_input_count": 122
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130140",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130140/raw_capture.pth",
+      "capture_sha256": "fbb5fd4d477abc623f9703f7b00c8e89b2b64926f3315fa7ccf91e7e1365264b",
+      "run_identity": "full_val_roi_capture_run01/IR/130140",
+      "nms_input_count": 53,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3666,
+            9686
+          ],
+          "top_score_flats": [
+            9971
+          ],
+          "nms_input_count": 53
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130167",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130167/raw_capture.pth",
+      "capture_sha256": "08400b5db28eead781fe9bfd45a9d69ea3129a20666ccc9360848fc371505b0a",
+      "run_identity": "full_val_roi_capture_run01/IR/130167",
+      "nms_input_count": 131,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9706,
+            3706
+          ],
+          "top_score_flats": [
+            1931
+          ],
+          "nms_input_count": 131
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130181",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130181/raw_capture.pth",
+      "capture_sha256": "40c57b2e24f70883a9426978a5f1b36a167cd5f3aa9f31142a04beaecb685132",
+      "run_identity": "full_val_roi_capture_run01/IR/130181",
+      "nms_input_count": 97,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4297
+          ],
+          "top_score_flats": [
+            10046
+          ],
+          "nms_input_count": 97
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130209",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130209/raw_capture.pth",
+      "capture_sha256": "b8f7478191be0c7d2f401d71084f8d8e927306f078199da1f86ebb4d066fe76f",
+      "run_identity": "full_val_roi_capture_run01/IR/130209",
+      "nms_input_count": 134,
+      "targets": [
+        {
+          "gt_index": 4,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2996
+          ],
+          "top_score_flats": [
+            3506
+          ],
+          "nms_input_count": 134
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130223",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130223/raw_capture.pth",
+      "capture_sha256": "6f1cf1c0a2adb51a5e7358932fd69e61ae3d91ae9aec2bcb7cc0533f130e417f",
+      "run_identity": "full_val_roi_capture_run01/IR/130223",
+      "nms_input_count": 107,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9531,
+            3531
+          ],
+          "top_score_flats": [
+            8951
+          ],
+          "nms_input_count": 107
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130306",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130306/raw_capture.pth",
+      "capture_sha256": "0231371f5de8c52875c4b32d9fb9993deffb97a5f40ae0d83ebb265054bb9d52",
+      "run_identity": "full_val_roi_capture_run01/IR/130306",
+      "nms_input_count": 67,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9521,
+            3521,
+            8916,
+            8921
+          ],
+          "top_score_flats": [
+            5006
+          ],
+          "nms_input_count": 67
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130361",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130361/raw_capture.pth",
+      "capture_sha256": "953ca07aabe690c1789181e514fc7f734417f45535e92ebc32f0e413511ca081",
+      "run_identity": "full_val_roi_capture_run01/IR/130361",
+      "nms_input_count": 102,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3972
+          ],
+          "top_score_flats": [
+            3986
+          ],
+          "nms_input_count": 102
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130403",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130403/raw_capture.pth",
+      "capture_sha256": "e22ec9618114389baaacc7cd638505ce1d9000a2306203b2a8121184bd57847b",
+      "run_identity": "full_val_roi_capture_run01/IR/130403",
+      "nms_input_count": 91,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10240,
+            4240,
+            4540,
+            10235
+          ],
+          "top_score_flats": [
+            10241
+          ],
+          "nms_input_count": 91
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130417",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130417/raw_capture.pth",
+      "capture_sha256": "66d2d137e90bdb0c74fd1bd60fed93cb1d5d465e2e8f0691d5d688b5a0f20503",
+      "run_identity": "full_val_roi_capture_run01/IR/130417",
+      "nms_input_count": 121,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13121,
+            10031,
+            4031,
+            4331
+          ],
+          "top_score_flats": [
+            3446
+          ],
+          "nms_input_count": 121
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9440,
+            3440
+          ],
+          "top_score_flats": [
+            3446
+          ],
+          "nms_input_count": 121
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130445",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130445/raw_capture.pth",
+      "capture_sha256": "581e8b462f5e49d1136a10795435fab5bd23e3c305e90a1ca43d3d459569958b",
+      "run_identity": "full_val_roi_capture_run01/IR/130445",
+      "nms_input_count": 108,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10287,
+            10286
+          ],
+          "top_score_flats": [
+            4526
+          ],
+          "nms_input_count": 108
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130458",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130458/raw_capture.pth",
+      "capture_sha256": "3f77725a2586d18f81d9eb86bfc8c033ae89d2c1d023ab5cf2d1217c74d23d15",
+      "run_identity": "full_val_roi_capture_run01/IR/130458",
+      "nms_input_count": 124,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9506,
+            3502,
+            9206,
+            9502,
+            3486,
+            9487,
+            3487
+          ],
+          "top_score_flats": [
+            3521
+          ],
+          "nms_input_count": 124
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            2930
+          ],
+          "top_score_flats": [
+            3521
+          ],
+          "nms_input_count": 124
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130472",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130472/raw_capture.pth",
+      "capture_sha256": "9732bc6fd6879b88045572b4fcae0ffe0e63e1fd4962f6cf0c405dfa507fda83",
+      "run_identity": "full_val_roi_capture_run01/IR/130472",
+      "nms_input_count": 81,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12851,
+            9181,
+            3181,
+            2881,
+            8881,
+            12841
+          ],
+          "top_score_flats": [
+            1991
+          ],
+          "nms_input_count": 81
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            11271,
+            5266,
+            10971,
+            4971
+          ],
+          "top_score_flats": [
+            1991
+          ],
+          "nms_input_count": 81
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "130500",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/130500/raw_capture.pth",
+      "capture_sha256": "dfb3830429fe83c7a5be0d967e431cdd43a227f9674bbf6d691c2ca5b0185bbd",
+      "run_identity": "full_val_roi_capture_run01/IR/130500",
+      "nms_input_count": 139,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9176,
+            12851,
+            8886,
+            2886,
+            3191,
+            9476,
+            8875,
+            12852
+          ],
+          "top_score_flats": [
+            12521
+          ],
+          "nms_input_count": 139
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9731,
+            3731
+          ],
+          "top_score_flats": [
+            12521
+          ],
+          "nms_input_count": 139
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3697
+          ],
+          "top_score_flats": [
+            12521
+          ],
+          "nms_input_count": 139
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170001",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170001/raw_capture.pth",
+      "capture_sha256": "458a8a86eadce5ab51f4de6e8e62183408a9ad11642c80237ddf635745773032",
+      "run_identity": "full_val_roi_capture_run01/IR/170001",
+      "nms_input_count": 72,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10166,
+            4152,
+            10152,
+            4147,
+            10162,
+            10466,
+            10467,
+            10461
+          ],
+          "top_score_flats": [
+            4166
+          ],
+          "nms_input_count": 72
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170015",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170015/raw_capture.pth",
+      "capture_sha256": "e4729c6f5d9e12c05c1ad5bff7580a83227eb2f0f4ef827f65aab139898a9b43",
+      "run_identity": "full_val_roi_capture_run01/IR/170015",
+      "nms_input_count": 67,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4077,
+            10372,
+            4372,
+            13147,
+            4366,
+            10366,
+            10387
+          ],
+          "top_score_flats": [
+            10077
+          ],
+          "nms_input_count": 67
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170029",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170029/raw_capture.pth",
+      "capture_sha256": "d81f71376f246ee6811b779466dbf588ee0674556f03ef21515cded702a63b95",
+      "run_identity": "full_val_roi_capture_run01/IR/170029",
+      "nms_input_count": 44,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4616,
+            10611
+          ],
+          "top_score_flats": [
+            13106
+          ],
+          "nms_input_count": 44
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170072",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170072/raw_capture.pth",
+      "capture_sha256": "9cf64389af6e4d0a4ddaf63109bfc7e2249f4a4235bca4ff570cdf9128023df0",
+      "run_identity": "full_val_roi_capture_run01/IR/170072",
+      "nms_input_count": 97,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            11126,
+            5121
+          ],
+          "top_score_flats": [
+            4931
+          ],
+          "nms_input_count": 97
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170086",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170086/raw_capture.pth",
+      "capture_sha256": "dc8fd1def19ebcc0a64cdf4f11a4e6fafa5444403ad60ee6a4a74e7755651120",
+      "run_identity": "full_val_roi_capture_run01/IR/170086",
+      "nms_input_count": 85,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            10135,
+            9835,
+            10130
+          ],
+          "top_score_flats": [
+            9837
+          ],
+          "nms_input_count": 85
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170100",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170100/raw_capture.pth",
+      "capture_sha256": "a86a564cab367c9af7564882bd4d5679ab5c3facf2f24b909998d286110246c7",
+      "run_identity": "full_val_roi_capture_run01/IR/170100",
+      "nms_input_count": 48,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13151,
+            4702,
+            10387,
+            10402,
+            13152
+          ],
+          "top_score_flats": [
+            10391
+          ],
+          "nms_input_count": 48
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170114",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170114/raw_capture.pth",
+      "capture_sha256": "c7e78797fbfe3717f8fe994efccdbdde0ce9b446fd9f7f2a95220d317aed7a39",
+      "run_identity": "full_val_roi_capture_run01/IR/170114",
+      "nms_input_count": 108,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4376,
+            10376,
+            4076,
+            10391,
+            10071,
+            4077,
+            10677,
+            10676,
+            10377,
+            4366
+          ],
+          "top_score_flats": [
+            4961
+          ],
+          "nms_input_count": 108
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170143",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170143/raw_capture.pth",
+      "capture_sha256": "1d0de6a5b0126defbe69d475c2a3230cb55aa67fbe7994c382387151b27afd7f",
+      "run_identity": "full_val_roi_capture_run01/IR/170143",
+      "nms_input_count": 57,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4102,
+            10102
+          ],
+          "top_score_flats": [
+            9806
+          ],
+          "nms_input_count": 57
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10131,
+            4137,
+            10137,
+            10437,
+            4132
+          ],
+          "top_score_flats": [
+            9806
+          ],
+          "nms_input_count": 57
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170327",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170327/raw_capture.pth",
+      "capture_sha256": "4ff1fd9ab70581150562c3a025f1900497acf346e5975b5a4e7262e104ca196c",
+      "run_identity": "full_val_roi_capture_run01/IR/170327",
+      "nms_input_count": 90,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            9776,
+            9771
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 90
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            11201,
+            5201
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 90
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4586,
+            10886,
+            10587,
+            4887,
+            10582,
+            4582
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 90
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170341",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170341/raw_capture.pth",
+      "capture_sha256": "0005197768ec749e0ca7541ee779031870b7cb05c807bf0b5171f100a947604b",
+      "run_identity": "full_val_roi_capture_run01/IR/170341",
+      "nms_input_count": 79,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10107,
+            4107,
+            10407
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 79
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170370",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170370/raw_capture.pth",
+      "capture_sha256": "e8c73b060f5e1df3f3cc6041a34c9b780a2f6e953ad66c93f6e0951bb6e29bc2",
+      "run_identity": "full_val_roi_capture_run01/IR/170370",
+      "nms_input_count": 61,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3851,
+            4152,
+            10152,
+            9845,
+            13025,
+            3845,
+            4145,
+            10145
+          ],
+          "top_score_flats": [
+            4166
+          ],
+          "nms_input_count": 61
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170399",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170399/raw_capture.pth",
+      "capture_sha256": "6c14e6cebbdee9a694d5241e723b9d745a041efa8458452a1e15e2b8ef7dc69a",
+      "run_identity": "full_val_roi_capture_run01/IR/170399",
+      "nms_input_count": 72,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            4370
+          ],
+          "top_score_flats": [
+            4391
+          ],
+          "nms_input_count": 72
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10090,
+            4385,
+            10085,
+            4691,
+            13145
+          ],
+          "top_score_flats": [
+            4391
+          ],
+          "nms_input_count": 72
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170470",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170470/raw_capture.pth",
+      "capture_sha256": "127132c0297bb4afdf688a6a68e3f9c45a68b6b584ea5714c5d17f1498b9ee49",
+      "run_identity": "full_val_roi_capture_run01/IR/170470",
+      "nms_input_count": 92,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            10871,
+            4871,
+            13241
+          ],
+          "top_score_flats": [
+            4391
+          ],
+          "nms_input_count": 92
+        }
+      ]
+    },
+    {
+      "model": "IR",
+      "stem": "170498",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/IR/170498/raw_capture.pth",
+      "capture_sha256": "85a5f93e2be7f8aa18fe8428747cf4b75f7730b048d76721a23216fd82975ad3",
+      "run_identity": "full_val_roi_capture_run01/IR/170498",
+      "nms_input_count": 55,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            4132
+          ],
+          "top_score_flats": [
+            10106
+          ],
+          "nms_input_count": 55
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030027",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030027/raw_capture.pth",
+      "capture_sha256": "4fadbd1e7bb34b9ad25e0aa6414be5d8e1a7eda700a8e4de92514ace73760a01",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030027",
+      "nms_input_count": 52,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            726,
+            6726
+          ],
+          "top_score_flats": [
+            1286
+          ],
+          "nms_input_count": 52
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030052",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030052/raw_capture.pth",
+      "capture_sha256": "bfca55603f14b355581f5ec350be5f1c9647416f04a2c964f69791ceeae539ce",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030052",
+      "nms_input_count": 131,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10057
+          ],
+          "top_score_flats": [
+            3477
+          ],
+          "nms_input_count": 131
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7342,
+            7036
+          ],
+          "top_score_flats": [
+            3477
+          ],
+          "nms_input_count": 131
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030078",
+      "action": "reuse_replay",
+      "capture_path": "week11/day01/outputs/fusion_roi_trace_run02/030078/raw_capture.pth",
+      "capture_sha256": "86e63a8ff521f2d466ab085409fbb4682281bc74a78de6e02335117e0f190b5c",
+      "run_identity": "fusion_roi_trace_run02/Fusion/030078",
+      "nms_input_count": 58,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8846,
+            2846,
+            2841
+          ],
+          "top_score_flats": [
+            2832
+          ],
+          "nms_input_count": 58
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2531,
+            8531,
+            12671
+          ],
+          "top_score_flats": [
+            2832
+          ],
+          "nms_input_count": 58
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030090",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030090/raw_capture.pth",
+      "capture_sha256": "4fad7c68a106a10eeaecd83e5082ef0887290048752e5f83d04bb4cefd9431ff",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030090",
+      "nms_input_count": 106,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10366,
+            4366,
+            4367,
+            10977,
+            4977,
+            4666,
+            10382,
+            10666,
+            13142,
+            4077
+          ],
+          "top_score_flats": [
+            10391
+          ],
+          "nms_input_count": 106
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5037,
+            5017,
+            11017,
+            13312,
+            4737,
+            5026,
+            10737,
+            5022,
+            5326,
+            11332,
+            11026,
+            13317,
+            11326,
+            5047,
+            5027
+          ],
+          "top_score_flats": [
+            10391
+          ],
+          "nms_input_count": 106
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030103",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030103/raw_capture.pth",
+      "capture_sha256": "c8c56585fe6493cf35d067b80f7b6235740c85c559a6e45d1c4b939f7d63daec",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030103",
+      "nms_input_count": 103,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            1556,
+            7556,
+            7852,
+            1546,
+            7546
+          ],
+          "top_score_flats": [
+            1571
+          ],
+          "nms_input_count": 103
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            2746
+          ],
+          "top_score_flats": [
+            1571
+          ],
+          "nms_input_count": 103
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030116",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030116/raw_capture.pth",
+      "capture_sha256": "6aaf9be5c13f38fb0104a6fda69fe3c070310a81e0c09a9aaa76c128c7ed61f6",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030116",
+      "nms_input_count": 82,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            1210,
+            12310,
+            1205,
+            7205,
+            12305
+          ],
+          "top_score_flats": [
+            1331
+          ],
+          "nms_input_count": 82
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030129",
+      "action": "reuse_replay",
+      "capture_path": "week11/day01/outputs/fusion_roi_trace_run02/030129/raw_capture.pth",
+      "capture_sha256": "7934c10edee7e868894a51e48194cdb049e8d3d8dbe947f54a0926e80e4fc928",
+      "run_identity": "fusion_roi_trace_run02/Fusion/030129",
+      "nms_input_count": 54,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2556,
+            2876,
+            9161,
+            3156,
+            2571,
+            9156,
+            2551,
+            3161,
+            8571,
+            2576,
+            8576,
+            2851
+          ],
+          "top_score_flats": [
+            2861
+          ],
+          "nms_input_count": 54
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8246
+          ],
+          "top_score_flats": [
+            2861
+          ],
+          "nms_input_count": 54
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030167",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030167/raw_capture.pth",
+      "capture_sha256": "9d87a14e21b204aa681e611fb6dcf874e1fcffca3723667f64d672d94615379c",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030167",
+      "nms_input_count": 82,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3162,
+            2857,
+            3462,
+            8842,
+            8562,
+            9172,
+            12687,
+            9462,
+            3172,
+            2842,
+            8851,
+            2851,
+            8852
+          ],
+          "top_score_flats": [
+            1286
+          ],
+          "nms_input_count": 82
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030180",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030180/raw_capture.pth",
+      "capture_sha256": "d783d84a02961cea3b4c1b813abce2c39afdc7fe8dfc661e816b65615379bbc7",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030180",
+      "nms_input_count": 52,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13451,
+            11591
+          ],
+          "top_score_flats": [
+            5271
+          ],
+          "nms_input_count": 52
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030192",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030192/raw_capture.pth",
+      "capture_sha256": "ba900cd5bfda77879f0325febec53d0f4239ea38867e20d252901679c4b8b366",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030192",
+      "nms_input_count": 49,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            6951,
+            951
+          ],
+          "top_score_flats": [
+            7841
+          ],
+          "nms_input_count": 49
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030205",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030205/raw_capture.pth",
+      "capture_sha256": "fdfb3cb69b75e2eb9961e79ee43f48f9081161a60d2878174b837afa3ef57d0f",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030205",
+      "nms_input_count": 40,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3806,
+            9791,
+            3791,
+            13001,
+            9492,
+            10106,
+            3491,
+            9486,
+            3486
+          ],
+          "top_score_flats": [
+            9807
+          ],
+          "nms_input_count": 40
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030231",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030231/raw_capture.pth",
+      "capture_sha256": "e4d878e25b3c12a153c18fc2d9e8e0dfa48ed7e3ef897c8cb6983cfcf0495bd9",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030231",
+      "nms_input_count": 110,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2452,
+            8452
+          ],
+          "top_score_flats": [
+            1557
+          ],
+          "nms_input_count": 110
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030243",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030243/raw_capture.pth",
+      "capture_sha256": "89679e78fe9e2f4a9b9715fe36bcae827dc70753469ecbf2f706237c4be06fcc",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030243",
+      "nms_input_count": 59,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            906,
+            6906,
+            6926
+          ],
+          "top_score_flats": [
+            2186
+          ],
+          "nms_input_count": 59
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030294",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030294/raw_capture.pth",
+      "capture_sha256": "2cdd1734bdc97917e181b4f8822ab88929b03260b74019e87f77b6ff9f2fb6a9",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030294",
+      "nms_input_count": 118,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13246,
+            10911,
+            10601,
+            10596,
+            4596,
+            4601
+          ],
+          "top_score_flats": [
+            3791
+          ],
+          "nms_input_count": 118
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8992,
+            3592,
+            9592
+          ],
+          "top_score_flats": [
+            3791
+          ],
+          "nms_input_count": 118
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030321",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030321/raw_capture.pth",
+      "capture_sha256": "cd1726431d410dcaf8dedd6aa31a40e5142019b7f4858da2cebe27cfd0a7dafc",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030321",
+      "nms_input_count": 51,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10567,
+            4552,
+            10552,
+            13091,
+            4547,
+            10562,
+            13237,
+            4561,
+            10561,
+            4867,
+            10867,
+            4577,
+            13081,
+            10261,
+            10577
+          ],
+          "top_score_flats": [
+            10271
+          ],
+          "nms_input_count": 51
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030346",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030346/raw_capture.pth",
+      "capture_sha256": "13fe95b37f5f65e6c60ec979677e51f5d680611cb36c9297f22d07a641b0bcd5",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030346",
+      "nms_input_count": 143,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10601,
+            4601,
+            4296,
+            10301,
+            13106,
+            13107,
+            4902,
+            10901,
+            4901
+          ],
+          "top_score_flats": [
+            1361
+          ],
+          "nms_input_count": 143
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12367
+          ],
+          "top_score_flats": [
+            1361
+          ],
+          "nms_input_count": 143
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030359",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030359/raw_capture.pth",
+      "capture_sha256": "d55ec3ceb800e46c36e6683629b6c796e069b17700d28ce96587e2beb3d0b774",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030359",
+      "nms_input_count": 34,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3821,
+            9821,
+            13016,
+            4106,
+            9806,
+            3801,
+            10101,
+            3811,
+            9811,
+            13006,
+            9796,
+            4111,
+            10111
+          ],
+          "top_score_flats": [
+            9807
+          ],
+          "nms_input_count": 34
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030372",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030372/raw_capture.pth",
+      "capture_sha256": "2c92cc63c9ce46283e9cd799b8bd0239df93a19fb4a6ad2e330e1e5f34cee6ef",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030372",
+      "nms_input_count": 79,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8455
+          ],
+          "top_score_flats": [
+            2456
+          ],
+          "nms_input_count": 79
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030385",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030385/raw_capture.pth",
+      "capture_sha256": "d521f3a355d9cb9fc861025a6afbdf525b60c3462f35b4c438d204809137da0d",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030385",
+      "nms_input_count": 122,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            1521,
+            8116,
+            1832
+          ],
+          "top_score_flats": [
+            12356
+          ],
+          "nms_input_count": 122
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7601,
+            1601,
+            7597,
+            7596,
+            1597,
+            1306,
+            7616,
+            1291,
+            6991,
+            7306,
+            7291,
+            1616,
+            12346
+          ],
+          "top_score_flats": [
+            12356
+          ],
+          "nms_input_count": 122
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030397",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030397/raw_capture.pth",
+      "capture_sha256": "f43bd39cbb9a48501c8af489e870e1b10a3fda157ded515c3a6d0e44c552420f",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030397",
+      "nms_input_count": 94,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8151,
+            2151
+          ],
+          "top_score_flats": [
+            8456
+          ],
+          "nms_input_count": 94
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12371,
+            1031,
+            12372,
+            12367,
+            7021,
+            1321,
+            1021,
+            7321,
+            12361
+          ],
+          "top_score_flats": [
+            8456
+          ],
+          "nms_input_count": 94
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030410",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030410/raw_capture.pth",
+      "capture_sha256": "026a436add7573d283088308b65488564229a91439881b22f7b6284c8142132f",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030410",
+      "nms_input_count": 96,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8711,
+            12761,
+            2711,
+            3011
+          ],
+          "top_score_flats": [
+            2517
+          ],
+          "nms_input_count": 96
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030423",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030423/raw_capture.pth",
+      "capture_sha256": "6a721e739e003a050f063bf548fcf940fbbaaeffac847f52add39f621f693d4c",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030423",
+      "nms_input_count": 109,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            1561
+          ],
+          "top_score_flats": [
+            10136
+          ],
+          "nms_input_count": 109
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030436",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030436/raw_capture.pth",
+      "capture_sha256": "2a6862167c367fe54ef958db3cdc40d5a2f14a0388722b45a96c4f7dbb25c6b1",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030436",
+      "nms_input_count": 119,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10087,
+            4087,
+            12997,
+            9787,
+            13147
+          ],
+          "top_score_flats": [
+            10121
+          ],
+          "nms_input_count": 119
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030461",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030461/raw_capture.pth",
+      "capture_sha256": "60955d8db53644750c28c5ad5c2da9f69679159cff472773b0a65f7cc7c82676",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030461",
+      "nms_input_count": 113,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3026,
+            9026,
+            8721,
+            12761,
+            8726,
+            9011,
+            3012,
+            12762,
+            9025,
+            9012,
+            3025
+          ],
+          "top_score_flats": [
+            12757
+          ],
+          "nms_input_count": 113
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "030474",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/030474/raw_capture.pth",
+      "capture_sha256": "4e7bf6ffec7849062920d26ab6617c8175ee07d35a5da1e921d8b327156b3329",
+      "run_identity": "full_val_roi_capture_run01/Fusion/030474",
+      "nms_input_count": 52,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "03",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            1045,
+            7035
+          ],
+          "top_score_flats": [
+            4481
+          ],
+          "nms_input_count": 52
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080001",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080001/raw_capture.pth",
+      "capture_sha256": "ae7724390dc2cce2e6edbe6e81a43267816b6da2e167ebe144809ef363ea4c10",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080001",
+      "nms_input_count": 78,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13151,
+            10391,
+            4391,
+            4676,
+            13301,
+            13146,
+            4386,
+            10386,
+            13302,
+            10376,
+            10686,
+            4686
+          ],
+          "top_score_flats": [
+            4706
+          ],
+          "nms_input_count": 78
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080083",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080083/raw_capture.pth",
+      "capture_sha256": "59ba49956d8c24a7ae337d9ab191fbf63ebd7d2566620c4a62f0034a707048ff",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080083",
+      "nms_input_count": 64,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9441,
+            3141,
+            3441,
+            3436,
+            9436
+          ],
+          "top_score_flats": [
+            11376
+          ],
+          "nms_input_count": 64
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080125",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080125/raw_capture.pth",
+      "capture_sha256": "f942ebbb693b2b53eb2273a4131194f8144c32d11f87b7d8aecf640fe0961f5e",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080125",
+      "nms_input_count": 144,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            1836,
+            7836,
+            12471
+          ],
+          "top_score_flats": [
+            4961
+          ],
+          "nms_input_count": 144
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            10942,
+            4942,
+            11256,
+            5256
+          ],
+          "top_score_flats": [
+            4961
+          ],
+          "nms_input_count": 144
+        },
+        {
+          "gt_index": 5,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4972
+          ],
+          "top_score_flats": [
+            4961
+          ],
+          "nms_input_count": 144
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080209",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080209/raw_capture.pth",
+      "capture_sha256": "1ce7d422ccf94c28732fb695b550404bf920b96f85a5ad45d4332dea054eaf9d",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080209",
+      "nms_input_count": 77,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8767,
+            9072,
+            2752
+          ],
+          "top_score_flats": [
+            4466
+          ],
+          "nms_input_count": 77
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4161
+          ],
+          "top_score_flats": [
+            4466
+          ],
+          "nms_input_count": 77
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080250",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080250/raw_capture.pth",
+      "capture_sha256": "fe06de948f718ab613bf9651b87d540b961b99220d091fcd68c0ee29e10e969f",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080250",
+      "nms_input_count": 99,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12951,
+            3687,
+            9687,
+            12952,
+            3997,
+            4002,
+            9997,
+            3697,
+            3692,
+            12947,
+            9387,
+            9677
+          ],
+          "top_score_flats": [
+            9777
+          ],
+          "nms_input_count": 99
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080291",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080291/raw_capture.pth",
+      "capture_sha256": "7302c17a8191b432272a2924fddd042a4a5c0da2eee9fd3691b31f74e3e30bf7",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080291",
+      "nms_input_count": 134,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9412
+          ],
+          "top_score_flats": [
+            10016
+          ],
+          "nms_input_count": 134
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13121,
+            10331,
+            4331,
+            13116,
+            10026,
+            4026
+          ],
+          "top_score_flats": [
+            10016
+          ],
+          "nms_input_count": 134
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3471
+          ],
+          "top_score_flats": [
+            10016
+          ],
+          "nms_input_count": 134
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080498",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080498/raw_capture.pth",
+      "capture_sha256": "07a01c4f0606f46606c2a9923d6a65dee367b7d24b920887c38e71839fe9b976",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080498",
+      "nms_input_count": 39,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7692,
+            1692
+          ],
+          "top_score_flats": [
+            1691
+          ],
+          "nms_input_count": 39
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080539",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080539/raw_capture.pth",
+      "capture_sha256": "ed26efc595ac676d631527ae0dabc7afc4431868505e6e4d119afd084d066d20",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080539",
+      "nms_input_count": 103,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12432
+          ],
+          "top_score_flats": [
+            13287
+          ],
+          "nms_input_count": 103
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080704",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080704/raw_capture.pth",
+      "capture_sha256": "e18d03238c781ce6c932dc1c4794468601ee8db806489452b37f9f51f85fd155",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080704",
+      "nms_input_count": 40,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            11361,
+            5681,
+            5371,
+            11681,
+            5361,
+            13496,
+            13495,
+            5680,
+            11680
+          ],
+          "top_score_flats": [
+            5376
+          ],
+          "nms_input_count": 40
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080746",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080746/raw_capture.pth",
+      "capture_sha256": "3b03c1a3914da539b2e7ada22ec62b4c9c029a8d8e082b7550405209942c4dd7",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080746",
+      "nms_input_count": 126,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            12521
+          ],
+          "top_score_flats": [
+            2006
+          ],
+          "nms_input_count": 126
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2292,
+            2287,
+            8287,
+            7986,
+            1986
+          ],
+          "top_score_flats": [
+            2006
+          ],
+          "nms_input_count": 126
+        },
+        {
+          "gt_index": 5,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2047,
+            8047,
+            12577
+          ],
+          "top_score_flats": [
+            2006
+          ],
+          "nms_input_count": 126
+        },
+        {
+          "gt_index": 6,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8397
+          ],
+          "top_score_flats": [
+            2006
+          ],
+          "nms_input_count": 126
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080787",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080787/raw_capture.pth",
+      "capture_sha256": "1fb92e80215d8f262276f85b2b634a59c163254434e8160039e3a55906ff21d6",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080787",
+      "nms_input_count": 24,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8051,
+            2051,
+            2062,
+            2052,
+            8062,
+            12582,
+            8047,
+            12577
+          ],
+          "top_score_flats": [
+            8066
+          ],
+          "nms_input_count": 24
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "080994",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/080994/raw_capture.pth",
+      "capture_sha256": "19ad648f1486fc6837f8e45424148c585666b0075e64ef3a8fd9d076cf6ff026",
+      "run_identity": "full_val_roi_capture_run01/Fusion/080994",
+      "nms_input_count": 49,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10197,
+            4197,
+            3891,
+            3897,
+            9897,
+            4186,
+            10186
+          ],
+          "top_score_flats": [
+            3191
+          ],
+          "nms_input_count": 49
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081035",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081035/raw_capture.pth",
+      "capture_sha256": "d412a23f8c5460851797a25a62532cef644afb0297d9543dcc4eea59eb4a400a",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081035",
+      "nms_input_count": 28,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8621,
+            2621,
+            2322,
+            8322,
+            12567
+          ],
+          "top_score_flats": [
+            8306
+          ],
+          "nms_input_count": 28
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081117/raw_capture.pth",
+      "capture_sha256": "8866ee9658595a4f23d337bb37daa35ecb4419c61d07053c96736a68558a795c",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081117",
+      "nms_input_count": 140,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10421,
+            4421,
+            13166,
+            10121,
+            4121,
+            13161,
+            4716,
+            10716
+          ],
+          "top_score_flats": [
+            10451
+          ],
+          "nms_input_count": 140
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10136,
+            4136
+          ],
+          "top_score_flats": [
+            10451
+          ],
+          "nms_input_count": 140
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            13181,
+            4446,
+            4151,
+            10146,
+            4146
+          ],
+          "top_score_flats": [
+            10451
+          ],
+          "nms_input_count": 140
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10766
+          ],
+          "top_score_flats": [
+            10451
+          ],
+          "nms_input_count": 140
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5371
+          ],
+          "top_score_flats": [
+            10451
+          ],
+          "nms_input_count": 140
+        },
+        {
+          "gt_index": 5,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            10481,
+            4481,
+            4777,
+            4476,
+            13191,
+            10182
+          ],
+          "top_score_flats": [
+            10451
+          ],
+          "nms_input_count": 140
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081158",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081158/raw_capture.pth",
+      "capture_sha256": "1691ac1b7bb966cc214ae44b55b77a0fd58f1308cf32c7ccf040c677b1d7bc66",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081158",
+      "nms_input_count": 134,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10751,
+            4751,
+            4746,
+            10746
+          ],
+          "top_score_flats": [
+            9866
+          ],
+          "nms_input_count": 134
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081199",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081199/raw_capture.pth",
+      "capture_sha256": "16130cd62def70e32c370e48bf4aa5f89942aa78c352a9de0dbc70b981dcc1c2",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081199",
+      "nms_input_count": 80,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9772,
+            3472,
+            3481,
+            9481
+          ],
+          "top_score_flats": [
+            3791
+          ],
+          "nms_input_count": 80
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081281",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081281/raw_capture.pth",
+      "capture_sha256": "95faa75160da669a662ea7e1d754b603bd9a900d692fa8268ca45baf1f16da44",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081281",
+      "nms_input_count": 143,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2442,
+            8142,
+            2137,
+            2131,
+            2431,
+            8131,
+            8431
+          ],
+          "top_score_flats": [
+            13302
+          ],
+          "nms_input_count": 143
+        },
+        {
+          "gt_index": 5,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5316,
+            11316
+          ],
+          "top_score_flats": [
+            13302
+          ],
+          "nms_input_count": 143
+        },
+        {
+          "gt_index": 6,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            5376
+          ],
+          "top_score_flats": [
+            13302
+          ],
+          "nms_input_count": 143
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081322",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081322/raw_capture.pth",
+      "capture_sha256": "92629d378ecae2a8eb418f2acd6f285cce9349db9d3a9ded3e5f2aaf2c4a4e3b",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081322",
+      "nms_input_count": 33,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            1706,
+            7706,
+            1406,
+            7707,
+            1707,
+            7702
+          ],
+          "top_score_flats": [
+            10796
+          ],
+          "nms_input_count": 33
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7737,
+            1417
+          ],
+          "top_score_flats": [
+            10796
+          ],
+          "nms_input_count": 33
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081363",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081363/raw_capture.pth",
+      "capture_sha256": "3cd92bfb5c976eea8b75b815bb4e5a588277b1015789b5eb7fe1a4ad14ffe3df",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081363",
+      "nms_input_count": 92,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            2812,
+            9132,
+            12822,
+            8517,
+            8812,
+            2517,
+            2527,
+            12667,
+            9126,
+            2821
+          ],
+          "top_score_flats": [
+            9852
+          ],
+          "nms_input_count": 92
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081445",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081445/raw_capture.pth",
+      "capture_sha256": "03827c9d88f74a0a0c798c3a5483539caca69ecb859dc0b07a7560a863c83bb6",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081445",
+      "nms_input_count": 137,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            11485
+          ],
+          "top_score_flats": [
+            5021
+          ],
+          "nms_input_count": 137
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5126
+          ],
+          "top_score_flats": [
+            5021
+          ],
+          "nms_input_count": 137
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081486",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081486/raw_capture.pth",
+      "capture_sha256": "fe610e1e158a16ab13427e16b6f02259e0ed1a314bb6ce401f1e34121c70a244",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081486",
+      "nms_input_count": 81,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10017,
+            13122,
+            4032,
+            10027,
+            10332,
+            13121,
+            10011,
+            4327,
+            10327,
+            4012,
+            10031,
+            10311,
+            10312,
+            4312,
+            13116,
+            12972,
+            10026,
+            9732
+          ],
+          "top_score_flats": [
+            4016
+          ],
+          "nms_input_count": 81
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9746,
+            13137,
+            3746,
+            10057,
+            10062,
+            4057,
+            3747,
+            4062
+          ],
+          "top_score_flats": [
+            4016
+          ],
+          "nms_input_count": 81
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "081527",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/081527/raw_capture.pth",
+      "capture_sha256": "3c62d6fe477e8f248ca479db8feea511a57e3cbfa8721474d5485553e3c5e17a",
+      "run_identity": "full_val_roi_capture_run01/Fusion/081527",
+      "nms_input_count": 139,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4091,
+            9806,
+            3801,
+            9786,
+            3791,
+            3786,
+            9791,
+            13001,
+            12996,
+            4081,
+            4096
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 139
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "08",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7571,
+            12341,
+            7552
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 139
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130001",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130001/raw_capture.pth",
+      "capture_sha256": "5beb7812a16bb5f727dc26f34b3bb8b7641c3d15719f004dd8c7ee87f6993030",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130001",
+      "nms_input_count": 116,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8906,
+            8901
+          ],
+          "top_score_flats": [
+            11301
+          ],
+          "nms_input_count": 116
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5006,
+            11006
+          ],
+          "top_score_flats": [
+            11301
+          ],
+          "nms_input_count": 116
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130015",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130015/raw_capture.pth",
+      "capture_sha256": "805f8d164b662de37e4c9769db07ca7cc0ef13da9723953ba216eadd70ce4512",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130015",
+      "nms_input_count": 84,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9441,
+            3441,
+            10046,
+            9747
+          ],
+          "top_score_flats": [
+            3416
+          ],
+          "nms_input_count": 84
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130056",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130056/raw_capture.pth",
+      "capture_sha256": "7ee4bb207f8c002fc9bf178c70355961ffcc6409b69b8a850a14e37bfbfd9823",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130056",
+      "nms_input_count": 101,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9236
+          ],
+          "top_score_flats": [
+            12881
+          ],
+          "nms_input_count": 101
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12986,
+            12987,
+            12836,
+            9161,
+            3161,
+            9156,
+            12831,
+            3156
+          ],
+          "top_score_flats": [
+            12881
+          ],
+          "nms_input_count": 101
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130084",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130084/raw_capture.pth",
+      "capture_sha256": "d5650e03281d9bb8807ded51ff6c9652a1401a706de3e24f7358afb009cd2ae5",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130084",
+      "nms_input_count": 87,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4271,
+            4270,
+            10270,
+            10571,
+            13085,
+            4571
+          ],
+          "top_score_flats": [
+            9236
+          ],
+          "nms_input_count": 87
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130153",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130153/raw_capture.pth",
+      "capture_sha256": "06a1796bb5d8fbfc5a815016093e6886c018bcd5c6adaf851d82e03400ae9824",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130153",
+      "nms_input_count": 131,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            3165
+          ],
+          "top_score_flats": [
+            10271
+          ],
+          "nms_input_count": 131
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130167",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130167/raw_capture.pth",
+      "capture_sha256": "3bc60be5fcef9e15cf4c263cbe8de821c6fc2ce0e11716d4df94ebeed06b66d1",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130167",
+      "nms_input_count": 122,
+      "targets": [
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9706,
+            3706
+          ],
+          "top_score_flats": [
+            1931
+          ],
+          "nms_input_count": 122
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130181",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130181/raw_capture.pth",
+      "capture_sha256": "bf21ab452fd93351073c7c43476d23d713978e8ea6bbd23aa2075ff454c07b33",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130181",
+      "nms_input_count": 130,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4586,
+            9687
+          ],
+          "top_score_flats": [
+            12731
+          ],
+          "nms_input_count": 130
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3701,
+            9701,
+            12956,
+            9696,
+            3696,
+            12951
+          ],
+          "top_score_flats": [
+            12731
+          ],
+          "nms_input_count": 130
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130209",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130209/raw_capture.pth",
+      "capture_sha256": "6e33ea7c446da32104909330f3f984d0fcb17d68a6b754e25af6ced459c98964",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130209",
+      "nms_input_count": 132,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            12971,
+            9731,
+            3731
+          ],
+          "top_score_flats": [
+            11006
+          ],
+          "nms_input_count": 132
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130223",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130223/raw_capture.pth",
+      "capture_sha256": "55fcb5d520dfc332dd8262270b8a7e716da2671f3368eb976ace5ccde7ec6e94",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130223",
+      "nms_input_count": 128,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9536
+          ],
+          "top_score_flats": [
+            9236
+          ],
+          "nms_input_count": 128
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130251",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130251/raw_capture.pth",
+      "capture_sha256": "59fae28fb55f31f7ef7fcb489d30c6a3c8de49772041b4ff4216de9e08ec4519",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130251",
+      "nms_input_count": 65,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4302,
+            10002,
+            4317,
+            4016,
+            13107,
+            10011,
+            10312,
+            4602,
+            10602,
+            9991
+          ],
+          "top_score_flats": [
+            4001
+          ],
+          "nms_input_count": 65
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130278",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130278/raw_capture.pth",
+      "capture_sha256": "19b96dea87d795ce086ecd7834117b89a3d1fbf96feff3aa2d1989c8fae5881d",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130278",
+      "nms_input_count": 64,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            9956
+          ],
+          "top_score_flats": [
+            9506
+          ],
+          "nms_input_count": 64
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130334",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130334/raw_capture.pth",
+      "capture_sha256": "95fef939eb17621f9122a8f103aaec612082723dd5a4831a4a45256dcfa59710",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130334",
+      "nms_input_count": 81,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12971
+          ],
+          "top_score_flats": [
+            7931
+          ],
+          "nms_input_count": 81
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            10256,
+            4536,
+            10536,
+            4256
+          ],
+          "top_score_flats": [
+            7931
+          ],
+          "nms_input_count": 81
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130361",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130361/raw_capture.pth",
+      "capture_sha256": "a720323af879784e9347c616403c7f7d121d3c323635c89a940173d28a429661",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130361",
+      "nms_input_count": 99,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3966,
+            12942
+          ],
+          "top_score_flats": [
+            3986
+          ],
+          "nms_input_count": 99
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            8396
+          ],
+          "top_score_flats": [
+            3986
+          ],
+          "nms_input_count": 99
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130375",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130375/raw_capture.pth",
+      "capture_sha256": "3350fa6a7c79966bb91b8697293a2b834cc12538632d8d0cac7a0455c77ede74",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130375",
+      "nms_input_count": 81,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10046,
+            4041,
+            10041,
+            10047,
+            4047
+          ],
+          "top_score_flats": [
+            11286
+          ],
+          "nms_input_count": 81
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130389",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130389/raw_capture.pth",
+      "capture_sha256": "4278a9368ea22b2a3d6b484fef20c494ca2752af43d21f033645a727fc43e21b",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130389",
+      "nms_input_count": 132,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            2391,
+            8396
+          ],
+          "top_score_flats": [
+            4271
+          ],
+          "nms_input_count": 132
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130417",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130417/raw_capture.pth",
+      "capture_sha256": "96e9a9c72550ca34cbfe8f820d886acc1387fe3513a4330cadb0cc4441bb4f6f",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130417",
+      "nms_input_count": 120,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4331
+          ],
+          "top_score_flats": [
+            5256
+          ],
+          "nms_input_count": 120
+        },
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9146,
+            3146
+          ],
+          "top_score_flats": [
+            5256
+          ],
+          "nms_input_count": 120
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            5561,
+            11271,
+            11266
+          ],
+          "top_score_flats": [
+            5256
+          ],
+          "nms_input_count": 120
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130431",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130431/raw_capture.pth",
+      "capture_sha256": "e26386ffc80995c1175e95dc35354039a922551ef90c650a0beb465edbccf554",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130431",
+      "nms_input_count": 132,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            12851,
+            9191,
+            3191,
+            9186,
+            12846,
+            3186,
+            9181
+          ],
+          "top_score_flats": [
+            13091
+          ],
+          "nms_input_count": 132
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130445",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130445/raw_capture.pth",
+      "capture_sha256": "7b80830883470af5491632689c5b50c68db9c41defa2b2b1b2e89b04eeb829f5",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130445",
+      "nms_input_count": 112,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            7626,
+            7932,
+            12522
+          ],
+          "top_score_flats": [
+            4526
+          ],
+          "nms_input_count": 112
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9681,
+            3976
+          ],
+          "top_score_flats": [
+            4526
+          ],
+          "nms_input_count": 112
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130472",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130472/raw_capture.pth",
+      "capture_sha256": "a04690d096fe21589c049672ff0e4eae298f3f04bd7396c4149405ca161d499a",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130472",
+      "nms_input_count": 99,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12551,
+            1991,
+            7991,
+            1686,
+            7686,
+            1992,
+            1676,
+            7992
+          ],
+          "top_score_flats": [
+            11286
+          ],
+          "nms_input_count": 99
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12851,
+            12846,
+            2881,
+            8881,
+            3181,
+            9181,
+            12841
+          ],
+          "top_score_flats": [
+            11286
+          ],
+          "nms_input_count": 99
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "130500",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/130500/raw_capture.pth",
+      "capture_sha256": "66aaa64ae37c3c277d2e108e820be56b958b1ad9a0dce9510ef06065fa3ea9b6",
+      "run_identity": "full_val_roi_capture_run01/Fusion/130500",
+      "nms_input_count": 138,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12521
+          ],
+          "top_score_flats": [
+            7931
+          ],
+          "nms_input_count": 138
+        },
+        {
+          "gt_index": 3,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            12971,
+            3731,
+            9731
+          ],
+          "top_score_flats": [
+            7931
+          ],
+          "nms_input_count": 138
+        },
+        {
+          "gt_index": 4,
+          "scene_id": "13",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3397
+          ],
+          "top_score_flats": [
+            7931
+          ],
+          "nms_input_count": 138
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170015",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170015/raw_capture.pth",
+      "capture_sha256": "7d3be6734c2233a587a0a43bbf191f6d1d40167ba2dd3e8ae94139ee86b93516",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170015",
+      "nms_input_count": 77,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4677,
+            10677,
+            4372
+          ],
+          "top_score_flats": [
+            4076
+          ],
+          "nms_input_count": 77
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170029",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170029/raw_capture.pth",
+      "capture_sha256": "a373cd021088e34a1508f6218cc53e3c80b699e047109e032f2a754175eaa32a",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170029",
+      "nms_input_count": 46,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4316
+          ],
+          "top_score_flats": [
+            4301
+          ],
+          "nms_input_count": 46
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170114",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170114/raw_capture.pth",
+      "capture_sha256": "4400f782111324c49d575b1ce17ee6285dad9ebd03e634e734461ac34de9dcad",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170114",
+      "nms_input_count": 119,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10676,
+            10677,
+            4676,
+            10671,
+            4366,
+            10366,
+            13147,
+            4671,
+            10387
+          ],
+          "top_score_flats": [
+            4646
+          ],
+          "nms_input_count": 119
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170143",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170143/raw_capture.pth",
+      "capture_sha256": "388a018358c8868a6a3db95e49a5250db71d6e773e533b790e4b74793d93d438",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170143",
+      "nms_input_count": 73,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9801,
+            4107,
+            4102,
+            10102,
+            10407,
+            3802,
+            13012
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 73
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10431,
+            4431,
+            9831,
+            3831,
+            10437
+          ],
+          "top_score_flats": [
+            4106
+          ],
+          "nms_input_count": 73
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170185",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170185/raw_capture.pth",
+      "capture_sha256": "dae546337d980abf34b1ee6f9e2575fa0c792f730adc6b47fda6c119cf35f034",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170185",
+      "nms_input_count": 79,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3565,
+            9565
+          ],
+          "top_score_flats": [
+            9566
+          ],
+          "nms_input_count": 79
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170213",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170213/raw_capture.pth",
+      "capture_sha256": "36c20d2028005da2a78ecfc1cdb63fb73e42edadb9566b2db27870c6841064c2",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170213",
+      "nms_input_count": 65,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            9566,
+            3861,
+            9866,
+            3561,
+            3566,
+            9867
+          ],
+          "top_score_flats": [
+            3851
+          ],
+          "nms_input_count": 65
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170242",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170242/raw_capture.pth",
+      "capture_sha256": "8c2835dd49333d3cc872326f9bee3089011efd28cec011fa28619ae2f4dd62e0",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170242",
+      "nms_input_count": 131,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            10431
+          ],
+          "top_score_flats": [
+            9837
+          ],
+          "nms_input_count": 131
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170256",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170256/raw_capture.pth",
+      "capture_sha256": "c8cf09a4701dd3c2db7b3f7d5dd15c3308800180619f9c14c9c9e3be53120a64",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170256",
+      "nms_input_count": 62,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10386,
+            10392,
+            10977
+          ],
+          "top_score_flats": [
+            4691
+          ],
+          "nms_input_count": 62
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170284",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170284/raw_capture.pth",
+      "capture_sha256": "4e8cd351b1381ef2037b7b1deb58713ae0926acbd3efeceab069fe3bbd90e0ad",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170284",
+      "nms_input_count": 75,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4151,
+            10151,
+            4152,
+            9852,
+            13032,
+            13181,
+            4451,
+            10451,
+            4147,
+            13176,
+            10147,
+            13027,
+            10446,
+            4162,
+            13182,
+            9552,
+            4132,
+            10162,
+            10167
+          ],
+          "top_score_flats": [
+            11361
+          ],
+          "nms_input_count": 75
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170327",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170327/raw_capture.pth",
+      "capture_sha256": "dad22229d7c2a33d21d7763ea3de0e095a7b23f725c67b6ba31d6b51e5a2cf1d",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170327",
+      "nms_input_count": 100,
+      "targets": [
+        {
+          "gt_index": 2,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4902,
+            10902,
+            11201,
+            5201,
+            11196,
+            5196
+          ],
+          "top_score_flats": [
+            10091
+          ],
+          "nms_input_count": 100
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170370",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170370/raw_capture.pth",
+      "capture_sha256": "e75dc29d5e0f2e3a8d29e66f979705c4f4fc2e7d402f4ebdddabc3e5975ee331",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170370",
+      "nms_input_count": 65,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9865,
+            3865,
+            9860,
+            3860,
+            4155
+          ],
+          "top_score_flats": [
+            10166
+          ],
+          "nms_input_count": 65
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170413",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170413/raw_capture.pth",
+      "capture_sha256": "76723b58f5dfa6531ef58ba68e9b5d4b1dd2b2ace31eb39e6aefd138b1ede0af",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170413",
+      "nms_input_count": 106,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            9546,
+            9847
+          ],
+          "top_score_flats": [
+            4886
+          ],
+          "nms_input_count": 106
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170441",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170441/raw_capture.pth",
+      "capture_sha256": "657e11c8af4faaac8803e17af5245a0c1e57a7cdf2ac7e5fc3659c148c53f083",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170441",
+      "nms_input_count": 63,
+      "targets": [
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            10616,
+            4912,
+            10912,
+            10617,
+            10611
+          ],
+          "top_score_flats": [
+            10901
+          ],
+          "nms_input_count": 63
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170455",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170455/raw_capture.pth",
+      "capture_sha256": "dc1b4c4f478c532bdaccec83441d4ce052ac659cbad389ceda44f065e041a72f",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170455",
+      "nms_input_count": 84,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            13286,
+            13137,
+            4951,
+            10951
+          ],
+          "top_score_flats": [
+            4646
+          ],
+          "nms_input_count": 84
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170470",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170470/raw_capture.pth",
+      "capture_sha256": "4a3d350e4e5e0617d9deae37ba6a54cc27fe819f6c22b3e69feba4a59bbab00e",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170470",
+      "nms_input_count": 102,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            3567,
+            9552,
+            3552,
+            3562,
+            9562,
+            3547,
+            3556,
+            9847,
+            9556
+          ],
+          "top_score_flats": [
+            3866
+          ],
+          "nms_input_count": 102
+        },
+        {
+          "gt_index": 1,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": true,
+          "qualified_flats_before_nms": [
+            4692,
+            13152,
+            10706,
+            10402,
+            13147,
+            10407,
+            10387,
+            4402,
+            4706,
+            4707,
+            10092,
+            10401,
+            13302,
+            4401,
+            4681,
+            4092
+          ],
+          "top_score_flats": [
+            3866
+          ],
+          "nms_input_count": 102
+        }
+      ]
+    },
+    {
+      "model": "Fusion",
+      "stem": "170484",
+      "action": "new_replay",
+      "capture_path": "week11/day05/outputs/full_val_roi_capture_run01/items/Fusion/170484/raw_capture.pth",
+      "capture_sha256": "544aa85542a282f8f2d12422cd80205927ca3bbbebb8a0a61eae16ce6481cc3f",
+      "run_identity": "full_val_roi_capture_run01/Fusion/170484",
+      "nms_input_count": 110,
+      "targets": [
+        {
+          "gt_index": 0,
+          "scene_id": "17",
+          "both_models_pre_nms_covered": false,
+          "qualified_flats_before_nms": [
+            4662,
+            10662
+          ],
+          "top_score_flats": [
+            10391
+          ],
+          "nms_input_count": 110
+        }
+      ]
+    }
+  ]
+}

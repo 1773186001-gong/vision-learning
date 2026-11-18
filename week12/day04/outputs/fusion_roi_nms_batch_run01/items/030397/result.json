@@ -1,0 +1,21 @@
+{
+  "model": "Fusion",
+  "stem": "030397",
+  "status": "unverified",
+  "error": "First-suppressor attribution cannot be assigned unambiguously",
+  "full_output_match": true,
+  "ambiguity_details": [
+    {
+      "reason": "comparison_near_threshold",
+      "positions": [
+        6,
+        47
+      ],
+      "iou": 0.4999999403953552
+    }
+  ],
+  "targets": [],
+  "origin": "batch_replay",
+  "replay_attempted": true,
+  "evidence": "week12/day04/outputs/fusion_roi_nms_batch_run01/items/030397/result.json"
+}

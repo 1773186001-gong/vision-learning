@@ -1,0 +1,18 @@
+{
+  "command": "D:\\python\\.venv\\Scripts\\python.exe -B -X utf8 week11/day05/capture_full_val.py --output week11/day05/outputs/full_val_roi_capture_run01",
+  "cwd": "D:\\python\\test\\vision-learning",
+  "scope": "week11/day04/outputs/full_val_scope_run02/scope.json",
+  "scope_sha256": "c5437e17b368d52803b44eab20c270ceb8d990e2245aa2804c6bcfab0d237c59",
+  "source_sha256": "bca00f7282da48304b84fc871584534d7934a2bb0da0985e19c5516db8bb4c86",
+  "capture_source_sha256": "b95ca1fe14c509bf0de4ebc51ceb7f88eb130b7c335fe0bc825e5a9bf0ed2f0f",
+  "started_utc": "2026-11-18T03:16:57.326567+00:00",
+  "environment": {
+    "device": "cpu",
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu"
+  },
+  "threads": 2,
+  "seed": 42,
+  "output_policy": "save one raw artifact per new item, reference old captures"
+}

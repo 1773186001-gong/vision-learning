@@ -1,0 +1,7407 @@
+{
+  "status": "reuse_gaps",
+  "historical_scope_source": "week09/day04/outputs/full_val_stage_run01/verification.json",
+  "source_manifest": {
+    "path": "data/LLVIP_1000/manifest.csv",
+    "sha256": "8bfefe942c968a7bba05d694e5c6d25548f29d4be35e5f91874ffaa274ecd4eb"
+  },
+  "scope": {
+    "split": "val",
+    "images": 150,
+    "gt_per_model": 416,
+    "model_image_items": 300,
+    "image_count_by_scene": {
+      "03": 38,
+      "08": 38,
+      "13": 37,
+      "17": 37
+    },
+    "gt_count_by_scene": {
+      "03": 93,
+      "08": 121,
+      "13": 131,
+      "17": 71
+    }
+  },
+  "environment": {
+    "device": "cpu",
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu"
+  },
+  "model_weights": {
+    "IR": {
+      "path": "week08/day03/outputs/ir_baseline_run01/best.pth",
+      "sha256": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2"
+    },
+    "Fusion": {
+      "path": "week08/day05/outputs/fusion_concat_run01/best.pth",
+      "sha256": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a"
+    }
+  },
+  "samples": [
+    {
+      "stem": "030001",
+      "scene_id": "03",
+      "manifest_val_position": 0,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030001.jpg",
+          "sha256": "1cc0ce53695a33a58409f03917b67dd32ff97d1c24ee7f49d7f8b5c2ab739be8"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030001.jpg",
+          "sha256": "888d973fb975dbd86ae4c883b30e478a87e5bc84d6c52f989fd1a9973be5408c"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030001.xml",
+          "sha256": "3bee60b12bb94a816a575d996f41cfdcbc0c35628b73770368b39e1451199abf"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          1.0,
+          64.5,
+          44.0,
+          172.5
+        ],
+        [
+          171.0,
+          65.5,
+          231.0,
+          174.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030014",
+      "scene_id": "03",
+      "manifest_val_position": 1,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030014.jpg",
+          "sha256": "132ecf75a7dd03dae4b361098ea03ce61a679f27da89eac543aeaa60daf50064"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030014.jpg",
+          "sha256": "10934b8c852b58afae7031272f8bfa7a88a2ae1e33872488ff1315946cbc26a2"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030014.xml",
+          "sha256": "b85950e7a47dcc4749651d016934a352e84936b41245cd214b7a7563c28824c7"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          49.5,
+          308.5,
+          101.0,
+          429.0
+        ],
+        [
+          95.0,
+          238.0,
+          152.0,
+          368.0
+        ],
+        [
+          65.0,
+          461.0,
+          117.0,
+          515.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030027",
+      "scene_id": "03",
+      "manifest_val_position": 2,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030027.jpg",
+          "sha256": "f3cb60122090cc28c39fc8bfd0555adf972cc4162d522e5d2d32c626d28740b1"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030027.jpg",
+          "sha256": "ac7c5214af52e551d064c6e4d5c0af4f4cf1f59f1b303c577b323bd2527523a5"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030027.xml",
+          "sha256": "27db4abf4e216e4566f6402fe0a489cb057dc663db012aadb547d748aef48fbe"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          129.0,
+          81.5,
+          189.0,
+          189.0
+        ],
+        [
+          236.5,
+          64.5,
+          288.0,
+          122.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030039",
+      "scene_id": "03",
+      "manifest_val_position": 3,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030039.jpg",
+          "sha256": "ff0fefbc67dc6a08a6a0465b7ebf54b6f04eb4e8b2b51439f392641cd95372ca"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030039.jpg",
+          "sha256": "49f0bf28a2d05d81f67d4ddf45da4701871784296cfec0cf24357675cd321146"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030039.xml",
+          "sha256": "54fe06a0a3c8d7daa84d2e0d672b61116c369d3cb55f7d1682bf07a9c6ce6115"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          9.5,
+          69.5,
+          65.5,
+          188.0
+        ],
+        [
+          68.5,
+          142.5,
+          134.5,
+          244.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030052",
+      "scene_id": "03",
+      "manifest_val_position": 4,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030052.jpg",
+          "sha256": "ac6dc129d480fc0732b0d89adddf1e68a220de1814a6158b747597e034824168"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030052.jpg",
+          "sha256": "e772959d7759b988339e05528f6e458f3a5dedcc8e7a3e171cc05e44f14569b6"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030052.xml",
+          "sha256": "0acb0634056dd8ec13842629c18f7c7316acc4297485e2bafbce2c45e002fd57"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          272.5,
+          309.0,
+          352.0,
+          441.5
+        ],
+        [
+          308.5,
+          282.5,
+          354.5,
+          367.0
+        ],
+        [
+          174.5,
+          64.5,
+          222.5,
+          142.5
+        ],
+        [
+          272.0,
+          64.5,
+          342.5,
+          158.5
+        ],
+        [
+          257.0,
+          64.5,
+          310.0,
+          146.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030065",
+      "scene_id": "03",
+      "manifest_val_position": 5,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030065.jpg",
+          "sha256": "232c02ed9ea11c37ee06d3ad56b5ed05e60f156f777509d7634a48ff1b385ded"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030065.jpg",
+          "sha256": "53aaf7b9d4f76f2af136f85a556e219ed4657f3aa0b5b38942a1bb6bd1e7f621"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030065.xml",
+          "sha256": "1ab8ecb949f0bcddc1ec737df12162c4ded5b9fad92b98727ae2997135f45f5e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          54.0,
+          476.0,
+          117.0,
+          576.0
+        ],
+        [
+          171.5,
+          404.5,
+          245.0,
+          536.0
+        ],
+        [
+          299.0,
+          280.0,
+          357.5,
+          409.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030078",
+      "scene_id": "03",
+      "manifest_val_position": 6,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030078.jpg",
+          "sha256": "bdfa3441ac61666114c96f16529b76a7e7f10aed7b0125cbe6062aba2c866a21"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030078.jpg",
+          "sha256": "267c9a91079f2ad41cd5357f60d3411fc2c7b3109637372003df8ab1d42099de"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030078.xml",
+          "sha256": "cd7da92bc2c440818fdccde2e99022514cee8d5f44caa0d4b75ebf966f4e8666"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          252.0,
+          241.5,
+          295.0,
+          376.5
+        ],
+        [
+          238.5,
+          214.0,
+          274.0,
+          356.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030090",
+      "scene_id": "03",
+      "manifest_val_position": 7,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030090.jpg",
+          "sha256": "2f7cd0d579549d9c49f450a0a2d9758ae0f8cdf3e0ba4df0f17158b59537f633"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030090.jpg",
+          "sha256": "30338cb11f2238b76bf9df81bfa83c10ec158ce63a81deb668c157c37abe5ced"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030090.xml",
+          "sha256": "11a60f0e1b91797acf9b4c9c5db1a8c5738e8914c01caf5942cac25010b6846a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          324.5,
+          411.0,
+          397.0,
+          511.5
+        ],
+        [
+          441.5,
+          472.0,
+          508.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030103",
+      "scene_id": "03",
+      "manifest_val_position": 8,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030103.jpg",
+          "sha256": "553494b2361f333f8335af49df79061b59f8b7077a75a0a1e28750a624e6e233"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030103.jpg",
+          "sha256": "39ce2919ecee660f839bfbbff811aadd757f4445427e2e21990210d469bda0d5"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030103.xml",
+          "sha256": "aa6b888dd61d3f92e2c4607aa577f486b126c87e6562d7494c9f8a66b417675f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          82.0,
+          121.5,
+          135.0,
+          228.0
+        ],
+        [
+          43.0,
+          267.0,
+          77.0,
+          295.5
+        ],
+        [
+          58.0,
+          249.5,
+          102.5,
+          348.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030116",
+      "scene_id": "03",
+      "manifest_val_position": 9,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030116.jpg",
+          "sha256": "39fc21628d46ac294abb4cd244dada07f963234b5b979fc233ba7cbd60914f27"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030116.jpg",
+          "sha256": "5638bbc99c27cca3767f8c8e5f0d130f6fb660353e05429c9eb0de932a37f293"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030116.xml",
+          "sha256": "e5c3dc0c39234c7e9f6b9ae795dbd229ca0cb6ebc2784c6c92d4b53c5b8d3581"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          585.5,
+          265.5,
+          640.0,
+          384.0
+        ],
+        [
+          222.5,
+          64.5,
+          271.0,
+          163.5
+        ],
+        [
+          0.5,
+          85.5,
+          16.0,
+          181.0
+        ],
+        [
+          338.0,
+          64.5,
+          388.5,
+          119.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030129",
+      "scene_id": "03",
+      "manifest_val_position": 10,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030129.jpg",
+          "sha256": "364cea25a309ec13593faf3a403481fb133a74b15e1e327c829d97f329c6fc03"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030129.jpg",
+          "sha256": "79a2e9a24f91d4c49c66231d31b1fe63bf906c991c8e7b0f76a560f7a6b7d317"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030129.xml",
+          "sha256": "fdc654268bc68672aea6df1f01a85e7a95927ef9e3fad7b437fea72604226c3b"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          302.5,
+          224.0,
+          359.5,
+          332.0
+        ],
+        [
+          281.5,
+          207.0,
+          316.5,
+          315.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030141",
+      "scene_id": "03",
+      "manifest_val_position": 11,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030141.jpg",
+          "sha256": "8f9f95b8caf28495beb689c889d35b833e6ebdaf353ef9f69bdbe1b39476aeb0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030141.jpg",
+          "sha256": "595dd76329af8cd93613732f7d3c534e7e24a8784114c971314778627f83b686"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030141.xml",
+          "sha256": "27c15e65085c2d2349961ff8a0a667e84efb940717439597e3edcb30c587435f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          272.0,
+          282.0,
+          343.5,
+          407.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030154",
+      "scene_id": "03",
+      "manifest_val_position": 12,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030154.jpg",
+          "sha256": "69b1ad6c72461227f9cb883d2725bafbec39cca7e3f9383d97029484efc4e513"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030154.jpg",
+          "sha256": "a9d1e4c7a252a4d16b83ac86a02f1e56afa48704844a4c74c4cb88957ba35be7"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030154.xml",
+          "sha256": "bc4952503fd6ea1fca2a3a4ede59fcf4b8f6e59cfe044c3bb16876f30da93c1c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          470.0,
+          458.5,
+          532.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030167",
+      "scene_id": "03",
+      "manifest_val_position": 13,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030167.jpg",
+          "sha256": "ea4e72efaf30146e9d1aad56b3f5f99025b9bce277b64ec9edc56a65ad4f9d93"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030167.jpg",
+          "sha256": "e5d34ec7c15d9da0805bb163595e68adc4235c7267b134e7b36a20dda7313c58"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030167.xml",
+          "sha256": "f4f3283024d5d8cf1f670fb3f70e3ed41cd5c89516c78a352d9c05ebe7e67a2e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          139.5,
+          88.0,
+          186.0,
+          186.5
+        ],
+        [
+          287.5,
+          237.5,
+          356.5,
+          360.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030180",
+      "scene_id": "03",
+      "manifest_val_position": 14,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030180.jpg",
+          "sha256": "59edad63f391e03314a619654587b3cc146d264da7c170a9cfff4fc1bea851c3"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030180.jpg",
+          "sha256": "5ef20ccdace7a7134f0b4a57f04f27d0bc0a4ca2266eb4320651e49e321f99f0"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030180.xml",
+          "sha256": "41654c075f852ba9bfb6778866df31bbaa74740403ae45041b5307687488f976"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          338.5,
+          501.5,
+          379.0,
+          576.0
+        ],
+        [
+          378.0,
+          508.5,
+          411.0,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030192",
+      "scene_id": "03",
+      "manifest_val_position": 15,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030192.jpg",
+          "sha256": "ff3f110f90135b74733ad382dd5a917c371bfb9e343df7ae3455aeb8c7e1bfd5"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030192.jpg",
+          "sha256": "c4faf551bff2fd669c304bfdd0d10a971c8c47cff2d4ed6bc1a4c62eb52ffee9"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030192.xml",
+          "sha256": "131c72fa9eae3d240bf65386e892e448c9e4d63d39e0d52d3a6ca1eb2c0924fb"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          51.5,
+          130.5,
+          94.0,
+          217.5
+        ],
+        [
+          78.0,
+          88.0,
+          129.0,
+          186.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030205",
+      "scene_id": "03",
+      "manifest_val_position": 16,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030205.jpg",
+          "sha256": "763ca5db3d416d3b2fe532fdfdefe87accdf2b6c6dae1144343cd4b81714cb0a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030205.jpg",
+          "sha256": "0a1829616a7a665cccaa496753e382a4737002b9ac0ca425ecaadb4dcb92f423"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030205.xml",
+          "sha256": "1322a1ae2f26a13a3a646f69091838d162d002c10583368993a9f55966f95e09"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          383.5,
+          306.5,
+          425.0,
+          439.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030218",
+      "scene_id": "03",
+      "manifest_val_position": 17,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030218.jpg",
+          "sha256": "861101ad46fd6dec021673e478991823c8e7af9b7ba08e7c56acb2bcf7f3d9e5"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030218.jpg",
+          "sha256": "82e6ab7a516c30e76e55097c789b5b9e0ef92d53e97981726c741ee08950ec05"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030218.xml",
+          "sha256": "f71b7c8960848b2b1b720e8a0e93139bb1d6dc4d3b438b66039adda6accacd2a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          253.5,
+          88.0,
+          308.0,
+          183.5
+        ],
+        [
+          270.0,
+          79.0,
+          331.5,
+          177.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030231",
+      "scene_id": "03",
+      "manifest_val_position": 18,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030231.jpg",
+          "sha256": "338b87f65beaa0220a013895c40ef9e18daf2c429ee3ec8361f06a1e036a84cf"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030231.jpg",
+          "sha256": "a76a1919eefa57b5907767edf1259d17c3b0f0459f0afc50a14ceb73c93554c2"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030231.xml",
+          "sha256": "1258d9f9cc93824de3f2a76c0b584c1a82fb38228a0db747a63e0b0eff0c9b41"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          98.5,
+          181.5,
+          146.0,
+          302.5
+        ],
+        [
+          67.5,
+          126.0,
+          109.0,
+          213.5
+        ],
+        [
+          80.0,
+          87.5,
+          131.5,
+          161.0
+        ],
+        [
+          529.0,
+          504.5,
+          586.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030243",
+      "scene_id": "03",
+      "manifest_val_position": 19,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030243.jpg",
+          "sha256": "493ee0df207f2db58b3b270a39754350b36bba9c1209b6061e4c837d6dc00312"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030243.jpg",
+          "sha256": "a9ac8e29e4c72f44cc0b114e3b2a4c951ac6b9767529eaa8295a0244d34b0129"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030243.xml",
+          "sha256": "46742773d8c4acea1025fb890be14fc754c646696b7118605c1f4e1a6dd15b1a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          117.0,
+          171.0,
+          177.5,
+          292.5
+        ],
+        [
+          0.5,
+          64.5,
+          26.0,
+          124.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030256",
+      "scene_id": "03",
+      "manifest_val_position": 20,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030256.jpg",
+          "sha256": "9736ba743ec33581de5fcc53ec8f57fd9cd9b6824f46bb9a9292c51156d4561b"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030256.jpg",
+          "sha256": "e37dba0753cde89a1f72c8630d2c0406e2d846f598547332b95619f70635c885"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030256.xml",
+          "sha256": "be9d9621511cdd00be87116eeab524e02820e7a4328d97da9c945c66b386f13c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          286.0,
+          287.0,
+          322.5,
+          420.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030269",
+      "scene_id": "03",
+      "manifest_val_position": 21,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030269.jpg",
+          "sha256": "dd82f88060723f6398ddce6ccd4bfd4a08c165d13667ec1d0e3efdfdc8e22c50"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030269.jpg",
+          "sha256": "ce0c076412c60c689a5eb3ed54a0aebb7801381fe358a16a137ebc3b148e6db0"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030269.xml",
+          "sha256": "b1ba2fcb9370fbebe67bd5c86efc8197a1f9c7cb70896874ab68a2252013c73c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          144.0,
+          69.5,
+          196.5,
+          189.5
+        ],
+        [
+          166.5,
+          203.0,
+          208.0,
+          290.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030282",
+      "scene_id": "03",
+      "manifest_val_position": 22,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030282.jpg",
+          "sha256": "e5ca67c3c72bc72715ef121bb5314d175ab15464ae13484bcd03aaf59f24751e"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030282.jpg",
+          "sha256": "acab0627deaffa9bb0c27fe132a61ebe7279b549caa7391bf20f6d66ca1ffcad"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030282.xml",
+          "sha256": "2dfaed64bed67cacf9aee0b3a10665fcaa3b7bfbc3fae1a07de269ad2564fbc7"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          141.0,
+          138.0,
+          201.5,
+          266.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030294",
+      "scene_id": "03",
+      "manifest_val_position": 23,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030294.jpg",
+          "sha256": "7713e25639a8055ec718193be070e78b5514248ef256cf953ffc3fbd9bb242db"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030294.jpg",
+          "sha256": "ca91fd7af3a25bd31459ab6c413a3764f36f052427344bd8a6316c3ceebff41d"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030294.xml",
+          "sha256": "e97b3847ac1924a9e881e21126f539499e9410c2cf4962e1d8efe295c36867a4"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          354.0,
+          333.5,
+          423.5,
+          449.0
+        ],
+        [
+          552.5,
+          238.0,
+          627.5,
+          368.0
+        ],
+        [
+          169.0,
+          468.5,
+          218.0,
+          562.0
+        ],
+        [
+          566.5,
+          254.5,
+          640.0,
+          390.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030308",
+      "scene_id": "03",
+      "manifest_val_position": 24,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030308.jpg",
+          "sha256": "0c45daf079f26956360d823b5a27a870a32901fd14e237cfa6bbcd04274933a5"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030308.jpg",
+          "sha256": "7604e11ed4c254f83daa1361dc63633e4cf0274ae8bf5420274f07a67b2715e5"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030308.xml",
+          "sha256": "0c51f62cd50e8d16b1885e558f953dd0015cbfa6c3d8581ce894ee31488e1ba6"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          254.5,
+          392.5,
+          300.5,
+          524.0
+        ],
+        [
+          50.5,
+          64.5,
+          84.5,
+          98.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030321",
+      "scene_id": "03",
+      "manifest_val_position": 25,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030321.jpg",
+          "sha256": "15dee8dd1e1114ec0b3955a1fdeabd611dd9e7e03d49be532091caed617a27ab"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030321.jpg",
+          "sha256": "6916857286bac4bb3db452c7016069bcbba566621de7b869dfd99df213e25f77"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030321.xml",
+          "sha256": "fa409d96ae46cef4e8630577827a942c01d509f3280c0f25530113ff49eb619a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          82.5,
+          420.5,
+          157.5,
+          521.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030334",
+      "scene_id": "03",
+      "manifest_val_position": 26,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030334.jpg",
+          "sha256": "e04f3f1643a055ebbaa6b3401bfa08c649d4e71ea69e3d230396fb952564fe1a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030334.jpg",
+          "sha256": "166e687095b7844c76b4b024156fd2101107ad0b13ff9c48370e731d7f8a937e"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030334.xml",
+          "sha256": "bc7e902ae32a53fec9811682d6a103084c4262362251934601e7e2f7a95a8a9f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          63.0,
+          64.5,
+          101.5,
+          137.0
+        ],
+        [
+          0.5,
+          133.5,
+          15.0,
+          203.0
+        ],
+        [
+          8.5,
+          436.0,
+          66.0,
+          522.5
+        ],
+        [
+          126.0,
+          68.0,
+          172.0,
+          200.0
+        ],
+        [
+          173.0,
+          104.5,
+          230.5,
+          214.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030346",
+      "scene_id": "03",
+      "manifest_val_position": 27,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030346.jpg",
+          "sha256": "075c9cd5d86a73d24b90c6252ee968c9aebd283473da27f1796d0f531dbe5671"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030346.jpg",
+          "sha256": "afd2090d9448d739879d1ecde17e70715b33f03f5d3bf84a95f43c841c65a3c1"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030346.xml",
+          "sha256": "b20f4e32f2924b410352ce36cd4fdfee50b94e5e2cde41f577ba9c109234f61b"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          181.0,
+          414.5,
+          230.0,
+          532.5
+        ],
+        [
+          254.5,
+          164.0,
+          299.0,
+          280.5
+        ],
+        [
+          279.5,
+          64.5,
+          330.0,
+          172.5
+        ],
+        [
+          206.5,
+          64.5,
+          268.0,
+          149.5
+        ],
+        [
+          147.0,
+          73.0,
+          188.0,
+          184.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030359",
+      "scene_id": "03",
+      "manifest_val_position": 28,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030359.jpg",
+          "sha256": "c2e49c38cc125295cf93de68bd190eac0b49eceffddd3d29597e5c3bdb3bc423"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030359.jpg",
+          "sha256": "5a5840cdb4e1b5187b6c90d974caba6b0f9ffd658c60c221781575f5b5b436c1"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030359.xml",
+          "sha256": "30628e98cb02ffb899b50c7ad3c4c053e7a6fb7fc0a941cebfae22c4ef59bcca"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          406.5,
+          343.5,
+          464.5,
+          455.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030372",
+      "scene_id": "03",
+      "manifest_val_position": 29,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030372.jpg",
+          "sha256": "024b69046bbd1ff5d980ab219d0eda0c5d91fdcfad3da21110eade5d86a8a114"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030372.jpg",
+          "sha256": "8a5234174df27da901c13dc483962efc6a76ea8d4abc1c45f6e76bf3bd816e6c"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030372.xml",
+          "sha256": "a16a322bac3d81e305ca894063312fa3d56cf5e5345c7555a21ee9186a2c93c2"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          72.5,
+          203.5,
+          117.5,
+          305.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030385",
+      "scene_id": "03",
+      "manifest_val_position": 30,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030385.jpg",
+          "sha256": "cbb03a4a4fa22cc749a061cc496aabcca02c9c25861c11d503d1e1563c06dc64"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030385.jpg",
+          "sha256": "94ba0849e8653708e9a218ca01f070f7fd533aab545773d36d8061b932a6e9dd"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030385.xml",
+          "sha256": "1ce346da944cd7805407d84dd2c357faaa37b645292eb7d9616efccfbd4eff55"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          65.0,
+          206.5,
+          115.5,
+          312.0
+        ],
+        [
+          7.0,
+          143.5,
+          57.5,
+          243.5
+        ],
+        [
+          170.0,
+          74.0,
+          231.0,
+          181.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030397",
+      "scene_id": "03",
+      "manifest_val_position": 31,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030397.jpg",
+          "sha256": "10e2584daa01ead48aa2ff96b72769563bdb9f79d0fd9f4b35b6da3916995460"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030397.jpg",
+          "sha256": "e62fee26317e99a5297223b52e1feb515e531d4c8833a8357e42b46b61ed64f7"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030397.xml",
+          "sha256": "c4f74ecf06b8846414d81a99b65c072c6ad8fe4b665c786943e5e5ad6c9c7b2f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          69.0,
+          198.5,
+          115.5,
+          313.0
+        ],
+        [
+          218.5,
+          64.5,
+          267.0,
+          157.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030410",
+      "scene_id": "03",
+      "manifest_val_position": 32,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030410.jpg",
+          "sha256": "880412d10305ee664c7aa61fffaa21d783a82706663f71706f62fde0a5861083"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030410.jpg",
+          "sha256": "c4e091fe175e568aa29707599e1b662bf8621ec0166e63a75053041f577e8f2a"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030410.xml",
+          "sha256": "da0c2e81428344d29f690a4f80afd0f323050124f5bb29df62044b14ed0dc22c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          0.5,
+          246.5,
+          37.5,
+          362.5
+        ],
+        [
+          202.5,
+          190.5,
+          272.0,
+          300.0
+        ],
+        [
+          222.5,
+          64.5,
+          300.0,
+          112.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030423",
+      "scene_id": "03",
+      "manifest_val_position": 33,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030423.jpg",
+          "sha256": "63b7bdb99912cb08395b9ff3eae344394e6bc9e54d82ec5bd00820889db1b36d"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030423.jpg",
+          "sha256": "9be88a09cf9c9aaa9e0f2344d9b7958d6cc8c4e5142cca11794b712a258e60a5"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030423.xml",
+          "sha256": "356efb37f5abcc0bda47706780c9293c7096e50f8f08b6841eba0d137f883a8a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          452.5,
+          353.5,
+          514.0,
+          469.5
+        ],
+        [
+          113.5,
+          105.0,
+          172.0,
+          209.0
+        ],
+        [
+          218.5,
+          86.0,
+          260.5,
+          189.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030436",
+      "scene_id": "03",
+      "manifest_val_position": 34,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030436.jpg",
+          "sha256": "63a15ee6d54985b27f334c9302e0405de6893e000f80b29390dc87bf237929c0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030436.jpg",
+          "sha256": "d7f40e954a1db29ae5b6f69684156e23e73f498b66c186da5017bc984dd86a5b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030436.xml",
+          "sha256": "2747b7c3f87bbf257f2758afad6da0fe58274150ed3fecba1d2710f9ab9254b8"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          1.5,
+          65.5,
+          55.0,
+          155.5
+        ],
+        [
+          217.0,
+          65.5,
+          267.0,
+          132.5
+        ],
+        [
+          224.5,
+          225.0,
+          281.5,
+          364.0
+        ],
+        [
+          368.0,
+          343.0,
+          440.5,
+          488.0
+        ],
+        [
+          418.0,
+          340.5,
+          468.0,
+          466.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030448",
+      "scene_id": "03",
+      "manifest_val_position": 35,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030448.jpg",
+          "sha256": "b5687b0ad7bc25ae6ceb9026131f053ec3729268b04aa1f32724d00173783ddd"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030448.jpg",
+          "sha256": "7b75b79ccd386c2d9a82d29875f9a8095a9cba9f46fbee84f69d5b68c67d31cc"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030448.xml",
+          "sha256": "2c4753132d71b082e5a06e5aecfcde349fa1ab3f38906b565dfb5b29b32ccbc0"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          226.0,
+          64.5,
+          270.0,
+          139.5
+        ],
+        [
+          282.0,
+          64.5,
+          326.5,
+          138.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030461",
+      "scene_id": "03",
+      "manifest_val_position": 36,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030461.jpg",
+          "sha256": "677545f8fd8851f8f28bb2a8bfc665168b6fe30117bf51ba6493f8b849ccd43f"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030461.jpg",
+          "sha256": "b4d17fc85793d99d064fc7aaf0dd0bc0dbfb1202ac5daa6bd3ae8ead40a1b77a"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030461.xml",
+          "sha256": "445ca8177602ee15e5fc85f6722cea84efcf18ef238d6387d7e1fc0285fb8c58"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          62.0,
+          128.5,
+          107.5,
+          223.0
+        ],
+        [
+          9.0,
+          272.5,
+          46.5,
+          383.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "030474",
+      "scene_id": "03",
+      "manifest_val_position": 37,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/030474.jpg",
+          "sha256": "bd4ae38b64b6103665221cd86093aedfcde1e0ac112f97baf5b046b58eccd15c"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/030474.jpg",
+          "sha256": "6a367926d27b4f005c400705b646e8eafc26ea81a734c489e37d656e753874ce"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/030474.xml",
+          "sha256": "34ce1f79c3f2a488c9b1b9051fe5305d7b098cf6fb81835a57b478c77fea4f85"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          553.0,
+          359.5,
+          617.5,
+          489.5
+        ],
+        [
+          243.0,
+          65.0,
+          285.0,
+          127.0
+        ],
+        [
+          267.0,
+          64.5,
+          305.0,
+          112.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080001",
+      "scene_id": "08",
+      "manifest_val_position": 38,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080001.jpg",
+          "sha256": "ab135ac56891425738e7d57a53614fa693472444d2d69f98f1d0e8eba750b663"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080001.jpg",
+          "sha256": "9331cf150eada76230d4cc3cde526ab37afa123aa92b235b5bf6ebc8e95e3bfe"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080001.xml",
+          "sha256": "b9b202c35d84ed9725bc8e68f31724932ef5cf246dcc02d193da4025f37510ed"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          354.0,
+          398.5,
+          399.0,
+          540.0
+        ],
+        [
+          387.5,
+          437.0,
+          450.5,
+          571.5
+        ],
+        [
+          69.0,
+          521.5,
+          121.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080042",
+      "scene_id": "08",
+      "manifest_val_position": 39,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080042.jpg",
+          "sha256": "37397ad36a72ad10c3ad446cea814b76cd11514fd867e6308e3f658c2c0a0602"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080042.jpg",
+          "sha256": "1c1f13e6204d1d18245450e824d5b0018e5cd4b7548af0c185d0fd0cf9026f52"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080042.xml",
+          "sha256": "f39915845579201de55688661d85dd4653389e9ccde49e228d05097068a6a042"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          11.5,
+          392.0,
+          71.5,
+          495.5
+        ],
+        [
+          486.0,
+          123.0,
+          537.5,
+          251.5
+        ],
+        [
+          577.5,
+          317.5,
+          619.5,
+          434.5
+        ],
+        [
+          500.5,
+          407.0,
+          561.5,
+          555.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080083",
+      "scene_id": "08",
+      "manifest_val_position": 40,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080083.jpg",
+          "sha256": "8cee20adddc997698f39d2410ce21ea422119044e5a62ed73b88dc74a52b5a01"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080083.jpg",
+          "sha256": "faffc0824c75553559f1aef01baa47d1ac586a27a6a58d8ea57d1fc632723465"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080083.xml",
+          "sha256": "d9dfdd77d7bd530bebf425870218bdc156d997de261ad4ced2433dba21df95c0"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          259.0,
+          294.5,
+          318.5,
+          383.5
+        ],
+        [
+          546.0,
+          511.5,
+          602.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080125",
+      "scene_id": "08",
+      "manifest_val_position": 41,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080125.jpg",
+          "sha256": "4042988895fe8ff75fa2702b28be0b89e5f8f30d5cf20238cbbb7691e78b8d50"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080125.jpg",
+          "sha256": "0542725907af92922e1e834e1454cc414a1ce2d1f622fd398c236b59bf776fd9"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080125.xml",
+          "sha256": "6a7273982c17f29f820f2da8804408c6a567ef6c183f941cd93951f32361d5f6"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          25.0,
+          173.0,
+          88.0,
+          259.5
+        ],
+        [
+          38.5,
+          212.5,
+          92.0,
+          319.0
+        ],
+        [
+          195.5,
+          240.5,
+          250.5,
+          329.5
+        ],
+        [
+          192.5,
+          426.5,
+          261.5,
+          547.5
+        ],
+        [
+          286.0,
+          444.5,
+          343.5,
+          566.5
+        ],
+        [
+          321.5,
+          453.0,
+          366.5,
+          576.0
+        ],
+        [
+          388.0,
+          445.5,
+          439.0,
+          563.5
+        ],
+        [
+          399.5,
+          500.0,
+          441.0,
+          576.0
+        ],
+        [
+          479.5,
+          449.0,
+          542.5,
+          573.5
+        ],
+        [
+          461.0,
+          317.0,
+          479.5,
+          381.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080166",
+      "scene_id": "08",
+      "manifest_val_position": 42,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080166.jpg",
+          "sha256": "aa9ead28dd799f42425666edbd94a0587141658375d44fb6edc9c96525ede122"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080166.jpg",
+          "sha256": "567de369ebe6af322da140ddda65956c7d85d5587f223549029cb405ba2c4af4"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080166.xml",
+          "sha256": "2722c3e9050a7882e319b18a0732a612b99c9b565cb9f830d98bc721562585ec"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          501.5,
+          444.5,
+          557.0,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080209",
+      "scene_id": "08",
+      "manifest_val_position": 43,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080209.jpg",
+          "sha256": "cdabd8788d4ae5fef2cf827acbf58392ce8c35bf26fdff9057a67dc24457f136"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080209.jpg",
+          "sha256": "a22cc8068d5bea179dfd96b21a5f453b44deb7a9721d2e8b36f2781c91515440"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080209.xml",
+          "sha256": "d810c42078341f4656ff83f4e0304439a0abce56cebf451570c257b38e750e92"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          95.0,
+          232.0,
+          152.5,
+          320.0
+        ],
+        [
+          418.0,
+          64.5,
+          454.0,
+          169.0
+        ],
+        [
+          518.0,
+          407.5,
+          569.5,
+          500.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080250",
+      "scene_id": "08",
+      "manifest_val_position": 44,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080250.jpg",
+          "sha256": "a0a5b135c8030cdac77bb49af20555c456beb4da7deb74ab8506c7c6570c8c7a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080250.jpg",
+          "sha256": "4d6856b6322a7d5ca2562d2121d8ebe39cf918783825afd872cdc0b236e452be"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080250.xml",
+          "sha256": "36369d451f6c34463ceb4a580d85f07e88b95343eabc01a6aa1e2d97877b5a80"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          498.5,
+          129.0,
+          551.0,
+          254.5
+        ],
+        [
+          308.0,
+          311.0,
+          382.5,
+          428.5
+        ],
+        [
+          129.5,
+          340.5,
+          208.0,
+          441.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080291",
+      "scene_id": "08",
+      "manifest_val_position": 45,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080291.jpg",
+          "sha256": "b9285c6bcaca53ef03b840449232cfb1b7bf5fadc1e576a2ac4a80a55c2afd8c"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080291.jpg",
+          "sha256": "b2449fd0b155122bc36b1a8499e713f742416df461ea970d04747c40f69bd3ef"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080291.xml",
+          "sha256": "853c583758c655c907be09a8510a5833cb755066904faa7f4e9013ec48ef2a64"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          211.0,
+          282.0,
+          282.0,
+          385.0
+        ],
+        [
+          206.0,
+          365.0,
+          277.5,
+          492.0
+        ],
+        [
+          355.5,
+          397.5,
+          427.5,
+          538.5
+        ],
+        [
+          477.0,
+          354.0,
+          527.0,
+          447.5
+        ],
+        [
+          329.0,
+          291.0,
+          366.5,
+          366.5
+        ],
+        [
+          0.5,
+          183.0,
+          35.5,
+          270.0
+        ],
+        [
+          608.0,
+          395.0,
+          639.0,
+          466.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080332",
+      "scene_id": "08",
+      "manifest_val_position": 46,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080332.jpg",
+          "sha256": "794e0c036efbb81d8b8bb57446847191485f0229e1205938943ae9fb07325772"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080332.jpg",
+          "sha256": "930c9a1d52ff8b8526f9b22316caff1b063ac83aed788ae5401567d7bbdc4ed5"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080332.xml",
+          "sha256": "460d047c718b38242361145f4ae923c785679b7109ee456eba861d6a527608f7"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          482.0,
+          474.0,
+          537.0,
+          576.0
+        ],
+        [
+          82.0,
+          225.0,
+          114.0,
+          322.0
+        ],
+        [
+          50.0,
+          222.0,
+          95.0,
+          322.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080373",
+      "scene_id": "08",
+      "manifest_val_position": 47,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080373.jpg",
+          "sha256": "65027e4aadc0e226bce7a1c4d63d30ff4b85cb7a5c25787e3cb3e81ae8cbbab0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080373.jpg",
+          "sha256": "ee1e3fb4aa7717e66e9a8cb3a5f4ad8de863c5e3a7fc53ed496e6bbcbc59aecf"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080373.xml",
+          "sha256": "8f238875174c4c0083f950e769b1b444dbda350dbe68e3a28fd6dbd1289a7640"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          448.5,
+          321.0,
+          509.5,
+          406.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080416",
+      "scene_id": "08",
+      "manifest_val_position": 48,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080416.jpg",
+          "sha256": "bbc3d6b7dd9f0cfb5ff4d162bbd72d4f23876db7eee3d7a2aa7a7d0c328c5cb4"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080416.jpg",
+          "sha256": "c569f6aeba0ed249a00f434a6f8a7191028a0db704adbc4e922bfa91fbe0613b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080416.xml",
+          "sha256": "6c274477a291134fa1992da3754a632b5e589d71c878c372ac5d98aaec96f1e5"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          136.0,
+          210.5,
+          193.0,
+          302.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080457",
+      "scene_id": "08",
+      "manifest_val_position": 49,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080457.jpg",
+          "sha256": "082a8ccdc7e2e9902500e60dd4d645bd48702a8b634d01dee6fa368d4321ad9d"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080457.jpg",
+          "sha256": "3d5fdc5a0c715c3ab3070d9d31f09f8649e2bdbff28dc7d1309a2ef2702aafb1"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080457.xml",
+          "sha256": "608e0272361dee6e2cb14bdb2264ac9f5da1c41b7a9f58e0afc356a6c2fd702a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          293.0,
+          283.5,
+          359.5,
+          392.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080498",
+      "scene_id": "08",
+      "manifest_val_position": 50,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080498.jpg",
+          "sha256": "8069df2a6b41409c7d1c9807b58cc030ac741e826b37a286d242a2d428aa59c5"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080498.jpg",
+          "sha256": "12aae8631fe555029d61b7b8edbca5e1d58ffdb1da1d8417c4b77d11c77ecba6"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080498.xml",
+          "sha256": "cb260932ec235e318af166f86f78e9984804b88fb9b3f7a122ddf7907d7919de"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          34.0,
+          197.5,
+          83.0,
+          303.5
+        ],
+        [
+          359.0,
+          94.0,
+          412.0,
+          212.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080539",
+      "scene_id": "08",
+      "manifest_val_position": 51,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080539.jpg",
+          "sha256": "96a3e9522a0f4719ece7c6ec09ce2f0f1247b99a90ae4acc1425e45b7a441a15"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080539.jpg",
+          "sha256": "0ceb6ad76ae2c2ee5453bffa7f03efce727ea5709dca2fe32c87d79c0e4504e0"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080539.xml",
+          "sha256": "175a98baf38ea17f9c9558f0d9162433578f50d83a45a0b3d79393d812a2e331"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          307.5,
+          445.5,
+          371.5,
+          567.5
+        ],
+        [
+          452.5,
+          83.0,
+          493.0,
+          197.5
+        ],
+        [
+          482.0,
+          69.5,
+          520.0,
+          191.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080581",
+      "scene_id": "08",
+      "manifest_val_position": 52,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080581.jpg",
+          "sha256": "606137c88a40f803c652ea99689edcd07790cdf77d39e1fcea94d8eee29b6f62"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080581.jpg",
+          "sha256": "f2f2adcb7824baca6a8fd2d39d9691ae2864c8fdf1608ca2cea79facdf8983bc"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080581.xml",
+          "sha256": "2baf5a7cd5bb2e34a9bd14e2a0fcb6d69447157d3e3e5bc74984221d6b4c1c69"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          540.5,
+          140.5,
+          605.5,
+          263.0
+        ],
+        [
+          182.0,
+          205.5,
+          234.0,
+          331.0
+        ],
+        [
+          301.0,
+          385.0,
+          378.5,
+          532.0
+        ],
+        [
+          414.5,
+          398.5,
+          470.5,
+          552.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080622",
+      "scene_id": "08",
+      "manifest_val_position": 53,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080622.jpg",
+          "sha256": "20172851ffc01e69a69c233046e155d82c3c62f68eabf9880fe2898b29242053"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080622.jpg",
+          "sha256": "15b0fcab7188dba83e11593e07657aba616c99899fa3471d2e8453163c3a512c"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080622.xml",
+          "sha256": "cc5eb1957ec34708be360400ee8408166133a124b0b171eec6c32715fd2d09c2"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          0.5,
+          173.5,
+          36.5,
+          289.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080663",
+      "scene_id": "08",
+      "manifest_val_position": 54,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080663.jpg",
+          "sha256": "2e518152e08f2d7f268766f38e4bda416fe1f2be08b740e36148641c9b2e4384"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080663.jpg",
+          "sha256": "08e36f2bd0bdd1639e3bb7ea01f49f2c24e9c66a678ff1829ee372f144a71322"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080663.xml",
+          "sha256": "7dbf19ebad0a4d798f579a5ec37d54e8ee1ee0707927f3497feec94b9b599e7e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          0.5,
+          440.0,
+          44.5,
+          576.0
+        ],
+        [
+          305.5,
+          426.0,
+          372.5,
+          552.0
+        ],
+        [
+          466.0,
+          397.5,
+          534.0,
+          531.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080704",
+      "scene_id": "08",
+      "manifest_val_position": 55,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080704.jpg",
+          "sha256": "84f2abbebf1c7e4e35a55f623c531efec427229773b4c7b78349a3404bfcf6b6"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080704.jpg",
+          "sha256": "beaf99ce9b6dbf539d2da6444e184b4828405596d91e3a0d28ad2f7caf8236dd"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080704.xml",
+          "sha256": "a29a70ea98ef797e85cfc44e4c97ff068a154a764b360a53fd7d86f5cf09b1fe"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          366.5,
+          285.5,
+          424.0,
+          375.5
+        ],
+        [
+          550.0,
+          526.0,
+          594.0,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080746",
+      "scene_id": "08",
+      "manifest_val_position": 56,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080746.jpg",
+          "sha256": "e38e59740821c0475b22a1070243de275d60a18dce408f145a38bf595706575c"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080746.jpg",
+          "sha256": "129e6181e07a836b8b3467e748c5e49bd275e56bd7f1ce82bfb2fd9b58738c52"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080746.xml",
+          "sha256": "d0b8974696a9085c6c2efde72b41cb403d62a0e9c56e936a20c0ec8731affc9a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          227.0,
+          130.5,
+          276.0,
+          247.0
+        ],
+        [
+          274.0,
+          110.5,
+          324.5,
+          229.5
+        ],
+        [
+          322.0,
+          150.5,
+          379.5,
+          284.5
+        ],
+        [
+          350.5,
+          154.5,
+          399.0,
+          268.0
+        ],
+        [
+          396.5,
+          138.5,
+          439.5,
+          279.0
+        ],
+        [
+          494.0,
+          131.5,
+          551.0,
+          258.5
+        ],
+        [
+          607.5,
+          168.5,
+          640.0,
+          269.0
+        ],
+        [
+          1.0,
+          382.5,
+          44.5,
+          504.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080787",
+      "scene_id": "08",
+      "manifest_val_position": 57,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080787.jpg",
+          "sha256": "4191864b96f63413284b4b0e01b65cd4df1858ff919794e578c36d79404a111a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080787.jpg",
+          "sha256": "8255b87cc605cfa658aed51c381aa33865ed78ecd0d06cf77f13f449c54cefa6"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080787.xml",
+          "sha256": "b35b18f4228611fa145234b3e92ec47ee819e3a273a8b8cac122845b0c1f2b61"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          504.5,
+          147.5,
+          562.0,
+          263.0
+        ],
+        [
+          521.0,
+          142.0,
+          557.5,
+          247.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080829",
+      "scene_id": "08",
+      "manifest_val_position": 58,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080829.jpg",
+          "sha256": "b56cebbff93ca5e9aa3a4496a24e1f2d766c530d21568e9cd0e7ca8798c06051"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080829.jpg",
+          "sha256": "aa2a4e530106c85c78d51d7be7ff7c29db057d9fe71feb39fa416ac1374ff946"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080829.xml",
+          "sha256": "ccc1e8f08c5fb8cfc9eab6193a9be9255a1537c938b7a30bb269f2d49eab275f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          482.0,
+          126.5,
+          537.0,
+          250.0
+        ],
+        [
+          588.0,
+          313.0,
+          639.0,
+          438.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080870",
+      "scene_id": "08",
+      "manifest_val_position": 59,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080870.jpg",
+          "sha256": "d30cf3e56589448cf424c608ec1e746712bdf4504f7c96e4c0b8116d6146e197"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080870.jpg",
+          "sha256": "d5969cf6f5f8ff04b54afb7d7b5ba8af3bbdf9f865846e4f9eea72803e845f3f"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080870.xml",
+          "sha256": "fcf829ca81e4520999396603077dcfda8e793280ee4dc473b9769d0485c636bd"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          15.5,
+          389.0,
+          69.5,
+          504.5
+        ],
+        [
+          227.5,
+          391.5,
+          284.0,
+          531.0
+        ],
+        [
+          483.0,
+          122.0,
+          541.0,
+          253.0
+        ],
+        [
+          574.5,
+          319.0,
+          621.5,
+          437.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080912",
+      "scene_id": "08",
+      "manifest_val_position": 60,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080912.jpg",
+          "sha256": "ccc7c79b01fdf0106ae648d06e142943c3ba3d614631877a44f1b6fe6ac162f0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080912.jpg",
+          "sha256": "36adda69d88cad5aacf65f192782aa0ed5d287f8f985c97249ab3edf2557bf8f"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080912.xml",
+          "sha256": "6494bb5cc1f70c4251e219f116950663f0725427989af28b2a6b2c40031d830d"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          124.5,
+          426.0,
+          190.5,
+          576.0
+        ],
+        [
+          195.5,
+          72.5,
+          262.0,
+          225.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080953",
+      "scene_id": "08",
+      "manifest_val_position": 61,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080953.jpg",
+          "sha256": "806add0e08fbb70d82b006c5a3aaba1ef730ff2c5440c03647e52474dbca99ea"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080953.jpg",
+          "sha256": "4b8fbbd6b94ec5b92bc8debafe5c19ac80c0732cb5da8764a0c9e28987d60ad8"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080953.xml",
+          "sha256": "35e34ae931ddb5cbb14f5d21a4b48d332a07dc21639c0411c36e3c41a06baaaa"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          361.0,
+          377.5,
+          427.5,
+          535.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "080994",
+      "scene_id": "08",
+      "manifest_val_position": 62,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/080994.jpg",
+          "sha256": "5652d1acd987b1c979e3eef8c39be69b656a09dcda59aead6c12c5ab48894cf8"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/080994.jpg",
+          "sha256": "6d8dbf70ba7b3957d477afebea2f632cc5fe33d8ffa659d7814e341f837a32f2"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/080994.xml",
+          "sha256": "1e7f432bacffce9dacf61ad32c8ec7db39e52ba0755c1cfb407cdd63a67c7de6"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          361.5,
+          279.5,
+          415.0,
+          378.0
+        ],
+        [
+          592.5,
+          367.0,
+          640.0,
+          455.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081035",
+      "scene_id": "08",
+      "manifest_val_position": 63,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081035.jpg",
+          "sha256": "8032535bab9bca9ce9e1b46dd201b444eb6aecf6757f51eed30cf7aba007517a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081035.jpg",
+          "sha256": "a2d44a307c9e344ac0a3980091552d86dcf314af084e05e296c434103dec4191"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081035.xml",
+          "sha256": "b448c8dc3a2fd3c3a850c60ec880c3889d683259bb6305fe0d14f5eb4c610ece"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          415.5,
+          157.5,
+          457.5,
+          307.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081076",
+      "scene_id": "08",
+      "manifest_val_position": 64,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081076.jpg",
+          "sha256": "5c07937f6d4553b2fa72d98ee0489ca08ce43f828e5d2e0489fd9f70edaf73ad"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081076.jpg",
+          "sha256": "84f7e2a9f885ed8ad630aa00117f892d163d34d396806cf2e4f784235d8237d3"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081076.xml",
+          "sha256": "69318c0d80f74caa9a3d2b10a07aad16ac6767a5d53e944ccba07db8f95c1b44"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          214.5,
+          466.5,
+          255.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081117",
+      "scene_id": "08",
+      "manifest_val_position": 65,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081117.jpg",
+          "sha256": "7da46e7cc977105257962e607890c09c520bf8c5376095f01ed466281641966f"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081117.jpg",
+          "sha256": "8437e6415cb9c5deda8e4cf49d0a1c19ec21b0ac60545bba2d0582468c7f80f0"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081117.xml",
+          "sha256": "d06df64a6412023f9e85f1602c9b942dd9de5754daf42ed328ad6d163fe82af6"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          439.5,
+          383.5,
+          476.5,
+          514.5
+        ],
+        [
+          455.0,
+          365.5,
+          490.5,
+          489.0
+        ],
+        [
+          485.5,
+          389.5,
+          522.0,
+          524.5
+        ],
+        [
+          537.5,
+          441.5,
+          579.5,
+          547.0
+        ],
+        [
+          550.0,
+          511.0,
+          601.5,
+          575.5
+        ],
+        [
+          556.5,
+          410.5,
+          619.5,
+          514.5
+        ],
+        [
+          592.0,
+          319.0,
+          640.0,
+          408.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081158",
+      "scene_id": "08",
+      "manifest_val_position": 66,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081158.jpg",
+          "sha256": "0ff43a56d841658a95f0eee1874a75f23556cf37b27d3e8e16ecc5fe87b96936"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081158.jpg",
+          "sha256": "caca31b76cc55a6ab16231a038ef667fc84d6b46ea60be2238384449b673950a"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081158.xml",
+          "sha256": "19b0b3562a43d574661cf30e5caed6e1caa7b70670199d976ab91ab86fecd5fc"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          128.0,
+          253.0,
+          184.0,
+          356.5
+        ],
+        [
+          525.5,
+          339.0,
+          586.5,
+          436.0
+        ],
+        [
+          579.0,
+          152.0,
+          621.5,
+          281.5
+        ],
+        [
+          480.0,
+          473.0,
+          526.0,
+          541.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081199",
+      "scene_id": "08",
+      "manifest_val_position": 67,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081199.jpg",
+          "sha256": "0a6b9b58282d420f3a45727fa43ae2f887fe2ecd9031a256e9fab9c8585167af"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081199.jpg",
+          "sha256": "acffe1dec9e3550bc1ffd7deb2f6318deffe0aaa16a6c2b30662c5a2fb23cf78"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081199.xml",
+          "sha256": "4ad223412a3073bc0d1417a03aefdee13be86bcdefa8398d6cd2ef39ec2878b0"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          343.0,
+          325.0,
+          401.5,
+          416.0
+        ],
+        [
+          74.0,
+          218.5,
+          133.5,
+          307.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081240",
+      "scene_id": "08",
+      "manifest_val_position": 68,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081240.jpg",
+          "sha256": "6a71942312ace72fedfff466aa9733514972bbb475397fcfbfc7055b2bf67b47"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081240.jpg",
+          "sha256": "e583f69ade4185626d592d11657e4bc4bdf463e36d8dee5364d0cc4d01744dd1"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081240.xml",
+          "sha256": "349d7d7eaccc524a355457d6a849672fda12751a1a68aca8122296d943784717"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          585.0,
+          318.5,
+          640.0,
+          440.0
+        ],
+        [
+          12.0,
+          387.0,
+          78.0,
+          493.5
+        ],
+        [
+          317.5,
+          488.5,
+          382.5,
+          576.0
+        ],
+        [
+          129.5,
+          464.0,
+          205.0,
+          557.0
+        ],
+        [
+          155.0,
+          342.5,
+          236.0,
+          461.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081281",
+      "scene_id": "08",
+      "manifest_val_position": 69,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081281.jpg",
+          "sha256": "bc5c7bedbe312a33aa09e1b59168b952f4d9d152d6f1ca9cb1fde09f0eea2a72"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081281.jpg",
+          "sha256": "b6653bc6db81be655860ea5a7268dcd5c0e66b6bca7eb580ea8f10e54c962081"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081281.xml",
+          "sha256": "609b3f95851119ca2999622b71f0733d91c9a0884ca06ee82797a3a2ec5a19b0"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          23.0,
+          182.5,
+          88.0,
+          288.5
+        ],
+        [
+          340.5,
+          282.5,
+          405.0,
+          401.5
+        ],
+        [
+          343.5,
+          415.5,
+          413.5,
+          553.0
+        ],
+        [
+          265.0,
+          495.0,
+          320.0,
+          576.0
+        ],
+        [
+          105.5,
+          495.0,
+          160.5,
+          576.0
+        ],
+        [
+          398.0,
+          532.5,
+          467.5,
+          576.0
+        ],
+        [
+          539.5,
+          438.5,
+          595.0,
+          576.0
+        ],
+        [
+          556.5,
+          409.0,
+          638.0,
+          509.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081322",
+      "scene_id": "08",
+      "manifest_val_position": 70,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081322.jpg",
+          "sha256": "92ed1415fc041102078258bd9ebb37477a7d68cb63e1a538c552351f6b8c299e"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081322.jpg",
+          "sha256": "15cc6d28cb0bbce20c930ffce5362bed2dcefed026e42c73e86b0ada83c837ad"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081322.xml",
+          "sha256": "c965c51f3d61dda4e2ecccc45796325153133026a35a6c51f70075d805ebcea6"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          396.5,
+          112.0,
+          442.0,
+          208.0
+        ],
+        [
+          449.5,
+          86.5,
+          505.5,
+          192.0
+        ],
+        [
+          593.5,
+          406.5,
+          637.5,
+          519.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081363",
+      "scene_id": "08",
+      "manifest_val_position": 71,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081363.jpg",
+          "sha256": "4838dd01b6d2fb9a35ad004a56250fd023e1074f6ded60b06bf71ba286a4efff"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081363.jpg",
+          "sha256": "19ae644b5dec347a2daa9490ec314b4f6df272e4c763b75f9df2419b93020ec2"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081363.xml",
+          "sha256": "719a8c8986ff61156150d8f6caa8f25bb40d60ae1a12ad82f21a11d5340cdb42"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          481.0,
+          303.5,
+          558.0,
+          434.5
+        ],
+        [
+          53.5,
+          188.0,
+          128.0,
+          314.0
+        ],
+        [
+          217.5,
+          231.5,
+          277.0,
+          338.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081404",
+      "scene_id": "08",
+      "manifest_val_position": 72,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081404.jpg",
+          "sha256": "811c3e1480bdc75353041132a4a006361c6c3d0029be030cdf0188c870431462"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081404.jpg",
+          "sha256": "a53452675d525700acc631caf4b33c4dcb3a3cc3787dc0188f0f11c793493478"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081404.xml",
+          "sha256": "aa130b3a48e96574c3277064bafc20126d4046f861438251a143ecfe034ce60a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          261.0,
+          245.0,
+          317.5,
+          353.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081445",
+      "scene_id": "08",
+      "manifest_val_position": 73,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081445.jpg",
+          "sha256": "969a69796432a037840ff50c9ef935fb1bdab624cac88bd03a2ce480d369ea8c"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081445.jpg",
+          "sha256": "fa891addfd1c9403f6138d9729bfbd1739dc582089e685c267becd314c7dc5a6"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081445.xml",
+          "sha256": "a6aa246484a4b9c2294d2770d5c544ecc86a32507843fd94d15fe2b3ee1fa11c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          412.0,
+          453.5,
+          483.5,
+          576.0
+        ],
+        [
+          114.5,
+          528.0,
+          140.0,
+          576.0
+        ],
+        [
+          132.0,
+          535.5,
+          165.0,
+          576.0
+        ],
+        [
+          23.0,
+          477.5,
+          65.0,
+          576.0
+        ],
+        [
+          65.0,
+          515.5,
+          106.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081486",
+      "scene_id": "08",
+      "manifest_val_position": 74,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081486.jpg",
+          "sha256": "9cab4dda70895a07563a67d63f927125e1c543873ee61f49297293e8e3a23c47"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081486.jpg",
+          "sha256": "2d7aaa9b7bff0b9539fe6923308281dd2c304ed8f3e3361364627e5e22498af0"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081486.xml",
+          "sha256": "39f9fbe33a159bf25ce3e38b38dbaab4915fc21634ee9cf4fde302ee451033ee"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          207.0,
+          359.5,
+          270.0,
+          505.0
+        ],
+        [
+          267.5,
+          361.5,
+          322.5,
+          512.5
+        ],
+        [
+          1.5,
+          144.0,
+          29.0,
+          227.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "081527",
+      "scene_id": "08",
+      "manifest_val_position": 75,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/081527.jpg",
+          "sha256": "2ad23b2ef9a6ecbb4ee06bd26c9821c16b6276ff237bb7a3d3b6da4291eb6f63"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/081527.jpg",
+          "sha256": "7b5a930a40098f80e78e106b2d85944b1fc0a685f54daf0d506fea7f1498ff26"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/081527.xml",
+          "sha256": "224561195f05789ffa65329926ad725fc5238334b90817ff8b4ded94d4e7f0c5"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          378.5,
+          357.0,
+          428.5,
+          461.5
+        ],
+        [
+          0.5,
+          238.5,
+          59.0,
+          353.5
+        ],
+        [
+          86.0,
+          91.5,
+          130.0,
+          194.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130001",
+      "scene_id": "13",
+      "manifest_val_position": 76,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130001.jpg",
+          "sha256": "da70394d56344154acade13bdbc99612c0e6bf500d428ca8098e9d2923d6ade0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130001.jpg",
+          "sha256": "deb1799e32fe4f8ededf8891f404743f0401302e06a840c6aa005a2495e85c5e"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130001.xml",
+          "sha256": "46ca94db8cbcad1a480538b40a9e1ac24106317f71182ab9070054646f80ad0e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          374.5,
+          284.5,
+          414.5,
+          387.0
+        ],
+        [
+          408.5,
+          247.5,
+          448.0,
+          348.0
+        ],
+        [
+          430.0,
+          288.5,
+          469.5,
+          392.0
+        ],
+        [
+          412.0,
+          496.0,
+          450.5,
+          571.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130015",
+      "scene_id": "13",
+      "manifest_val_position": 77,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130015.jpg",
+          "sha256": "2dd3b7274ce33587d196c9e6cddb3d3db8cc155912d71210b416544b394efd82"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130015.jpg",
+          "sha256": "5ce0bff8d51afe7a0efefdfa7c775d708972cca7f58dfe1ec311c9006ac91b9b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130015.xml",
+          "sha256": "f54e7fdd1e55908680085ea7b86ef2842afb827007fa0d8a9bd3e5bb7a4fd6fb"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          205.5,
+          315.0,
+          260.0,
+          420.5
+        ],
+        [
+          261.5,
+          331.5,
+          294.5,
+          440.5
+        ],
+        [
+          515.0,
+          262.5,
+          558.5,
+          359.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130029",
+      "scene_id": "13",
+      "manifest_val_position": 78,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130029.jpg",
+          "sha256": "219856d7c13f6b8389f4a87fb2eb93556a3d9dc188d80ea29fdcbe70e9cd0f11"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130029.jpg",
+          "sha256": "4e80a893473ebb1fc801951765b10267855f630966870d5d2d5cae9bc46870d4"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130029.xml",
+          "sha256": "83854ec588668c9e5219e54d53251639b2c366adf9dfaa10f1fa981093c0399a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          421.5,
+          293.5,
+          467.0,
+          409.5
+        ],
+        [
+          499.5,
+          248.0,
+          541.0,
+          349.0
+        ],
+        [
+          494.5,
+          435.0,
+          547.5,
+          535.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130043",
+      "scene_id": "13",
+      "manifest_val_position": 79,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130043.jpg",
+          "sha256": "a194b909cabf29471175515ec33574776666eea7bf0829007f118851d8cba1e5"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130043.jpg",
+          "sha256": "de8368b2c06b35b550c6a6b58729c622dc0a87c400617b1228be7d1c658f58a0"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130043.xml",
+          "sha256": "10b93ffd5c99c48951dbc70398c4efcefb224300d68d72ee6f6cf931730c691c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          203.0,
+          322.5,
+          244.0,
+          425.0
+        ],
+        [
+          239.0,
+          325.0,
+          271.0,
+          427.0
+        ],
+        [
+          565.5,
+          225.0,
+          595.5,
+          322.0
+        ],
+        [
+          606.5,
+          230.5,
+          640.0,
+          314.5
+        ],
+        [
+          335.5,
+          523.5,
+          366.0,
+          572.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130056",
+      "scene_id": "13",
+      "manifest_val_position": 80,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130056.jpg",
+          "sha256": "23e0285645faa951a2638290f0cf5fd766793c3d35730f97f501813c2d7cd24e"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130056.jpg",
+          "sha256": "17dbaac7853114d4eb8daaa73e5861839171d8050c010d6a429cf9f27c311cf8"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130056.xml",
+          "sha256": "b0f1d23489340a58758c8b1068a392148c6ed092398666d58fb1c62e1cb3fe3a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          453.5,
+          245.5,
+          490.0,
+          351.0
+        ],
+        [
+          486.5,
+          265.5,
+          525.5,
+          360.5
+        ],
+        [
+          285.5,
+          306.0,
+          328.0,
+          401.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130070",
+      "scene_id": "13",
+      "manifest_val_position": 81,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130070.jpg",
+          "sha256": "cedf5f830f7a04265075f16a8330843f6000ef20b56e6e7aa6345fc01bf4ef55"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130070.jpg",
+          "sha256": "6dae102ec03b847290264c6de1494777abc94ed1aeb4389c9d023e598d646bc9"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130070.xml",
+          "sha256": "4cea381d24a589c30ecde0b577303aac94d1bfcc656c1e7297f6395b98262016"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          54.0,
+          417.5,
+          92.5,
+          531.5
+        ],
+        [
+          466.5,
+          452.0,
+          523.0,
+          547.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130084",
+      "scene_id": "13",
+      "manifest_val_position": 82,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130084.jpg",
+          "sha256": "3fb44e611f83e25912aa3d27fd4ffc1fbf09fcdd215529ba38289e537b91c187"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130084.jpg",
+          "sha256": "bd3c110514d61d1ce2397cac5ab6f626f3e26b44c44c9654dd01a4cb1f1ef016"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130084.xml",
+          "sha256": "0f571f2b99ca30ed6285311c293d85b8a9f8bcf7c0af42c12b04270ecdad3a30"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          475.5,
+          271.0,
+          510.5,
+          377.0
+        ],
+        [
+          104.0,
+          402.5,
+          130.0,
+          496.5
+        ],
+        [
+          53.0,
+          423.5,
+          105.5,
+          550.5
+        ],
+        [
+          42.0,
+          374.0,
+          90.0,
+          460.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130098",
+      "scene_id": "13",
+      "manifest_val_position": 83,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130098.jpg",
+          "sha256": "05a04fabb01432a5cd17603b5423566f646bbd066b18d802c037506ae886af95"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130098.jpg",
+          "sha256": "2dea8a7305a18fb6e315880b8ffb563242f58ea6e90546295f88e4f5040117ea"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130098.xml",
+          "sha256": "0fa2e36060330977fb96eee88edd7fce5c93655dda2deb10fc834650d13ec9a0"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          167.5,
+          407.5,
+          198.5,
+          488.0
+        ],
+        [
+          194.0,
+          392.0,
+          222.0,
+          487.5
+        ],
+        [
+          223.0,
+          360.0,
+          261.5,
+          464.5
+        ],
+        [
+          423.0,
+          190.5,
+          457.5,
+          284.5
+        ],
+        [
+          514.0,
+          163.0,
+          557.5,
+          268.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130112",
+      "scene_id": "13",
+      "manifest_val_position": 84,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130112.jpg",
+          "sha256": "dd5f8a8dfe406f5bd091980c9c2a19f1e8fe4fea7576aadd4850283931ed4b78"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130112.jpg",
+          "sha256": "67146ac24ca6cb0dccb0ca3393e8752731e97fb30f1d9608cb08cfe7ec1a7a4b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130112.xml",
+          "sha256": "2ce69331ec27c0aa9381b14b763b6a26c6c3cb808faa192b139be8bcfc6a24f5"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          311.5,
+          206.0,
+          356.0,
+          306.0
+        ],
+        [
+          194.0,
+          338.0,
+          234.0,
+          441.5
+        ],
+        [
+          93.5,
+          390.5,
+          129.0,
+          487.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130126",
+      "scene_id": "13",
+      "manifest_val_position": 85,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130126.jpg",
+          "sha256": "ef10eafbf19937961afbb9e040a12a14b4b118a0036ea26ec252fb3eba2f2462"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130126.jpg",
+          "sha256": "f3e90db5fdadd21ff8c6c6601fd0922499b52bfe276a6634a928d9b59d7b096d"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130126.xml",
+          "sha256": "92baa132c8e2e5a8df4097f565d5a416407c208ec59c7cf19a1cf2cccd89eeac"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          36.0,
+          442.0,
+          77.5,
+          543.5
+        ],
+        [
+          11.0,
+          433.0,
+          42.0,
+          545.0
+        ],
+        [
+          349.5,
+          334.0,
+          393.5,
+          438.0
+        ],
+        [
+          436.0,
+          287.0,
+          474.0,
+          389.5
+        ],
+        [
+          409.0,
+          260.0,
+          439.0,
+          381.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130140",
+      "scene_id": "13",
+      "manifest_val_position": 86,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130140.jpg",
+          "sha256": "d728d50c4790a0698966cc7a9a6b4d237c28ea25ea7970c1628eeb89f7a5cbbc"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130140.jpg",
+          "sha256": "f6f729037cb016754990ed90a3b695f5bd1acdeb45d0b085bff5ea0e603e271e"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130140.xml",
+          "sha256": "c814244a90cb9831b9c8cb3f5f76d669605b42db42fbfe4da7dde90fbf0d7009"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          120.0,
+          356.0,
+          157.5,
+          477.5
+        ],
+        [
+          95.5,
+          363.0,
+          135.0,
+          464.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130153",
+      "scene_id": "13",
+      "manifest_val_position": 87,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130153.jpg",
+          "sha256": "cf3aa4de54031d4d008060b54a24c1d6c52bbd7261ea71e8a4981da42f885a04"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130153.jpg",
+          "sha256": "80e54144dd46391f3eb94683adfa34594be70cdcc77647c03932606d7df4067e"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130153.xml",
+          "sha256": "bc29f263183ebe2b171e3e8601a5d7483db1a7b37568d419e2ce615f99bfacd0"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          113.0,
+          402.0,
+          159.5,
+          509.5
+        ],
+        [
+          354.0,
+          334.5,
+          394.0,
+          437.5
+        ],
+        [
+          343.5,
+          281.0,
+          375.0,
+          333.5
+        ],
+        [
+          509.5,
+          253.0,
+          547.5,
+          354.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130167",
+      "scene_id": "13",
+      "manifest_val_position": 88,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130167.jpg",
+          "sha256": "f543f74a299347b77868794cc8bd181acaf11d22495a3dfdeecae5336854b1c4"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130167.jpg",
+          "sha256": "efe2b0e54cc936f5da1b0f3062557ef65b4441b9fd46faf051741195e4d7d682"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130167.xml",
+          "sha256": "b33a68193267525332830d6709083cbf88772b0b1052697ac9589b5c10837807"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          455.0,
+          281.5,
+          486.0,
+          385.0
+        ],
+        [
+          369.0,
+          270.5,
+          394.5,
+          343.5
+        ],
+        [
+          399.5,
+          286.5,
+          424.5,
+          323.5
+        ],
+        [
+          186.5,
+          351.0,
+          245.5,
+          446.0
+        ],
+        [
+          223.5,
+          134.0,
+          261.0,
+          225.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130181",
+      "scene_id": "13",
+      "manifest_val_position": 89,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130181.jpg",
+          "sha256": "068e65bb5d2c26faba9bf8eefe253e484577b198b36ce62b6b2fe5f5ca14acc7"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130181.jpg",
+          "sha256": "0eed803a4ba947f0d921325d167440f890a76473851fe97ded28e7cac7610a49"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130181.xml",
+          "sha256": "3f585b7fa2cb9522ab423e8fe3fd2d050cbc46669a3047115d69fe3d95ad98d6"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          144.0,
+          376.5,
+          187.5,
+          486.0
+        ],
+        [
+          175.5,
+          363.5,
+          208.0,
+          456.0
+        ],
+        [
+          275.0,
+          349.0,
+          311.5,
+          456.5
+        ],
+        [
+          494.0,
+          222.5,
+          541.0,
+          332.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130195",
+      "scene_id": "13",
+      "manifest_val_position": 90,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130195.jpg",
+          "sha256": "ba0d52a4d9a8224c94915ffc728d685e0a9ea9b626d63a157027e69eac71910c"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130195.jpg",
+          "sha256": "3731b7c4ac8cbdf00ac49cd8ffa61623c37622eb8bc99b971c145eb17962523d"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130195.xml",
+          "sha256": "8385d5e4c38ead988be3f08777a5bfa5ab9ba2c84abfcd745d49052d701722f7"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          151.0,
+          354.5,
+          193.5,
+          466.0
+        ],
+        [
+          353.5,
+          334.5,
+          390.5,
+          437.0
+        ],
+        [
+          197.5,
+          364.0,
+          235.0,
+          468.5
+        ],
+        [
+          618.0,
+          211.0,
+          640.0,
+          303.5
+        ],
+        [
+          522.5,
+          415.0,
+          558.5,
+          509.5
+        ],
+        [
+          595.5,
+          532.5,
+          628.0,
+          572.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130209",
+      "scene_id": "13",
+      "manifest_val_position": 91,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130209.jpg",
+          "sha256": "4dff3cdc28ced5dbae3ed8e993672055e2fedb4a9fd3eba32baa7ca778eae01d"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130209.jpg",
+          "sha256": "7ac3417ea32c36141dfac15e3291bad6361a0014bdad4568a7836b19b8215c30"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130209.xml",
+          "sha256": "e420294db3c9c3f81d752eb8139efee2f032cefa7a95d0f8df71efb5cdcfe4a9"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          213.0,
+          325.0,
+          256.0,
+          424.5
+        ],
+        [
+          389.0,
+          300.0,
+          421.0,
+          403.5
+        ],
+        [
+          388.0,
+          472.5,
+          434.5,
+          565.0
+        ],
+        [
+          428.5,
+          473.0,
+          451.0,
+          548.5
+        ],
+        [
+          578.5,
+          263.5,
+          629.5,
+          348.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130223",
+      "scene_id": "13",
+      "manifest_val_position": 92,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130223.jpg",
+          "sha256": "b0bc46e2effe152b58be4e88e2fa9daedec9d2404b63a099887b56ad33382c49"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130223.jpg",
+          "sha256": "61fad82a1976dbcdb30625513870256e18d5b8deff7e341edc322452b04b9446"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130223.xml",
+          "sha256": "fe0942729e95569c40d5430ac5794de8f0d08361e6ceb580c086d82b1257fcf8"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          433.5,
+          265.5,
+          468.5,
+          327.5
+        ],
+        [
+          464.5,
+          272.5,
+          495.5,
+          373.0
+        ],
+        [
+          478.5,
+          245.0,
+          504.0,
+          339.5
+        ],
+        [
+          500.5,
+          251.0,
+          542.5,
+          354.0
+        ],
+        [
+          569.0,
+          387.5,
+          632.5,
+          499.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130237",
+      "scene_id": "13",
+      "manifest_val_position": 93,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130237.jpg",
+          "sha256": "c8c86a106212807ed349a611f8588cae45118b00a457f96ac91be713d3d7d46d"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130237.jpg",
+          "sha256": "f2cf6c1644bd7d7cc8e061bfbbbb5de1e8793abf7862fb94cbda5f1219218561"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130237.xml",
+          "sha256": "06ad31131a9770c69a9e94a7e276db0d17746193b75f79284b7fc820b4d69624"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          353.0,
+          333.0,
+          392.5,
+          437.0
+        ],
+        [
+          385.0,
+          479.5,
+          441.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130251",
+      "scene_id": "13",
+      "manifest_val_position": 94,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130251.jpg",
+          "sha256": "461611dc1c0085bf205cdfe380c9bdd226aa60c90c7f92fa08a638fed58de118"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130251.jpg",
+          "sha256": "ae7429cb8133cc5d1c585b4d97c8ef25a8555045b67e7b8f414ce268ed47afbd"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130251.xml",
+          "sha256": "296b521efe52c88adfdd51e86ffa50604bdf6af7bbeab54b788be6f870957623"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          169.0,
+          376.0,
+          234.0,
+          495.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130264",
+      "scene_id": "13",
+      "manifest_val_position": 95,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130264.jpg",
+          "sha256": "2a70535333a8d5cc658c310e152614326dd34699b4617afa9d8dd0e28a56a7e0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130264.jpg",
+          "sha256": "42226be35d1717ef622642b16698ba1111993d9cea11f2caa9d3996abcfbe505"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130264.xml",
+          "sha256": "345c5cdf69bf68abfa6d53de176dc335eb35244d91c0893a4b1c81bc12ee7cb5"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          467.0,
+          226.0,
+          499.5,
+          328.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130278",
+      "scene_id": "13",
+      "manifest_val_position": 96,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130278.jpg",
+          "sha256": "b0541755623b84646080826bdb472d808fadd5285a5b6e8a27171e84635955a4"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130278.jpg",
+          "sha256": "53c9c283d14754c9e98dcf7a97413db9480377613ba91030384d235559ba1b4b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130278.xml",
+          "sha256": "ce0d2f947ba096136161c4fe6634ba2ac331710dc074ebd4458cf9b9769783b7"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          388.0,
+          305.0,
+          444.0,
+          415.0
+        ],
+        [
+          52.5,
+          373.0,
+          94.0,
+          475.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130292",
+      "scene_id": "13",
+      "manifest_val_position": 97,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130292.jpg",
+          "sha256": "37faf993e6bb881bd519ae20a128ef119f9e592daed1a2142229cf21894ec55a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130292.jpg",
+          "sha256": "218aa8e54866e2af5201292f232c2787026650c6a981a5358a3a0342d4103ab8"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130292.xml",
+          "sha256": "7c6daebeaadd20277669785dbe7550755c1cae9c4239a4f3ee66fc7518984f58"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          461.0,
+          243.5,
+          505.0,
+          344.5
+        ],
+        [
+          500.5,
+          238.5,
+          533.0,
+          348.5
+        ],
+        [
+          568.0,
+          423.0,
+          613.5,
+          498.0
+        ],
+        [
+          609.0,
+          438.0,
+          640.0,
+          523.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130306",
+      "scene_id": "13",
+      "manifest_val_position": 98,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130306.jpg",
+          "sha256": "d0eab35ba17e0949f4bedae9fba385172f193531ffde056d2c751d8931d29d23"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130306.jpg",
+          "sha256": "c01c5fc03bcbdafe91d75314e4ab02557fa0cfd08d533130110c14d24dec8425"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130306.xml",
+          "sha256": "fde31d78257e98ce93f62fa55f74bf71675dcf73b7ec5a08302dd449cd5e4079"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          415.5,
+          276.0,
+          450.5,
+          388.0
+        ],
+        [
+          523.0,
+          269.5,
+          560.0,
+          374.0
+        ],
+        [
+          376.0,
+          474.0,
+          436.0,
+          569.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130320",
+      "scene_id": "13",
+      "manifest_val_position": 99,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130320.jpg",
+          "sha256": "1bfd98b27ea23749e0a862444e8f11c79755aa9f26f9886d1d5b819a0c4c8701"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130320.jpg",
+          "sha256": "7f06b4c48fe0efe6b3fd95afd7d427235cbb87a56ef485879f7423da47905684"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130320.xml",
+          "sha256": "b131611de5583fe147e68c6e3a7a3fdd7b02923b9d9151dbbf16c767af02512c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          478.5,
+          225.0,
+          525.5,
+          334.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130334",
+      "scene_id": "13",
+      "manifest_val_position": 100,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130334.jpg",
+          "sha256": "6f7fbd0692e1c26aab3fc428af627fcc239d71182b2eb6b628ef355680b058b1"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130334.jpg",
+          "sha256": "41186b81a1a521f1ddbcf472255700318cc6b4015d7e5a5d9314a7ffaaafabff"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130334.xml",
+          "sha256": "590262af1dd611ca933cb8570f1c7446a8c68e8f9aa30e1cba245999177d48ce"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          228.5,
+          342.0,
+          269.0,
+          451.0
+        ],
+        [
+          55.0,
+          391.5,
+          97.5,
+          502.0
+        ],
+        [
+          229.5,
+          138.0,
+          279.5,
+          234.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130348",
+      "scene_id": "13",
+      "manifest_val_position": 101,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130348.jpg",
+          "sha256": "cfddd1594c5d09a031dad1df4ed50a9888329326de48a56f9cf714a3d43868f7"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130348.jpg",
+          "sha256": "babfc501fc3fbe1733a19c8f540d88a7d69fa024c6b5b1054c54e224ad3fd486"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130348.xml",
+          "sha256": "1d70d9d1daea5cfbe4c48a015c8823e616f649e70567ab68313eef5cb3821ecf"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          354.5,
+          335.0,
+          391.0,
+          438.0
+        ],
+        [
+          225.0,
+          320.0,
+          261.0,
+          429.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130361",
+      "scene_id": "13",
+      "manifest_val_position": 102,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130361.jpg",
+          "sha256": "e0931591527fcd9efad48e4df0441aa54a73aac4058744c3a7741f26d1db1aef"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130361.jpg",
+          "sha256": "959b25c0a5105112bc3a9d8c14d4b20acfe5ec043e49cfc894ce4aa9bcaa0efa"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130361.xml",
+          "sha256": "6a38e461f202cbca2c4e3026f143615a3a76132964f6ef45530d0104e265bff6"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          139.5,
+          361.0,
+          188.5,
+          477.5
+        ],
+        [
+          105.5,
+          357.0,
+          152.5,
+          463.5
+        ],
+        [
+          531.0,
+          281.0,
+          563.5,
+          371.0
+        ],
+        [
+          611.5,
+          193.5,
+          640.0,
+          279.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130375",
+      "scene_id": "13",
+      "manifest_val_position": 103,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130375.jpg",
+          "sha256": "5308cd48cbf1142d548138e1b6b79f8d84db806588308f6b76fa6306fa8c8cee"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130375.jpg",
+          "sha256": "72123b8560b75b6ef7aa1ade39ac45e0a2977f0a42b18995ef0667a241d6cd46"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130375.xml",
+          "sha256": "d274ab7215ec96c09c4cf41427383fd7bbb0c11046fd8344454124133a63e80f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          274.5,
+          335.0,
+          311.0,
+          444.5
+        ],
+        [
+          307.0,
+          348.5,
+          342.5,
+          437.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130389",
+      "scene_id": "13",
+      "manifest_val_position": 104,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130389.jpg",
+          "sha256": "21c118f62e0f0ffd7b63683e9bc94438423945c13002277811f09a75671a1cd0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130389.jpg",
+          "sha256": "f889b25634013b796be5d50cb6040249d4a901c63799a41eb21c1e7a14b7aa2c"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130389.xml",
+          "sha256": "c548fbf164fb9889caffee371b401f47465603dc54b1f527d63363683fa25a26"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          434.0,
+          249.0,
+          460.0,
+          345.5
+        ],
+        [
+          447.5,
+          255.0,
+          492.5,
+          357.5
+        ],
+        [
+          574.5,
+          193.5,
+          613.5,
+          288.0
+        ],
+        [
+          150.0,
+          401.0,
+          187.5,
+          507.5
+        ],
+        [
+          117.0,
+          382.0,
+          153.5,
+          504.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130403",
+      "scene_id": "13",
+      "manifest_val_position": 105,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130403.jpg",
+          "sha256": "7b03af295e9d302b0629cef2482887f2c135d1315eaf0110da9fbf60fd940da3"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130403.jpg",
+          "sha256": "704de4ef46dff3825d749d584756741f3620ab5b3c461644437720873754f24b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130403.xml",
+          "sha256": "70ffcb9871b19644f78746d8a63fad2096dcd77296d46e0890c432b90f27994f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          46.5,
+          398.0,
+          83.0,
+          519.0
+        ],
+        [
+          102.0,
+          427.5,
+          131.0,
+          525.0
+        ],
+        [
+          562.0,
+          428.0,
+          599.5,
+          535.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130417",
+      "scene_id": "13",
+      "manifest_val_position": 106,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130417.jpg",
+          "sha256": "7cd5063a8d053e3abbea4ff1172841ea98735037af014bb9a4457307ee3313eb"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130417.jpg",
+          "sha256": "fcb31ef08c301893af2af792d53cfa1fec4ad1c20b35f0c09fbf533a1b8b1aee"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130417.xml",
+          "sha256": "8aec51eaa756b1ec2cc1126c485c16cb604da26ee2a90700661a4892ef204876"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          158.5,
+          381.5,
+          201.0,
+          491.5
+        ],
+        [
+          221.0,
+          383.5,
+          252.5,
+          476.0
+        ],
+        [
+          277.5,
+          318.0,
+          313.5,
+          414.0
+        ],
+        [
+          292.0,
+          521.5,
+          344.0,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130431",
+      "scene_id": "13",
+      "manifest_val_position": 107,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130431.jpg",
+          "sha256": "a9eaa4305bb70492a2e33f99eff1e62e6476f957fdbc6ff7b77c37e71fa795e7"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130431.jpg",
+          "sha256": "66e265114c1ca177bfff104755a365dc1ed865aa48967c05a5ca02580ff68ae6"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130431.xml",
+          "sha256": "c8d6bff7666530b46a96398dd34570e153fd26e1e3ec81cad328eca440499067"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          108.5,
+          400.0,
+          151.5,
+          504.0
+        ],
+        [
+          363.5,
+          331.5,
+          398.0,
+          434.0
+        ],
+        [
+          374.0,
+          279.5,
+          425.0,
+          377.0
+        ],
+        [
+          584.0,
+          193.5,
+          629.0,
+          294.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130445",
+      "scene_id": "13",
+      "manifest_val_position": 108,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130445.jpg",
+          "sha256": "8b6bd80f23bd88517d821c22fc85dfae47aa43ad573c2fbf971c598fe0be787d"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130445.jpg",
+          "sha256": "e21883d17b385c6364a9b25dbf36a4ce135cd410637de377209aac6f7480980e"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130445.xml",
+          "sha256": "dea744ee2c40c447563bcadbda0181e1284b1417d821f260d7a305420406bac4"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          230.5,
+          127.5,
+          273.5,
+          229.0
+        ],
+        [
+          122.5,
+          364.0,
+          168.5,
+          471.5
+        ],
+        [
+          100.5,
+          340.0,
+          143.5,
+          457.0
+        ],
+        [
+          9.0,
+          425.5,
+          67.0,
+          540.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130458",
+      "scene_id": "13",
+      "manifest_val_position": 109,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130458.jpg",
+          "sha256": "f2ee5a8b03f4ac326399a66a4b37945839f37c0e9690b09ddd41acfadedea671"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130458.jpg",
+          "sha256": "022632c9ae663654fd82c4e2be453f7bdb3733a1089272a4bcb72378ad3e8648"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130458.xml",
+          "sha256": "5782c7acc444a1dd9691f747808a36158323f0bf2a5a2f2e7018b80688627d48"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          387.5,
+          299.0,
+          433.5,
+          409.5
+        ],
+        [
+          438.5,
+          303.0,
+          479.0,
+          396.0
+        ],
+        [
+          464.0,
+          230.5,
+          487.0,
+          320.5
+        ],
+        [
+          481.0,
+          239.5,
+          517.0,
+          342.0
+        ],
+        [
+          0.5,
+          434.5,
+          25.0,
+          530.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130472",
+      "scene_id": "13",
+      "manifest_val_position": 110,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130472.jpg",
+          "sha256": "1cdd479226c2087efb2b936604b1ae10180fa4784968e76785cc35d9555f0313"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130472.jpg",
+          "sha256": "313d9ae499bb148e96471b90c55d909adeaa7a2295944189c832c806a59b70a3"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130472.xml",
+          "sha256": "c532c6bcb6c38c947876ffa59a5c11fe1de064c24c02a9f0e7877043e5d489d9"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          350.0,
+          123.5,
+          389.0,
+          226.5
+        ],
+        [
+          368.5,
+          269.5,
+          413.0,
+          338.0
+        ],
+        [
+          342.5,
+          497.5,
+          393.5,
+          570.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130486",
+      "scene_id": "13",
+      "manifest_val_position": 111,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130486.jpg",
+          "sha256": "d1852348bc0934e05124e8fd38d85e02c64b0c794642e33a49c6950f67798eed"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130486.jpg",
+          "sha256": "2c5723c68684c4abd8d6654fe78e95bc4815eb02e050892da7893252008fa521"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130486.xml",
+          "sha256": "497893c13bbf9ffabbc78123ca60f9a54e7020064711c0469295877d0cf22537"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          0.5,
+          434.5,
+          48.5,
+          547.5
+        ],
+        [
+          438.5,
+          476.0,
+          486.5,
+          563.0
+        ],
+        [
+          349.0,
+          346.0,
+          392.0,
+          439.5
+        ],
+        [
+          573.5,
+          270.5,
+          606.0,
+          340.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "130500",
+      "scene_id": "13",
+      "manifest_val_position": 112,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/130500.jpg",
+          "sha256": "1e7c26f479807d0c2d98aca8858ca90b6fdbc0a24620230a6bfb9a5c1e77a63a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/130500.jpg",
+          "sha256": "61b2fa58ee737145363d28c28fbae31155a6f7319a2080d89a8bd817197bb138"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/130500.xml",
+          "sha256": "776aa77aac2b2ec9f5dc7b7db5f0c5e0f6db593aeb2ceb5be09c6b037ce0d92c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          247.0,
+          143.5,
+          289.0,
+          237.0
+        ],
+        [
+          346.5,
+          260.0,
+          384.0,
+          364.5
+        ],
+        [
+          465.0,
+          193.0,
+          507.5,
+          289.5
+        ],
+        [
+          217.0,
+          326.5,
+          258.0,
+          440.5
+        ],
+        [
+          182.5,
+          313.0,
+          227.0,
+          411.5
+        ],
+        [
+          80.0,
+          413.0,
+          132.5,
+          530.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170001",
+      "scene_id": "17",
+      "manifest_val_position": 113,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170001.jpg",
+          "sha256": "4ead7ff70ce8a9996fc0af2d55f7b2c3cfd9cdee9e7549d70991fcf36dabe6f1"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170001.jpg",
+          "sha256": "1a4faf5ba90498daec35fa108513123e0c92979c0ecfcf47995ecb472e8dee68"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170001.xml",
+          "sha256": "45f080ecf8af8d1c2922a15fbd693810d722d657c180f03e570e6c3823dca72f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          455.5,
+          335.0,
+          488.0,
+          435.5
+        ],
+        [
+          507.5,
+          344.5,
+          554.5,
+          465.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170015",
+      "scene_id": "17",
+      "manifest_val_position": 114,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170015.jpg",
+          "sha256": "1d28cd16eb665e9eca7acf0109d48080ff6a4aecfa0477f2c42db42e072e6dab"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170015.jpg",
+          "sha256": "128aa8589504a0144303e9a6eee1431f55d2cab71106617764429db5f05196a4"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170015.xml",
+          "sha256": "a5436b543d1299fd2a7ab49065d1881bf97fa1f075c4379b255b269e54a01d62"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          323.0,
+          381.0,
+          382.5,
+          494.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170029",
+      "scene_id": "17",
+      "manifest_val_position": 115,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170029.jpg",
+          "sha256": "cf53683c48a9f3673b675bd22a5d353b224a0d583b73f4aca6f6776a473325ac"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170029.jpg",
+          "sha256": "76ec92e9c900a1ae89ec595d3ea45c5474ad02e2bf24418ed0d7676fac07f575"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170029.xml",
+          "sha256": "272a94170f805ba25c2dfdf9ea602af068adf57d9a153366e782dd93bdc7dc1b"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          184.0,
+          402.5,
+          229.5,
+          532.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170043",
+      "scene_id": "17",
+      "manifest_val_position": 116,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170043.jpg",
+          "sha256": "35dca57ab4945fa94cc5ba47e4eaea98fa1568a7b37269d97ce509b0018cb3e8"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170043.jpg",
+          "sha256": "1873219b647ffe68f0dbdd11c7e579f182931adc82dadaf1c6ef1b33d1d1df08"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170043.xml",
+          "sha256": "87aa073e76cf28aadd96e3b4de77f32294b9dd51119af9549b61f618619b9ecb"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          390.5,
+          345.5,
+          420.5,
+          466.5
+        ],
+        [
+          413.5,
+          367.5,
+          439.0,
+          476.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170058",
+      "scene_id": "17",
+      "manifest_val_position": 117,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170058.jpg",
+          "sha256": "ae121221b89fd2f2cccaf0ab5c7a4d58d26975aecec64051c1854e56e4701b8a"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170058.jpg",
+          "sha256": "566eb501617c15a57c608dbc7dce144a4ac090480286639231a9f019acbf4eae"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170058.xml",
+          "sha256": "f564e13e00a2d9dd508c14abd0eea6da8d1937bb9466efb28e32a2f4b9fab41d"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          266.5,
+          209.5,
+          302.0,
+          272.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170072",
+      "scene_id": "17",
+      "manifest_val_position": 118,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170072.jpg",
+          "sha256": "c33957477ab6447181a40e8ad8961e2b12f2f42dd6087b6d6bafd65da7114a3e"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170072.jpg",
+          "sha256": "43dbd2808decffc3872516c191ab105131e8119ff0c27bf1842c08971de636b2"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170072.xml",
+          "sha256": "4d2dc9200a3597c512eef8dbe41f9331923a2d1395bd303d63dfe6258f3097ac"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          244.5,
+          440.0,
+          288.0,
+          558.0
+        ],
+        [
+          290.0,
+          435.5,
+          333.0,
+          557.5
+        ],
+        [
+          414.5,
+          322.5,
+          444.0,
+          445.5
+        ],
+        [
+          18.5,
+          456.0,
+          62.5,
+          566.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170086",
+      "scene_id": "17",
+      "manifest_val_position": 119,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170086.jpg",
+          "sha256": "6dbac3b8a55a938ada1aa984c6cf00956871427b65cc63c2d7b2d2371f6bc0a2"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170086.jpg",
+          "sha256": "ba6510c76999c74f6dd4a09e05b654a5beb9f5a59d33a0da6453a8c8ef98c2cd"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170086.xml",
+          "sha256": "76fa41a016b86cda3617945b816b01b34b15814fe54a2b08d93c0f8d7264797e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          460.0,
+          348.5,
+          493.5,
+          454.5
+        ],
+        [
+          621.0,
+          317.5,
+          640.0,
+          408.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170100",
+      "scene_id": "17",
+      "manifest_val_position": 120,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170100.jpg",
+          "sha256": "8cc6ee030ef39501aa44f59a98bb9521c7efd5850d86ecf00ccec4c6bbe0dd82"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170100.jpg",
+          "sha256": "2fe92483771c8a098b7809dfda628c072742322ae838881a0ac282ef3b86179f"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170100.xml",
+          "sha256": "1cee0b0e81843e3eb2b1735e9cd8680fdb58467fc15230434c72692f26abe3b5"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          369.0,
+          407.5,
+          425.5,
+          517.5
+        ],
+        [
+          167.5,
+          440.5,
+          211.5,
+          541.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170114",
+      "scene_id": "17",
+      "manifest_val_position": 121,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170114.jpg",
+          "sha256": "5d3d14e1c81e330303d0ed23449053dfb57388b90a6e681242668aec87935425"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170114.jpg",
+          "sha256": "78cad287535633ad89a6550db9832482c36fcddf8e5d55b6c8aea58d6969b468"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170114.xml",
+          "sha256": "7d1158353bb90dfe78c324025de0fb2af1b52ecb50de54a22f3eaa89d5422078"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          280.5,
+          432.5,
+          330.0,
+          541.5
+        ],
+        [
+          310.0,
+          393.5,
+          349.5,
+          487.0
+        ],
+        [
+          341.5,
+          393.0,
+          380.5,
+          490.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170129",
+      "scene_id": "17",
+      "manifest_val_position": 122,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170129.jpg",
+          "sha256": "59b0434e7ff4245828db4a130bd602f5564de8800f01f09d13a76ce2b5578939"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170129.jpg",
+          "sha256": "3a5f1b56b0c6a7cf2db123654c73036151abe6cb1c8f1593f5ed401f64ec8c89"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170129.xml",
+          "sha256": "3050d0bb1ac9f3ea66e96917b8e264d11e53ca2ff4d972627f2a4079f48ca15e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          91.5,
+          490.5,
+          126.0,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170143",
+      "scene_id": "17",
+      "manifest_val_position": 123,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170143.jpg",
+          "sha256": "dd605217ca9e1a121dfca29e5ad5727781f35aba99dbb29e30970f82f3dd4db5"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170143.jpg",
+          "sha256": "1488fb65e9c93b1827d20fd24bfe80701a35329777d0e41653f97911de0fd64f"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170143.xml",
+          "sha256": "e045bc076a52542d3fab4cc928202a6c52e08b4c32c64873c318f6982300859f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          395.5,
+          340.5,
+          445.5,
+          463.0
+        ],
+        [
+          454.5,
+          357.0,
+          495.5,
+          485.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170157",
+      "scene_id": "17",
+      "manifest_val_position": 124,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170157.jpg",
+          "sha256": "c3601adc5f5c535dd3594ae584d63312a50ca41a264dcf5a742f65a66304c1ba"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170157.jpg",
+          "sha256": "8cc97e6aca4d6e481aa78899e01d3b1a1f2daa5995a045ec87019812da4b187c"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170157.xml",
+          "sha256": "a7163274ff044e50fc97493bf448642924f098894f54fb34c1d0441d4a6b502c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          349.5,
+          373.5,
+          412.5,
+          485.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170171",
+      "scene_id": "17",
+      "manifest_val_position": 125,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170171.jpg",
+          "sha256": "5c6c3bc41a74f3b3d1fa79d0cbde9c61e8290b5fce98980ca0f95d47718c5de3"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170171.jpg",
+          "sha256": "456ac87c9d6809a0bb8b4b651635a90488c913afde1f7285b747ca642da0e859"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170171.xml",
+          "sha256": "fa087ce6a3b9f69a46a762b2201e7978720d037526c84c9824bd2ae40d4102cc"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          155.5,
+          472.0,
+          182.0,
+          573.0
+        ],
+        [
+          123.5,
+          467.5,
+          167.5,
+          576.0
+        ],
+        [
+          85.5,
+          442.0,
+          126.0,
+          546.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170185",
+      "scene_id": "17",
+      "manifest_val_position": 126,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170185.jpg",
+          "sha256": "1827223dc1d2cf73ff26093a7aa0916a870228d8d88f40075bbe34c21cb67a47"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170185.jpg",
+          "sha256": "06d52ab416c853a0a6d3c744dd46524ea4d92b6ff27c6bd278e6fe46bd6fd52e"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170185.xml",
+          "sha256": "d7794abbba41d360ed01a7a74a60456dcbee7700e211cac8db8b8f24d9a2b564"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          523.0,
+          306.0,
+          567.0,
+          425.5
+        ],
+        [
+          566.5,
+          321.5,
+          600.5,
+          429.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170199",
+      "scene_id": "17",
+      "manifest_val_position": 127,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170199.jpg",
+          "sha256": "ba6efefaa995a248cce862d319298a28e806c35b33900094cb5160094da55dc7"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170199.jpg",
+          "sha256": "a54eb6e654c79972973275785e078f6d4bd88a5cccabf287054323ab3cc2b8a9"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170199.xml",
+          "sha256": "507037061ae99dce577748f0676fc96269b973cb5ca976b01af22dc5ab543ec5"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          507.5,
+          314.5,
+          554.5,
+          430.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170213",
+      "scene_id": "17",
+      "manifest_val_position": 128,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170213.jpg",
+          "sha256": "6539c9153f63177bb94c7f0c8caae6ab2d060cbdad96e8c9fb7a74f7d557b0e4"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170213.jpg",
+          "sha256": "2a998193fca14eaedc49357f03f40142686bfa0c8d92bacd3dc39930c77144f3"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170213.xml",
+          "sha256": "0548cc48fe3dc2ee2e53b6a0300d12b00a2ae325d61185bdb5a7471322d0f02c"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          499.5,
+          319.0,
+          547.5,
+          424.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170228",
+      "scene_id": "17",
+      "manifest_val_position": 129,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170228.jpg",
+          "sha256": "85949ada502e5aca357a9074d366aee5ad3a3938dc469197cef56efa488fca0f"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170228.jpg",
+          "sha256": "d5611e90270788c79d80b7ad875279b138f45703989adf031440b95132dd500a"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170228.xml",
+          "sha256": "ffd72a84c52d9a8f58d3d7c1319abf945bbe8d4faa03cab04aa10d7b1fc231bb"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          525.0,
+          350.5,
+          571.5,
+          463.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170242",
+      "scene_id": "17",
+      "manifest_val_position": 130,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170242.jpg",
+          "sha256": "b28082759268f6582bc669338b039dba3ef9b4e5650e6c03ffe59f717c2bb5c2"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170242.jpg",
+          "sha256": "42cc3dd9be4417598dc87ca6001a03b67ff3afcd265485da58973b1465253baf"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170242.xml",
+          "sha256": "711b01b3792b987b9127fa508c7e87fc8e184d7588b360a8f5ca894cd0cc3696"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          459.0,
+          355.5,
+          505.0,
+          453.0
+        ],
+        [
+          579.5,
+          300.5,
+          610.0,
+          385.0
+        ],
+        [
+          273.0,
+          432.0,
+          316.0,
+          496.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170256",
+      "scene_id": "17",
+      "manifest_val_position": 131,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170256.jpg",
+          "sha256": "a506920c174e5d94d45e5cf2758bb392ebdd9be1ad75e553433f869a6ddc8528"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170256.jpg",
+          "sha256": "c5dcbebeb346212ab73c03a2d06d4fadcb5de3b792041fc98c9b79d3981f3d3b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170256.xml",
+          "sha256": "f96e0e9f3e5f653c084c9b3da45715261d47865150c760d9bf18cff8115534b0"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          340.5,
+          412.5,
+          395.5,
+          531.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170270",
+      "scene_id": "17",
+      "manifest_val_position": 132,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170270.jpg",
+          "sha256": "b903fa366944b11af33176da40d76e82d3453df1e63915ce50f1550d2ed7dfcd"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170270.jpg",
+          "sha256": "fc629c2d8261732f424f1df80c65ee01e8a7617e6e5fbd6c9553dcad158fd3e4"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170270.xml",
+          "sha256": "8e288a1443b960cc672c238a7b9264e5edeea532059567e96d5ee29303762e78"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          364.0,
+          378.0,
+          405.0,
+          495.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170284",
+      "scene_id": "17",
+      "manifest_val_position": 133,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170284.jpg",
+          "sha256": "b70c7c66987e018156dc433d61ee136a1763c2d3c6f69c5c567759a6ed4e6aba"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170284.jpg",
+          "sha256": "6881eacc004a9d0d9c16b3f21639406c915bdea7a4293c55bced93d59168f7eb"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170284.xml",
+          "sha256": "e50d67a37fd438a320a712c11b833c17ac194d61832ad661eb2823c502fb1715"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          490.5,
+          341.5,
+          537.5,
+          464.5
+        ],
+        [
+          522.5,
+          537.5,
+          548.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170299",
+      "scene_id": "17",
+      "manifest_val_position": 134,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170299.jpg",
+          "sha256": "f2fa874fb11175db7eb8c160f4583697a4768b73b79220fced6c4c7e4cae2fa7"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170299.jpg",
+          "sha256": "dc57fbc6baa6d170e260e19704668b736cfd4b55eb6ce0d6d06bccfaed380cac"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170299.xml",
+          "sha256": "619339e255e4980379c477aaf3bf7faac241641e44edb0c75ffe861caf78e076"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          396.5,
+          344.0,
+          440.0,
+          465.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170313",
+      "scene_id": "17",
+      "manifest_val_position": 135,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170313.jpg",
+          "sha256": "4081f6e331dab1795f16456406d2126201bfd10d24f4ba437ef443bcd119a5e4"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170313.jpg",
+          "sha256": "3ff275a33987df90f7e104026c409dff91035bf9e67059722ca027430298a626"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170313.xml",
+          "sha256": "a065963ddb8b9c08e63cbb63f32a53a19bedfad974fa9e8c9c4348bcd1f24e67"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          558.5,
+          335.0,
+          596.5,
+          452.5
+        ],
+        [
+          613.0,
+          309.0,
+          638.5,
+          405.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170327",
+      "scene_id": "17",
+      "manifest_val_position": 136,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170327.jpg",
+          "sha256": "42617308884133b74f4e2f6b52a2e60707e62aa1b0cfb9f28f9b0668e6f7e245"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170327.jpg",
+          "sha256": "01de9be1614312d5722ea05b1cea88580c6753bd0efb3a3dab5bb6b8440125d9"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170327.xml",
+          "sha256": "9daa32b415cba4a397c8927c4e2307d0e5b4da2006afa52406f0390c18179d4f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          372.5,
+          355.0,
+          430.5,
+          479.5
+        ],
+        [
+          336.5,
+          351.5,
+          372.0,
+          469.0
+        ],
+        [
+          177.0,
+          457.5,
+          216.0,
+          568.5
+        ],
+        [
+          138.0,
+          450.5,
+          181.0,
+          548.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170341",
+      "scene_id": "17",
+      "manifest_val_position": 137,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170341.jpg",
+          "sha256": "ce97f03dc8343e942c4ecf34387c91e9f6df0eb96e831abba3fe90a7f4ca7a02"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170341.jpg",
+          "sha256": "b3b5b19aa46db487d0cd331ff25e9fedf3ffd156a0bc41a5ede8c4b6b5932c43"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170341.xml",
+          "sha256": "3a14758ae7689c8afa9ba3c7f2c5d79b757ca4d63227dbbec1b498a30694b8be"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          350.5,
+          358.5,
+          384.0,
+          464.5
+        ],
+        [
+          378.0,
+          359.5,
+          416.5,
+          473.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170356",
+      "scene_id": "17",
+      "manifest_val_position": 138,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170356.jpg",
+          "sha256": "7e8c90d825e9d06c6f594809d5a3ab29e020707b83b211b80c628ec98b75a4fe"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170356.jpg",
+          "sha256": "0d20f48f2e7edb6de42b994f5c01df61581a51314a39ea1b44fd6c27a750a957"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170356.xml",
+          "sha256": "eb78e119bf732efd92de5492a68c9b5aa8db2fabec486e6cf94c0824aaa9d990"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          397.0,
+          388.0,
+          442.0,
+          505.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170370",
+      "scene_id": "17",
+      "manifest_val_position": 139,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170370.jpg",
+          "sha256": "f9ee26f06435190d8e1594c9895dbdc637c640cc96f7970688d99cf640166e63"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170370.jpg",
+          "sha256": "3f2d71864c3b41a5aa1e0b4328d14708e97b8c2ee271f464a04a3f6767ab1568"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170370.xml",
+          "sha256": "e312a55116ae153b8642407de4602fed8f35d995b6f6793479866054fcad025e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          500.0,
+          340.0,
+          527.5,
+          448.0
+        ],
+        [
+          525.0,
+          349.0,
+          560.0,
+          456.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170384",
+      "scene_id": "17",
+      "manifest_val_position": 140,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170384.jpg",
+          "sha256": "7b0f1d44aee405ea9c5e59efd3e7b658aee896456ab40cc9d318e1c6adbc1a19"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170384.jpg",
+          "sha256": "c5e4d766264186505ef3f42de0f3bcc569743091a56c44e9e0e71129fa714430"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170384.xml",
+          "sha256": "0b30512ef6de809968f58dc7784d22abcea8785aef7bb389bb7332874a2ab8b8"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          354.5,
+          401.5,
+          385.5,
+          527.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170399",
+      "scene_id": "17",
+      "manifest_val_position": 141,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170399.jpg",
+          "sha256": "1f4b5ef2799d978a3e709fdea25f752d7002d917f5152602cc026f1a8cbc37e0"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170399.jpg",
+          "sha256": "4e710ba3383b020acc7af0090eff260ee14a269d14edfb1b5c44c2cd35c6d72e"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170399.xml",
+          "sha256": "cb824df03053343cef9b3891565388bbd08d4b11e24e2d605d3b07e64d0ffcdc"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          346.0,
+          382.5,
+          370.5,
+          482.5
+        ],
+        [
+          366.0,
+          387.0,
+          404.5,
+          496.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170413",
+      "scene_id": "17",
+      "manifest_val_position": 142,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170413.jpg",
+          "sha256": "57755d35c1fb2a83663275f3a4ead36125b2cd0c84012c4d3156bb02f0ef6c21"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170413.jpg",
+          "sha256": "e5c4c1da366de72c8a1149bf26dac4f8d8cc7c2a838adc5bf8c88570e6dc1b75"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170413.xml",
+          "sha256": "6dfd901118df856480531d956b8570823eb6c13e7adaf599635594b5d8a4f88e"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          509.0,
+          317.5,
+          544.5,
+          427.5
+        ],
+        [
+          540.0,
+          335.0,
+          575.5,
+          441.5
+        ],
+        [
+          141.5,
+          465.5,
+          186.5,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170427",
+      "scene_id": "17",
+      "manifest_val_position": 143,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170427.jpg",
+          "sha256": "7d30e5b1cedc7851f812a69fa9fea83c2276e5f0357a3659fae3adc64d32fc6b"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170427.jpg",
+          "sha256": "04795960519f0e9cc9c4fefa250c1405ec39ed90ea466f8b1684ed198c6a858b"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170427.xml",
+          "sha256": "f037536616998cb95aa360a317fea8e20d359a1ea6d52084be6ffc812e7867fd"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          214.0,
+          414.0,
+          259.0,
+          534.0
+        ],
+        [
+          310.0,
+          192.5,
+          339.5,
+          249.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170441",
+      "scene_id": "17",
+      "manifest_val_position": 144,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170441.jpg",
+          "sha256": "cec146ac2e2d0f08183f3e997b51d477a057b809ac905c739b345bf76dcea64b"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170441.jpg",
+          "sha256": "6ba1f0bb442905a9c6b56a910b6fafe5ad25e437fc7108966181b2af355cf6ea"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170441.xml",
+          "sha256": "0566c05d2a6a6b93428db606dcbbb92b72a8d55682f7012746a7bf6640448b06"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          167.5,
+          454.5,
+          204.5,
+          557.0
+        ],
+        [
+          203.5,
+          461.5,
+          242.0,
+          575.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170455",
+      "scene_id": "17",
+      "manifest_val_position": 145,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170455.jpg",
+          "sha256": "c5d6de4978641ea147cc92d5afb6372d17054d34ad099451887743674cbbb8dc"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170455.jpg",
+          "sha256": "ea1eb5c132d5324ae50dbbff88da02f6fb53a4908b189a44a2b373eca2e77eac"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170455.xml",
+          "sha256": "1481750df0a0f74b9054c4a28d0b8fc8e9a7e593ebbe716a09db2431cd02fd20"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          289.5,
+          444.0,
+          336.0,
+          550.5
+        ],
+        [
+          266.0,
+          425.5,
+          317.0,
+          543.0
+        ],
+        [
+          585.0,
+          296.0,
+          640.0,
+          403.5
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170470",
+      "scene_id": "17",
+      "manifest_val_position": 146,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170470.jpg",
+          "sha256": "68a7a5d4440b6bb66f78d043fea0b154ecc3410c662d367856b7baf3d50d6fc8"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170470.jpg",
+          "sha256": "e817923117c5a98819157e425a18dc5da230865cd028f348cbdf378ad14edbd9"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170470.xml",
+          "sha256": "ff841a893e6184224a0374657ba311ea1c4348e3443976f34d4dd684a960ef84"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          507.0,
+          307.0,
+          566.5,
+          430.5
+        ],
+        [
+          356.5,
+          405.0,
+          420.0,
+          518.5
+        ],
+        [
+          114.5,
+          454.5,
+          153.5,
+          548.5
+        ],
+        [
+          592.5,
+          487.0,
+          640.0,
+          576.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170484",
+      "scene_id": "17",
+      "manifest_val_position": 147,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170484.jpg",
+          "sha256": "11f98ffb48ad3ae486de4ffef2c78093249d0d8a8f8d75089647064d0f711575"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170484.jpg",
+          "sha256": "1f516947fcc711f8c0cc29d9475cf7c938952e3c80edb30b9b3cdabc774937a3"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170484.xml",
+          "sha256": "f45f5fd1f2bb134a48ab6451a1af497b335c5ad824224d691de827697685143f"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          302.0,
+          399.0,
+          351.0,
+          499.0
+        ],
+        [
+          352.0,
+          409.0,
+          396.5,
+          515.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170498",
+      "scene_id": "17",
+      "manifest_val_position": 148,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170498.jpg",
+          "sha256": "bf9dd4ff56c3fdcdcb681917fcda3b2924059554de49cbdea02d4dc553c66a61"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170498.jpg",
+          "sha256": "8aa5dc50946961cca39c797d702041041e9acec25d27978373ef9109ee719b8f"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170498.xml",
+          "sha256": "b12aa55e12e46ef1a71626c6f52fec3931f907d94a84f23487853ab4b3ddd19a"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          403.5,
+          363.0,
+          447.0,
+          475.5
+        ],
+        [
+          448.5,
+          362.0,
+          494.5,
+          471.0
+        ]
+      ],
+      "label": 1
+    },
+    {
+      "stem": "170512",
+      "scene_id": "17",
+      "manifest_val_position": 149,
+      "files": {
+        "infrared": {
+          "path": "data/LLVIP_1000/images/val/infrared/170512.jpg",
+          "sha256": "6a0b2ae1078112dba9cdd964b0e59f2b256f48b99b26031e49324e09ed189685"
+        },
+        "visible": {
+          "path": "data/LLVIP_1000/images/val/visible/170512.jpg",
+          "sha256": "d80ed7113204a96a8579adee208dbed128f546b05e05d2f4d1e9ace1e9a83108"
+        },
+        "annotation_voc": {
+          "path": "data/LLVIP_1000/annotations_voc/val/170512.xml",
+          "sha256": "207d8568c3cd96787369303a3947dd366638929ed699b475d0bb05720e29c6dc"
+        }
+      },
+      "gt_boxes_xyxy_640": [
+        [
+          523.5,
+          326.0,
+          574.0,
+          447.0
+        ]
+      ],
+      "label": 1
+    }
+  ],
+  "items": [
+    {
+      "model": "IR",
+      "stem": "030001",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030014",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030027",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030039",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030052",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030065",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030078",
+      "action": "reuse_capture",
+      "capture": {
+        "path": "week10/day06/outputs/success_case_trace_run01/raw_capture.pth",
+        "sha256": "51393139733f7b700cd8e1f97e123c4c0b56c094f34fdd0ac8ffb4f75a49b4fe",
+        "run_identity": "success_case_trace_run01/IR/030078",
+        "original_forward_reused": true,
+        "gt_count": 2,
+        "nms_input_count": 33,
+        "final_count": 4,
+        "gt_label_source": "capture_and_xml",
+        "checkpoint_sha256": "9cafdba85453a29ea4d0b25b491617515832faf602690de916eadfcfc9c7cfa2",
+        "model_state_sha256": "a3eff18b532886e15c2b21403734eebb997b9559e6ede16eb1ea839aaef7b69a"
+      }
+    },
+    {
+      "model": "IR",
+      "stem": "030090",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030103",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030116",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030129",
+      "action": "blocked_reuse"
+    },
+    {
+      "model": "IR",
+      "stem": "030141",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030154",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030167",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030180",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030192",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030205",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030218",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030231",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030243",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030256",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030269",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030282",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030294",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030308",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030321",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030334",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030346",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030359",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030372",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030385",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030397",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030410",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030423",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030436",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030448",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030461",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "030474",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080001",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080042",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080083",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080125",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080166",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080209",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080250",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080291",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080332",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080373",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080416",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080457",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080498",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080539",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080581",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080622",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080663",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080704",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080746",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080787",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080829",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080870",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080912",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080953",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "080994",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081035",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081076",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081117",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081158",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081199",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081240",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081281",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081322",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081363",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081404",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081445",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081486",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "081527",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130001",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130015",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130029",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130043",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130056",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130070",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130084",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130098",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130112",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130126",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130140",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130153",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130167",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130181",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130195",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130209",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130223",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130237",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130251",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130264",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130278",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130292",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130306",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130320",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130334",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130348",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130361",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130375",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130389",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130403",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130417",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130431",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130445",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130458",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130472",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130486",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "130500",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170001",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170015",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170029",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170043",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170058",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170072",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170086",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170100",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170114",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170129",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170143",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170157",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170171",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170185",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170199",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170213",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170228",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170242",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170256",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170270",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170284",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170299",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170313",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170327",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170341",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170356",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170370",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170384",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170399",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170413",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170427",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170441",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170455",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170470",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170484",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170498",
+      "action": "new_forward"
+    },
+    {
+      "model": "IR",
+      "stem": "170512",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030001",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030014",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030027",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030039",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030052",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030065",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030078",
+      "action": "reuse_capture",
+      "capture": {
+        "path": "week11/day01/outputs/fusion_roi_trace_run02/030078/raw_capture.pth",
+        "sha256": "86e63a8ff521f2d466ab085409fbb4682281bc74a78de6e02335117e0f190b5c",
+        "run_identity": "fusion_roi_trace_run02/Fusion/030078",
+        "original_forward_reused": true,
+        "gt_count": 2,
+        "nms_input_count": 58,
+        "final_count": 7,
+        "gt_label_source": "capture_and_xml",
+        "checkpoint_sha256": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+        "model_state_sha256": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0"
+      }
+    },
+    {
+      "model": "Fusion",
+      "stem": "030090",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030103",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030116",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030129",
+      "action": "reuse_capture",
+      "capture": {
+        "path": "week11/day01/outputs/fusion_roi_trace_run02/030129/raw_capture.pth",
+        "sha256": "7934c10edee7e868894a51e48194cdb049e8d3d8dbe947f54a0926e80e4fc928",
+        "run_identity": "fusion_roi_trace_run02/Fusion/030129",
+        "original_forward_reused": true,
+        "gt_count": 2,
+        "nms_input_count": 54,
+        "final_count": 6,
+        "gt_label_source": "capture_and_xml",
+        "checkpoint_sha256": "9f7bbdbb374861e3f8e191b3e03dff6f64502beee30b4dc754458ebce49f963a",
+        "model_state_sha256": "4751dbe6d64db2f998e805eca16cdd4243b37e4b106dec9dcc1f054af9178fc0"
+      }
+    },
+    {
+      "model": "Fusion",
+      "stem": "030141",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030154",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030167",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030180",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030192",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030205",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030218",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030231",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030243",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030256",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030269",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030282",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030294",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030308",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030321",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030334",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030346",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030359",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030372",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030385",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030397",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030410",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030423",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030436",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030448",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030461",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "030474",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080001",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080042",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080083",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080125",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080166",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080209",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080250",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080291",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080332",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080373",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080416",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080457",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080498",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080539",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080581",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080622",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080663",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080704",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080746",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080787",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080829",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080870",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080912",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080953",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "080994",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081035",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081076",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081117",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081158",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081199",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081240",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081281",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081322",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081363",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081404",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081445",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081486",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "081527",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130001",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130015",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130029",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130043",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130056",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130070",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130084",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130098",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130112",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130126",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130140",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130153",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130167",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130181",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130195",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130209",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130223",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130237",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130251",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130264",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130278",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130292",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130306",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130320",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130334",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130348",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130361",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130375",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130389",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130403",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130417",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130431",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130445",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130458",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130472",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130486",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "130500",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170001",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170015",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170029",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170043",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170058",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170072",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170086",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170100",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170114",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170129",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170143",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170157",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170171",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170185",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170199",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170213",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170228",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170242",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170256",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170270",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170284",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170299",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170313",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170327",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170341",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170356",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170370",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170384",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170399",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170413",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170427",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170441",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170455",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170470",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170484",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170498",
+      "action": "new_forward"
+    },
+    {
+      "model": "Fusion",
+      "stem": "170512",
+      "action": "new_forward"
+    }
+  ],
+  "compatibility_gaps": [
+    {
+      "model": "IR",
+      "stem": "030129",
+      "reason": "Capture coordinate canvas differs"
+    }
+  ],
+  "proposed_run": {
+    "by_model": {
+      "IR": {
+        "new_forward": 148,
+        "reuse_capture": 1,
+        "blocked_reuse": 1
+      },
+      "Fusion": {
+        "new_forward": 148,
+        "reuse_capture": 2
+      }
+    },
+    "new_forwards": 296,
+    "reusable_captures": 3,
+    "checkpoint_loads": 2,
+    "fusion_structure_probes": 1
+  },
+  "preparation_counts": {
+    "validation_forwards": 0,
+    "checkpoint_loads": 0,
+    "independent_nms_replays": 0
+  }
+}
